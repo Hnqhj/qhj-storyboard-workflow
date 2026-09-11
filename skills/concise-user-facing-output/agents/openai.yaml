@@ -1,0 +1,4 @@
+interface:
+  display_name: "简洁用户输出"
+  short_description: "Brief, task-focused Codex communication."
+  default_prompt: "Use $concise-user-facing-output to keep user-facing messages concise and task-relevant."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "镜头信息递进"
+  short_description: "检查每个镜头新增了什么信息，并建立镜头之间的因果与情绪递进"
+  default_prompt: "Use $shot-information-progression to audit why each shot exists and what new information it hands to the next shot."

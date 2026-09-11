@@ -1,0 +1,4 @@
+interface:
+  display_name: "不变量与探索导演"
+  short_description: "锁定高风险硬约束，同时为低风险变量保留可批准的生成惊喜"
+  default_prompt: "Use $invariant-exploration-director to separate non-negotiable invariants from safe exploration variables."

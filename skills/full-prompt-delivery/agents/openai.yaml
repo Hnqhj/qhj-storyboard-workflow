@@ -1,0 +1,7 @@
+interface:
+  display_name: "完整提示词交付"
+  short_description: "校验完整可复制提示词，不重复编译镜头组提示词"
+  default_prompt: "Use $full-prompt-delivery to validate copyability or rebuild a generic standalone prompt outside the camera-group pipeline."
+
+policy:
+  allow_implicit_invocation: false

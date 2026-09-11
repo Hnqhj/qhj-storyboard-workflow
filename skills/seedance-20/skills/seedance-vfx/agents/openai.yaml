@@ -1,0 +1,7 @@
+interface:
+  display_name: "Seedance特效编译"
+  short_description: "Seedance特效编译：提供Seedance相关的专项工作流支持"
+  default_prompt: "使用 $seedance-vfx 完成当前专项任务。"
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,4 @@
+interface:
+  display_name: "创意案例库"
+  short_description: "Turn results into reusable creative rules"
+  default_prompt: "Use $creative-casebook to extract what worked, what failed, the exact prompt delta, and which skills or templates should inherit the lesson."

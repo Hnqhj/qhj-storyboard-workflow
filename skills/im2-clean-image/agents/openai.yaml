@@ -1,0 +1,6 @@
+interface:
+  display_name: "IM2干净图像"
+  short_description: "Clean hierarchy, physical light, atmosphere, and materials."
+  default_prompt: "Use $im2-clean-image to rewrite this IM2 prompt with focal hierarchy, a coherent light path, conditional atmosphere, distinct materials, clean detail, and a targeted avoid block."
+policy:
+  allow_implicit_invocation: true

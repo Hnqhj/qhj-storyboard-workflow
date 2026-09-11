@@ -1,0 +1,4534 @@
+{
+  "version": "1.0",
+  "count": 566,
+  "atoms": [
+    {
+      "id": "vfx_term_001",
+      "category": "生成",
+      "role": "formation",
+      "family": "energy",
+      "zh": "能量凝聚",
+      "en": "Energy Gathering"
+    },
+    {
+      "id": "vfx_term_002",
+      "category": "生成",
+      "role": "formation",
+      "family": "energy",
+      "zh": "能量汇聚",
+      "en": "Energy Convergence"
+    },
+    {
+      "id": "vfx_term_003",
+      "category": "生成",
+      "role": "formation",
+      "family": "energy",
+      "zh": "能量积累",
+      "en": "Energy Build-up"
+    },
+    {
+      "id": "vfx_term_004",
+      "category": "生成",
+      "role": "formation",
+      "family": "energy",
+      "zh": "持续蓄力",
+      "en": "Charging Up"
+    },
+    {
+      "id": "vfx_term_005",
+      "category": "生成",
+      "role": "formation",
+      "family": "energy",
+      "zh": "逐渐增强",
+      "en": "Gradually Intensifying"
+    },
+    {
+      "id": "vfx_term_006",
+      "category": "生成",
+      "role": "formation",
+      "family": "energy",
+      "zh": "缓慢激活",
+      "en": "Slow Activation"
+    },
+    {
+      "id": "vfx_term_007",
+      "category": "生成",
+      "role": "formation",
+      "family": "energy",
+      "zh": "逐层点亮",
+      "en": "Layer-by-Layer Illumination"
+    },
+    {
+      "id": "vfx_term_008",
+      "category": "生成",
+      "role": "formation",
+      "family": "energy",
+      "zh": "核心点亮",
+      "en": "Core Ignition"
+    },
+    {
+      "id": "vfx_term_009",
+      "category": "生成",
+      "role": "formation",
+      "family": "energy",
+      "zh": "中心觉醒",
+      "en": "Core Awakening"
+    },
+    {
+      "id": "vfx_term_010",
+      "category": "生成",
+      "role": "formation",
+      "family": "energy",
+      "zh": "能量苏醒",
+      "en": "Energy Awakening"
+    },
+    {
+      "id": "vfx_term_011",
+      "category": "生成",
+      "role": "formation",
+      "family": "energy",
+      "zh": "光源激活",
+      "en": "Light Source Activation"
+    },
+    {
+      "id": "vfx_term_012",
+      "category": "生成",
+      "role": "formation",
+      "family": "energy",
+      "zh": "元素觉醒",
+      "en": "Element Awakening"
+    },
+    {
+      "id": "vfx_term_013",
+      "category": "生成",
+      "role": "formation",
+      "family": "energy",
+      "zh": "魔法充能",
+      "en": "Magical Charging"
+    },
+    {
+      "id": "vfx_term_014",
+      "category": "生成",
+      "role": "formation",
+      "family": "energy",
+      "zh": "电力充能",
+      "en": "Electrical Charging"
+    },
+    {
+      "id": "vfx_term_015",
+      "category": "生成",
+      "role": "formation",
+      "family": "energy",
+      "zh": "离子充能",
+      "en": "Ion Charging"
+    },
+    {
+      "id": "vfx_term_016",
+      "category": "生成",
+      "role": "formation",
+      "family": "energy",
+      "zh": "能量脉冲形成",
+      "en": "Pulse Formation"
+    },
+    {
+      "id": "vfx_term_017",
+      "category": "生成",
+      "role": "formation",
+      "family": "energy",
+      "zh": "光核形成",
+      "en": "Light Core Formation"
+    },
+    {
+      "id": "vfx_term_018",
+      "category": "生成",
+      "role": "formation",
+      "family": "energy",
+      "zh": "能量核心生成",
+      "en": "Energy Core Generation"
+    },
+    {
+      "id": "vfx_term_019",
+      "category": "生成",
+      "role": "formation",
+      "family": "energy",
+      "zh": "引力汇聚",
+      "en": "Gravitational Gathering"
+    },
+    {
+      "id": "vfx_term_020",
+      "category": "生成",
+      "role": "formation",
+      "family": "energy",
+      "zh": "向中心吸附",
+      "en": "Center Attraction"
+    },
+    {
+      "id": "vfx_term_021",
+      "category": "流动",
+      "role": "path",
+      "family": "energy",
+      "zh": "能量流动",
+      "en": "Energy Flow"
+    },
+    {
+      "id": "vfx_term_022",
+      "category": "流动",
+      "role": "path",
+      "family": "energy",
+      "zh": "能量循环",
+      "en": "Energy Circulation"
+    },
+    {
+      "id": "vfx_term_023",
+      "category": "流动",
+      "role": "path",
+      "family": "energy",
+      "zh": "持续流淌",
+      "en": "Continuous Flow"
+    },
+    {
+      "id": "vfx_term_024",
+      "category": "流动",
+      "role": "path",
+      "family": "energy",
+      "zh": "能量蔓延",
+      "en": "Energy Spreading"
+    },
+    {
+      "id": "vfx_term_025",
+      "category": "流动",
+      "role": "path",
+      "family": "energy",
+      "zh": "能量扩散",
+      "en": "Energy Expansion"
+    },
+    {
+      "id": "vfx_term_026",
+      "category": "流动",
+      "role": "path",
+      "family": "energy",
+      "zh": "能量传导",
+      "en": "Energy Transmission"
+    },
+    {
+      "id": "vfx_term_027",
+      "category": "流动",
+      "role": "path",
+      "family": "energy",
+      "zh": "能量贯穿",
+      "en": "Energy Passing Through"
+    },
+    {
+      "id": "vfx_term_028",
+      "category": "流动",
+      "role": "path",
+      "family": "energy",
+      "zh": "沿路径流动",
+      "en": "Flow Along Path"
+    },
+    {
+      "id": "vfx_term_029",
+      "category": "流动",
+      "role": "path",
+      "family": "energy",
+      "zh": "环绕流动",
+      "en": "Orbital Flow"
+    },
+    {
+      "id": "vfx_term_030",
+      "category": "流动",
+      "role": "path",
+      "family": "energy",
+      "zh": "旋涡流动",
+      "en": "Vortex Flow"
+    },
+    {
+      "id": "vfx_term_031",
+      "category": "流动",
+      "role": "path",
+      "family": "energy",
+      "zh": "螺旋流动",
+      "en": "Spiral Flow"
+    },
+    {
+      "id": "vfx_term_032",
+      "category": "流动",
+      "role": "path",
+      "family": "energy",
+      "zh": "丝带流动",
+      "en": "Ribbon Flow"
+    },
+    {
+      "id": "vfx_term_033",
+      "category": "流动",
+      "role": "path",
+      "family": "energy",
+      "zh": "流体流动",
+      "en": "Fluid Motion"
+    },
+    {
+      "id": "vfx_term_034",
+      "category": "流动",
+      "role": "path",
+      "family": "energy",
+      "zh": "液态能量",
+      "en": "Liquid Energy"
+    },
+    {
+      "id": "vfx_term_035",
+      "category": "流动",
+      "role": "path",
+      "family": "energy",
+      "zh": "电流游走",
+      "en": "Electric Current Crawling"
+    },
+    {
+      "id": "vfx_term_036",
+      "category": "流动",
+      "role": "path",
+      "family": "energy",
+      "zh": "光流穿梭",
+      "en": "Light Stream Traversal"
+    },
+    {
+      "id": "vfx_term_037",
+      "category": "流动",
+      "role": "path",
+      "family": "energy",
+      "zh": "能量波纹扩散",
+      "en": "Energy Ripple Propagation"
+    },
+    {
+      "id": "vfx_term_038",
+      "category": "流动",
+      "role": "path",
+      "family": "energy",
+      "zh": "粒子流动",
+      "en": "Particle Flow"
+    },
+    {
+      "id": "vfx_term_039",
+      "category": "流动",
+      "role": "path",
+      "family": "energy",
+      "zh": "磁场流动",
+      "en": "Magnetic Flow"
+    },
+    {
+      "id": "vfx_term_040",
+      "category": "流动",
+      "role": "path",
+      "family": "energy",
+      "zh": "极光流动",
+      "en": "Aurora Flow"
+    },
+    {
+      "id": "vfx_term_041",
+      "category": "聚集与吸附",
+      "role": "formation",
+      "family": "energy",
+      "zh": "粒子吸附",
+      "en": "Particle Attraction"
+    },
+    {
+      "id": "vfx_term_042",
+      "category": "聚集与吸附",
+      "role": "formation",
+      "family": "energy",
+      "zh": "向中心聚拢",
+      "en": "Gather Toward Center"
+    },
+    {
+      "id": "vfx_term_043",
+      "category": "聚集与吸附",
+      "role": "formation",
+      "family": "energy",
+      "zh": "引力吸收",
+      "en": "Gravitational Absorption"
+    },
+    {
+      "id": "vfx_term_044",
+      "category": "聚集与吸附",
+      "role": "formation",
+      "family": "energy",
+      "zh": "能量吞噬",
+      "en": "Energy Absorption"
+    },
+    {
+      "id": "vfx_term_045",
+      "category": "聚集与吸附",
+      "role": "formation",
+      "family": "energy",
+      "zh": "磁场吸附",
+      "en": "Magnetic Attraction"
+    },
+    {
+      "id": "vfx_term_046",
+      "category": "聚集与吸附",
+      "role": "formation",
+      "family": "energy",
+      "zh": "漩涡吸收",
+      "en": "Vortex Absorption"
+    },
+    {
+      "id": "vfx_term_047",
+      "category": "聚集与吸附",
+      "role": "formation",
+      "family": "energy",
+      "zh": "黑洞吸引",
+      "en": "Black Hole Pull"
+    },
+    {
+      "id": "vfx_term_048",
+      "category": "聚集与吸附",
+      "role": "formation",
+      "family": "energy",
+      "zh": "流体汇聚",
+      "en": "Fluid Convergence"
+    },
+    {
+      "id": "vfx_term_049",
+      "category": "聚集与吸附",
+      "role": "formation",
+      "family": "energy",
+      "zh": "碎片聚集",
+      "en": "Fragment Gathering"
+    },
+    {
+      "id": "vfx_term_050",
+      "category": "聚集与吸附",
+      "role": "formation",
+      "family": "energy",
+      "zh": "光线汇聚",
+      "en": "Light Convergence"
+    },
+    {
+      "id": "vfx_term_051",
+      "category": "聚集与吸附",
+      "role": "formation",
+      "family": "energy",
+      "zh": "轨道聚集",
+      "en": "Orbital Gathering"
+    },
+    {
+      "id": "vfx_term_052",
+      "category": "聚集与吸附",
+      "role": "formation",
+      "family": "energy",
+      "zh": "能量回收",
+      "en": "Energy Retrieval"
+    },
+    {
+      "id": "vfx_term_053",
+      "category": "聚集与吸附",
+      "role": "formation",
+      "family": "energy",
+      "zh": "中心压缩",
+      "en": "Center Compression"
+    },
+    {
+      "id": "vfx_term_054",
+      "category": "聚集与吸附",
+      "role": "formation",
+      "family": "energy",
+      "zh": "逐步收缩",
+      "en": "Gradual Compression"
+    },
+    {
+      "id": "vfx_term_055",
+      "category": "聚集与吸附",
+      "role": "formation",
+      "family": "energy",
+      "zh": "空间折叠",
+      "en": "Spatial Folding"
+    },
+    {
+      "id": "vfx_term_056",
+      "category": "聚集与吸附",
+      "role": "formation",
+      "family": "energy",
+      "zh": "能量浓缩",
+      "en": "Energy Compression"
+    },
+    {
+      "id": "vfx_term_057",
+      "category": "聚集与吸附",
+      "role": "formation",
+      "family": "energy",
+      "zh": "核心聚变",
+      "en": "Core Fusion"
+    },
+    {
+      "id": "vfx_term_058",
+      "category": "聚集与吸附",
+      "role": "formation",
+      "family": "energy",
+      "zh": "重力塌缩",
+      "en": "Gravity Collapse"
+    },
+    {
+      "id": "vfx_term_059",
+      "category": "聚集与吸附",
+      "role": "formation",
+      "family": "energy",
+      "zh": "高密度聚集",
+      "en": "High Density Gathering"
+    },
+    {
+      "id": "vfx_term_060",
+      "category": "聚集与吸附",
+      "role": "formation",
+      "family": "energy",
+      "zh": "质量压缩",
+      "en": "Mass Compression"
+    },
+    {
+      "id": "vfx_term_061",
+      "category": "爆发",
+      "role": "peak",
+      "family": "impact-energy",
+      "zh": "能量爆发",
+      "en": "Energy Burst"
+    },
+    {
+      "id": "vfx_term_062",
+      "category": "爆发",
+      "role": "peak",
+      "family": "impact-energy",
+      "zh": "瞬间释放",
+      "en": "Instant Release"
+    },
+    {
+      "id": "vfx_term_063",
+      "category": "爆发",
+      "role": "peak",
+      "family": "impact-energy",
+      "zh": "猛烈喷发",
+      "en": "Violent Eruption"
+    },
+    {
+      "id": "vfx_term_064",
+      "category": "爆发",
+      "role": "peak",
+      "family": "impact-energy",
+      "zh": "向外冲击",
+      "en": "Outward Blast"
+    },
+    {
+      "id": "vfx_term_065",
+      "category": "爆发",
+      "role": "peak",
+      "family": "impact-energy",
+      "zh": "冲击波扩散",
+      "en": "Shockwave Expansion"
+    },
+    {
+      "id": "vfx_term_066",
+      "category": "爆发",
+      "role": "peak",
+      "family": "impact-energy",
+      "zh": "全屏爆闪",
+      "en": "Full Screen Flash"
+    },
+    {
+      "id": "vfx_term_067",
+      "category": "爆发",
+      "role": "peak",
+      "family": "impact-energy",
+      "zh": "耀斑爆发",
+      "en": "Flare Explosion"
+    },
+    {
+      "id": "vfx_term_068",
+      "category": "爆发",
+      "role": "peak",
+      "family": "impact-energy",
+      "zh": "径向扩散",
+      "en": "Radial Expansion"
+    },
+    {
+      "id": "vfx_term_069",
+      "category": "爆发",
+      "role": "peak",
+      "family": "impact-energy",
+      "zh": "爆裂释放",
+      "en": "Explosive Release"
+    },
+    {
+      "id": "vfx_term_070",
+      "category": "爆发",
+      "role": "peak",
+      "family": "impact-energy",
+      "zh": "能量喷射",
+      "en": "Energy Jet"
+    },
+    {
+      "id": "vfx_term_071",
+      "category": "爆发",
+      "role": "peak",
+      "family": "impact-energy",
+      "zh": "火焰喷涌",
+      "en": "Flame Surge"
+    },
+    {
+      "id": "vfx_term_072",
+      "category": "爆发",
+      "role": "peak",
+      "family": "impact-energy",
+      "zh": "闪电爆裂",
+      "en": "Lightning Burst"
+    },
+    {
+      "id": "vfx_term_073",
+      "category": "爆发",
+      "role": "peak",
+      "family": "impact-energy",
+      "zh": "星芒绽放",
+      "en": "Starburst"
+    },
+    {
+      "id": "vfx_term_074",
+      "category": "爆发",
+      "role": "peak",
+      "family": "impact-energy",
+      "zh": "光束爆发",
+      "en": "Light Beam Explosion"
+    },
+    {
+      "id": "vfx_term_075",
+      "category": "爆发",
+      "role": "peak",
+      "family": "impact-energy",
+      "zh": "高能冲击",
+      "en": "High Energy Impact"
+    },
+    {
+      "id": "vfx_term_076",
+      "category": "爆发",
+      "role": "peak",
+      "family": "impact-energy",
+      "zh": "能量洪流",
+      "en": "Energy Torrent"
+    },
+    {
+      "id": "vfx_term_077",
+      "category": "爆发",
+      "role": "peak",
+      "family": "impact-energy",
+      "zh": "强光爆发",
+      "en": "Brilliant Flash"
+    },
+    {
+      "id": "vfx_term_078",
+      "category": "爆发",
+      "role": "peak",
+      "family": "impact-energy",
+      "zh": "瞬时增亮",
+      "en": "Sudden Brightening"
+    },
+    {
+      "id": "vfx_term_079",
+      "category": "爆发",
+      "role": "peak",
+      "family": "impact-energy",
+      "zh": "爆炸式扩张",
+      "en": "Explosive Expansion"
+    },
+    {
+      "id": "vfx_term_080",
+      "category": "爆发",
+      "role": "peak",
+      "family": "impact-energy",
+      "zh": "超新星爆发",
+      "en": "Supernova Explosion"
+    },
+    {
+      "id": "vfx_term_081",
+      "category": "释放后的余韵",
+      "role": "decay",
+      "family": "energy",
+      "zh": "残余能量",
+      "en": "Residual Energy"
+    },
+    {
+      "id": "vfx_term_082",
+      "category": "释放后的余韵",
+      "role": "decay",
+      "family": "energy",
+      "zh": "余辉",
+      "en": "Afterglow"
+    },
+    {
+      "id": "vfx_term_083",
+      "category": "释放后的余韵",
+      "role": "decay",
+      "family": "energy",
+      "zh": "持续发光",
+      "en": "Persistent Glow"
+    },
+    {
+      "id": "vfx_term_084",
+      "category": "释放后的余韵",
+      "role": "decay",
+      "family": "energy",
+      "zh": "缓慢消散",
+      "en": "Slow Dissipation"
+    },
+    {
+      "id": "vfx_term_085",
+      "category": "释放后的余韵",
+      "role": "decay",
+      "family": "energy",
+      "zh": "能量蒸发",
+      "en": "Energy Evaporation"
+    },
+    {
+      "id": "vfx_term_086",
+      "category": "释放后的余韵",
+      "role": "decay",
+      "family": "energy",
+      "zh": "光点飘散",
+      "en": "Floating Light Specks"
+    },
+    {
+      "id": "vfx_term_087",
+      "category": "释放后的余韵",
+      "role": "decay",
+      "family": "energy",
+      "zh": "粒子飘散",
+      "en": "Particle Dissipation"
+    },
+    {
+      "id": "vfx_term_088",
+      "category": "释放后的余韵",
+      "role": "decay",
+      "family": "energy",
+      "zh": "烟雾弥漫",
+      "en": "Smoke Dispersion"
+    },
+    {
+      "id": "vfx_term_089",
+      "category": "释放后的余韵",
+      "role": "decay",
+      "family": "energy",
+      "zh": "余波扩散",
+      "en": "Residual Shockwave"
+    },
+    {
+      "id": "vfx_term_090",
+      "category": "释放后的余韵",
+      "role": "decay",
+      "family": "energy",
+      "zh": "空气扰动",
+      "en": "Air Distortion"
+    },
+    {
+      "id": "vfx_term_091",
+      "category": "释放后的余韵",
+      "role": "decay",
+      "family": "energy",
+      "zh": "热浪扭曲",
+      "en": "Heat Distortion"
+    },
+    {
+      "id": "vfx_term_092",
+      "category": "释放后的余韵",
+      "role": "decay",
+      "family": "energy",
+      "zh": "电弧残留",
+      "en": "Residual Electric Arc"
+    },
+    {
+      "id": "vfx_term_093",
+      "category": "释放后的余韵",
+      "role": "decay",
+      "family": "energy",
+      "zh": "能量尾迹",
+      "en": "Energy Trail"
+    },
+    {
+      "id": "vfx_term_094",
+      "category": "释放后的余韵",
+      "role": "decay",
+      "family": "energy",
+      "zh": "拖尾光迹",
+      "en": "Light Trail"
+    },
+    {
+      "id": "vfx_term_095",
+      "category": "释放后的余韵",
+      "role": "decay",
+      "family": "energy",
+      "zh": "发光碎屑",
+      "en": "Glowing Debris"
+    },
+    {
+      "id": "vfx_term_096",
+      "category": "释放后的余韵",
+      "role": "decay",
+      "family": "energy",
+      "zh": "缓慢熄灭",
+      "en": "Gradual Fade Out"
+    },
+    {
+      "id": "vfx_term_097",
+      "category": "释放后的余韵",
+      "role": "decay",
+      "family": "energy",
+      "zh": "余震震荡",
+      "en": "Aftershock"
+    },
+    {
+      "id": "vfx_term_098",
+      "category": "释放后的余韵",
+      "role": "decay",
+      "family": "energy",
+      "zh": "辉光停留",
+      "en": "Lingering Bloom"
+    },
+    {
+      "id": "vfx_term_099",
+      "category": "释放后的余韵",
+      "role": "decay",
+      "family": "energy",
+      "zh": "环境持续发光",
+      "en": "Persistent Environmental Glow"
+    },
+    {
+      "id": "vfx_term_100",
+      "category": "释放后的余韵",
+      "role": "decay",
+      "family": "energy",
+      "zh": "空间逐渐恢复稳定",
+      "en": "Space Stabilization"
+    },
+    {
+      "id": "vfx_term_101",
+      "category": "魔法",
+      "role": "system-family",
+      "family": "magic-ritual",
+      "zh": "魔法阵旋转",
+      "en": "Rotating Magic Circle"
+    },
+    {
+      "id": "vfx_term_102",
+      "category": "魔法",
+      "role": "system-family",
+      "family": "magic-ritual",
+      "zh": "符文点亮",
+      "en": "Rune Illumination"
+    },
+    {
+      "id": "vfx_term_103",
+      "category": "魔法",
+      "role": "system-family",
+      "family": "magic-ritual",
+      "zh": "符文流动",
+      "en": "Flowing Runes"
+    },
+    {
+      "id": "vfx_term_104",
+      "category": "魔法",
+      "role": "system-family",
+      "family": "magic-ritual",
+      "zh": "神秘光环",
+      "en": "Mystic Aura"
+    },
+    {
+      "id": "vfx_term_105",
+      "category": "魔法",
+      "role": "system-family",
+      "family": "magic-ritual",
+      "zh": "法阵展开",
+      "en": "Magic Circle Expansion"
+    },
+    {
+      "id": "vfx_term_106",
+      "category": "魔法",
+      "role": "system-family",
+      "family": "magic-ritual",
+      "zh": "咒文浮现",
+      "en": "Spell Symbols Appearing"
+    },
+    {
+      "id": "vfx_term_107",
+      "category": "魔法",
+      "role": "system-family",
+      "family": "magic-ritual",
+      "zh": "奥术能量",
+      "en": "Arcane Energy"
+    },
+    {
+      "id": "vfx_term_108",
+      "category": "魔法",
+      "role": "system-family",
+      "family": "magic-ritual",
+      "zh": "元素能量",
+      "en": "Elemental Energy"
+    },
+    {
+      "id": "vfx_term_109",
+      "category": "魔法",
+      "role": "system-family",
+      "family": "magic-ritual",
+      "zh": "召唤光柱",
+      "en": "Summoning Beam"
+    },
+    {
+      "id": "vfx_term_110",
+      "category": "魔法",
+      "role": "system-family",
+      "family": "magic-ritual",
+      "zh": "神圣光辉",
+      "en": "Holy Radiance"
+    },
+    {
+      "id": "vfx_term_111",
+      "category": "魔法",
+      "role": "system-family",
+      "family": "magic-ritual",
+      "zh": "暗影能量",
+      "en": "Shadow Energy"
+    },
+    {
+      "id": "vfx_term_112",
+      "category": "魔法",
+      "role": "system-family",
+      "family": "magic-ritual",
+      "zh": "灵魂能量",
+      "en": "Soul Energy"
+    },
+    {
+      "id": "vfx_term_113",
+      "category": "魔法",
+      "role": "system-family",
+      "family": "magic-ritual",
+      "zh": "星辰能量",
+      "en": "Cosmic Energy"
+    },
+    {
+      "id": "vfx_term_114",
+      "category": "魔法",
+      "role": "system-family",
+      "family": "magic-ritual",
+      "zh": "神力降临",
+      "en": "Divine Power"
+    },
+    {
+      "id": "vfx_term_115",
+      "category": "魔法",
+      "role": "system-family",
+      "family": "magic-ritual",
+      "zh": "异空间裂缝",
+      "en": "Dimensional Rift"
+    },
+    {
+      "id": "vfx_term_116",
+      "category": "魔法",
+      "role": "system-family",
+      "family": "magic-ritual",
+      "zh": "空间魔法",
+      "en": "Spatial Magic"
+    },
+    {
+      "id": "vfx_term_117",
+      "category": "魔法",
+      "role": "system-family",
+      "family": "magic-ritual",
+      "zh": "魔法波纹",
+      "en": "Magic Ripple"
+    },
+    {
+      "id": "vfx_term_118",
+      "category": "魔法",
+      "role": "system-family",
+      "family": "magic-ritual",
+      "zh": "法力流动",
+      "en": "Mana Flow"
+    },
+    {
+      "id": "vfx_term_119",
+      "category": "魔法",
+      "role": "system-family",
+      "family": "magic-ritual",
+      "zh": "元素爆发",
+      "en": "Elemental Burst"
+    },
+    {
+      "id": "vfx_term_120",
+      "category": "魔法",
+      "role": "system-family",
+      "family": "magic-ritual",
+      "zh": "结界展开",
+      "en": "Barrier Deployment"
+    },
+    {
+      "id": "vfx_term_121",
+      "category": "自然",
+      "role": "system-family",
+      "family": "elemental-natural",
+      "zh": "风能流动",
+      "en": "Wind Flow"
+    },
+    {
+      "id": "vfx_term_122",
+      "category": "自然",
+      "role": "system-family",
+      "family": "elemental-natural",
+      "zh": "火焰升腾",
+      "en": "Rising Flames"
+    },
+    {
+      "id": "vfx_term_123",
+      "category": "自然",
+      "role": "system-family",
+      "family": "elemental-natural",
+      "zh": "水流旋转",
+      "en": "Water Swirl"
+    },
+    {
+      "id": "vfx_term_124",
+      "category": "自然",
+      "role": "system-family",
+      "family": "elemental-natural",
+      "zh": "冰晶凝结",
+      "en": "Ice Crystal Formation"
+    },
+    {
+      "id": "vfx_term_125",
+      "category": "自然",
+      "role": "system-family",
+      "family": "elemental-natural",
+      "zh": "雷电游走",
+      "en": "Lightning Crawling"
+    },
+    {
+      "id": "vfx_term_126",
+      "category": "自然",
+      "role": "system-family",
+      "family": "elemental-natural",
+      "zh": "岩浆翻滚",
+      "en": "Lava Flow"
+    },
+    {
+      "id": "vfx_term_127",
+      "category": "自然",
+      "role": "system-family",
+      "family": "elemental-natural",
+      "zh": "植物生长能量",
+      "en": "Nature Growth Energy"
+    },
+    {
+      "id": "vfx_term_128",
+      "category": "自然",
+      "role": "system-family",
+      "family": "elemental-natural",
+      "zh": "花瓣飞舞",
+      "en": "Flying Petals"
+    },
+    {
+      "id": "vfx_term_129",
+      "category": "自然",
+      "role": "system-family",
+      "family": "elemental-natural",
+      "zh": "树叶环绕",
+      "en": "Leaf Swirl"
+    },
+    {
+      "id": "vfx_term_130",
+      "category": "自然",
+      "role": "system-family",
+      "family": "elemental-natural",
+      "zh": "沙粒流动",
+      "en": "Sand Flow"
+    },
+    {
+      "id": "vfx_term_131",
+      "category": "自然",
+      "role": "system-family",
+      "family": "elemental-natural",
+      "zh": "云雾翻腾",
+      "en": "Cloud Motion"
+    },
+    {
+      "id": "vfx_term_132",
+      "category": "自然",
+      "role": "system-family",
+      "family": "elemental-natural",
+      "zh": "星光洒落",
+      "en": "Starlight Falling"
+    },
+    {
+      "id": "vfx_term_133",
+      "category": "自然",
+      "role": "system-family",
+      "family": "elemental-natural",
+      "zh": "极光流动",
+      "en": "Aurora Motion"
+    },
+    {
+      "id": "vfx_term_134",
+      "category": "自然",
+      "role": "system-family",
+      "family": "elemental-natural",
+      "zh": "雨滴扩散",
+      "en": "Raindrop Ripple"
+    },
+    {
+      "id": "vfx_term_135",
+      "category": "自然",
+      "role": "system-family",
+      "family": "elemental-natural",
+      "zh": "雪花飘落",
+      "en": "Snow Drift"
+    },
+    {
+      "id": "vfx_term_136",
+      "category": "自然",
+      "role": "system-family",
+      "family": "elemental-natural",
+      "zh": "火星飞溅",
+      "en": "Flying Sparks"
+    },
+    {
+      "id": "vfx_term_137",
+      "category": "自然",
+      "role": "system-family",
+      "family": "elemental-natural",
+      "zh": "流星划过",
+      "en": "Meteor Trail"
+    },
+    {
+      "id": "vfx_term_138",
+      "category": "自然",
+      "role": "system-family",
+      "family": "elemental-natural",
+      "zh": "海浪推进",
+      "en": "Wave Surge"
+    },
+    {
+      "id": "vfx_term_139",
+      "category": "自然",
+      "role": "system-family",
+      "family": "elemental-natural",
+      "zh": "光合作用般扩散",
+      "en": "Photosynthetic Expansion"
+    },
+    {
+      "id": "vfx_term_140",
+      "category": "自然",
+      "role": "system-family",
+      "family": "elemental-natural",
+      "zh": "自然生命能量",
+      "en": "Life Energy"
+    },
+    {
+      "id": "vfx_term_141",
+      "category": "科技",
+      "role": "system-family",
+      "family": "technology",
+      "zh": "蓝色电流",
+      "en": "Blue Electric Current"
+    },
+    {
+      "id": "vfx_term_142",
+      "category": "科技",
+      "role": "system-family",
+      "family": "technology",
+      "zh": "等离子体",
+      "en": "Plasma Energy"
+    },
+    {
+      "id": "vfx_term_143",
+      "category": "科技",
+      "role": "system-family",
+      "family": "technology",
+      "zh": "激光扫描",
+      "en": "Laser Scan"
+    },
+    {
+      "id": "vfx_term_144",
+      "category": "科技",
+      "role": "system-family",
+      "family": "technology",
+      "zh": "离子流",
+      "en": "Ion Stream"
+    },
+    {
+      "id": "vfx_term_145",
+      "category": "科技",
+      "role": "system-family",
+      "family": "technology",
+      "zh": "能量护盾",
+      "en": "Energy Shield"
+    },
+    {
+      "id": "vfx_term_146",
+      "category": "科技",
+      "role": "system-family",
+      "family": "technology",
+      "zh": "力场展开",
+      "en": "Force Field Expansion"
+    },
+    {
+      "id": "vfx_term_147",
+      "category": "科技",
+      "role": "system-family",
+      "family": "technology",
+      "zh": "数字能量",
+      "en": "Digital Energy"
+    },
+    {
+      "id": "vfx_term_148",
+      "category": "科技",
+      "role": "system-family",
+      "family": "technology",
+      "zh": "数据流",
+      "en": "Data Stream"
+    },
+    {
+      "id": "vfx_term_149",
+      "category": "科技",
+      "role": "system-family",
+      "family": "technology",
+      "zh": "电磁脉冲",
+      "en": "Electromagnetic Pulse"
+    },
+    {
+      "id": "vfx_term_150",
+      "category": "科技",
+      "role": "system-family",
+      "family": "technology",
+      "zh": "全息能量",
+      "en": "Holographic Energy"
+    },
+    {
+      "id": "vfx_term_151",
+      "category": "科技",
+      "role": "system-family",
+      "family": "technology",
+      "zh": "纳米粒子",
+      "en": "Nano Particles"
+    },
+    {
+      "id": "vfx_term_152",
+      "category": "科技",
+      "role": "system-family",
+      "family": "technology",
+      "zh": "量子能量",
+      "en": "Quantum Energy"
+    },
+    {
+      "id": "vfx_term_153",
+      "category": "科技",
+      "role": "system-family",
+      "family": "technology",
+      "zh": "光子流",
+      "en": "Photon Stream"
+    },
+    {
+      "id": "vfx_term_154",
+      "category": "科技",
+      "role": "system-family",
+      "family": "technology",
+      "zh": "扫描波",
+      "en": "Scanning Wave"
+    },
+    {
+      "id": "vfx_term_155",
+      "category": "科技",
+      "role": "system-family",
+      "family": "technology",
+      "zh": "科技光束",
+      "en": "Tech Beam"
+    },
+    {
+      "id": "vfx_term_156",
+      "category": "科技",
+      "role": "system-family",
+      "family": "technology",
+      "zh": "赛博能量",
+      "en": "Cyber Energy"
+    },
+    {
+      "id": "vfx_term_157",
+      "category": "科技",
+      "role": "system-family",
+      "family": "technology",
+      "zh": "电子轨迹",
+      "en": "Electronic Trail"
+    },
+    {
+      "id": "vfx_term_158",
+      "category": "科技",
+      "role": "system-family",
+      "family": "technology",
+      "zh": "矩阵流动",
+      "en": "Matrix Flow"
+    },
+    {
+      "id": "vfx_term_159",
+      "category": "科技",
+      "role": "system-family",
+      "family": "technology",
+      "zh": "芯片能量",
+      "en": "Circuit Energy"
+    },
+    {
+      "id": "vfx_term_160",
+      "category": "科技",
+      "role": "system-family",
+      "family": "technology",
+      "zh": "未来能量核心",
+      "en": "Futuristic Energy Core"
+    },
+    {
+      "id": "vfx_term_161",
+      "category": "技能释放",
+      "role": "formation",
+      "family": "skill",
+      "zh": "瞬间释放",
+      "en": "Instant Cast"
+    },
+    {
+      "id": "vfx_term_162",
+      "category": "技能释放",
+      "role": "formation",
+      "family": "skill",
+      "zh": "蓄力释放",
+      "en": "Charge Release"
+    },
+    {
+      "id": "vfx_term_163",
+      "category": "技能释放",
+      "role": "formation",
+      "family": "skill",
+      "zh": "引导释放",
+      "en": "Channeling"
+    },
+    {
+      "id": "vfx_term_164",
+      "category": "技能释放",
+      "role": "formation",
+      "family": "skill",
+      "zh": "连续释放",
+      "en": "Continuous Cast"
+    },
+    {
+      "id": "vfx_term_165",
+      "category": "技能释放",
+      "role": "formation",
+      "family": "skill",
+      "zh": "连锁释放",
+      "en": "Chain Cast"
+    },
+    {
+      "id": "vfx_term_166",
+      "category": "技能释放",
+      "role": "formation",
+      "family": "skill",
+      "zh": "多段释放",
+      "en": "Multi-stage Release"
+    },
+    {
+      "id": "vfx_term_167",
+      "category": "技能释放",
+      "role": "formation",
+      "family": "skill",
+      "zh": "范围释放",
+      "en": "Area Release"
+    },
+    {
+      "id": "vfx_term_168",
+      "category": "技能释放",
+      "role": "formation",
+      "family": "skill",
+      "zh": "定向释放",
+      "en": "Directional Cast"
+    },
+    {
+      "id": "vfx_term_169",
+      "category": "技能释放",
+      "role": "formation",
+      "family": "skill",
+      "zh": "锁定释放",
+      "en": "Target Lock"
+    },
+    {
+      "id": "vfx_term_170",
+      "category": "技能释放",
+      "role": "formation",
+      "family": "skill",
+      "zh": "追踪释放",
+      "en": "Homing Cast"
+    },
+    {
+      "id": "vfx_term_171",
+      "category": "技能释放",
+      "role": "formation",
+      "family": "skill",
+      "zh": "爆发释放",
+      "en": "Burst Cast"
+    },
+    {
+      "id": "vfx_term_172",
+      "category": "技能释放",
+      "role": "formation",
+      "family": "skill",
+      "zh": "终极释放",
+      "en": "Ultimate Release"
+    },
+    {
+      "id": "vfx_term_173",
+      "category": "技能释放",
+      "role": "formation",
+      "family": "skill",
+      "zh": "觉醒释放",
+      "en": "Awakening Cast"
+    },
+    {
+      "id": "vfx_term_174",
+      "category": "技能释放",
+      "role": "formation",
+      "family": "skill",
+      "zh": "召唤释放",
+      "en": "Summoning Cast"
+    },
+    {
+      "id": "vfx_term_175",
+      "category": "技能释放",
+      "role": "formation",
+      "family": "skill",
+      "zh": "融合释放",
+      "en": "Fusion Cast"
+    },
+    {
+      "id": "vfx_term_176",
+      "category": "技能释放",
+      "role": "formation",
+      "family": "skill",
+      "zh": "变身释放",
+      "en": "Transformation Cast"
+    },
+    {
+      "id": "vfx_term_177",
+      "category": "技能释放",
+      "role": "formation",
+      "family": "skill",
+      "zh": "献祭释放",
+      "en": "Sacrifice Cast"
+    },
+    {
+      "id": "vfx_term_178",
+      "category": "技能释放",
+      "role": "formation",
+      "family": "skill",
+      "zh": "领域展开",
+      "en": "Domain Expansion"
+    },
+    {
+      "id": "vfx_term_179",
+      "category": "技能释放",
+      "role": "formation",
+      "family": "skill",
+      "zh": "结界展开",
+      "en": "Barrier Deployment"
+    },
+    {
+      "id": "vfx_term_180",
+      "category": "技能释放",
+      "role": "formation",
+      "family": "skill",
+      "zh": "仪式施法",
+      "en": "Ritual Casting"
+    },
+    {
+      "id": "vfx_term_181",
+      "category": "能量聚集",
+      "role": "formation",
+      "family": "energy",
+      "zh": "能量汇聚",
+      "en": "Energy Convergence"
+    },
+    {
+      "id": "vfx_term_182",
+      "category": "能量聚集",
+      "role": "formation",
+      "family": "energy",
+      "zh": "螺旋聚能",
+      "en": "Spiral Gathering"
+    },
+    {
+      "id": "vfx_term_183",
+      "category": "能量聚集",
+      "role": "formation",
+      "family": "energy",
+      "zh": "中心吸附",
+      "en": "Central Attraction"
+    },
+    {
+      "id": "vfx_term_184",
+      "category": "能量聚集",
+      "role": "formation",
+      "family": "energy",
+      "zh": "漩涡聚集",
+      "en": "Vortex Gathering"
+    },
+    {
+      "id": "vfx_term_185",
+      "category": "能量聚集",
+      "role": "formation",
+      "family": "energy",
+      "zh": "轨道旋转",
+      "en": "Orbital Rotation"
+    },
+    {
+      "id": "vfx_term_186",
+      "category": "能量聚集",
+      "role": "formation",
+      "family": "energy",
+      "zh": "粒子吸附",
+      "en": "Particle Absorption"
+    },
+    {
+      "id": "vfx_term_187",
+      "category": "能量聚集",
+      "role": "formation",
+      "family": "energy",
+      "zh": "光束汇聚",
+      "en": "Light Beam Gathering"
+    },
+    {
+      "id": "vfx_term_188",
+      "category": "能量聚集",
+      "role": "formation",
+      "family": "energy",
+      "zh": "符文点亮",
+      "en": "Rune Activation"
+    },
+    {
+      "id": "vfx_term_189",
+      "category": "能量聚集",
+      "role": "formation",
+      "family": "energy",
+      "zh": "法阵启动",
+      "en": "Magic Circle Activation"
+    },
+    {
+      "id": "vfx_term_190",
+      "category": "能量聚集",
+      "role": "formation",
+      "family": "energy",
+      "zh": "层层激活",
+      "en": "Sequential Activation"
+    },
+    {
+      "id": "vfx_term_191",
+      "category": "能量聚集",
+      "role": "formation",
+      "family": "energy",
+      "zh": "能量压缩",
+      "en": "Energy Compression"
+    },
+    {
+      "id": "vfx_term_192",
+      "category": "能量聚集",
+      "role": "formation",
+      "family": "energy",
+      "zh": "空间扭曲",
+      "en": "Space Compression"
+    },
+    {
+      "id": "vfx_term_193",
+      "category": "能量聚集",
+      "role": "formation",
+      "family": "energy",
+      "zh": "空气震荡",
+      "en": "Air Distortion"
+    },
+    {
+      "id": "vfx_term_194",
+      "category": "能量聚集",
+      "role": "formation",
+      "family": "energy",
+      "zh": "重力聚集",
+      "en": "Gravity Pull"
+    },
+    {
+      "id": "vfx_term_195",
+      "category": "能量聚集",
+      "role": "formation",
+      "family": "energy",
+      "zh": "磁场聚集",
+      "en": "Magnetic Attraction"
+    },
+    {
+      "id": "vfx_term_196",
+      "category": "爆发",
+      "role": "peak",
+      "family": "impact-energy",
+      "zh": "能量爆炸",
+      "en": "Energy Explosion"
+    },
+    {
+      "id": "vfx_term_197",
+      "category": "爆发",
+      "role": "peak",
+      "family": "impact-energy",
+      "zh": "魔法爆发",
+      "en": "Magic Burst"
+    },
+    {
+      "id": "vfx_term_198",
+      "category": "爆发",
+      "role": "peak",
+      "family": "impact-energy",
+      "zh": "光能爆发",
+      "en": "Light Burst"
+    },
+    {
+      "id": "vfx_term_199",
+      "category": "爆发",
+      "role": "peak",
+      "family": "impact-energy",
+      "zh": "元素爆发",
+      "en": "Elemental Burst"
+    },
+    {
+      "id": "vfx_term_200",
+      "category": "爆发",
+      "role": "peak",
+      "family": "impact-energy",
+      "zh": "神圣爆发",
+      "en": "Divine Burst"
+    },
+    {
+      "id": "vfx_term_201",
+      "category": "爆发",
+      "role": "peak",
+      "family": "impact-energy",
+      "zh": "黑暗爆发",
+      "en": "Dark Burst"
+    },
+    {
+      "id": "vfx_term_202",
+      "category": "爆发",
+      "role": "peak",
+      "family": "impact-energy",
+      "zh": "连续爆炸",
+      "en": "Chain Explosion"
+    },
+    {
+      "id": "vfx_term_203",
+      "category": "爆发",
+      "role": "peak",
+      "family": "impact-energy",
+      "zh": "全屏爆发",
+      "en": "Full-screen Burst"
+    },
+    {
+      "id": "vfx_term_204",
+      "category": "爆发",
+      "role": "peak",
+      "family": "impact-energy",
+      "zh": "终极爆发",
+      "en": "Ultimate Burst"
+    },
+    {
+      "id": "vfx_term_205",
+      "category": "爆发",
+      "role": "peak",
+      "family": "impact-energy",
+      "zh": "脉冲冲击",
+      "en": "Pulse Blast"
+    },
+    {
+      "id": "vfx_term_206",
+      "category": "爆发",
+      "role": "peak",
+      "family": "impact-energy",
+      "zh": "瞬间引爆",
+      "en": "Instant Detonation"
+    },
+    {
+      "id": "vfx_term_207",
+      "category": "爆发",
+      "role": "peak",
+      "family": "impact-energy",
+      "zh": "高能释放",
+      "en": "High-energy Release"
+    },
+    {
+      "id": "vfx_term_208",
+      "category": "爆发",
+      "role": "peak",
+      "family": "impact-energy",
+      "zh": "核爆式爆发",
+      "en": "Nuclear Burst"
+    },
+    {
+      "id": "vfx_term_209",
+      "category": "爆发",
+      "role": "peak",
+      "family": "impact-energy",
+      "zh": "超新星爆发",
+      "en": "Supernova Explosion"
+    },
+    {
+      "id": "vfx_term_210",
+      "category": "冲击波",
+      "role": "contact-peak",
+      "family": "impact",
+      "zh": "径向冲击波",
+      "en": "Radial Shockwave"
+    },
+    {
+      "id": "vfx_term_211",
+      "category": "冲击波",
+      "role": "contact-peak",
+      "family": "impact",
+      "zh": "环形冲击波",
+      "en": "Ring Shockwave"
+    },
+    {
+      "id": "vfx_term_212",
+      "category": "冲击波",
+      "role": "contact-peak",
+      "family": "impact",
+      "zh": "球形冲击波",
+      "en": "Spherical Shockwave"
+    },
+    {
+      "id": "vfx_term_213",
+      "category": "冲击波",
+      "role": "contact-peak",
+      "family": "impact",
+      "zh": "平面冲击波",
+      "en": "Planar Shockwave"
+    },
+    {
+      "id": "vfx_term_214",
+      "category": "冲击波",
+      "role": "contact-peak",
+      "family": "impact",
+      "zh": "能量震荡",
+      "en": "Energy Pulse"
+    },
+    {
+      "id": "vfx_term_215",
+      "category": "冲击波",
+      "role": "contact-peak",
+      "family": "impact",
+      "zh": "空气冲击",
+      "en": "Air Blast"
+    },
+    {
+      "id": "vfx_term_216",
+      "category": "冲击波",
+      "role": "contact-peak",
+      "family": "impact",
+      "zh": "空间震荡",
+      "en": "Spatial Shockwave"
+    },
+    {
+      "id": "vfx_term_217",
+      "category": "冲击波",
+      "role": "contact-peak",
+      "family": "impact",
+      "zh": "地面震荡",
+      "en": "Ground Shockwave"
+    },
+    {
+      "id": "vfx_term_218",
+      "category": "冲击波",
+      "role": "contact-peak",
+      "family": "impact",
+      "zh": "爆炸扩散",
+      "en": "Explosion Expansion"
+    },
+    {
+      "id": "vfx_term_219",
+      "category": "冲击波",
+      "role": "contact-peak",
+      "family": "impact",
+      "zh": "连续波纹",
+      "en": "Ripple Expansion"
+    },
+    {
+      "id": "vfx_term_220",
+      "category": "冲击波",
+      "role": "contact-peak",
+      "family": "impact",
+      "zh": "声波冲击",
+      "en": "Sonic Wave"
+    },
+    {
+      "id": "vfx_term_221",
+      "category": "冲击波",
+      "role": "contact-peak",
+      "family": "impact",
+      "zh": "重力冲击",
+      "en": "Gravity Wave"
+    },
+    {
+      "id": "vfx_term_222",
+      "category": "斩击",
+      "role": "contact-peak",
+      "family": "weapon-motion",
+      "zh": "光刃斩击",
+      "en": "Light Slash"
+    },
+    {
+      "id": "vfx_term_223",
+      "category": "斩击",
+      "role": "contact-peak",
+      "family": "weapon-motion",
+      "zh": "能量斩击",
+      "en": "Energy Slash"
+    },
+    {
+      "id": "vfx_term_224",
+      "category": "斩击",
+      "role": "contact-peak",
+      "family": "weapon-motion",
+      "zh": "真空斩",
+      "en": "Vacuum Slash"
+    },
+    {
+      "id": "vfx_term_225",
+      "category": "斩击",
+      "role": "contact-peak",
+      "family": "weapon-motion",
+      "zh": "月牙斩",
+      "en": "Crescent Slash"
+    },
+    {
+      "id": "vfx_term_226",
+      "category": "斩击",
+      "role": "contact-peak",
+      "family": "weapon-motion",
+      "zh": "交叉斩",
+      "en": "Cross Slash"
+    },
+    {
+      "id": "vfx_term_227",
+      "category": "斩击",
+      "role": "contact-peak",
+      "family": "weapon-motion",
+      "zh": "连续剑气",
+      "en": "Rapid Slashes"
+    },
+    {
+      "id": "vfx_term_228",
+      "category": "斩击",
+      "role": "contact-peak",
+      "family": "weapon-motion",
+      "zh": "螺旋剑气",
+      "en": "Spiral Slash"
+    },
+    {
+      "id": "vfx_term_229",
+      "category": "斩击",
+      "role": "contact-peak",
+      "family": "weapon-motion",
+      "zh": "弧形斩击",
+      "en": "Arc Slash"
+    },
+    {
+      "id": "vfx_term_230",
+      "category": "斩击",
+      "role": "contact-peak",
+      "family": "weapon-motion",
+      "zh": "纵向斩击",
+      "en": "Vertical Slash"
+    },
+    {
+      "id": "vfx_term_231",
+      "category": "斩击",
+      "role": "contact-peak",
+      "family": "weapon-motion",
+      "zh": "横向斩击",
+      "en": "Horizontal Slash"
+    },
+    {
+      "id": "vfx_term_232",
+      "category": "斩击",
+      "role": "contact-peak",
+      "family": "weapon-motion",
+      "zh": "十字斩",
+      "en": "Cross Strike"
+    },
+    {
+      "id": "vfx_term_233",
+      "category": "斩击",
+      "role": "contact-peak",
+      "family": "weapon-motion",
+      "zh": "巨大剑光",
+      "en": "Massive Blade Beam"
+    },
+    {
+      "id": "vfx_term_234",
+      "category": "斩击",
+      "role": "contact-peak",
+      "family": "weapon-motion",
+      "zh": "屏幕贯穿斩",
+      "en": "Screen-wide Slash"
+    },
+    {
+      "id": "vfx_term_235",
+      "category": "射击",
+      "role": "contact-peak",
+      "family": "projectile",
+      "zh": "能量光束",
+      "en": "Energy Beam"
+    },
+    {
+      "id": "vfx_term_236",
+      "category": "射击",
+      "role": "contact-peak",
+      "family": "projectile",
+      "zh": "激光",
+      "en": "Laser Beam"
+    },
+    {
+      "id": "vfx_term_237",
+      "category": "射击",
+      "role": "contact-peak",
+      "family": "projectile",
+      "zh": "魔法弹",
+      "en": "Magic Projectile"
+    },
+    {
+      "id": "vfx_term_238",
+      "category": "射击",
+      "role": "contact-peak",
+      "family": "projectile",
+      "zh": "光箭",
+      "en": "Light Arrow"
+    },
+    {
+      "id": "vfx_term_239",
+      "category": "射击",
+      "role": "contact-peak",
+      "family": "projectile",
+      "zh": "能量箭矢",
+      "en": "Energy Arrow"
+    },
+    {
+      "id": "vfx_term_240",
+      "category": "射击",
+      "role": "contact-peak",
+      "family": "projectile",
+      "zh": "火球",
+      "en": "Fireball"
+    },
+    {
+      "id": "vfx_term_241",
+      "category": "射击",
+      "role": "contact-peak",
+      "family": "projectile",
+      "zh": "冰枪",
+      "en": "Ice Spear"
+    },
+    {
+      "id": "vfx_term_242",
+      "category": "射击",
+      "role": "contact-peak",
+      "family": "projectile",
+      "zh": "雷电投射",
+      "en": "Lightning Bolt"
+    },
+    {
+      "id": "vfx_term_243",
+      "category": "射击",
+      "role": "contact-peak",
+      "family": "projectile",
+      "zh": "导弹齐射",
+      "en": "Missile Barrage"
+    },
+    {
+      "id": "vfx_term_244",
+      "category": "射击",
+      "role": "contact-peak",
+      "family": "projectile",
+      "zh": "弹幕攻击",
+      "en": "Bullet Hell"
+    },
+    {
+      "id": "vfx_term_245",
+      "category": "射击",
+      "role": "contact-peak",
+      "family": "projectile",
+      "zh": "追踪弹",
+      "en": "Homing Missile"
+    },
+    {
+      "id": "vfx_term_246",
+      "category": "射击",
+      "role": "contact-peak",
+      "family": "projectile",
+      "zh": "散射攻击",
+      "en": "Scatter Shot"
+    },
+    {
+      "id": "vfx_term_247",
+      "category": "射击",
+      "role": "contact-peak",
+      "family": "projectile",
+      "zh": "聚能炮",
+      "en": "Charged Cannon"
+    },
+    {
+      "id": "vfx_term_248",
+      "category": "射击",
+      "role": "contact-peak",
+      "family": "projectile",
+      "zh": "贯穿射线",
+      "en": "Piercing Beam"
+    },
+    {
+      "id": "vfx_term_249",
+      "category": "元素",
+      "role": "system-family",
+      "family": "elemental-natural",
+      "zh": "火焰燃烧",
+      "en": "Flame Burst"
+    },
+    {
+      "id": "vfx_term_250",
+      "category": "元素",
+      "role": "system-family",
+      "family": "elemental-natural",
+      "zh": "烈焰风暴",
+      "en": "Inferno Storm"
+    },
+    {
+      "id": "vfx_term_251",
+      "category": "元素",
+      "role": "system-family",
+      "family": "elemental-natural",
+      "zh": "冰晶爆裂",
+      "en": "Ice Crystal Burst"
+    },
+    {
+      "id": "vfx_term_252",
+      "category": "元素",
+      "role": "system-family",
+      "family": "elemental-natural",
+      "zh": "寒冰冻结",
+      "en": "Frozen Field"
+    },
+    {
+      "id": "vfx_term_253",
+      "category": "元素",
+      "role": "system-family",
+      "family": "elemental-natural",
+      "zh": "雷霆降临",
+      "en": "Thunder Strike"
+    },
+    {
+      "id": "vfx_term_254",
+      "category": "元素",
+      "role": "system-family",
+      "family": "elemental-natural",
+      "zh": "闪电链",
+      "en": "Chain Lightning"
+    },
+    {
+      "id": "vfx_term_255",
+      "category": "元素",
+      "role": "system-family",
+      "family": "elemental-natural",
+      "zh": "风暴旋涡",
+      "en": "Storm Vortex"
+    },
+    {
+      "id": "vfx_term_256",
+      "category": "元素",
+      "role": "system-family",
+      "family": "elemental-natural",
+      "zh": "龙卷风",
+      "en": "Tornado"
+    },
+    {
+      "id": "vfx_term_257",
+      "category": "元素",
+      "role": "system-family",
+      "family": "elemental-natural",
+      "zh": "岩石突刺",
+      "en": "Earth Spike"
+    },
+    {
+      "id": "vfx_term_258",
+      "category": "元素",
+      "role": "system-family",
+      "family": "elemental-natural",
+      "zh": "地裂",
+      "en": "Ground Crack"
+    },
+    {
+      "id": "vfx_term_259",
+      "category": "元素",
+      "role": "system-family",
+      "family": "elemental-natural",
+      "zh": "水流冲击",
+      "en": "Water Surge"
+    },
+    {
+      "id": "vfx_term_260",
+      "category": "元素",
+      "role": "system-family",
+      "family": "elemental-natural",
+      "zh": "海啸",
+      "en": "Tsunami"
+    },
+    {
+      "id": "vfx_term_261",
+      "category": "元素",
+      "role": "system-family",
+      "family": "elemental-natural",
+      "zh": "自然生长",
+      "en": "Nature Bloom"
+    },
+    {
+      "id": "vfx_term_262",
+      "category": "元素",
+      "role": "system-family",
+      "family": "elemental-natural",
+      "zh": "毒雾扩散",
+      "en": "Poison Mist"
+    },
+    {
+      "id": "vfx_term_263",
+      "category": "元素",
+      "role": "system-family",
+      "family": "elemental-natural",
+      "zh": "暗影侵蚀",
+      "en": "Shadow Corruption"
+    },
+    {
+      "id": "vfx_term_264",
+      "category": "元素",
+      "role": "system-family",
+      "family": "elemental-natural",
+      "zh": "圣光净化",
+      "en": "Holy Light"
+    },
+    {
+      "id": "vfx_term_265",
+      "category": "空间",
+      "role": "system-family",
+      "family": "space-time",
+      "zh": "空间撕裂",
+      "en": "Space Rift"
+    },
+    {
+      "id": "vfx_term_266",
+      "category": "空间",
+      "role": "system-family",
+      "family": "space-time",
+      "zh": "空间裂缝",
+      "en": "Spatial Crack"
+    },
+    {
+      "id": "vfx_term_267",
+      "category": "空间",
+      "role": "system-family",
+      "family": "space-time",
+      "zh": "空间折叠",
+      "en": "Space Folding"
+    },
+    {
+      "id": "vfx_term_268",
+      "category": "空间",
+      "role": "system-family",
+      "family": "space-time",
+      "zh": "维度裂开",
+      "en": "Dimensional Tear"
+    },
+    {
+      "id": "vfx_term_269",
+      "category": "空间",
+      "role": "system-family",
+      "family": "space-time",
+      "zh": "传送门开启",
+      "en": "Portal Opening"
+    },
+    {
+      "id": "vfx_term_270",
+      "category": "空间",
+      "role": "system-family",
+      "family": "space-time",
+      "zh": "空间跳跃",
+      "en": "Teleportation"
+    },
+    {
+      "id": "vfx_term_271",
+      "category": "空间",
+      "role": "system-family",
+      "family": "space-time",
+      "zh": "时空扭曲",
+      "en": "Time-space Distortion"
+    },
+    {
+      "id": "vfx_term_272",
+      "category": "空间",
+      "role": "system-family",
+      "family": "space-time",
+      "zh": "镜像空间",
+      "en": "Mirror Dimension"
+    },
+    {
+      "id": "vfx_term_273",
+      "category": "空间",
+      "role": "system-family",
+      "family": "space-time",
+      "zh": "领域展开",
+      "en": "Domain Expansion"
+    },
+    {
+      "id": "vfx_term_274",
+      "category": "空间",
+      "role": "system-family",
+      "family": "space-time",
+      "zh": "空间坍缩",
+      "en": "Spatial Collapse"
+    },
+    {
+      "id": "vfx_term_275",
+      "category": "空间",
+      "role": "system-family",
+      "family": "space-time",
+      "zh": "黑洞生成",
+      "en": "Black Hole"
+    },
+    {
+      "id": "vfx_term_276",
+      "category": "空间",
+      "role": "system-family",
+      "family": "space-time",
+      "zh": "白洞释放",
+      "en": "White Hole"
+    },
+    {
+      "id": "vfx_term_277",
+      "category": "空间",
+      "role": "system-family",
+      "family": "space-time",
+      "zh": "无限空间",
+      "en": "Infinite Space"
+    },
+    {
+      "id": "vfx_term_278",
+      "category": "时间",
+      "role": "system-family",
+      "family": "space-time",
+      "zh": "时间暂停",
+      "en": "Time Stop"
+    },
+    {
+      "id": "vfx_term_279",
+      "category": "时间",
+      "role": "system-family",
+      "family": "space-time",
+      "zh": "时间减速",
+      "en": "Slow Motion"
+    },
+    {
+      "id": "vfx_term_280",
+      "category": "时间",
+      "role": "system-family",
+      "family": "space-time",
+      "zh": "时间加速",
+      "en": "Time Acceleration"
+    },
+    {
+      "id": "vfx_term_281",
+      "category": "时间",
+      "role": "system-family",
+      "family": "space-time",
+      "zh": "时间回溯",
+      "en": "Time Rewind"
+    },
+    {
+      "id": "vfx_term_282",
+      "category": "时间",
+      "role": "system-family",
+      "family": "space-time",
+      "zh": "未来残影",
+      "en": "Future Echo"
+    },
+    {
+      "id": "vfx_term_283",
+      "category": "时间",
+      "role": "system-family",
+      "family": "space-time",
+      "zh": "过去残像",
+      "en": "Past Afterimage"
+    },
+    {
+      "id": "vfx_term_284",
+      "category": "时间",
+      "role": "system-family",
+      "family": "space-time",
+      "zh": "时间裂缝",
+      "en": "Time Rift"
+    },
+    {
+      "id": "vfx_term_285",
+      "category": "时间",
+      "role": "system-family",
+      "family": "space-time",
+      "zh": "时间循环",
+      "en": "Time Loop"
+    },
+    {
+      "id": "vfx_term_286",
+      "category": "时间",
+      "role": "system-family",
+      "family": "space-time",
+      "zh": "时间冻结",
+      "en": "Frozen Time"
+    },
+    {
+      "id": "vfx_term_287",
+      "category": "时间",
+      "role": "system-family",
+      "family": "space-time",
+      "zh": "瞬间移动",
+      "en": "Blink"
+    },
+    {
+      "id": "vfx_term_288",
+      "category": "时间",
+      "role": "system-family",
+      "family": "space-time",
+      "zh": "高速闪现",
+      "en": "Flash Movement"
+    },
+    {
+      "id": "vfx_term_289",
+      "category": "召唤",
+      "role": "system-family",
+      "family": "summoning",
+      "zh": "召唤法阵",
+      "en": "Summoning Circle"
+    },
+    {
+      "id": "vfx_term_290",
+      "category": "召唤",
+      "role": "system-family",
+      "family": "summoning",
+      "zh": "神兽召唤",
+      "en": "Beast Summon"
+    },
+    {
+      "id": "vfx_term_291",
+      "category": "召唤",
+      "role": "system-family",
+      "family": "summoning",
+      "zh": "武器召唤",
+      "en": "Weapon Summon"
+    },
+    {
+      "id": "vfx_term_292",
+      "category": "召唤",
+      "role": "system-family",
+      "family": "summoning",
+      "zh": "灵体召唤",
+      "en": "Spirit Summon"
+    },
+    {
+      "id": "vfx_term_293",
+      "category": "召唤",
+      "role": "system-family",
+      "family": "summoning",
+      "zh": "幻影召唤",
+      "en": "Phantom Summon"
+    },
+    {
+      "id": "vfx_term_294",
+      "category": "召唤",
+      "role": "system-family",
+      "family": "summoning",
+      "zh": "分身召唤",
+      "en": "Clone Summon"
+    },
+    {
+      "id": "vfx_term_295",
+      "category": "召唤",
+      "role": "system-family",
+      "family": "summoning",
+      "zh": "元素召唤",
+      "en": "Elemental Summon"
+    },
+    {
+      "id": "vfx_term_296",
+      "category": "召唤",
+      "role": "system-family",
+      "family": "summoning",
+      "zh": "巨像降临",
+      "en": "Titan Summon"
+    },
+    {
+      "id": "vfx_term_297",
+      "category": "召唤",
+      "role": "system-family",
+      "family": "summoning",
+      "zh": "机械召唤",
+      "en": "Mecha Deployment"
+    },
+    {
+      "id": "vfx_term_298",
+      "category": "召唤",
+      "role": "system-family",
+      "family": "summoning",
+      "zh": "星辰降临",
+      "en": "Celestial Summon"
+    },
+    {
+      "id": "vfx_term_299",
+      "category": "终极大招",
+      "role": "peak",
+      "family": "ultimate",
+      "zh": "天地变色",
+      "en": "Sky Transformation"
+    },
+    {
+      "id": "vfx_term_300",
+      "category": "终极大招",
+      "role": "peak",
+      "family": "ultimate",
+      "zh": "天地崩裂",
+      "en": "World Break"
+    },
+    {
+      "id": "vfx_term_301",
+      "category": "终极大招",
+      "role": "peak",
+      "family": "ultimate",
+      "zh": "星空降临",
+      "en": "Cosmic Descent"
+    },
+    {
+      "id": "vfx_term_302",
+      "category": "终极大招",
+      "role": "peak",
+      "family": "ultimate",
+      "zh": "银河旋转",
+      "en": "Galaxy Spiral"
+    },
+    {
+      "id": "vfx_term_303",
+      "category": "终极大招",
+      "role": "peak",
+      "family": "ultimate",
+      "zh": "星辰爆炸",
+      "en": "Star Explosion"
+    },
+    {
+      "id": "vfx_term_304",
+      "category": "终极大招",
+      "role": "peak",
+      "family": "ultimate",
+      "zh": "日蚀（月蚀）",
+      "en": "Eclipse"
+    },
+    {
+      "id": "vfx_term_305",
+      "category": "终极大招",
+      "role": "peak",
+      "family": "ultimate",
+      "zh": "天罚降临",
+      "en": "Divine Judgment"
+    },
+    {
+      "id": "vfx_term_306",
+      "category": "终极大招",
+      "role": "peak",
+      "family": "ultimate",
+      "zh": "万剑齐发",
+      "en": "Sword Rain"
+    },
+    {
+      "id": "vfx_term_307",
+      "category": "终极大招",
+      "role": "peak",
+      "family": "ultimate",
+      "zh": "万雷天引",
+      "en": "Thunderstorm"
+    },
+    {
+      "id": "vfx_term_308",
+      "category": "终极大招",
+      "role": "peak",
+      "family": "ultimate",
+      "zh": "无限光柱",
+      "en": "Infinite Light Pillar"
+    },
+    {
+      "id": "vfx_term_309",
+      "category": "终极大招",
+      "role": "peak",
+      "family": "ultimate",
+      "zh": "终焉降临",
+      "en": "Apocalypse"
+    },
+    {
+      "id": "vfx_term_310",
+      "category": "终极大招",
+      "role": "peak",
+      "family": "ultimate",
+      "zh": "神域展开",
+      "en": "Sacred Domain"
+    },
+    {
+      "id": "vfx_term_311",
+      "category": "终极大招",
+      "role": "peak",
+      "family": "ultimate",
+      "zh": "宇宙坍缩",
+      "en": "Cosmic Collapse"
+    },
+    {
+      "id": "vfx_term_312",
+      "category": "终极大招",
+      "role": "peak",
+      "family": "ultimate",
+      "zh": "维度粉碎",
+      "en": "Dimensional Destruction"
+    },
+    {
+      "id": "vfx_term_313",
+      "category": "命中",
+      "role": "contact-peak",
+      "family": "impact",
+      "zh": "命中闪光",
+      "en": "Hit Flash"
+    },
+    {
+      "id": "vfx_term_314",
+      "category": "命中",
+      "role": "contact-peak",
+      "family": "impact",
+      "zh": "撞击火花",
+      "en": "Impact Sparks"
+    },
+    {
+      "id": "vfx_term_315",
+      "category": "命中",
+      "role": "contact-peak",
+      "family": "impact",
+      "zh": "碎片飞散",
+      "en": "Fragment Scatter"
+    },
+    {
+      "id": "vfx_term_316",
+      "category": "命中",
+      "role": "contact-peak",
+      "family": "impact",
+      "zh": "地面裂开",
+      "en": "Ground Fracture"
+    },
+    {
+      "id": "vfx_term_317",
+      "category": "命中",
+      "role": "contact-peak",
+      "family": "impact",
+      "zh": "屏幕震动",
+      "en": "Screen Shake"
+    },
+    {
+      "id": "vfx_term_318",
+      "category": "命中",
+      "role": "contact-peak",
+      "family": "impact",
+      "zh": "镜头冲击",
+      "en": "Camera Impact"
+    },
+    {
+      "id": "vfx_term_319",
+      "category": "命中",
+      "role": "contact-peak",
+      "family": "impact",
+      "zh": "敌人击退",
+      "en": "Knockback"
+    },
+    {
+      "id": "vfx_term_320",
+      "category": "命中",
+      "role": "contact-peak",
+      "family": "impact",
+      "zh": "冲击波扩散",
+      "en": "Impact Shockwave"
+    },
+    {
+      "id": "vfx_term_321",
+      "category": "命中",
+      "role": "contact-peak",
+      "family": "impact",
+      "zh": "能量溅射",
+      "en": "Energy Splash"
+    },
+    {
+      "id": "vfx_term_322",
+      "category": "命中",
+      "role": "contact-peak",
+      "family": "impact",
+      "zh": "火花爆裂",
+      "en": "Spark Explosion"
+    },
+    {
+      "id": "vfx_term_323",
+      "category": "命中",
+      "role": "contact-peak",
+      "family": "impact",
+      "zh": "碎石飞扬",
+      "en": "Debris Burst"
+    },
+    {
+      "id": "vfx_term_324",
+      "category": "命中",
+      "role": "contact-peak",
+      "family": "impact",
+      "zh": "烟尘扩散",
+      "en": "Dust Cloud"
+    },
+    {
+      "id": "vfx_term_325",
+      "category": "持续技能",
+      "role": "sustain",
+      "family": "sustained-field",
+      "zh": "持续燃烧",
+      "en": "Burning"
+    },
+    {
+      "id": "vfx_term_326",
+      "category": "持续技能",
+      "role": "sustain",
+      "family": "sustained-field",
+      "zh": "持续放电",
+      "en": "Electrical Arc"
+    },
+    {
+      "id": "vfx_term_327",
+      "category": "持续技能",
+      "role": "sustain",
+      "family": "sustained-field",
+      "zh": "持续冻结",
+      "en": "Frozen Aura"
+    },
+    {
+      "id": "vfx_term_328",
+      "category": "持续技能",
+      "role": "sustain",
+      "family": "sustained-field",
+      "zh": "持续毒化",
+      "en": "Poison Cloud"
+    },
+    {
+      "id": "vfx_term_329",
+      "category": "持续技能",
+      "role": "sustain",
+      "family": "sustained-field",
+      "zh": "持续治疗",
+      "en": "Healing Aura"
+    },
+    {
+      "id": "vfx_term_330",
+      "category": "持续技能",
+      "role": "sustain",
+      "family": "sustained-field",
+      "zh": "持续光环",
+      "en": "Aura Effect"
+    },
+    {
+      "id": "vfx_term_331",
+      "category": "持续技能",
+      "role": "sustain",
+      "family": "sustained-field",
+      "zh": "持续护盾",
+      "en": "Energy Shield"
+    },
+    {
+      "id": "vfx_term_332",
+      "category": "持续技能",
+      "role": "sustain",
+      "family": "sustained-field",
+      "zh": "持续领域",
+      "en": "Field Effect"
+    },
+    {
+      "id": "vfx_term_333",
+      "category": "持续技能",
+      "role": "sustain",
+      "family": "sustained-field",
+      "zh": "持续重力场",
+      "en": "Gravity Field"
+    },
+    {
+      "id": "vfx_term_334",
+      "category": "持续技能",
+      "role": "sustain",
+      "family": "sustained-field",
+      "zh": "持续磁场",
+      "en": "Magnetic Field"
+    },
+    {
+      "id": "vfx_term_335",
+      "category": "持续技能",
+      "role": "sustain",
+      "family": "sustained-field",
+      "zh": "持续结界",
+      "en": "Barrier Field"
+    },
+    {
+      "id": "vfx_term_336",
+      "category": "收尾",
+      "role": "decay",
+      "family": "lifecycle",
+      "zh": "能量消散",
+      "en": "Energy Dissipation"
+    },
+    {
+      "id": "vfx_term_337",
+      "category": "收尾",
+      "role": "decay",
+      "family": "lifecycle",
+      "zh": "粒子散去",
+      "en": "Particle Fade"
+    },
+    {
+      "id": "vfx_term_338",
+      "category": "收尾",
+      "role": "decay",
+      "family": "lifecycle",
+      "zh": "光芒渐隐",
+      "en": "Light Fade"
+    },
+    {
+      "id": "vfx_term_339",
+      "category": "收尾",
+      "role": "decay",
+      "family": "lifecycle",
+      "zh": "余波扩散",
+      "en": "Residual Shockwave"
+    },
+    {
+      "id": "vfx_term_340",
+      "category": "收尾",
+      "role": "decay",
+      "family": "lifecycle",
+      "zh": "残影消失",
+      "en": "Afterimage Fade"
+    },
+    {
+      "id": "vfx_term_341",
+      "category": "收尾",
+      "role": "decay",
+      "family": "lifecycle",
+      "zh": "法阵熄灭",
+      "en": "Magic Circle Fade"
+    },
+    {
+      "id": "vfx_term_342",
+      "category": "收尾",
+      "role": "decay",
+      "family": "lifecycle",
+      "zh": "空间恢复",
+      "en": "Space Restoration"
+    },
+    {
+      "id": "vfx_term_343",
+      "category": "收尾",
+      "role": "decay",
+      "family": "lifecycle",
+      "zh": "烟雾消散",
+      "en": "Smoke Dissolve"
+    },
+    {
+      "id": "vfx_term_344",
+      "category": "收尾",
+      "role": "decay",
+      "family": "lifecycle",
+      "zh": "光点飘散",
+      "en": "Light Dust Drift"
+    },
+    {
+      "id": "vfx_term_345",
+      "category": "收尾",
+      "role": "decay",
+      "family": "lifecycle",
+      "zh": "最终定格",
+      "en": "Hero Freeze"
+    },
+    {
+      "id": "vfx_term_346",
+      "category": "收尾",
+      "role": "decay",
+      "family": "lifecycle",
+      "zh": "英雄展示",
+      "en": "Hero Reveal"
+    },
+    {
+      "id": "vfx_term_347",
+      "category": "收尾",
+      "role": "decay",
+      "family": "lifecycle",
+      "zh": "辉光收束",
+      "en": "Glow Convergence"
+    },
+    {
+      "id": "vfx_term_348",
+      "category": "视觉类型",
+      "role": "carrier",
+      "family": "particle",
+      "zh": "灰尘粒子",
+      "en": "Dust Particles"
+    },
+    {
+      "id": "vfx_term_349",
+      "category": "视觉类型",
+      "role": "carrier",
+      "family": "particle",
+      "zh": "闪光粒子",
+      "en": "Sparkles"
+    },
+    {
+      "id": "vfx_term_350",
+      "category": "视觉类型",
+      "role": "carrier",
+      "family": "particle",
+      "zh": "辉光粒子",
+      "en": "Glow Particles"
+    },
+    {
+      "id": "vfx_term_351",
+      "category": "视觉类型",
+      "role": "carrier",
+      "family": "particle",
+      "zh": "能量粒子",
+      "en": "Energy Particles"
+    },
+    {
+      "id": "vfx_term_352",
+      "category": "视觉类型",
+      "role": "carrier",
+      "family": "particle",
+      "zh": "火星粒子",
+      "en": "Fire Embers"
+    },
+    {
+      "id": "vfx_term_353",
+      "category": "视觉类型",
+      "role": "carrier",
+      "family": "particle",
+      "zh": "烟雾粒子",
+      "en": "Smoke Particles"
+    },
+    {
+      "id": "vfx_term_354",
+      "category": "视觉类型",
+      "role": "carrier",
+      "family": "particle",
+      "zh": "雾气粒子",
+      "en": "Mist Particles"
+    },
+    {
+      "id": "vfx_term_355",
+      "category": "视觉类型",
+      "role": "carrier",
+      "family": "particle",
+      "zh": "雪花粒子",
+      "en": "Snow Particles"
+    },
+    {
+      "id": "vfx_term_356",
+      "category": "视觉类型",
+      "role": "carrier",
+      "family": "particle",
+      "zh": "雨滴粒子",
+      "en": "Rain Droplets"
+    },
+    {
+      "id": "vfx_term_357",
+      "category": "视觉类型",
+      "role": "carrier",
+      "family": "particle",
+      "zh": "水花粒子",
+      "en": "Water Splash"
+    },
+    {
+      "id": "vfx_term_358",
+      "category": "视觉类型",
+      "role": "carrier",
+      "family": "particle",
+      "zh": "气泡粒子",
+      "en": "Bubble Particles"
+    },
+    {
+      "id": "vfx_term_359",
+      "category": "视觉类型",
+      "role": "carrier",
+      "family": "particle",
+      "zh": "灰烬粒子",
+      "en": "Ash Particles"
+    },
+    {
+      "id": "vfx_term_360",
+      "category": "视觉类型",
+      "role": "carrier",
+      "family": "particle",
+      "zh": "水晶碎片",
+      "en": "Crystal Fragments"
+    },
+    {
+      "id": "vfx_term_361",
+      "category": "视觉类型",
+      "role": "carrier",
+      "family": "particle",
+      "zh": "玻璃碎片",
+      "en": "Glass Shards"
+    },
+    {
+      "id": "vfx_term_362",
+      "category": "视觉类型",
+      "role": "carrier",
+      "family": "particle",
+      "zh": "金属碎片",
+      "en": "Metal Fragments"
+    },
+    {
+      "id": "vfx_term_363",
+      "category": "视觉类型",
+      "role": "carrier",
+      "family": "particle",
+      "zh": "彩纸碎屑",
+      "en": "Paper Confetti"
+    },
+    {
+      "id": "vfx_term_364",
+      "category": "视觉类型",
+      "role": "carrier",
+      "family": "particle",
+      "zh": "花瓣粒子",
+      "en": "Petals"
+    },
+    {
+      "id": "vfx_term_365",
+      "category": "视觉类型",
+      "role": "carrier",
+      "family": "particle",
+      "zh": "树叶粒子",
+      "en": "Leaves"
+    },
+    {
+      "id": "vfx_term_366",
+      "category": "视觉类型",
+      "role": "carrier",
+      "family": "particle",
+      "zh": "光球粒子",
+      "en": "Light Orbs"
+    },
+    {
+      "id": "vfx_term_367",
+      "category": "视觉类型",
+      "role": "carrier",
+      "family": "particle",
+      "zh": "像素粒子",
+      "en": "Pixel Particles"
+    },
+    {
+      "id": "vfx_term_368",
+      "category": "视觉类型",
+      "role": "carrier",
+      "family": "particle",
+      "zh": "数字噪点",
+      "en": "Digital Noise"
+    },
+    {
+      "id": "vfx_term_369",
+      "category": "视觉类型",
+      "role": "carrier",
+      "family": "particle",
+      "zh": "数据流粒子",
+      "en": "Data Stream"
+    },
+    {
+      "id": "vfx_term_370",
+      "category": "视觉类型",
+      "role": "carrier",
+      "family": "particle",
+      "zh": "几何粒子",
+      "en": "Geometric Particles"
+    },
+    {
+      "id": "vfx_term_371",
+      "category": "视觉类型",
+      "role": "carrier",
+      "family": "particle",
+      "zh": "墨迹粒子",
+      "en": "Ink Splashes"
+    },
+    {
+      "id": "vfx_term_372",
+      "category": "视觉类型",
+      "role": "carrier",
+      "family": "particle",
+      "zh": "液体粒子",
+      "en": "Liquid Droplets"
+    },
+    {
+      "id": "vfx_term_373",
+      "category": "生成",
+      "role": "formation",
+      "family": "energy",
+      "zh": "持续发射",
+      "en": "Continuous Emission"
+    },
+    {
+      "id": "vfx_term_374",
+      "category": "生成",
+      "role": "formation",
+      "family": "energy",
+      "zh": "瞬间爆发",
+      "en": "Burst Emission"
+    },
+    {
+      "id": "vfx_term_375",
+      "category": "生成",
+      "role": "formation",
+      "family": "energy",
+      "zh": "脉冲发射",
+      "en": "Pulse Emission"
+    },
+    {
+      "id": "vfx_term_376",
+      "category": "生成",
+      "role": "formation",
+      "family": "energy",
+      "zh": "波浪式发射",
+      "en": "Wave Emission"
+    },
+    {
+      "id": "vfx_term_377",
+      "category": "生成",
+      "role": "formation",
+      "family": "energy",
+      "zh": "随机发射",
+      "en": "Random Emission"
+    },
+    {
+      "id": "vfx_term_378",
+      "category": "生成",
+      "role": "formation",
+      "family": "energy",
+      "zh": "定向发射",
+      "en": "Directional Emission"
+    },
+    {
+      "id": "vfx_term_379",
+      "category": "生成",
+      "role": "formation",
+      "family": "energy",
+      "zh": "径向发射",
+      "en": "Radial Emission"
+    },
+    {
+      "id": "vfx_term_380",
+      "category": "生成",
+      "role": "formation",
+      "family": "energy",
+      "zh": "螺旋发射",
+      "en": "Spiral Emission"
+    },
+    {
+      "id": "vfx_term_381",
+      "category": "生成",
+      "role": "formation",
+      "family": "energy",
+      "zh": "锥形发射",
+      "en": "Cone Emission"
+    },
+    {
+      "id": "vfx_term_382",
+      "category": "生成",
+      "role": "formation",
+      "family": "energy",
+      "zh": "环形发射",
+      "en": "Ring Emission"
+    },
+    {
+      "id": "vfx_term_383",
+      "category": "生成",
+      "role": "formation",
+      "family": "energy",
+      "zh": "表面发射",
+      "en": "Surface Emission"
+    },
+    {
+      "id": "vfx_term_384",
+      "category": "生成",
+      "role": "formation",
+      "family": "energy",
+      "zh": "边缘发射",
+      "en": "Edge Emission"
+    },
+    {
+      "id": "vfx_term_385",
+      "category": "生成",
+      "role": "formation",
+      "family": "energy",
+      "zh": "点状发射",
+      "en": "Point Emission"
+    },
+    {
+      "id": "vfx_term_386",
+      "category": "生成",
+      "role": "formation",
+      "family": "energy",
+      "zh": "体积发射",
+      "en": "Volume Emission"
+    },
+    {
+      "id": "vfx_term_387",
+      "category": "生成",
+      "role": "formation",
+      "family": "energy",
+      "zh": "拖尾发射",
+      "en": "Trail Emission"
+    },
+    {
+      "id": "vfx_term_388",
+      "category": "生成",
+      "role": "formation",
+      "family": "energy",
+      "zh": "移动发射源",
+      "en": "Moving Emitter"
+    },
+    {
+      "id": "vfx_term_389",
+      "category": "生成",
+      "role": "formation",
+      "family": "energy",
+      "zh": "跟随发射",
+      "en": "Follow Emission"
+    },
+    {
+      "id": "vfx_term_390",
+      "category": "生成",
+      "role": "formation",
+      "family": "energy",
+      "zh": "逐渐增强发射",
+      "en": "Growing Emission"
+    },
+    {
+      "id": "vfx_term_391",
+      "category": "生成",
+      "role": "formation",
+      "family": "energy",
+      "zh": "逐渐减弱发射",
+      "en": "Fading Emission"
+    },
+    {
+      "id": "vfx_term_392",
+      "category": "生成",
+      "role": "formation",
+      "family": "energy",
+      "zh": "循环发射",
+      "en": "Looping Emission"
+    },
+    {
+      "id": "vfx_term_393",
+      "category": "空间分布",
+      "role": "path",
+      "family": "particle-depth",
+      "zh": "均匀分布",
+      "en": "Uniform Distribution"
+    },
+    {
+      "id": "vfx_term_394",
+      "category": "空间分布",
+      "role": "path",
+      "family": "particle-depth",
+      "zh": "随机分布",
+      "en": "Random Distribution"
+    },
+    {
+      "id": "vfx_term_395",
+      "category": "空间分布",
+      "role": "path",
+      "family": "particle-depth",
+      "zh": "簇状分布",
+      "en": "Clustered Distribution"
+    },
+    {
+      "id": "vfx_term_396",
+      "category": "空间分布",
+      "role": "path",
+      "family": "particle-depth",
+      "zh": "放射分布",
+      "en": "Radial Distribution"
+    },
+    {
+      "id": "vfx_term_397",
+      "category": "空间分布",
+      "role": "path",
+      "family": "particle-depth",
+      "zh": "环形分布",
+      "en": "Circular Distribution"
+    },
+    {
+      "id": "vfx_term_398",
+      "category": "空间分布",
+      "role": "path",
+      "family": "particle-depth",
+      "zh": "网格分布",
+      "en": "Grid Distribution"
+    },
+    {
+      "id": "vfx_term_399",
+      "category": "空间分布",
+      "role": "path",
+      "family": "particle-depth",
+      "zh": "层叠分布",
+      "en": "Layered Distribution"
+    },
+    {
+      "id": "vfx_term_400",
+      "category": "空间分布",
+      "role": "path",
+      "family": "particle-depth",
+      "zh": "景深分布",
+      "en": "Depth Distribution"
+    },
+    {
+      "id": "vfx_term_401",
+      "category": "空间分布",
+      "role": "path",
+      "family": "particle-depth",
+      "zh": "前景粒子",
+      "en": "Foreground Particles"
+    },
+    {
+      "id": "vfx_term_402",
+      "category": "空间分布",
+      "role": "path",
+      "family": "particle-depth",
+      "zh": "中景粒子",
+      "en": "Midground Particles"
+    },
+    {
+      "id": "vfx_term_403",
+      "category": "空间分布",
+      "role": "path",
+      "family": "particle-depth",
+      "zh": "背景粒子",
+      "en": "Background Particles"
+    },
+    {
+      "id": "vfx_term_404",
+      "category": "空间分布",
+      "role": "path",
+      "family": "particle-depth",
+      "zh": "无限粒子场",
+      "en": "Infinite Particle Field"
+    },
+    {
+      "id": "vfx_term_405",
+      "category": "空间分布",
+      "role": "path",
+      "family": "particle-depth",
+      "zh": "高密度粒子云",
+      "en": "Dense Particle Cloud"
+    },
+    {
+      "id": "vfx_term_406",
+      "category": "空间分布",
+      "role": "path",
+      "family": "particle-depth",
+      "zh": "稀疏粒子",
+      "en": "Sparse Particles"
+    },
+    {
+      "id": "vfx_term_407",
+      "category": "空间分布",
+      "role": "path",
+      "family": "particle-depth",
+      "zh": "体积粒子空间",
+      "en": "Volumetric Particle Space"
+    },
+    {
+      "id": "vfx_term_408",
+      "category": "运动",
+      "role": "path",
+      "family": "particle-motion",
+      "zh": "漂浮",
+      "en": "Floating"
+    },
+    {
+      "id": "vfx_term_409",
+      "category": "运动",
+      "role": "path",
+      "family": "particle-motion",
+      "zh": "缓慢飘移",
+      "en": "Drifting"
+    },
+    {
+      "id": "vfx_term_410",
+      "category": "运动",
+      "role": "path",
+      "family": "particle-motion",
+      "zh": "流动",
+      "en": "Flowing"
+    },
+    {
+      "id": "vfx_term_411",
+      "category": "运动",
+      "role": "path",
+      "family": "particle-motion",
+      "zh": "流线运动",
+      "en": "Streaming"
+    },
+    {
+      "id": "vfx_term_412",
+      "category": "运动",
+      "role": "path",
+      "family": "particle-motion",
+      "zh": "旋转盘旋",
+      "en": "Swirling"
+    },
+    {
+      "id": "vfx_term_413",
+      "category": "运动",
+      "role": "path",
+      "family": "particle-motion",
+      "zh": "轨道环绕",
+      "en": "Orbiting"
+    },
+    {
+      "id": "vfx_term_414",
+      "category": "运动",
+      "role": "path",
+      "family": "particle-motion",
+      "zh": "螺旋运动",
+      "en": "Spiraling"
+    },
+    {
+      "id": "vfx_term_415",
+      "category": "运动",
+      "role": "path",
+      "family": "particle-motion",
+      "zh": "随机游走",
+      "en": "Wandering"
+    },
+    {
+      "id": "vfx_term_416",
+      "category": "运动",
+      "role": "path",
+      "family": "particle-motion",
+      "zh": "向上升腾",
+      "en": "Ascending"
+    },
+    {
+      "id": "vfx_term_417",
+      "category": "运动",
+      "role": "path",
+      "family": "particle-motion",
+      "zh": "向下飘落",
+      "en": "Descending"
+    },
+    {
+      "id": "vfx_term_418",
+      "category": "运动",
+      "role": "path",
+      "family": "particle-motion",
+      "zh": "向外扩散",
+      "en": "Expanding"
+    },
+    {
+      "id": "vfx_term_419",
+      "category": "运动",
+      "role": "path",
+      "family": "particle-motion",
+      "zh": "向内收缩",
+      "en": "Contracting"
+    },
+    {
+      "id": "vfx_term_420",
+      "category": "运动",
+      "role": "path",
+      "family": "particle-motion",
+      "zh": "向中心聚集",
+      "en": "Converging"
+    },
+    {
+      "id": "vfx_term_421",
+      "category": "运动",
+      "role": "path",
+      "family": "particle-motion",
+      "zh": "四散分离",
+      "en": "Diverging"
+    },
+    {
+      "id": "vfx_term_422",
+      "category": "运动",
+      "role": "path",
+      "family": "particle-motion",
+      "zh": "散射",
+      "en": "Scattering"
+    },
+    {
+      "id": "vfx_term_423",
+      "category": "运动",
+      "role": "path",
+      "family": "particle-motion",
+      "zh": "爆炸扩散",
+      "en": "Exploding"
+    },
+    {
+      "id": "vfx_term_424",
+      "category": "运动",
+      "role": "path",
+      "family": "particle-motion",
+      "zh": "向内塌缩",
+      "en": "Imploding"
+    },
+    {
+      "id": "vfx_term_425",
+      "category": "运动",
+      "role": "path",
+      "family": "particle-motion",
+      "zh": "弹跳",
+      "en": "Bouncing"
+    },
+    {
+      "id": "vfx_term_426",
+      "category": "运动",
+      "role": "path",
+      "family": "particle-motion",
+      "zh": "滑动",
+      "en": "Sliding"
+    },
+    {
+      "id": "vfx_term_427",
+      "category": "运动",
+      "role": "path",
+      "family": "particle-motion",
+      "zh": "滚动",
+      "en": "Rolling"
+    },
+    {
+      "id": "vfx_term_428",
+      "category": "运动",
+      "role": "path",
+      "family": "particle-motion",
+      "zh": "来回摆动",
+      "en": "Oscillating"
+    },
+    {
+      "id": "vfx_term_429",
+      "category": "运动",
+      "role": "path",
+      "family": "particle-motion",
+      "zh": "湍流运动",
+      "en": "Turbulent Motion"
+    },
+    {
+      "id": "vfx_term_430",
+      "category": "运动",
+      "role": "path",
+      "family": "particle-motion",
+      "zh": "布朗运动",
+      "en": "Brownian Motion"
+    },
+    {
+      "id": "vfx_term_431",
+      "category": "运动",
+      "role": "path",
+      "family": "particle-motion",
+      "zh": "波浪运动",
+      "en": "Wave Motion"
+    },
+    {
+      "id": "vfx_term_432",
+      "category": "运动",
+      "role": "path",
+      "family": "particle-motion",
+      "zh": "涡流运动",
+      "en": "Vortex Motion"
+    },
+    {
+      "id": "vfx_term_433",
+      "category": "速度变化",
+      "role": "path",
+      "family": "motion-curve",
+      "zh": "缓慢漂移",
+      "en": "Slow Drift"
+    },
+    {
+      "id": "vfx_term_434",
+      "category": "速度变化",
+      "role": "path",
+      "family": "motion-curve",
+      "zh": "柔和流动",
+      "en": "Gentle Flow"
+    },
+    {
+      "id": "vfx_term_435",
+      "category": "速度变化",
+      "role": "path",
+      "family": "motion-curve",
+      "zh": "逐渐加速",
+      "en": "Gradual Acceleration"
+    },
+    {
+      "id": "vfx_term_436",
+      "category": "速度变化",
+      "role": "path",
+      "family": "motion-curve",
+      "zh": "极速加速",
+      "en": "Rapid Acceleration"
+    },
+    {
+      "id": "vfx_term_437",
+      "category": "速度变化",
+      "role": "path",
+      "family": "motion-curve",
+      "zh": "突然爆发",
+      "en": "Sudden Burst"
+    },
+    {
+      "id": "vfx_term_438",
+      "category": "速度变化",
+      "role": "path",
+      "family": "motion-curve",
+      "zh": "快速消散",
+      "en": "Quick Dissipation"
+    },
+    {
+      "id": "vfx_term_439",
+      "category": "速度变化",
+      "role": "path",
+      "family": "motion-curve",
+      "zh": "缓入",
+      "en": "Ease In"
+    },
+    {
+      "id": "vfx_term_440",
+      "category": "速度变化",
+      "role": "path",
+      "family": "motion-curve",
+      "zh": "缓出",
+      "en": "Ease Out"
+    },
+    {
+      "id": "vfx_term_441",
+      "category": "速度变化",
+      "role": "path",
+      "family": "motion-curve",
+      "zh": "缓入缓出",
+      "en": "Ease In Out"
+    },
+    {
+      "id": "vfx_term_442",
+      "category": "速度变化",
+      "role": "path",
+      "family": "motion-curve",
+      "zh": "快到慢",
+      "en": "Fast to Slow"
+    },
+    {
+      "id": "vfx_term_443",
+      "category": "速度变化",
+      "role": "path",
+      "family": "motion-curve",
+      "zh": "慢到快",
+      "en": "Slow to Fast"
+    },
+    {
+      "id": "vfx_term_444",
+      "category": "速度变化",
+      "role": "path",
+      "family": "motion-curve",
+      "zh": "加速度曲线",
+      "en": "Acceleration Curve"
+    },
+    {
+      "id": "vfx_term_445",
+      "category": "速度变化",
+      "role": "path",
+      "family": "motion-curve",
+      "zh": "减速度曲线",
+      "en": "Deceleration Curve"
+    },
+    {
+      "id": "vfx_term_446",
+      "category": "速度变化",
+      "role": "path",
+      "family": "motion-curve",
+      "zh": "弹性运动",
+      "en": "Elastic Motion"
+    },
+    {
+      "id": "vfx_term_447",
+      "category": "速度变化",
+      "role": "path",
+      "family": "motion-curve",
+      "zh": "惯性运动",
+      "en": "Inertia Motion"
+    },
+    {
+      "id": "vfx_term_448",
+      "category": "速度变化",
+      "role": "path",
+      "family": "motion-curve",
+      "zh": "节奏脉冲",
+      "en": "Rhythmic Pulsing"
+    },
+    {
+      "id": "vfx_term_449",
+      "category": "速度变化",
+      "role": "path",
+      "family": "motion-curve",
+      "zh": "持续运动",
+      "en": "Continuous Motion"
+    },
+    {
+      "id": "vfx_term_450",
+      "category": "速度变化",
+      "role": "path",
+      "family": "motion-curve",
+      "zh": "随机速度变化",
+      "en": "Random Speed Variation"
+    },
+    {
+      "id": "vfx_term_451",
+      "category": "生命周期",
+      "role": "decay",
+      "family": "lifecycle",
+      "zh": "渐显",
+      "en": "Fade In"
+    },
+    {
+      "id": "vfx_term_452",
+      "category": "生命周期",
+      "role": "decay",
+      "family": "lifecycle",
+      "zh": "渐隐",
+      "en": "Fade Out"
+    },
+    {
+      "id": "vfx_term_453",
+      "category": "生命周期",
+      "role": "decay",
+      "family": "lifecycle",
+      "zh": "逐渐变大",
+      "en": "Grow"
+    },
+    {
+      "id": "vfx_term_454",
+      "category": "生命周期",
+      "role": "decay",
+      "family": "lifecycle",
+      "zh": "逐渐缩小",
+      "en": "Shrink"
+    },
+    {
+      "id": "vfx_term_455",
+      "category": "生命周期",
+      "role": "decay",
+      "family": "lifecycle",
+      "zh": "生成动画",
+      "en": "Birth Animation"
+    },
+    {
+      "id": "vfx_term_456",
+      "category": "生命周期",
+      "role": "decay",
+      "family": "lifecycle",
+      "zh": "消亡动画",
+      "en": "Death Animation"
+    },
+    {
+      "id": "vfx_term_457",
+      "category": "生命周期",
+      "role": "decay",
+      "family": "lifecycle",
+      "zh": "溶解消散",
+      "en": "Dissolve"
+    },
+    {
+      "id": "vfx_term_458",
+      "category": "生命周期",
+      "role": "decay",
+      "family": "lifecycle",
+      "zh": "蒸发",
+      "en": "Evaporate"
+    },
+    {
+      "id": "vfx_term_459",
+      "category": "生命周期",
+      "role": "decay",
+      "family": "lifecycle",
+      "zh": "瓦解",
+      "en": "Disintegrate"
+    },
+    {
+      "id": "vfx_term_460",
+      "category": "生命周期",
+      "role": "decay",
+      "family": "lifecycle",
+      "zh": "碎裂",
+      "en": "Fragment"
+    },
+    {
+      "id": "vfx_term_461",
+      "category": "生命周期",
+      "role": "decay",
+      "family": "lifecycle",
+      "zh": "重新聚合",
+      "en": "Reassemble"
+    },
+    {
+      "id": "vfx_term_462",
+      "category": "生命周期",
+      "role": "decay",
+      "family": "lifecycle",
+      "zh": "形态变化",
+      "en": "Morph"
+    },
+    {
+      "id": "vfx_term_463",
+      "category": "生命周期",
+      "role": "decay",
+      "family": "lifecycle",
+      "zh": "循环重生",
+      "en": "Respawn"
+    },
+    {
+      "id": "vfx_term_464",
+      "category": "生命周期",
+      "role": "decay",
+      "family": "lifecycle",
+      "zh": "无限循环",
+      "en": "Loop Forever"
+    },
+    {
+      "id": "vfx_term_465",
+      "category": "生命周期",
+      "role": "decay",
+      "family": "lifecycle",
+      "zh": "逐步显现",
+      "en": "Progressive Reveal"
+    },
+    {
+      "id": "vfx_term_466",
+      "category": "聚散",
+      "role": "path",
+      "family": "particle-motion",
+      "zh": "聚集",
+      "en": "Gather"
+    },
+    {
+      "id": "vfx_term_467",
+      "category": "聚散",
+      "role": "path",
+      "family": "particle-motion",
+      "zh": "吸附",
+      "en": "Attract"
+    },
+    {
+      "id": "vfx_term_468",
+      "category": "聚散",
+      "role": "path",
+      "family": "particle-motion",
+      "zh": "排斥",
+      "en": "Repel"
+    },
+    {
+      "id": "vfx_term_469",
+      "category": "聚散",
+      "role": "path",
+      "family": "particle-motion",
+      "zh": "融合",
+      "en": "Merge"
+    },
+    {
+      "id": "vfx_term_470",
+      "category": "聚散",
+      "role": "path",
+      "family": "particle-motion",
+      "zh": "分离",
+      "en": "Separate"
+    },
+    {
+      "id": "vfx_term_471",
+      "category": "聚散",
+      "role": "path",
+      "family": "particle-motion",
+      "zh": "裂变",
+      "en": "Split"
+    },
+    {
+      "id": "vfx_term_472",
+      "category": "聚散",
+      "role": "path",
+      "family": "particle-motion",
+      "zh": "倍增",
+      "en": "Multiply"
+    },
+    {
+      "id": "vfx_term_473",
+      "category": "聚散",
+      "role": "path",
+      "family": "particle-motion",
+      "zh": "级联扩散",
+      "en": "Cascade"
+    },
+    {
+      "id": "vfx_term_474",
+      "category": "聚散",
+      "role": "path",
+      "family": "particle-motion",
+      "zh": "连锁反应",
+      "en": "Chain Reaction"
+    },
+    {
+      "id": "vfx_term_475",
+      "category": "聚散",
+      "role": "path",
+      "family": "particle-motion",
+      "zh": "磁力吸引",
+      "en": "Magnetic Attraction"
+    },
+    {
+      "id": "vfx_term_476",
+      "category": "聚散",
+      "role": "path",
+      "family": "particle-motion",
+      "zh": "重力牵引",
+      "en": "Gravity Pull"
+    },
+    {
+      "id": "vfx_term_477",
+      "category": "聚散",
+      "role": "path",
+      "family": "particle-motion",
+      "zh": "重力下落",
+      "en": "Gravity Fall"
+    },
+    {
+      "id": "vfx_term_478",
+      "category": "聚散",
+      "role": "path",
+      "family": "particle-motion",
+      "zh": "碰撞",
+      "en": "Collision"
+    },
+    {
+      "id": "vfx_term_479",
+      "category": "聚散",
+      "role": "path",
+      "family": "particle-motion",
+      "zh": "碰撞反弹",
+      "en": "Bounce Off"
+    },
+    {
+      "id": "vfx_term_480",
+      "category": "聚散",
+      "role": "path",
+      "family": "particle-motion",
+      "zh": "包裹目标",
+      "en": "Wrap Around"
+    },
+    {
+      "id": "vfx_term_481",
+      "category": "聚散",
+      "role": "path",
+      "family": "particle-motion",
+      "zh": "附着",
+      "en": "Attach"
+    },
+    {
+      "id": "vfx_term_482",
+      "category": "聚散",
+      "role": "path",
+      "family": "particle-motion",
+      "zh": "脱离",
+      "en": "Detach"
+    },
+    {
+      "id": "vfx_term_483",
+      "category": "聚散",
+      "role": "path",
+      "family": "particle-motion",
+      "zh": "跟随目标",
+      "en": "Follow Target"
+    },
+    {
+      "id": "vfx_term_484",
+      "category": "聚散",
+      "role": "path",
+      "family": "particle-motion",
+      "zh": "围绕目标旋转",
+      "en": "Orbit Target"
+    },
+    {
+      "id": "vfx_term_485",
+      "category": "聚散",
+      "role": "path",
+      "family": "particle-motion",
+      "zh": "蜂群运动",
+      "en": "Swarm Behavior"
+    },
+    {
+      "id": "vfx_term_486",
+      "category": "高级表现",
+      "role": "presentation",
+      "family": "particle-presentation",
+      "zh": "粒子拖尾",
+      "en": "Particle Trails"
+    },
+    {
+      "id": "vfx_term_487",
+      "category": "高级表现",
+      "role": "presentation",
+      "family": "particle-presentation",
+      "zh": "动态模糊粒子",
+      "en": "Motion Blur Particles"
+    },
+    {
+      "id": "vfx_term_488",
+      "category": "高级表现",
+      "role": "presentation",
+      "family": "particle-presentation",
+      "zh": "辉光泛光",
+      "en": "Glow Bloom"
+    },
+    {
+      "id": "vfx_term_489",
+      "category": "高级表现",
+      "role": "presentation",
+      "family": "particle-presentation",
+      "zh": "体积光尘",
+      "en": "Volumetric Light Dust"
+    },
+    {
+      "id": "vfx_term_490",
+      "category": "高级表现",
+      "role": "presentation",
+      "family": "particle-presentation",
+      "zh": "光束拖影",
+      "en": "Light Streaks"
+    },
+    {
+      "id": "vfx_term_491",
+      "category": "高级表现",
+      "role": "presentation",
+      "family": "particle-presentation",
+      "zh": "色散辉光粒子",
+      "en": "Chromatic Particle Glow"
+    },
+    {
+      "id": "vfx_term_492",
+      "category": "高级表现",
+      "role": "presentation",
+      "family": "particle-presentation",
+      "zh": "棱镜粒子",
+      "en": "Prismatic Particles"
+    },
+    {
+      "id": "vfx_term_493",
+      "category": "高级表现",
+      "role": "presentation",
+      "family": "particle-presentation",
+      "zh": "电弧火花",
+      "en": "Electric Sparks"
+    },
+    {
+      "id": "vfx_term_494",
+      "category": "高级表现",
+      "role": "presentation",
+      "family": "particle-presentation",
+      "zh": "能量流",
+      "en": "Energy Streams"
+    },
+    {
+      "id": "vfx_term_495",
+      "category": "高级表现",
+      "role": "presentation",
+      "family": "particle-presentation",
+      "zh": "闪电碎片",
+      "en": "Lightning Fragments"
+    },
+    {
+      "id": "vfx_term_496",
+      "category": "高级表现",
+      "role": "presentation",
+      "family": "particle-presentation",
+      "zh": "星云粒子",
+      "en": "Nebula Particles"
+    },
+    {
+      "id": "vfx_term_497",
+      "category": "高级表现",
+      "role": "presentation",
+      "family": "particle-presentation",
+      "zh": "银河尘埃",
+      "en": "Galaxy Dust"
+    },
+    {
+      "id": "vfx_term_498",
+      "category": "高级表现",
+      "role": "presentation",
+      "family": "particle-presentation",
+      "zh": "宇宙粒子",
+      "en": "Cosmic Particles"
+    },
+    {
+      "id": "vfx_term_499",
+      "category": "高级表现",
+      "role": "presentation",
+      "family": "particle-presentation",
+      "zh": "流体粒子",
+      "en": "Fluid Particles"
+    },
+    {
+      "id": "vfx_term_500",
+      "category": "高级表现",
+      "role": "presentation",
+      "family": "particle-presentation",
+      "zh": "魔法粉尘",
+      "en": "Magical Dust"
+    },
+    {
+      "id": "vfx_term_501",
+      "category": "高级表现",
+      "role": "presentation",
+      "family": "particle-presentation",
+      "zh": "全息粒子",
+      "en": "Holographic Particles"
+    },
+    {
+      "id": "vfx_term_502",
+      "category": "高级表现",
+      "role": "presentation",
+      "family": "particle-presentation",
+      "zh": "故障粒子",
+      "en": "Glitch Particles"
+    },
+    {
+      "id": "vfx_term_503",
+      "category": "高级表现",
+      "role": "presentation",
+      "family": "particle-presentation",
+      "zh": "像素爆炸",
+      "en": "Pixel Explosion"
+    },
+    {
+      "id": "vfx_term_504",
+      "category": "高级表现",
+      "role": "presentation",
+      "family": "particle-presentation",
+      "zh": "粒子丝带",
+      "en": "Particle Ribbon"
+    },
+    {
+      "id": "vfx_term_505",
+      "category": "高级表现",
+      "role": "presentation",
+      "family": "particle-presentation",
+      "zh": "粒子旋涡",
+      "en": "Particle Vortex"
+    },
+    {
+      "id": "vfx_term_506",
+      "category": "特殊",
+      "role": "light-color",
+      "family": "color-light",
+      "zh": "彩虹折射",
+      "en": "Prismatic Refraction"
+    },
+    {
+      "id": "vfx_term_507",
+      "category": "特殊",
+      "role": "light-color",
+      "family": "color-light",
+      "zh": "彩虹光谱",
+      "en": "Spectrum Colors"
+    },
+    {
+      "id": "vfx_term_508",
+      "category": "特殊",
+      "role": "light-color",
+      "family": "color-light",
+      "zh": "极光流动",
+      "en": "Aurora Flow"
+    },
+    {
+      "id": "vfx_term_509",
+      "category": "特殊",
+      "role": "light-color",
+      "family": "color-light",
+      "zh": "虹彩闪耀",
+      "en": "Iridescent Shine"
+    },
+    {
+      "id": "vfx_term_510",
+      "category": "特殊",
+      "role": "light-color",
+      "family": "color-light",
+      "zh": "偏振色变化",
+      "en": "Polarized Colors"
+    },
+    {
+      "id": "vfx_term_511",
+      "category": "特殊",
+      "role": "light-color",
+      "family": "color-light",
+      "zh": "珠光质感",
+      "en": "Pearlescent Finish"
+    },
+    {
+      "id": "vfx_term_512",
+      "category": "特殊",
+      "role": "light-color",
+      "family": "color-light",
+      "zh": "金属虹彩",
+      "en": "Metallic Iridescence"
+    },
+    {
+      "id": "vfx_term_513",
+      "category": "特殊",
+      "role": "light-color",
+      "family": "color-light",
+      "zh": "全息色彩",
+      "en": "Holographic Colors"
+    },
+    {
+      "id": "vfx_term_514",
+      "category": "特殊",
+      "role": "light-color",
+      "family": "color-light",
+      "zh": "油膜彩虹",
+      "en": "Oil Slick Colors"
+    },
+    {
+      "id": "vfx_term_515",
+      "category": "特殊",
+      "role": "light-color",
+      "family": "color-light",
+      "zh": "晶体折射",
+      "en": "Crystal Refraction"
+    },
+    {
+      "id": "vfx_term_516",
+      "category": "特殊",
+      "role": "light-color",
+      "family": "color-light",
+      "zh": "玻璃染色",
+      "en": "Colored Glass Refraction"
+    },
+    {
+      "id": "vfx_term_517",
+      "category": "能量",
+      "role": "carrier",
+      "family": "color-light",
+      "zh": "金色能量",
+      "en": "Golden Energy"
+    },
+    {
+      "id": "vfx_term_518",
+      "category": "能量",
+      "role": "carrier",
+      "family": "color-light",
+      "zh": "蓝色能量",
+      "en": "Blue Energy"
+    },
+    {
+      "id": "vfx_term_519",
+      "category": "能量",
+      "role": "carrier",
+      "family": "color-light",
+      "zh": "紫色魔法",
+      "en": "Purple Magic"
+    },
+    {
+      "id": "vfx_term_520",
+      "category": "能量",
+      "role": "carrier",
+      "family": "color-light",
+      "zh": "青色电流",
+      "en": "Cyan Electricity"
+    },
+    {
+      "id": "vfx_term_521",
+      "category": "能量",
+      "role": "carrier",
+      "family": "color-light",
+      "zh": "红色火焰",
+      "en": "Crimson Flames"
+    },
+    {
+      "id": "vfx_term_522",
+      "category": "能量",
+      "role": "carrier",
+      "family": "color-light",
+      "zh": "绿色生命能量",
+      "en": "Emerald Energy"
+    },
+    {
+      "id": "vfx_term_523",
+      "category": "能量",
+      "role": "carrier",
+      "family": "color-light",
+      "zh": "白色圣光",
+      "en": "Holy Light"
+    },
+    {
+      "id": "vfx_term_524",
+      "category": "能量",
+      "role": "carrier",
+      "family": "color-light",
+      "zh": "黑暗能量",
+      "en": "Dark Energy"
+    },
+    {
+      "id": "vfx_term_525",
+      "category": "能量",
+      "role": "carrier",
+      "family": "color-light",
+      "zh": "彩虹能量",
+      "en": "Rainbow Energy"
+    },
+    {
+      "id": "vfx_term_526",
+      "category": "能量",
+      "role": "carrier",
+      "family": "color-light",
+      "zh": "银河色能量",
+      "en": "Galaxy Energy"
+    },
+    {
+      "id": "vfx_term_527",
+      "category": "能量",
+      "role": "carrier",
+      "family": "color-light",
+      "zh": "星云色能量",
+      "en": "Nebula Colors"
+    },
+    {
+      "id": "vfx_term_528",
+      "category": "能量",
+      "role": "carrier",
+      "family": "color-light",
+      "zh": "等离子能量",
+      "en": "Plasma Glow"
+    },
+    {
+      "id": "vfx_term_529",
+      "category": "光效",
+      "role": "light-color",
+      "family": "color-light",
+      "zh": "柔和辉光",
+      "en": "Soft Glow"
+    },
+    {
+      "id": "vfx_term_530",
+      "category": "光效",
+      "role": "light-color",
+      "family": "color-light",
+      "zh": "强烈辉光",
+      "en": "Intense Glow"
+    },
+    {
+      "id": "vfx_term_531",
+      "category": "光效",
+      "role": "light-color",
+      "family": "color-light",
+      "zh": "边缘发光",
+      "en": "Edge Glow"
+    },
+    {
+      "id": "vfx_term_532",
+      "category": "光效",
+      "role": "light-color",
+      "family": "color-light",
+      "zh": "轮廓发光",
+      "en": "Outline Glow"
+    },
+    {
+      "id": "vfx_term_533",
+      "category": "光效",
+      "role": "light-color",
+      "family": "color-light",
+      "zh": "霓虹辉光",
+      "en": "Neon Glow"
+    },
+    {
+      "id": "vfx_term_534",
+      "category": "光效",
+      "role": "light-color",
+      "family": "color-light",
+      "zh": "脉冲辉光",
+      "en": "Pulsing Glow"
+    },
+    {
+      "id": "vfx_term_535",
+      "category": "光效",
+      "role": "light-color",
+      "family": "color-light",
+      "zh": "彩虹辉光",
+      "en": "Rainbow Glow"
+    },
+    {
+      "id": "vfx_term_536",
+      "category": "光效",
+      "role": "light-color",
+      "family": "color-light",
+      "zh": "体积发光",
+      "en": "Volumetric Glow"
+    },
+    {
+      "id": "vfx_term_537",
+      "category": "光效",
+      "role": "light-color",
+      "family": "color-light",
+      "zh": "动态发光",
+      "en": "Dynamic Glow"
+    },
+    {
+      "id": "vfx_term_538",
+      "category": "光效",
+      "role": "light-color",
+      "family": "color-light",
+      "zh": "呼吸发光",
+      "en": "Breathing Glow"
+    },
+    {
+      "id": "vfx_term_539",
+      "category": "光效",
+      "role": "light-color",
+      "family": "color-light",
+      "zh": "能量辉光",
+      "en": "Energy Glow"
+    },
+    {
+      "id": "vfx_term_540",
+      "category": "变化",
+      "role": "state-change",
+      "family": "color-light",
+      "zh": "颜色逐渐变化",
+      "en": "Gradually Shift Colors"
+    },
+    {
+      "id": "vfx_term_541",
+      "category": "变化",
+      "role": "state-change",
+      "family": "color-light",
+      "zh": "颜色缓慢过渡",
+      "en": "Smooth Color Transition"
+    },
+    {
+      "id": "vfx_term_542",
+      "category": "变化",
+      "role": "state-change",
+      "family": "color-light",
+      "zh": "颜色不断演化",
+      "en": "Evolving Colors"
+    },
+    {
+      "id": "vfx_term_543",
+      "category": "变化",
+      "role": "state-change",
+      "family": "color-light",
+      "zh": "颜色逐步增强",
+      "en": "Increasing Saturation"
+    },
+    {
+      "id": "vfx_term_544",
+      "category": "变化",
+      "role": "state-change",
+      "family": "color-light",
+      "zh": "颜色逐渐褪去",
+      "en": "Fade Colors"
+    },
+    {
+      "id": "vfx_term_545",
+      "category": "变化",
+      "role": "state-change",
+      "family": "color-light",
+      "zh": "颜色由暗变亮",
+      "en": "Dark to Bright"
+    },
+    {
+      "id": "vfx_term_546",
+      "category": "变化",
+      "role": "state-change",
+      "family": "color-light",
+      "zh": "颜色由亮变暗",
+      "en": "Bright to Dark"
+    },
+    {
+      "id": "vfx_term_547",
+      "category": "变化",
+      "role": "state-change",
+      "family": "color-light",
+      "zh": "冷色逐渐变暖",
+      "en": "Cool to Warm"
+    },
+    {
+      "id": "vfx_term_548",
+      "category": "变化",
+      "role": "state-change",
+      "family": "color-light",
+      "zh": "暖色逐渐变冷",
+      "en": "Warm to Cool"
+    },
+    {
+      "id": "vfx_term_549",
+      "category": "变化",
+      "role": "state-change",
+      "family": "color-light",
+      "zh": "黑白逐渐恢复彩色",
+      "en": "Monochrome to Full Color"
+    },
+    {
+      "id": "vfx_term_550",
+      "category": "变化",
+      "role": "state-change",
+      "family": "color-light",
+      "zh": "彩色逐渐变成黑白",
+      "en": "Color Drain"
+    },
+    {
+      "id": "vfx_term_551",
+      "category": "变化",
+      "role": "state-change",
+      "family": "color-light",
+      "zh": "颜色不断闪烁",
+      "en": "Color Flicker"
+    },
+    {
+      "id": "vfx_term_552",
+      "category": "变化",
+      "role": "state-change",
+      "family": "color-light",
+      "zh": "颜色交替变化",
+      "en": "Alternating Colors"
+    },
+    {
+      "id": "vfx_term_553",
+      "category": "变化",
+      "role": "state-change",
+      "family": "color-light",
+      "zh": "颜色循环变化",
+      "en": "Cycling Colors"
+    },
+    {
+      "id": "vfx_term_554",
+      "category": "变化",
+      "role": "state-change",
+      "family": "color-light",
+      "zh": "颜色层层推进",
+      "en": "Layered Color Reveal"
+    },
+    {
+      "id": "vfx_term_555",
+      "category": "运动",
+      "role": "path",
+      "family": "particle-motion",
+      "zh": "颜色像液体一样流动",
+      "en": "Liquid Color Flow"
+    },
+    {
+      "id": "vfx_term_556",
+      "category": "运动",
+      "role": "path",
+      "family": "particle-motion",
+      "zh": "颜色沿路径流动",
+      "en": "Flow Along Motion Paths"
+    },
+    {
+      "id": "vfx_term_557",
+      "category": "运动",
+      "role": "path",
+      "family": "particle-motion",
+      "zh": "颜色随能量扩散",
+      "en": "Color Expansion"
+    },
+    {
+      "id": "vfx_term_558",
+      "category": "运动",
+      "role": "path",
+      "family": "particle-motion",
+      "zh": "颜色向中心聚集",
+      "en": "Color Convergence"
+    },
+    {
+      "id": "vfx_term_559",
+      "category": "运动",
+      "role": "path",
+      "family": "particle-motion",
+      "zh": "颜色向四周扩散",
+      "en": "Color Dispersion"
+    },
+    {
+      "id": "vfx_term_560",
+      "category": "运动",
+      "role": "path",
+      "family": "particle-motion",
+      "zh": "颜色旋转流动",
+      "en": "Rotating Color Flow"
+    },
+    {
+      "id": "vfx_term_561",
+      "category": "运动",
+      "role": "path",
+      "family": "particle-motion",
+      "zh": "颜色不断蔓延",
+      "en": "Color Spread"
+    },
+    {
+      "id": "vfx_term_562",
+      "category": "运动",
+      "role": "path",
+      "family": "particle-motion",
+      "zh": "颜色不断渗透",
+      "en": "Color Bleeding"
+    },
+    {
+      "id": "vfx_term_563",
+      "category": "运动",
+      "role": "path",
+      "family": "particle-motion",
+      "zh": "颜色互相融合",
+      "en": "Color Blending"
+    },
+    {
+      "id": "vfx_term_564",
+      "category": "运动",
+      "role": "path",
+      "family": "particle-motion",
+      "zh": "颜色交织",
+      "en": "Interwoven Colors"
+    },
+    {
+      "id": "vfx_term_565",
+      "category": "运动",
+      "role": "path",
+      "family": "particle-motion",
+      "zh": "颜色翻滚",
+      "en": "Rolling Colors"
+    },
+    {
+      "id": "vfx_term_566",
+      "category": "运动",
+      "role": "path",
+      "family": "particle-motion",
+      "zh": "颜色像烟雾一样漂浮",
+      "en": "Floating Color Clouds"
+    }
+  ]
+}

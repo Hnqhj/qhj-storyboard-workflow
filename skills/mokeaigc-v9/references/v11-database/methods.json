@@ -1,0 +1,189 @@
+{
+  "database": "mokeaigc-worldbuilder-v11",
+  "source_archive_sha256": "F76FA2A2768EF9417A547A4053077E0A0C813B13EE3515B9943146F05B342236",
+  "audited_on": "2026-07-19",
+  "default_behavior": "query-only",
+  "records": [
+    {
+      "id": "v11-instruction-priority",
+      "source": "SKILL.md",
+      "category": "routing",
+      "status": "active-candidate",
+      "owner": "mokeaigc-v9",
+      "method": "Explicit user requirements override platform syntax, selected cinematography/style profiles, continuity defaults, and package defaults.",
+      "conditions": "Any conflicting input stack.",
+      "caution": "Platform syntax cannot override world facts."
+    },
+    {
+      "id": "v11-low-question-defaults",
+      "source": "SKILL.md",
+      "category": "intake",
+      "status": "active-candidate",
+      "owner": "mokeaigc-v9",
+      "method": "Start from one meaningful creative spark and disclose important assumptions instead of asking a long questionnaire.",
+      "conditions": "No mutually exclusive world direction is unresolved.",
+      "caution": "Ask when the missing choice would change the core world."
+    },
+    {
+      "id": "v11-continuity-bible",
+      "source": "references/continuity-and-shot-planning.md",
+      "category": "continuity",
+      "status": "active-candidate",
+      "owner": "mokeaigc-v9",
+      "method": "Lock geography, climate, era/technology, inhabitants, body covering, materials, architecture, tools/transport, ecology, symbols, palette, lighting, atmosphere, texture, and forbidden drift before prompts.",
+      "conditions": "Any multi-frame world discovery.",
+      "caution": "Keep entries visual and generative, not lore paragraphs."
+    },
+    {
+      "id": "v11-reference-evidence-boundary",
+      "source": "references/continuity-and-shot-planning.md",
+      "category": "evidence",
+      "status": "active-candidate",
+      "owner": "mokeaigc-v9",
+      "method": "Separate visible reference evidence, strong implication, creative extension, and unknowns.",
+      "conditions": "Reference-image world expansion.",
+      "caution": "Do not claim unsupported cultural facts or copy the source composition."
+    },
+    {
+      "id": "v11-shot-matrix",
+      "source": "references/continuity-and-shot-planning.md",
+      "category": "planning",
+      "status": "active-candidate",
+      "owner": "mokeaigc-v9",
+      "method": "Plan aspect, narrative question, action, three depth planes, continuity anchors, camera position, distance, view intent, light/weather, intensity, and before/after trace for each frame.",
+      "conditions": "Before drafting a multi-frame prompt set.",
+      "caution": "The matrix is internal unless planning-only output is requested."
+    },
+    {
+      "id": "v11-three-anchors",
+      "source": "references/continuity-and-shot-planning.md",
+      "category": "continuity",
+      "status": "optional-heuristic",
+      "owner": "mokeaigc-v9",
+      "method": "Use at least three continuity anchors per frame.",
+      "conditions": "Useful for dense world boards or drift-prone generators.",
+      "caution": "Allow fewer in intentionally sparse frames if same-world identity remains provable."
+    },
+    {
+      "id": "v11-focal-band-cap",
+      "source": "references/continuity-and-shot-planning.md",
+      "category": "camera-variation",
+      "status": "optional-heuristic",
+      "owner": "cinematic-ai-image-prompt-library",
+      "method": "Avoid using the same focal-length band more than three times in a nine-frame set.",
+      "conditions": "Only when unwanted visual sameness is the diagnosed problem.",
+      "caution": "Do not enforce when a uniform lens system is intentional; narrative function outranks the quota."
+    },
+    {
+      "id": "v11-quiet-pressure-quota",
+      "source": "references/continuity-and-shot-planning.md",
+      "category": "rhythm",
+      "status": "optional-heuristic",
+      "owner": "mokeaigc-v9",
+      "method": "Include at least two quiet frames and one high-pressure frame in a nine-frame set.",
+      "conditions": "Useful as an anti-monotony diagnostic for a full board.",
+      "caution": "Do not manufacture pressure or quietness when the world premise does not support it."
+    },
+    {
+      "id": "v11-camera-profile",
+      "source": "references/camera-and-style-adaptation.md",
+      "category": "camera",
+      "status": "active-candidate",
+      "owner": "cinematic-ai-image-prompt-library",
+      "method": "Treat camera position, height, distance, field of view, depth-of-field intent, lens character, medium/emulation, framing, and motion trace as replaceable fields.",
+      "conditions": "When camera or style specificity changes the image.",
+      "caution": "Do not prepend a fixed camera-brand string."
+    },
+    {
+      "id": "v11-camera-causality",
+      "source": "references/camera-and-style-adaptation.md",
+      "category": "camera",
+      "status": "covered-by-owner",
+      "owner": "cinematic-ai-image-prompt-library",
+      "method": "Perspective follows camera position and distance; focal length controls field of view; depth of field has multiple variables.",
+      "conditions": "Any lens-language request.",
+      "caution": "Prompt parameters express intent and do not prove physical execution."
+    },
+    {
+      "id": "v11-conditional-skin-detail",
+      "source": "references/camera-and-style-adaptation.md",
+      "category": "human-detail",
+      "status": "active-candidate",
+      "owner": "im2-clean-image",
+      "method": "Use pores, peach fuzz, and facial imperfections only when a human face is near and resolvable.",
+      "conditions": "Near human portrait.",
+      "caution": "Skip distant, hidden, masked, non-human, silhouette, or stylized subjects."
+    },
+    {
+      "id": "v11-compact-output",
+      "source": "references/output-formats.md",
+      "category": "output",
+      "status": "active-candidate",
+      "owner": "mokeaigc-v9",
+      "method": "Default to world concept, continuity anchors, visual intention, and one complete prompt per aspect.",
+      "conditions": "Normal user-facing delivery.",
+      "caution": "Do not duplicate camera and lighting when already embedded."
+    },
+    {
+      "id": "v11-production-output",
+      "source": "references/output-formats.md",
+      "category": "output",
+      "status": "active-candidate",
+      "owner": "mokeaigc-v9",
+      "method": "Provide separated bilingual camera, lighting, and prompts only on explicit production request.",
+      "conditions": "Full bilingual prompt pack or production controls requested.",
+      "caution": "Show platform parameters only once if duplicate copies would create extra jobs."
+    },
+    {
+      "id": "v11-planning-only-output",
+      "source": "references/output-formats.md",
+      "category": "output",
+      "status": "active-candidate",
+      "owner": "mokeaigc-v9",
+      "method": "Stop at concept, continuity bible, aspect matrix, and open decisions before final prompts.",
+      "conditions": "Visual development direction is not yet approved.",
+      "caution": "Do not silently continue to platform prompts."
+    },
+    {
+      "id": "v11-midjourney-renderer",
+      "source": "references/platform-renderers.md",
+      "category": "platform",
+      "status": "time-sensitive",
+      "owner": "midjourney-generation-adapter",
+      "method": "V11 source snapshot for parameter ordering, aspect ratio, style reference/profile, HD, stylize, permutations, and exclusions.",
+      "conditions": "User explicitly requests Midjourney output.",
+      "caution": "Reverify all syntax, version, compatibility, resolution, and multi-job behavior before use."
+    },
+    {
+      "id": "v11-nano-banana-renderer",
+      "source": "references/platform-renderers.md",
+      "category": "platform",
+      "status": "time-sensitive",
+      "owner": "active-platform-adapter",
+      "method": "Natural-language scene and exclusions; no Midjourney syntax leakage.",
+      "conditions": "User explicitly requests Nano Banana output.",
+      "caution": "Verify current product surface and settings before execution."
+    },
+    {
+      "id": "v11-gpt-image-renderer",
+      "source": "references/platform-renderers.md",
+      "category": "platform",
+      "status": "covered-by-owner",
+      "owner": "im2-clean-image",
+      "method": "Use direct natural-language composition, action, continuity, light, material, and compact exclusions.",
+      "conditions": "GPT Image / IM2 prompt packaging.",
+      "caution": "Current product parameters belong to the active executor/adapter."
+    },
+    {
+      "id": "v11-nine-aspect-default",
+      "source": "references/world-aspects.md",
+      "category": "world-functions",
+      "status": "active-candidate",
+      "owner": "mokeaigc-v9",
+      "method": "Use inhabitants, animals, architecture, landscape, daily life, migration/transport, sound/culture, power/pressure, and intimate portrait as distinct narrative functions.",
+      "conditions": "Complete world discovery board.",
+      "caution": "User or upstream-selected subset/count overrides the full nine."
+    }
+  ]
+}
+

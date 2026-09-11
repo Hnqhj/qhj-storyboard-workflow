@@ -1,0 +1,7 @@
+interface:
+  display_name: "语义概念封面"
+  short_description: "基于文字和参考图生成高级概念封面与角色杂志封面提示词"
+  default_prompt: "Use $semantic-concept-poster to turn a word or phrase into a high-concept semantic poster prompt."
+
+policy:
+  allow_implicit_invocation: true

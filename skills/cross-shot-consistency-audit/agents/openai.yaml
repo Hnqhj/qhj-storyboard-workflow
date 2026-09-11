@@ -1,0 +1,4 @@
+interface:
+  display_name: "跨镜头一致性审计"
+  short_description: "用差异矩阵定位入选镜头的连续性漂移、严重度与修复优先级"
+  default_prompt: "Use $cross-shot-consistency-audit to audit the selected shot sequence and route consistency fixes by severity."

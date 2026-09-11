@@ -1,0 +1,7 @@
+interface:
+  display_name: "AI视频提示词预检"
+  short_description: "Check prompts for continuity, physics, and feasibility."
+  default_prompt: "Use $ai-video-prompt-preflight to check this AI video prompt for conflicts, references, timing, action physics, continuity, sound, rendering, and retry strategy before generation."
+
+policy:
+  allow_implicit_invocation: false

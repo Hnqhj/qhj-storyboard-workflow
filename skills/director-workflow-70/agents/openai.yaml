@@ -1,0 +1,7 @@
+interface:
+  display_name: "导演工作流70%便携版"
+  short_description: "整合策划、分镜、动作、特效、材质、声音与 Seedance/即梦提示词编译"
+  default_prompt: "Use $director-workflow-70 to route this film or AI-video task through the smallest complete director stack and return a production-ready result."
+
+policy:
+  allow_implicit_invocation: false

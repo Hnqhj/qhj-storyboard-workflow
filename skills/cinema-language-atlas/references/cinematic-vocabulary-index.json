@@ -1,0 +1,2513 @@
+{
+  "schema": "cinematic-vocabulary-index/v1",
+  "source": "http://www.mokeaigc.com/cinematique/",
+  "captured_at": "2026-07-15",
+  "counts": {
+    "total": 350,
+    "techniques": 150,
+    "film_stocks": 200
+  },
+  "status_policy": "Availability and production status are time-sensitive source claims, not durable method rules.",
+  "entries": [
+    {
+      "source_id": "aerial-shot",
+      "title": "Aerial Shot",
+      "family": "Camera Work",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/aerial-shot/"
+    },
+    {
+      "source_id": "birds-eye-view",
+      "title": "Bird’s Eye View",
+      "family": "Camera Work",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/birds-eye-view/"
+    },
+    {
+      "source_id": "close-up",
+      "title": "Close-Up",
+      "family": "Camera Work",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/close-up/"
+    },
+    {
+      "source_id": "dutch-angle",
+      "title": "Dutch Angle",
+      "family": "Camera Work",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/dutch-angle/"
+    },
+    {
+      "source_id": "dolly-shot",
+      "title": "Dolly Shot",
+      "family": "Camera Work",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/dolly-shot/"
+    },
+    {
+      "source_id": "establishing-shot",
+      "title": "Establishing Shot",
+      "family": "Camera Work",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/establishing-shot/"
+    },
+    {
+      "source_id": "extreme-close-up",
+      "title": "Extreme Close-Up",
+      "family": "Camera Work",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/extreme-close-up/"
+    },
+    {
+      "source_id": "extreme-long-shot",
+      "title": "Extreme Long Shot",
+      "family": "Camera Work",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/extreme-long-shot/"
+    },
+    {
+      "source_id": "eye-level-shot",
+      "title": "Eye-Level Shot",
+      "family": "Camera Work",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/eye-level-shot/"
+    },
+    {
+      "source_id": "handheld-shot",
+      "title": "Handheld Shot",
+      "family": "Camera Work",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/handheld-shot/"
+    },
+    {
+      "source_id": "head-on-shot",
+      "title": "Head-On Shot",
+      "family": "Camera Work",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/head-on-shot/"
+    },
+    {
+      "source_id": "high-angle-shot",
+      "title": "High Angle Shot",
+      "family": "Camera Work",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/high-angle-shot/"
+    },
+    {
+      "source_id": "insert-shot",
+      "title": "Insert Shot",
+      "family": "Camera Work",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/insert-shot/"
+    },
+    {
+      "source_id": "long-shot",
+      "title": "Long Shot",
+      "family": "Camera Work",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/long-shot/"
+    },
+    {
+      "source_id": "low-angle-shot",
+      "title": "Low Angle Shot",
+      "family": "Camera Work",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/low-angle-shot/"
+    },
+    {
+      "source_id": "master-shot",
+      "title": "Master Shot",
+      "family": "Camera Work",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/master-shot/"
+    },
+    {
+      "source_id": "medium-shot",
+      "title": "Medium Shot",
+      "family": "Camera Work",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/medium-shot/"
+    },
+    {
+      "source_id": "over-the-shoulder",
+      "title": "Over-the-Shoulder",
+      "family": "Camera Work",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/over-the-shoulder/"
+    },
+    {
+      "source_id": "overhead-shot",
+      "title": "Overhead Shot",
+      "family": "Camera Work",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/overhead-shot/"
+    },
+    {
+      "source_id": "pan-shot",
+      "title": "Pan Shot",
+      "family": "Camera Work",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/pan-shot/"
+    },
+    {
+      "source_id": "pov-shot",
+      "title": "P.O.V. Shot",
+      "family": "Camera Work",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/pov-shot/"
+    },
+    {
+      "source_id": "rack-focus",
+      "title": "Rack Focus",
+      "family": "Camera Work",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/rack-focus/"
+    },
+    {
+      "source_id": "slow-motion",
+      "title": "Slow Motion",
+      "family": "Camera Work",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/slow-motion/"
+    },
+    {
+      "source_id": "steadicam",
+      "title": "Steadicam",
+      "family": "Camera Work",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/steadicam/"
+    },
+    {
+      "source_id": "tracking-shot",
+      "title": "Tracking Shot",
+      "family": "Camera Work",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/tracking-shot/"
+    },
+    {
+      "source_id": "vertigo-effect",
+      "title": "Vertigo Effect",
+      "family": "Camera Work",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/vertigo-effect/"
+    },
+    {
+      "source_id": "crane-shot",
+      "title": "Crane Shot",
+      "family": "Camera Work",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/crane-shot/"
+    },
+    {
+      "source_id": "one-er",
+      "title": "One-er (Oner)",
+      "family": "Camera Work",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/one-er/"
+    },
+    {
+      "source_id": "tilt-shot",
+      "title": "Tilt Shot",
+      "family": "Camera Work",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/tilt-shot/"
+    },
+    {
+      "source_id": "whip-pan",
+      "title": "Whip Pan",
+      "family": "Camera Work",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/whip-pan/"
+    },
+    {
+      "source_id": "two-shot",
+      "title": "Two-Shot",
+      "family": "Camera Work",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/two-shot/"
+    },
+    {
+      "source_id": "three-shot",
+      "title": "Three-Shot",
+      "family": "Camera Work",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/three-shot/"
+    },
+    {
+      "source_id": "cowboy-shot",
+      "title": "Cowboy Shot",
+      "family": "Camera Work",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/cowboy-shot/"
+    },
+    {
+      "source_id": "medium-close-up",
+      "title": "Medium Close-Up",
+      "family": "Camera Work",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/medium-close-up/"
+    },
+    {
+      "source_id": "choker-shot",
+      "title": "Choker Shot",
+      "family": "Camera Work",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/choker-shot/"
+    },
+    {
+      "source_id": "push-in",
+      "title": "Push In",
+      "family": "Camera Work",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/push-in/"
+    },
+    {
+      "source_id": "pull-out",
+      "title": "Pull Out",
+      "family": "Camera Work",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/pull-out/"
+    },
+    {
+      "source_id": "360-degree-shot",
+      "title": "360-Degree Shot",
+      "family": "Camera Work",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/360-degree-shot/"
+    },
+    {
+      "source_id": "static-shot",
+      "title": "Static Shot",
+      "family": "Camera Work",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/static-shot/"
+    },
+    {
+      "source_id": "crash-zoom",
+      "title": "Crash Zoom",
+      "family": "Camera Work",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/crash-zoom/"
+    },
+    {
+      "source_id": "worms-eye-view",
+      "title": "Worm’s Eye View",
+      "family": "Camera Work",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/worms-eye-view/"
+    },
+    {
+      "source_id": "three-point-lighting",
+      "title": "Three-Point Lighting",
+      "family": "Lighting",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/three-point-lighting/"
+    },
+    {
+      "source_id": "key-light",
+      "title": "Key Light",
+      "family": "Lighting",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/key-light/"
+    },
+    {
+      "source_id": "high-key-lighting",
+      "title": "High-Key Lighting",
+      "family": "Lighting",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/high-key-lighting/"
+    },
+    {
+      "source_id": "low-key-lighting",
+      "title": "Low-Key Lighting",
+      "family": "Lighting",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/low-key-lighting/"
+    },
+    {
+      "source_id": "chiaroscuro",
+      "title": "Chiaroscuro",
+      "family": "Lighting",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/chiaroscuro/"
+    },
+    {
+      "source_id": "rembrandt-lighting",
+      "title": "Rembrandt Lighting",
+      "family": "Lighting",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/rembrandt-lighting/"
+    },
+    {
+      "source_id": "silhouette",
+      "title": "Silhouette",
+      "family": "Lighting",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/silhouette/"
+    },
+    {
+      "source_id": "golden-hour",
+      "title": "Golden Hour",
+      "family": "Lighting",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/golden-hour/"
+    },
+    {
+      "source_id": "blue-hour",
+      "title": "Blue Hour",
+      "family": "Lighting",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/blue-hour/"
+    },
+    {
+      "source_id": "practical-lighting",
+      "title": "Practical Lighting",
+      "family": "Lighting",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/practical-lighting/"
+    },
+    {
+      "source_id": "hard-light",
+      "title": "Hard Light",
+      "family": "Lighting",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/hard-light/"
+    },
+    {
+      "source_id": "soft-light",
+      "title": "Soft Light",
+      "family": "Lighting",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/soft-light/"
+    },
+    {
+      "source_id": "uplighting",
+      "title": "Uplighting",
+      "family": "Lighting",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/uplighting/"
+    },
+    {
+      "source_id": "side-lighting",
+      "title": "Side Lighting",
+      "family": "Lighting",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/side-lighting/"
+    },
+    {
+      "source_id": "lens-flare",
+      "title": "Lens Flare",
+      "family": "Lighting",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/lens-flare/"
+    },
+    {
+      "source_id": "fill-light",
+      "title": "Fill Light",
+      "family": "Lighting",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/fill-light/"
+    },
+    {
+      "source_id": "backlight",
+      "title": "Backlight",
+      "family": "Lighting",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/backlight/"
+    },
+    {
+      "source_id": "bounce-light",
+      "title": "Bounce Light",
+      "family": "Lighting",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/bounce-light/"
+    },
+    {
+      "source_id": "cross-lighting",
+      "title": "Cross Lighting",
+      "family": "Lighting",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/cross-lighting/"
+    },
+    {
+      "source_id": "kicker-light",
+      "title": "Kicker Light",
+      "family": "Lighting",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/kicker-light/"
+    },
+    {
+      "source_id": "motivated-lighting",
+      "title": "Motivated Lighting",
+      "family": "Lighting",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/motivated-lighting/"
+    },
+    {
+      "source_id": "ambient-light",
+      "title": "Ambient Light",
+      "family": "Lighting",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/ambient-light/"
+    },
+    {
+      "source_id": "available-light",
+      "title": "Available Light",
+      "family": "Lighting",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/available-light/"
+    },
+    {
+      "source_id": "broad-lighting",
+      "title": "Broad Lighting",
+      "family": "Lighting",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/broad-lighting/"
+    },
+    {
+      "source_id": "short-lighting",
+      "title": "Short Lighting",
+      "family": "Lighting",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/short-lighting/"
+    },
+    {
+      "source_id": "color-temperature",
+      "title": "Color Temperature",
+      "family": "Lighting",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/color-temperature/"
+    },
+    {
+      "source_id": "dappled-light",
+      "title": "Dappled Light",
+      "family": "Lighting",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/dappled-light/"
+    },
+    {
+      "source_id": "edge-light",
+      "title": "Edge Light",
+      "family": "Lighting",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/edge-light/"
+    },
+    {
+      "source_id": "eye-light",
+      "title": "Eye Light",
+      "family": "Lighting",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/eye-light/"
+    },
+    {
+      "source_id": "gobo-lighting",
+      "title": "Gobo Lighting",
+      "family": "Lighting",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/gobo-lighting/"
+    },
+    {
+      "source_id": "rule-of-thirds",
+      "title": "Rule of Thirds",
+      "family": "Composition",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/rule-of-thirds/"
+    },
+    {
+      "source_id": "symmetry",
+      "title": "Symmetry",
+      "family": "Composition",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/symmetry/"
+    },
+    {
+      "source_id": "leading-lines",
+      "title": "Leading Lines",
+      "family": "Composition",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/leading-lines/"
+    },
+    {
+      "source_id": "framing-within-frame",
+      "title": "Framing Within Frame",
+      "family": "Composition",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/framing-within-frame/"
+    },
+    {
+      "source_id": "negative-space",
+      "title": "Negative Space",
+      "family": "Composition",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/negative-space/"
+    },
+    {
+      "source_id": "shallow-focus",
+      "title": "Shallow Focus",
+      "family": "Composition",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/shallow-focus/"
+    },
+    {
+      "source_id": "deep-focus",
+      "title": "Deep Focus",
+      "family": "Composition",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/deep-focus/"
+    },
+    {
+      "source_id": "mise-en-scene",
+      "title": "Mise-en-Scène",
+      "family": "Composition",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/mise-en-scene/"
+    },
+    {
+      "source_id": "golden-ratio",
+      "title": "Golden Ratio",
+      "family": "Composition",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/golden-ratio/"
+    },
+    {
+      "source_id": "depth-of-field",
+      "title": "Depth of Field",
+      "family": "Composition",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/depth-of-field/"
+    },
+    {
+      "source_id": "foreground-interest",
+      "title": "Foreground Interest",
+      "family": "Composition",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/foreground-interest/"
+    },
+    {
+      "source_id": "balancing-elements",
+      "title": "Balancing Elements",
+      "family": "Composition",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/balancing-elements/"
+    },
+    {
+      "source_id": "diagonal-lines",
+      "title": "Diagonal Lines",
+      "family": "Composition",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/diagonal-lines/"
+    },
+    {
+      "source_id": "triangular-composition",
+      "title": "Triangular Composition",
+      "family": "Composition",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/triangular-composition/"
+    },
+    {
+      "source_id": "centered-composition",
+      "title": "Centered Composition",
+      "family": "Composition",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/centered-composition/"
+    },
+    {
+      "source_id": "headroom",
+      "title": "Headroom",
+      "family": "Composition",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/headroom/"
+    },
+    {
+      "source_id": "lead-room",
+      "title": "Lead Room",
+      "family": "Composition",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/lead-room/"
+    },
+    {
+      "source_id": "visual-weight",
+      "title": "Visual Weight",
+      "family": "Composition",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/visual-weight/"
+    },
+    {
+      "source_id": "repetition-and-pattern",
+      "title": "Repetition and Pattern",
+      "family": "Composition",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/repetition-and-pattern/"
+    },
+    {
+      "source_id": "figure-ground",
+      "title": "Figure-Ground Relationship",
+      "family": "Composition",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/figure-ground/"
+    },
+    {
+      "source_id": "contrast-composition",
+      "title": "Contrast",
+      "family": "Composition",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/contrast-composition/"
+    },
+    {
+      "source_id": "cross-cutting",
+      "title": "Cross-Cutting",
+      "family": "Editing",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/cross-cutting/"
+    },
+    {
+      "source_id": "jump-cut",
+      "title": "Jump Cut",
+      "family": "Editing",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/jump-cut/"
+    },
+    {
+      "source_id": "dissolve",
+      "title": "Dissolve",
+      "family": "Editing",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/dissolve/"
+    },
+    {
+      "source_id": "fade-in-out",
+      "title": "Fade In/Out",
+      "family": "Editing",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/fade-in-out/"
+    },
+    {
+      "source_id": "montage",
+      "title": "Montage",
+      "family": "Editing",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/montage/"
+    },
+    {
+      "source_id": "smash-cut",
+      "title": "Smash Cut",
+      "family": "Editing",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/smash-cut/"
+    },
+    {
+      "source_id": "long-take",
+      "title": "Long Take",
+      "family": "Editing",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/long-take/"
+    },
+    {
+      "source_id": "freeze-frame",
+      "title": "Freeze Frame",
+      "family": "Editing",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/freeze-frame/"
+    },
+    {
+      "source_id": "split-screen",
+      "title": "Split Screen",
+      "family": "Editing",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/split-screen/"
+    },
+    {
+      "source_id": "reaction-shot",
+      "title": "Reaction Shot",
+      "family": "Editing",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/reaction-shot/"
+    },
+    {
+      "source_id": "cutaway",
+      "title": "Cutaway",
+      "family": "Editing",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/cutaway/"
+    },
+    {
+      "source_id": "cut-in",
+      "title": "Cut-In",
+      "family": "Editing",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/cut-in/"
+    },
+    {
+      "source_id": "wipe-transition",
+      "title": "Wipe",
+      "family": "Editing",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/wipe-transition/"
+    },
+    {
+      "source_id": "iris-transition",
+      "title": "Iris",
+      "family": "Editing",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/iris-transition/"
+    },
+    {
+      "source_id": "time-lapse",
+      "title": "Time-Lapse",
+      "family": "Editing",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/time-lapse/"
+    },
+    {
+      "source_id": "fast-motion",
+      "title": "Fast Motion",
+      "family": "Editing",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/fast-motion/"
+    },
+    {
+      "source_id": "reverse-motion",
+      "title": "Reverse Motion",
+      "family": "Editing",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/reverse-motion/"
+    },
+    {
+      "source_id": "flashback",
+      "title": "Flashback",
+      "family": "Storytelling",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/flashback/"
+    },
+    {
+      "source_id": "foreshadowing",
+      "title": "Foreshadowing",
+      "family": "Storytelling",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/foreshadowing/"
+    },
+    {
+      "source_id": "breaking-fourth-wall",
+      "title": "Breaking the Fourth Wall",
+      "family": "Storytelling",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/breaking-fourth-wall/"
+    },
+    {
+      "source_id": "in-medias-res",
+      "title": "In Medias Res",
+      "family": "Storytelling",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/in-medias-res/"
+    },
+    {
+      "source_id": "cliffhanger",
+      "title": "Cliffhanger",
+      "family": "Storytelling",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/cliffhanger/"
+    },
+    {
+      "source_id": "flashforward",
+      "title": "Flashforward",
+      "family": "Storytelling",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/flashforward/"
+    },
+    {
+      "source_id": "non-linear-narrative",
+      "title": "Non-Linear Narrative",
+      "family": "Storytelling",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/non-linear-narrative/"
+    },
+    {
+      "source_id": "parallel-storylines",
+      "title": "Parallel Storylines",
+      "family": "Storytelling",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/parallel-storylines/"
+    },
+    {
+      "source_id": "frame-narrative",
+      "title": "Frame Narrative",
+      "family": "Storytelling",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/frame-narrative/"
+    },
+    {
+      "source_id": "voiceover-narration",
+      "title": "Voiceover Narration",
+      "family": "Storytelling",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/voiceover-narration/"
+    },
+    {
+      "source_id": "motif",
+      "title": "Motif",
+      "family": "Storytelling",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/motif/"
+    },
+    {
+      "source_id": "symbolism",
+      "title": "Symbolism",
+      "family": "Storytelling",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/symbolism/"
+    },
+    {
+      "source_id": "color-grading",
+      "title": "Color Grading",
+      "family": "Visual Effects & Promptable FX",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/color-grading/"
+    },
+    {
+      "source_id": "desaturation",
+      "title": "Desaturation",
+      "family": "Visual Effects & Promptable FX",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/desaturation/"
+    },
+    {
+      "source_id": "sepia-tone",
+      "title": "Sepia Tone",
+      "family": "Visual Effects & Promptable FX",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/sepia-tone/"
+    },
+    {
+      "source_id": "film-grain",
+      "title": "Film Grain",
+      "family": "Visual Effects & Promptable FX",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-grain/"
+    },
+    {
+      "source_id": "bokeh",
+      "title": "Bokeh",
+      "family": "Visual Effects & Promptable FX",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/bokeh/"
+    },
+    {
+      "source_id": "forced-perspective",
+      "title": "Forced Perspective",
+      "family": "Visual Effects & Promptable FX",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/forced-perspective/"
+    },
+    {
+      "source_id": "lens-distortion",
+      "title": "Lens Distortion",
+      "family": "Visual Effects & Promptable FX",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/lens-distortion/"
+    },
+    {
+      "source_id": "morphing",
+      "title": "Morphing / Dissolve Effect",
+      "family": "Visual Effects & Promptable FX",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/morphing/"
+    },
+    {
+      "source_id": "film-noir",
+      "title": "Film Noir",
+      "family": "Genres & Styles",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-noir/"
+    },
+    {
+      "source_id": "german-expressionism",
+      "title": "German Expressionism",
+      "family": "Genres & Styles",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/german-expressionism/"
+    },
+    {
+      "source_id": "cinema-verite",
+      "title": "Cinéma Vérité",
+      "family": "Genres & Styles",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/cinema-verite/"
+    },
+    {
+      "source_id": "french-new-wave",
+      "title": "French New Wave",
+      "family": "Genres & Styles",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/french-new-wave/"
+    },
+    {
+      "source_id": "surrealism",
+      "title": "Surrealism",
+      "family": "Genres & Styles",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/surrealism/"
+    },
+    {
+      "source_id": "found-footage",
+      "title": "Found Footage",
+      "family": "Genres & Styles",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/found-footage/"
+    },
+    {
+      "source_id": "spaghetti-western",
+      "title": "Spaghetti Western",
+      "family": "Genres & Styles",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/spaghetti-western/"
+    },
+    {
+      "source_id": "italian-neorealism",
+      "title": "Italian Neorealism",
+      "family": "Genres & Styles",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/italian-neorealism/"
+    },
+    {
+      "source_id": "dogme-95",
+      "title": "Dogme 95",
+      "family": "Genres & Styles",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/dogme-95/"
+    },
+    {
+      "source_id": "mumblecore",
+      "title": "Mumblecore",
+      "family": "Genres & Styles",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/mumblecore/"
+    },
+    {
+      "source_id": "giallo",
+      "title": "Giallo",
+      "family": "Genres & Styles",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/giallo/"
+    },
+    {
+      "source_id": "mockumentary",
+      "title": "Mockumentary",
+      "family": "Genres & Styles",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/mockumentary/"
+    },
+    {
+      "source_id": "poetic-realism",
+      "title": "Poetic Realism",
+      "family": "Genres & Styles",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/poetic-realism/"
+    },
+    {
+      "source_id": "slow-cinema",
+      "title": "Slow Cinema",
+      "family": "Genres & Styles",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/slow-cinema/"
+    },
+    {
+      "source_id": "hyperlink-cinema",
+      "title": "Hyperlink Cinema",
+      "family": "Genres & Styles",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/hyperlink-cinema/"
+    },
+    {
+      "source_id": "noir-tech",
+      "title": "Tech Noir",
+      "family": "Genres & Styles",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/noir-tech/"
+    },
+    {
+      "source_id": "wuxia",
+      "title": "Wuxia",
+      "family": "Genres & Styles",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/wuxia/"
+    },
+    {
+      "source_id": "acid-western",
+      "title": "Acid Western",
+      "family": "Genres & Styles",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/acid-western/"
+    },
+    {
+      "source_id": "southern-gothic",
+      "title": "Southern Gothic",
+      "family": "Genres & Styles",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/southern-gothic/"
+    },
+    {
+      "source_id": "vaporwave",
+      "title": "Vaporwave Aesthetic",
+      "family": "Genres & Styles",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/vaporwave/"
+    },
+    {
+      "source_id": "cosmic-horror",
+      "title": "Cosmic Horror",
+      "family": "Genres & Styles",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/cosmic-horror/"
+    },
+    {
+      "source_id": "film-1",
+      "title": "Vision3 500T (5219/7219)",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-1/",
+      "source_meta": "ISO 500 · Color Neg Cinema · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-2",
+      "title": "Vision3 250D (5207/7207)",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-2/",
+      "source_meta": "ISO 250 · Color Neg Cinema · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-3",
+      "title": "Vision3 200T (5213/7213)",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-3/",
+      "source_meta": "ISO 200 · Color Neg Cinema · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-4",
+      "title": "Vision3 50D (5203/7203)",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-4/",
+      "source_meta": "ISO 50 · Color Neg Cinema · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-5",
+      "title": "Vision2 500T (5218/7218)",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-5/",
+      "source_meta": "ISO 500 · Color Neg Cinema · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-6",
+      "title": "Vision2 200T (5217/7217)",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-6/",
+      "source_meta": "ISO 200 · Color Neg Cinema · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-7",
+      "title": "Vision2 100T (5212/7212)",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-7/",
+      "source_meta": "ISO 100 · Color Neg Cinema · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-8",
+      "title": "Vision2 250D (5205/7205)",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-8/",
+      "source_meta": "ISO 250 · Color Neg Cinema · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-9",
+      "title": "Vision2 50D (5201/7201)",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-9/",
+      "source_meta": "ISO 50 · Color Neg Cinema · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-10",
+      "title": "Vision 500T (5279/7279)",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-10/",
+      "source_meta": "ISO 500 · Color Neg Cinema · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-11",
+      "title": "Vision 320T (5277/7277)",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-11/",
+      "source_meta": "ISO 320 · Color Neg Cinema · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-12",
+      "title": "Vision 250D (5246/7246)",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-12/",
+      "source_meta": "ISO 250 · Color Neg Cinema · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-13",
+      "title": "Vision 200T (5274/7274)",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-13/",
+      "source_meta": "ISO 200 · Color Neg Cinema · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-14",
+      "title": "Vision 800T (5289/7289)",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-14/",
+      "source_meta": "ISO 800 · Color Neg Cinema · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-15",
+      "title": "EXR 500T (5296/7296)",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-15/",
+      "source_meta": "ISO 500 · Color Neg Cinema · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-16",
+      "title": "EXR 200T (5293/7293)",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-16/",
+      "source_meta": "ISO 200 · Color Neg Cinema · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-17",
+      "title": "EXR 100T (5248/7248)",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-17/",
+      "source_meta": "ISO 100 · Color Neg Cinema · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-18",
+      "title": "EXR 50D (5245/7245)",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-18/",
+      "source_meta": "ISO 50 · Color Neg Cinema · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-19",
+      "title": "Eastmancolor 100T (5247)",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-19/",
+      "source_meta": "ISO 100 · Color Neg Cinema · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-20",
+      "title": "Eastmancolor HS 250D (5297)",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-20/",
+      "source_meta": "ISO 250 · Color Neg Cinema · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-21",
+      "title": "Double-X (5222/7222)",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-21/",
+      "source_meta": "ISO 250D · B&W Cinema · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-22",
+      "title": "Tri-X Negative (5233)",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-22/",
+      "source_meta": "ISO 320D · B&W Cinema · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-23",
+      "title": "Plus-X Negative (5231)",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-23/",
+      "source_meta": "ISO 80D · B&W Cinema · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-24",
+      "title": "Tri-X Reversal (7278)",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-24/",
+      "source_meta": "ISO 200D · Reversal Cinema · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-25",
+      "title": "Plus-X Reversal (7276)",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-25/",
+      "source_meta": "ISO 50D · Reversal Cinema · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-26",
+      "title": "4-X Negative (5224)",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-26/",
+      "source_meta": "ISO 500D · B&W Cinema · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-27",
+      "title": "Super-X (1227)",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-27/",
+      "source_meta": "ISO — · B&W Cinema · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-28",
+      "title": "Super-XX (1232)",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-28/",
+      "source_meta": "ISO — · B&W Cinema · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-29",
+      "title": "Kodachrome 16mm",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-29/",
+      "source_meta": "ISO 10 · Reversal Cinema · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-30",
+      "title": "Kodachrome 35mm/8mm",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-30/",
+      "source_meta": "ISO 25–64 · Reversal Cinema · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-31",
+      "title": "Ektachrome 100D (7285)",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-31/",
+      "source_meta": "ISO 100 · Reversal Cinema · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-32",
+      "title": "Ektachrome 160T (5239)",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-32/",
+      "source_meta": "ISO 160 · Reversal Cinema · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-33",
+      "title": "Ektachrome 125T (5240)",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-33/",
+      "source_meta": "ISO 125 · Reversal Cinema · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-34",
+      "title": "Vision Color Print (2383)",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-34/",
+      "source_meta": "ISO — · Print/Int Cinema · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-35",
+      "title": "Vision Color Int. (5242)",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-35/",
+      "source_meta": "ISO — · Print/Int Cinema · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-36",
+      "title": "Vision3 DI (5254)",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-36/",
+      "source_meta": "ISO — · Print/Int Cinema · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-37",
+      "title": "B&W Print (2302)",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-37/",
+      "source_meta": "ISO — · Print/Int Cinema · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-38",
+      "title": "Fine Grain Dup Neg (2234)",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-38/",
+      "source_meta": "ISO — · Print/Int Cinema · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-39",
+      "title": "EXR Color Print (5386)",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-39/",
+      "source_meta": "ISO — · Print/Int Cinema · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-40",
+      "title": "Color Reversal Int. (5249)",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-40/",
+      "source_meta": "ISO — · Print/Int Cinema · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-41",
+      "title": "Eterna 500T (8573)",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-41/",
+      "source_meta": "ISO 500 · Color Neg Cinema · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-42",
+      "title": "Eterna 400T (8583)",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-42/",
+      "source_meta": "ISO 400 · Color Neg Cinema · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-43",
+      "title": "Eterna 250T (8553)",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-43/",
+      "source_meta": "ISO 250 · Color Neg Cinema · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-44",
+      "title": "Eterna 250D (8563)",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-44/",
+      "source_meta": "ISO 250 · Color Neg Cinema · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-45",
+      "title": "Eterna Vivid 500T (8547)",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-45/",
+      "source_meta": "ISO 500 · Color Neg Cinema · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-46",
+      "title": "Eterna Vivid 250D (8546)",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-46/",
+      "source_meta": "ISO 250 · Color Neg Cinema · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-47",
+      "title": "Eterna Vivid 160T (8543)",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-47/",
+      "source_meta": "ISO 160 · Color Neg Cinema · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-48",
+      "title": "Reala 500D (8592)",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-48/",
+      "source_meta": "ISO 500 · Color Neg Cinema · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-49",
+      "title": "Super F-500T (8572)",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-49/",
+      "source_meta": "ISO 500 · Color Neg Cinema · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-50",
+      "title": "Super F-250T (8552)",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-50/",
+      "source_meta": "ISO 250 · Color Neg Cinema · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-51",
+      "title": "Super F-250D (8562)",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-51/",
+      "source_meta": "ISO 250 · Color Neg Cinema · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-52",
+      "title": "Super F-125T (8532)",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-52/",
+      "source_meta": "ISO 125 · Color Neg Cinema · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-53",
+      "title": "Super F-64D (8522)",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-53/",
+      "source_meta": "ISO 64 · Color Neg Cinema · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-54",
+      "title": "F-Series F-64T (8510)",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-54/",
+      "source_meta": "ISO 64 · Color Neg Cinema · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-55",
+      "title": "Fujicolor A 125T (8511)",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-55/",
+      "source_meta": "ISO 125 · Color Neg Cinema · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-56",
+      "title": "Fujicolor AX 500T (8514)",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-56/",
+      "source_meta": "ISO 500 · Color Neg Cinema · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-57",
+      "title": "Agfacolor XT 100",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-57/",
+      "source_meta": "ISO 100 · Color Neg Cinema · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-58",
+      "title": "Agfacolor XT 125",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-58/",
+      "source_meta": "ISO 125 · Color Neg Cinema · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-59",
+      "title": "Agfacolor XTR 250",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-59/",
+      "source_meta": "ISO 250 · Color Neg Cinema · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-60",
+      "title": "Agfacolor XT 320",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-60/",
+      "source_meta": "ISO 320 · Color Neg Cinema · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-61",
+      "title": "Agfacolor XTS 400",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-61/",
+      "source_meta": "ISO 400 · Color Neg Cinema · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-62",
+      "title": "Agfapan 250",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-62/",
+      "source_meta": "ISO 250 · B&W Cinema · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-63",
+      "title": "Moviechrome 40",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-63/",
+      "source_meta": "ISO 40 · Reversal Cinema · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-64",
+      "title": "Moviechrome 160",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-64/",
+      "source_meta": "ISO 160 · Reversal Cinema · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-65",
+      "title": "Agfachrome",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-65/",
+      "source_meta": "ISO 40 · Reversal Cinema · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-66",
+      "title": "ORWO UN 54",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-66/",
+      "source_meta": "ISO 100 · B&W Cinema · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-67",
+      "title": "ORWO N 75",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-67/",
+      "source_meta": "ISO 400 · B&W Cinema · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-68",
+      "title": "Wolfen NC 500",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-68/",
+      "source_meta": "ISO 500 · Color Neg Cinema · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-69",
+      "title": "Wolfen NC 400",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-69/",
+      "source_meta": "ISO 400 · Color Neg Cinema · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-70",
+      "title": "ORWO NP 7",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-70/",
+      "source_meta": "ISO 400 · B&W Cinema · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-71",
+      "title": "ORWO NC 3",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-71/",
+      "source_meta": "ISO 64 · Color Neg Cinema · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-72",
+      "title": "ORWO UP 15",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-72/",
+      "source_meta": "ISO 25 · Reversal Cinema · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-73",
+      "title": "ORWO UP 27",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-73/",
+      "source_meta": "ISO 400 · Reversal Cinema · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-74",
+      "title": "ORWO CHROM UK 17",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-74/",
+      "source_meta": "ISO 40 · Reversal Cinema · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-75",
+      "title": "Fomapan R 100",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-75/",
+      "source_meta": "ISO 100 · B&W Cinema · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-76",
+      "title": "Fomapan 100 Cine",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-76/",
+      "source_meta": "ISO 100 · B&W Cinema · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-77",
+      "title": "Fomapan 400 Cine",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-77/",
+      "source_meta": "ISO 400 · B&W Cinema · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-78",
+      "title": "Foma Ortho 400 Cine",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-78/",
+      "source_meta": "ISO 400 · B&W Cinema · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-79",
+      "title": "DuPont Superior 2 (926B)",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-79/",
+      "source_meta": "ISO 80 · B&W Cinema · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-80",
+      "title": "DuPont Superior 3 (927B)",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-80/",
+      "source_meta": "ISO 125 · B&W Cinema · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-81",
+      "title": "DuPont Superior 4 (928B)",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-81/",
+      "source_meta": "ISO 320 · B&W Cinema · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-82",
+      "title": "3M CR 160",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-82/",
+      "source_meta": "ISO 160 · Reversal Cinema · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-83",
+      "title": "Svema OCh-45",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-83/",
+      "source_meta": "ISO — · B&W Cinema · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-84",
+      "title": "Svema KN-2",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-84/",
+      "source_meta": "ISO — · B&W Cinema · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-85",
+      "title": "Tasma NK-2",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-85/",
+      "source_meta": "ISO — · B&W Cinema · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-86",
+      "title": "Portra 160",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-86/",
+      "source_meta": "ISO 160 · Color Neg · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-87",
+      "title": "Portra 400",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-87/",
+      "source_meta": "ISO 400 · Color Neg · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-88",
+      "title": "Portra 800",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-88/",
+      "source_meta": "ISO 800 · Color Neg · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-89",
+      "title": "Ektar 100",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-89/",
+      "source_meta": "ISO 100 · Color Neg · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-90",
+      "title": "Gold 200",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-90/",
+      "source_meta": "ISO 200 · Color Neg · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-91",
+      "title": "ColorPlus 200",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-91/",
+      "source_meta": "ISO 200 · Color Neg · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-92",
+      "title": "Ultramax 400",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-92/",
+      "source_meta": "ISO 400 · Color Neg · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-93",
+      "title": "Kodak i60 Film",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-93/",
+      "source_meta": "ISO 400 · Color Neg · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-94",
+      "title": "Pro Image 100",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-94/",
+      "source_meta": "ISO 100 · Color Neg · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-95",
+      "title": "Kodachrome 25",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-95/",
+      "source_meta": "ISO 25 · Reversal · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-96",
+      "title": "Kodachrome 64",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-96/",
+      "source_meta": "ISO 64 · Reversal · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-97",
+      "title": "Kodachrome 200",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-97/",
+      "source_meta": "ISO 200 · Reversal · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-98",
+      "title": "Kodacolor VR 200",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-98/",
+      "source_meta": "ISO 200 · Color Neg · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-99",
+      "title": "Kodacolor VR 400",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-99/",
+      "source_meta": "ISO 400 · Color Neg · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-100",
+      "title": "Royal Gold 100",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-100/",
+      "source_meta": "ISO 100 · Color Neg · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-101",
+      "title": "Royal Gold 400",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-101/",
+      "source_meta": "ISO 400 · Color Neg · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-102",
+      "title": "Supra 100/400/800",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-102/",
+      "source_meta": "ISO 100–800 · Color Neg · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-103",
+      "title": "Ektachrome E100",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-103/",
+      "source_meta": "ISO 100 · Reversal · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-104",
+      "title": "Ektachrome 64T",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-104/",
+      "source_meta": "ISO 64 · Reversal · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-105",
+      "title": "Ektachrome 100VS",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-105/",
+      "source_meta": "ISO 100 · Reversal · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-106",
+      "title": "Ektachrome 100G",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-106/",
+      "source_meta": "ISO 100 · Reversal · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-107",
+      "title": "Elite Chrome 100–400",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-107/",
+      "source_meta": "ISO 100–400 · Reversal · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-108",
+      "title": "Tri-X 400 (TX)",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-108/",
+      "source_meta": "ISO 400 · B&W · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-109",
+      "title": "T-MAX 100 (TMX)",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-109/",
+      "source_meta": "ISO 100 · B&W · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-110",
+      "title": "T-MAX 400 (TMY-2)",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-110/",
+      "source_meta": "ISO 400 · B&W · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-111",
+      "title": "T-MAX P3200 (TMZ)",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-111/",
+      "source_meta": "ISO 3200 · B&W · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-112",
+      "title": "Plus-X 125 (PX)",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-112/",
+      "source_meta": "ISO 125 · B&W · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-113",
+      "title": "Panatomic-X",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-113/",
+      "source_meta": "ISO 32 · B&W · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-114",
+      "title": "Recording Film 2475",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-114/",
+      "source_meta": "ISO 1000 · B&W · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-115",
+      "title": "Technical Pan",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-115/",
+      "source_meta": "ISO 25 · B&W · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-116",
+      "title": "BW400CN",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-116/",
+      "source_meta": "ISO 400 · B&W · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-117",
+      "title": "HIE (Infrared)",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-117/",
+      "source_meta": "ISO — · Special · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-118",
+      "title": "Fujicolor 200",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-118/",
+      "source_meta": "ISO 200 · Color Neg · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-119",
+      "title": "Fujicolor C200",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-119/",
+      "source_meta": "ISO 200 · Color Neg · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-120",
+      "title": "Superia X-TRA 400",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-120/",
+      "source_meta": "ISO 400 · Color Neg · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-121",
+      "title": "Superia Premium 400",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-121/",
+      "source_meta": "ISO 400 · Color Neg · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-122",
+      "title": "Pro 400H",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-122/",
+      "source_meta": "ISO 400 · Color Neg · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-123",
+      "title": "Pro 160NS",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-123/",
+      "source_meta": "ISO 160 · Color Neg · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-124",
+      "title": "Pro 160C",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-124/",
+      "source_meta": "ISO 160 · Color Neg · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-125",
+      "title": "Pro 800Z",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-125/",
+      "source_meta": "ISO 800 · Color Neg · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-126",
+      "title": "Natura 1600",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-126/",
+      "source_meta": "ISO 1600 · Color Neg · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-127",
+      "title": "Reala 100",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-127/",
+      "source_meta": "ISO 100 · Color Neg · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-128",
+      "title": "NPS 160",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-128/",
+      "source_meta": "ISO 160 · Color Neg · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-129",
+      "title": "NPH 400",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-129/",
+      "source_meta": "ISO 400 · Color Neg · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-130",
+      "title": "Velvia 50",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-130/",
+      "source_meta": "ISO 50 · Reversal · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-131",
+      "title": "Velvia 100",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-131/",
+      "source_meta": "ISO 100 · Reversal · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-132",
+      "title": "Provia 100F",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-132/",
+      "source_meta": "ISO 100 · Reversal · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-133",
+      "title": "Astia 100F",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-133/",
+      "source_meta": "ISO 100 · Reversal · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-134",
+      "title": "Fortia SP",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-134/",
+      "source_meta": "ISO 50 · Reversal · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-135",
+      "title": "Sensia 100–400",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-135/",
+      "source_meta": "ISO 100–400 · Reversal · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-136",
+      "title": "Fujichrome T64",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-136/",
+      "source_meta": "ISO 64 · Reversal · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-137",
+      "title": "Neopan 100 Acros II",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-137/",
+      "source_meta": "ISO 100 · B&W · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-138",
+      "title": "Neopan 400 (Presto)",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-138/",
+      "source_meta": "ISO 400 · B&W · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-139",
+      "title": "Neopan 1600",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-139/",
+      "source_meta": "ISO 1600 · B&W · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-140",
+      "title": "Neopan SS",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-140/",
+      "source_meta": "ISO 100 · B&W · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-141",
+      "title": "Instax Mini",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-141/",
+      "source_meta": "ISO — · Instant · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-142",
+      "title": "Instax Wide",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-142/",
+      "source_meta": "ISO — · Instant · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-143",
+      "title": "Instax Square",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-143/",
+      "source_meta": "ISO — · Instant · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-144",
+      "title": "Pan F Plus",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-144/",
+      "source_meta": "ISO 50 · B&W · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-145",
+      "title": "FP4 Plus",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-145/",
+      "source_meta": "ISO 125 · B&W · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-146",
+      "title": "HP5 Plus",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-146/",
+      "source_meta": "ISO 400 · B&W · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-147",
+      "title": "Delta 100",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-147/",
+      "source_meta": "ISO 100 · B&W · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-148",
+      "title": "Delta 400",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-148/",
+      "source_meta": "ISO 400 · B&W · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-149",
+      "title": "Delta 3200",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-149/",
+      "source_meta": "ISO 3200 · B&W · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-150",
+      "title": "XP2 Super",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-150/",
+      "source_meta": "ISO 400 · B&W · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-151",
+      "title": "Ortho Plus",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-151/",
+      "source_meta": "ISO 80 · B&W · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-152",
+      "title": "SFX 200",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-152/",
+      "source_meta": "ISO 200 · Special · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-153",
+      "title": "Photo Paper Series",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-153/",
+      "source_meta": "ISO — · Special · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-154",
+      "title": "CineStill 800T",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-154/",
+      "source_meta": "ISO 800 · Color Neg · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-155",
+      "title": "CineStill 50D",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-155/",
+      "source_meta": "ISO 50 · Color Neg · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-156",
+      "title": "CineStill 400D",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-156/",
+      "source_meta": "ISO 400 · Color Neg · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-157",
+      "title": "CineStill bwXX",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-157/",
+      "source_meta": "ISO — · B&W · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-158",
+      "title": "LomoChrome Purple",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-158/",
+      "source_meta": "ISO 100–400 · Color Neg · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-159",
+      "title": "LomoChrome Turquoise",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-159/",
+      "source_meta": "ISO 100–400 · Color Neg · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-160",
+      "title": "LomoChrome Metropolis",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-160/",
+      "source_meta": "ISO 100–400 · Color Neg · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-161",
+      "title": "Color Negative 100",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-161/",
+      "source_meta": "ISO 100 · Color Neg · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-162",
+      "title": "Color Negative 400",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-162/",
+      "source_meta": "ISO 400 · Color Neg · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-163",
+      "title": "Color Negative 800",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-163/",
+      "source_meta": "ISO 800 · Color Neg · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-164",
+      "title": "Lady Grey 400",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-164/",
+      "source_meta": "ISO 400 · B&W · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-165",
+      "title": "Earl Grey 100",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-165/",
+      "source_meta": "ISO 100 · B&W · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-166",
+      "title": "Babylon Kino 13",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-166/",
+      "source_meta": "ISO 13 · B&W · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-167",
+      "title": "Berlin Kino 400",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-167/",
+      "source_meta": "ISO 400 · B&W · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-168",
+      "title": "Fantôme Kino 8",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-168/",
+      "source_meta": "ISO 8 · B&W · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-169",
+      "title": "Potsdam Kino 100",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-169/",
+      "source_meta": "ISO 100 · B&W · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-170",
+      "title": "CMS 20 II Pro",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-170/",
+      "source_meta": "ISO 20 · B&W · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-171",
+      "title": "HR-50",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-171/",
+      "source_meta": "ISO 50 · B&W · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-172",
+      "title": "CHS 100 II",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-172/",
+      "source_meta": "ISO 100 · B&W · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-173",
+      "title": "Silvermax 100",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-173/",
+      "source_meta": "ISO 100 · B&W · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-174",
+      "title": "Color Mission 200",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-174/",
+      "source_meta": "ISO 200 · Color Neg · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-175",
+      "title": "Scale 50",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-175/",
+      "source_meta": "ISO 50 · B&W · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-176",
+      "title": "Fomapan 100 Classic",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-176/",
+      "source_meta": "ISO 100 · B&W · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-177",
+      "title": "Fomapan 200 Creative",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-177/",
+      "source_meta": "ISO 200 · B&W · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-178",
+      "title": "Fomapan 400 Action",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-178/",
+      "source_meta": "ISO 400 · B&W · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-179",
+      "title": "Retropan 320 Soft",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-179/",
+      "source_meta": "ISO 320 · B&W · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-180",
+      "title": "Fomapan R 100 (135)",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-180/",
+      "source_meta": "ISO 100 · Reversal · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-181",
+      "title": "RPX 25",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-181/",
+      "source_meta": "ISO 25 · B&W · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-182",
+      "title": "RPX 100",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-182/",
+      "source_meta": "ISO 100 · B&W · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-183",
+      "title": "RPX 400",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-183/",
+      "source_meta": "ISO 400 · B&W · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-184",
+      "title": "Retro 80S",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-184/",
+      "source_meta": "ISO 80 · B&W · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-185",
+      "title": "Retro 400S",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-185/",
+      "source_meta": "ISO 400 · B&W · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-186",
+      "title": "Infrared 400",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-186/",
+      "source_meta": "ISO 400 · Special · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-187",
+      "title": "Agfa Photo APX 100",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-187/",
+      "source_meta": "ISO 100 · B&W · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-188",
+      "title": "Agfa Photo APX 400",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-188/",
+      "source_meta": "ISO 400 · B&W · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-189",
+      "title": "P30",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-189/",
+      "source_meta": "ISO 80 · B&W · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-190",
+      "title": "P33",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-190/",
+      "source_meta": "ISO 160 · B&W · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-191",
+      "title": "Bergger Pancro 400",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-191/",
+      "source_meta": "ISO 400 · B&W · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-192",
+      "title": "Silberra ULTIMA 100",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-192/",
+      "source_meta": "ISO 100 · B&W · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-193",
+      "title": "Kosmo Foto Mono 100",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-193/",
+      "source_meta": "ISO 100 · B&W · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-194",
+      "title": "Washi “A” Type",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-194/",
+      "source_meta": "ISO 12 · Special · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-195",
+      "title": "Washi “S” Sound",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-195/",
+      "source_meta": "ISO 50 · Special · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-196",
+      "title": "Harman Phoenix 200",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-196/",
+      "source_meta": "ISO 200 · Color Neg · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-197",
+      "title": "Svema Foto 100/200",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-197/",
+      "source_meta": "ISO 100–200 · B&W · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-198",
+      "title": "Shanghai GP3",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-198/",
+      "source_meta": "ISO 100 · B&W · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-199",
+      "title": "Lucky SHD 100",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-199/",
+      "source_meta": "ISO 100 · B&W · Discontinued",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    },
+    {
+      "source_id": "film-200",
+      "title": "Polaroid i-Type/600/SX-70",
+      "family": "film_stock",
+      "source_url": "http://www.mokeaigc.com/prompt-entry/film-200/",
+      "source_meta": "ISO — · Instant · In Production",
+      "source_status_note": "source snapshot only; verify current manufacturer status before use"
+    }
+  ]
+}

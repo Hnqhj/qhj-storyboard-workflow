@@ -1,0 +1,7 @@
+interface:
+  display_name: "机械变形设计"
+  short_description: "机械/机甲变形、TF式重构与锁定收势。"
+  default_prompt: "Use $mechanical-transformation-design to design a TF-style mecha or mechanical transformation with visible mechanism stages, mass migration, locking, settling, and new handling behavior."
+
+policy:
+  allow_implicit_invocation: true

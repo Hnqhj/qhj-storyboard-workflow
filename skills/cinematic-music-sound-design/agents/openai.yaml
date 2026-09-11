@@ -1,0 +1,4 @@
+interface:
+  display_name: "电影音乐与声音设计"
+  short_description: "Design film music, sound, and audio prompts"
+  default_prompt: "Use $cinematic-music-sound-design to design the score, sound layers, cue timing, and AI music prompt for this scene."

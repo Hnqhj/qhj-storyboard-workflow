@@ -1,0 +1,4 @@
+interface:
+  display_name: "即梦SD2提示词编译"
+  short_description: "即梦/SD2/Seedance 可复制提示词打包。"
+  default_prompt: "Use $jimeng-sd2-prompting to package the upstream storyboard, action plan, references, audio, and constraints into a copyable SD2/Seedance prompt."

@@ -1,0 +1,7 @@
+interface:
+  display_name: "行业情报简报"
+  short_description: "Generate sourced industry briefing artifacts"
+  default_prompt: "Use $industry-briefing to collect current industry updates and generate a concise HTML or Markdown briefing."
+
+policy:
+  allow_implicit_invocation: true

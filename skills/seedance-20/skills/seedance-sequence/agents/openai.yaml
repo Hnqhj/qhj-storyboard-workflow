@@ -1,0 +1,7 @@
+interface:
+  display_name: "Seedance连续镜头"
+  short_description: "Seedance连续镜头：提供Seedance相关的专项工作流支持"
+  default_prompt: "使用 $seedance-sequence 完成当前专项任务。"
+
+policy:
+  allow_implicit_invocation: true

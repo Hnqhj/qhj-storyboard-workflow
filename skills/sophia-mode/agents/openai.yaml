@@ -1,0 +1,4 @@
+interface:
+  display_name: "Sophia模式"
+  short_description: "Risk-aware judgment and execution rules"
+  default_prompt: "Use $sophia-mode to apply risk-tiered clarification, source-aware retrieval, honest attribution, value-gated proactivity, and concise execution."

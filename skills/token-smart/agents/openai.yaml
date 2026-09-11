@@ -1,0 +1,6 @@
+interface:
+  display_name: "Token节省策略"
+  short_description: "减少无效读取、重复检查与过程播报，同时保留完整交付和必要验证"
+  default_prompt: "使用 $token-smart 完成本次任务：减少无效消耗，保留完整结果与必要检查。"
+policy:
+  allow_implicit_invocation: true

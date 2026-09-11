@@ -1,0 +1,4 @@
+interface:
+  display_name: "能力胶囊引擎"
+  short_description: "Evolve evidence into reusable capabilities"
+  default_prompt: "Use $capsule-engine to turn this verified lesson into a scoped capsule, record its evidence, and decide whether it should update a skill."

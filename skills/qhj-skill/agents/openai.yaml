@@ -1,0 +1,4 @@
+interface:
+  display_name: "QHJ拆分镜工作流"
+  short_description: "按完整度与复杂度路由剧本拆分镜并经确认后生成平台提示词"
+  default_prompt: "使用QHJ拆分镜工作流处理这段剧本"

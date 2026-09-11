@@ -1,0 +1,4 @@
+interface:
+  display_name: "电影拆解提炼"
+  short_description: "Discover films, analyze scenes, and distill reusable film-language mechanisms."
+  default_prompt: "Use $film-breakdown-distiller to choose or analyze one film/scene and turn source-backed craft observations into reusable mechanisms, prompt controls, and misuse boundaries."

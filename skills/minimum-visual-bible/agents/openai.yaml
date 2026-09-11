@@ -1,0 +1,4 @@
+interface:
+  display_name: "最小视觉圣经"
+  short_description: "按项目风险建立够用而不过度的视觉契约、批准锚点与变更机制"
+  default_prompt: "Use $minimum-visual-bible to create a risk-scaled visual contract for this project."

@@ -1,0 +1,73 @@
+{
+  "skill": "bounded-explore-select",
+  "version": "0.1.0",
+  "source_book": "《AI 创作体系：视觉 Bible、工作流与 Agent Skill》（三期课程）— MokeLMa",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "我们已经生成了 120 张海报，大家只会说‘都不错’，继续抽图也选不出来。请在现有视觉锚点下设计评分、硬门槛、淘汰理由和最终主选/备选流程。",
+      "expected_behavior": "应激活 bounded-explore-select，先锁定唯一决策单元与不变量，对候选编号并建立硬门槛、加权评分和理由码，输出主选、最多两项备选以及合法的‘无候选达标’结论；不得用更多生成逃避选择。",
+      "notes": "正面场景：候选过多，需要可审计的收敛机制。"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "我要做三轮镜头构图变体探索，总预算 400 元、今晚两小时内结束。请在生成前规定每批上限、总候选数、最低增益和何时 STOP、CONTINUE 或 ESCALATE。",
+      "expected_behavior": "应激活 bounded-explore-select，在第一张候选出现前写入每批上限、最大轮数、总量、时间/费用预算与至少四类停止条件，并规定每轮只改变一个主变量。",
+      "notes": "正面场景：固定预算下的有限批次探索与停止条件。"
+    },
+    {
+      "id": "should-trigger-03",
+      "type": "should_trigger",
+      "prompt": "我想靠每天生成 500 张电影画面来‘练审美’，但不想只囤图。请把训练改成能证明我真的学到东西的复刻与比较流程。",
+      "expected_behavior": "应激活 bounded-explore-select 的训练模式，明确生成数量不会自动提升审美；每轮只设一个训练目标，用小批次复刻、同尺度比较、差异归因并提炼一条可迁移规则，再用新例子验证。",
+      "notes": "正面场景及硬边界：数量不等于审美，训练必须包含比较、归因与迁移验证。"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "我们还没决定作品讲什么、给谁看，也没有任何批准参考或最低验收标准。先直接帮我批量生成 100 个完全不同的方向，总能撞到一个好的。",
+      "expected_behavior": "不应激活 bounded-explore-select；应先激活 creative-north-star，并视需要补 minimum-visual-bible。没有目标与锚点时不得用候选评分事后合理化方向。",
+      "notes": "跨 skill 混淆诱饵：创作目标未定，不具备有界探索的评分前提。诱饵零容错。"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "十个镜头已经全部入选并剪进成片，不需要再挑候选。现在同一角色的材质、主光方向和色温在镜头间跳变，请定位差异并安排修复。",
+      "expected_behavior": "不应激活 bounded-explore-select；应激活 cross-shot-consistency-audit，审计已入选序列的漂移，不能通过再生成更多候选解决。",
+      "notes": "跨 skill 混淆诱饵：序列一致性审计不属于候选发散/收敛。诱饵零容错。"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "探索账本预设‘连续两轮最佳分提升不足 3 分就停止’。现在已经连续两轮只提升 1 分，但预算还剩一半，团队说钱没花完就再抽五轮。该怎么办？",
+      "expected_behavior": "应激活 bounded-explore-select，并依据预设停止条件立即给出 STOP 或 ESCALATE，记录停止证据；不得因为剩余预算而修改规则继续抽卡，除非由具名决策人留下有依据的规则变更。",
+      "notes": "边界：预算是硬上限，不是必须耗尽的额度；停止条件优先于‘多生成也许更好’。"
+    },
+    {
+      "id": "should-trigger-mj-01",
+      "type": "should_trigger",
+      "prompt": "同一个 MJ profile 同时混入奢华美妆和纪实工业，输出越来越串味。请按有限批次、分层筛选和停止/拆分规则处理。",
+      "expected_behavior": "应激活 bounded-explore-select，定义两个目标分布与冲突维度，停止混选并在必要时拆 profile/Moodboard；参数兼容交给 midjourney-generation-adapter。",
+      "notes": "MJ 偏好资产正面场景。"
+    },
+    {
+      "id": "should-not-trigger-mj-01",
+      "type": "should_not_trigger",
+      "prompt": "目标风格已经批准，只查当前 V8.1 的 --p、--sref 与 --sw 是否兼容。",
+      "expected_behavior": "不应由 bounded-explore-select 主导；应激活 midjourney-generation-adapter。",
+      "notes": "平台兼容诱饵，零容错。"
+    },
+    {
+      "id": "edge-mj-01",
+      "type": "edge_case",
+      "prompt": "我想每天生成 500 张图练审美，但不做比较、归因和迁移验证。",
+      "expected_behavior": "应激活训练边界并否定数量自动提升审美，改为小批复刻—比较—归因—验证。",
+      "notes": "硬边界。"
+    }
+  ],
+  "minimum_pass_rate": 0.8,
+  "notes": "3 条 should_trigger + 2 条 should_not_trigger + 1 条 edge_case。全部 should_not_trigger 必须通过，诱饵容错为 0。"
+}

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Seedance英文词汇"
+  short_description: "Seedance英文词汇：提供Seedance相关的专项工作流支持"
+  default_prompt: "使用 $seedance-vocab-en 完成当前专项任务。"
+
+policy:
+  allow_implicit_invocation: true

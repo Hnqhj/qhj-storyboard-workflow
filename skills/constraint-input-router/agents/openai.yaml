@@ -1,0 +1,4 @@
+interface:
+  display_name: "约束输入路由"
+  short_description: "在文字约束失效时升级到视觉、灯光、预演、三维、深度或实测证据"
+  default_prompt: "Use $constraint-input-router to choose the least costly input that can reliably constrain this shot."

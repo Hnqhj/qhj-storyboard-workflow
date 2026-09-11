@@ -1,0 +1,4 @@
+interface:
+  display_name: "视觉风格与审美指导"
+  short_description: "Research-backed visual style and aesthetic direction."
+  default_prompt: "Use $visual-style-aesthetic-direction to research and choose a refined visual style system, then keep the aesthetic consistent."

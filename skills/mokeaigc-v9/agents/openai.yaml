@@ -1,0 +1,4 @@
+interface:
+  display_name: "MOKE世界观构建V11"
+  short_description: "把灵感转成连贯世界 Bible 与 6/9 张电影静帧"
+  default_prompt: "Use $mokeaigc-v9 to build a continuity bible, aspect matrix, and a compact set of connected cinematic world stills from this idea or reference."

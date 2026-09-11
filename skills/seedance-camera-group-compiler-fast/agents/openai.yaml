@@ -1,0 +1,7 @@
+interface:
+  display_name: "Seedance镜头组快速编译"
+  short_description: "把低风险镜头计划一次编译为完整六段式提示词"
+  default_prompt: "Use $seedance-camera-group-compiler-fast to compile this approved low-risk camera group once."
+
+policy:
+  allow_implicit_invocation: false

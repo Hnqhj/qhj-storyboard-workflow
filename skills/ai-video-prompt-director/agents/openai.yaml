@@ -1,0 +1,7 @@
+interface:
+  display_name: "AI视频提示词总导演"
+  short_description: "完整导演模式：AI视频创意、分镜、提示词与证据闭环。"
+  default_prompt: "Use $ai-video-prompt-director for the full AI-video director workflow: intent reading, structure, shots, style, sound, prompt packaging, preflight, and evidence routing."
+
+policy:
+  allow_implicit_invocation: false

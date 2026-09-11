@@ -1,0 +1,4 @@
+interface:
+  display_name: "关系对白指导"
+  short_description: "Direct emotional two-person dialogue scenes."
+  default_prompt: "Use $relationship-dialogue-direction to plan a restrained two-person emotional scene with reverse-shot coverage and prompt-ready beats."

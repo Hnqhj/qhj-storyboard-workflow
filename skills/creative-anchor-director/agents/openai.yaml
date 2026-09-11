@@ -1,0 +1,4 @@
+interface:
+  display_name: "创意锚点导演"
+  short_description: "跨风格主动发现并组合导演、摄影、动画、动作、音乐与设计锚点"
+  default_prompt: "Use $creative-anchor-director to preserve what I know, discover missing creative reference anchors, assign each a role, and build a compact compatible anchor stack."

@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{INDUSTRY}}快报 - {{DATE_RANGE}}</title>
+    <style>
+        :root {
+            --bg: #f6f8fc;
+            --paper: #ffffff;
+            --ink: #202a3a;
+            --muted: #718096;
+            --line: #dfe7f3;
+            --blue: #3564f4;
+            --indigo: #6b58d9;
+            --cyan: #12b6cb;
+            --green: #21c58b;
+            --soft-blue: #eef4ff;
+            --soft-cyan: #eafcff;
+            --shadow: 0 10px 26px rgba(35, 55, 90, 0.08);
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            background: var(--bg);
+            color: var(--ink);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", Arial, sans-serif;
+            line-height: 1.72;
+            letter-spacing: 0;
+        }
+
+        .page {
+            width: min(760px, 100%);
+            margin: 0 auto;
+            padding: 34px 18px 46px;
+        }
+
+        .masthead {
+            text-align: center;
+            padding: 14px 0 26px;
+            border-bottom: 1px solid var(--line);
+            margin-bottom: 24px;
+        }
+
+        .masthead h1 {
+            margin: 0;
+            color: var(--blue);
+            font-size: clamp(26px, 5vw, 38px);
+            line-height: 1.18;
+            font-weight: 800;
+        }
+
+        .subtitle {
+            margin: 12px 0 16px;
+            color: var(--muted);
+            font-size: 14px;
+        }
+
+        .pill {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            min-height: 34px;
+            padding: 7px 18px;
+            border-radius: 999px;
+            background: linear-gradient(135deg, var(--blue), var(--indigo));
+            color: #fff;
+            font-size: 13px;
+            font-weight: 700;
+            box-shadow: 0 8px 18px rgba(53, 100, 244, 0.22);
+        }
+
+        .brief-meta {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px 18px;
+            margin-top: 16px;
+            color: var(--muted);
+            font-size: 13px;
+        }
+
+        .brief-list {
+            display: grid;
+            gap: 22px;
+        }
+
+        .brief-card {
+            position: relative;
+            background: var(--paper);
+            border: 1px solid #e8eef8;
+            border-radius: 8px;
+            padding: 22px 22px 22px 26px;
+            box-shadow: var(--shadow);
+            overflow: hidden;
+        }
+
+        .brief-card::before {
+            content: "";
+            position: absolute;
+            inset: 0 auto 0 0;
+            width: 4px;
+            background: linear-gradient(180deg, var(--blue), var(--cyan), var(--indigo));
+        }
+
+        .card-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 16px;
+            margin-bottom: 12px;
+        }
+
+        .tag {
+            display: inline-flex;
+            align-items: center;
+            min-height: 26px;
+            padding: 4px 11px;
+            border-radius: 999px;
+            background: var(--soft-blue);
+            color: var(--blue);
+            font-size: 12px;
+            font-weight: 800;
+        }
+
+        .date {
+            color: var(--muted);
+            font-size: 13px;
+            white-space: nowrap;
+        }
+
+        .brief-card h2 {
+            margin: 0 0 12px;
+            font-size: clamp(19px, 3.5vw, 24px);
+            line-height: 1.42;
+            font-weight: 800;
+            color: var(--ink);
+        }
+
+        .source-row {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 14px;
+            color: var(--muted);
+            font-size: 13px;
+        }
+
+        .source-row::before {
+            content: "";
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: var(--green);
+            flex: 0 0 auto;
+        }
+
+        .source-row a {
+            color: #587299;
+            text-decoration: none;
+            overflow-wrap: anywhere;
+        }
+
+        .source-row a:hover {
+            color: var(--blue);
+            text-decoration: underline;
+        }
+
+        .section-label {
+            margin: 16px 0 6px;
+            font-size: 14px;
+            font-weight: 800;
+            color: #1f2937;
+        }
+
+        .summary,
+        .impact {
+            margin: 0;
+            color: #3b4658;
+            font-size: 15px;
+        }
+
+        .impact-box {
+            margin-top: 15px;
+            padding: 13px 14px;
+            border-radius: 8px;
+            background: linear-gradient(180deg, var(--soft-cyan), #f7fbff);
+            border: 1px solid #d7f2f7;
+        }
+
+        .importance {
+            display: inline-flex;
+            align-items: center;
+            min-height: 22px;
+            padding: 2px 9px;
+            border-radius: 999px;
+            background: #eefdf7;
+            color: #087a55;
+            font-size: 12px;
+            font-weight: 800;
+            margin-left: 8px;
+        }
+
+        footer {
+            margin-top: 28px;
+            padding-top: 20px;
+            border-top: 1px solid var(--line);
+            color: var(--muted);
+            text-align: center;
+            font-size: 13px;
+        }
+
+        @media (max-width: 520px) {
+            .page {
+                padding: 26px 12px 36px;
+            }
+
+            .brief-card {
+                padding: 19px 16px 19px 20px;
+            }
+
+            .card-top {
+                gap: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main class="page">
+        <header class="masthead">
+            <h1>{{INDUSTRY}}每日快报｜{{END_DATE}}</h1>
+            <p class="subtitle">聚焦创作工具、前沿技术与可落地工作流</p>
+            <div class="pill">今日精选 · {{TOTAL_COUNT}}条动态</div>
+            <div class="brief-meta">
+                <span>{{DATE_RANGE}}</span>
+                <span>{{CATEGORY_COUNT}} 个方向</span>
+                <span>{{HIGH_IMPORTANCE}} 条重点</span>
+            </div>
+        </header>
+
+        <section class="brief-list">
+            {{CONTENT}}
+        </section>
+
+        <footer>
+            <p>本快报由行业快报生成技能生成｜数据来源：{{SOURCES}}</p>
+        </footer>
+    </main>
+</body>
+</html>

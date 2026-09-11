@@ -1,0 +1,4 @@
+interface:
+  display_name: "Windows安全清理"
+  short_description: "Audit disks and safely clean Windows caches."
+  default_prompt: "Use $windows-safe-cleanup to inspect my Windows PC, report safe cleanup options, and only clean after I approve."

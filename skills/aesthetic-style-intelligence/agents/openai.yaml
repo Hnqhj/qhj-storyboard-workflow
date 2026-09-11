@@ -1,0 +1,4 @@
+interface:
+  display_name: "审美风格情报"
+  short_description: "Track and distill reusable aesthetic style intelligence."
+  default_prompt: "Use $aesthetic-style-intelligence to research current visual style signals and turn them into reusable art-direction controls."

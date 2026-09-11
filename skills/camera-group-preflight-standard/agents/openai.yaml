@@ -1,0 +1,7 @@
+interface:
+  display_name: "镜头组标准预检"
+  short_description: "常规短剧镜头组的连续性、摄影、材质、声音与平台检查"
+  default_prompt: "Use $camera-group-preflight-standard to validate this standard-depth camera-group package without rewriting it."
+
+policy:
+  allow_implicit_invocation: false

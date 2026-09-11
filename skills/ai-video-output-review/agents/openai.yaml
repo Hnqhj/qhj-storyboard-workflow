@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI视频成片验片"
+  short_description: "抽帧验收生成成片，定位连续性、运动、审美和音画问题"
+  default_prompt: "使用 $ai-video-output-review 检查这条生成视频，给出逐时间点证据和下一轮最小重试方案。"

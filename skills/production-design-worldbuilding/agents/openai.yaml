@@ -1,0 +1,4 @@
+interface:
+  display_name: "制作设计与世界观"
+  short_description: "Plan coherent worlds and art direction."
+  default_prompt: "Use $production-design-worldbuilding to turn this idea into a coherent world, palette, location, prop, and production-design bible."

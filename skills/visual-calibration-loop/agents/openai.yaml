@@ -1,0 +1,4 @@
+interface:
+  display_name: "视觉标定闭环"
+  short_description: "用情绪曲线、色彩脚本和获批锚点控制全片视觉随时间推进"
+  default_prompt: "Use $visual-calibration-loop to design the emotional color script, approved anchors, and drift reset rules."

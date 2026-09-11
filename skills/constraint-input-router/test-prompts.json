@@ -1,0 +1,52 @@
+{
+  "skill": "constraint-input-router",
+  "version": "0.1.0",
+  "source_book": "《AI 创作体系：视觉 Bible、工作流与 Agent Skill》（三期课程）— MokeLMa",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "我已经在提示词里写了 35mm、f/2.8、相机离人物 2.4 米，但生成图的透视、虚化范围和前后景关系还是不对。这个镜头要和实拍 plate 精确衔接，下一步该补什么输入？",
+      "expected_behavior": "应激活 constraint-input-router，明确摄影参数在提示词中只表达意图、不是物理证据；诊断光学/空间与合成风险，并在深度、相机 blockout、现场镜头元数据、畸变参考、尺度物和 camera match 中选择最低充分输入，以可见或可测误差验收。",
+      "notes": "正面场景及硬边界：提示词摄影参数不等于物理准确。"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "四个人绕着桌子走位，人物前后关系、遮挡、左右方向和桌子比例总出错。我该继续加提示词，还是先画分镜、做 layout 或搭简单 3D？",
+      "expected_behavior": "应激活 constraint-input-router，先写空间/尺度验收项，从标注分镜或块面预演开始；若二维证据不足再升级到简单 3D 相机 blockout，并且只升级失败变量。",
+      "notes": "正面场景：语言无法稳定表达多人走位和空间关系，需要最低充分非文字约束。"
+    },
+    {
+      "id": "should-trigger-03",
+      "type": "should_trigger",
+      "prompt": "一段双人武打的出拳节奏、重心转换和接招 timing 用文字怎么写都不稳定。请帮我在真人表演参考、animatic、动捕和 rig 预演中选一个成本最低但够用的控制方案。",
+      "expected_behavior": "应激活 constraint-input-router，把主风险诊断为动作/节奏，依据精度与预算选择最低充分的表演或时间证据，先做低成本试片，再按失败证据逐级升级。",
+      "notes": "正面场景：复杂动作不应继续靠堆叠动作形容词控制。"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "还没有任何构图、空间或动作控制失败。我只是想把项目的主体、风格、灯光、材质和镜头语言整理成可复用的模块化文字 Bible。",
+      "expected_behavior": "不应激活 constraint-input-router；应激活 modular-text-bible，完成语言模块与优先级设计，而不是升级到草图、深度、3D 或实测数据。",
+      "notes": "跨 skill 混淆诱饵：写语言规范不等于为失败变量选择非文字约束。诱饵零容错。"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "八个镜头已经入选并完成合成，现在要比较它们的主光方向、色温、材质、锐度和接触阴影，给出严重度与最小修复路线。",
+      "expected_behavior": "不应激活 constraint-input-router；应激活 cross-shot-consistency-audit，对已有序列做锚点化差异矩阵和修复路由。",
+      "notes": "跨 skill 混淆诱饵：此时是成组镜头审计，不是选择生成输入。诱饵零容错。"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "这是工程演示图，管线直径和相机测量必须在毫米级准确。有人说把‘24mm 镜头、距离 1.75m、直径 80mm’写进提示词再多抽几张就行，而且不想用 CAD、标定或实测。请判断这个方案。",
+      "expected_behavior": "应激活 constraint-input-router，并明确否定‘写入参数即可物理准确’的前提；物理/工程精度必须路由到实测、CAD、标定相机或仿真，生成图最多作为概念提案，不能用增加样本量替代测量验证。",
+      "notes": "边界硬例：即使用户拒绝更强约束，也不能把提示词数字误认成空间或工程证据。"
+    }
+  ],
+  "minimum_pass_rate": 0.8,
+  "notes": "3 条 should_trigger + 2 条 should_not_trigger + 1 条 edge_case。全部 should_not_trigger 必须通过，诱饵容错为 0。"
+}

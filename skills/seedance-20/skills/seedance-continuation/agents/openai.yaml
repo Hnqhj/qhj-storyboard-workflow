@@ -1,0 +1,7 @@
+interface:
+  display_name: "Seedance续接与延展"
+  short_description: "Seedance续接与延展：提供Seedance相关的专项工作流支持"
+  default_prompt: "使用 $seedance-continuation 完成当前专项任务。"
+
+policy:
+  allow_implicit_invocation: true

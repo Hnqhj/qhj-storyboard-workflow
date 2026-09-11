@@ -1,0 +1,7 @@
+interface:
+  display_name: "AI视频迭代诊断"
+  short_description: "Diagnose AI video failures and plan the next retry."
+  default_prompt: "Use $ai-video-iteration-doctor to diagnose this AI video result and recommend the next precise prompt change."
+
+policy:
+  allow_implicit_invocation: true

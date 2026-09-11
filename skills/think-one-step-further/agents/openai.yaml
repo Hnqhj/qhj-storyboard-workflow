@@ -1,0 +1,4 @@
+interface:
+  display_name: "多想一步"
+  short_description: "Check readiness, next steps, and reuse"
+  default_prompt: "Use $think-one-step-further to audit this result for correctness, direct usability, next actions, reusable structure, and adjacent optimizations."

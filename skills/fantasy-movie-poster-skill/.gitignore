@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+
+# Local generated outputs should stay outside the skill repo.
+outputs/
+generated/
+temp/
+*.log
+

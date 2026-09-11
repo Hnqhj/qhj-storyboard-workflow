@@ -1,0 +1,52 @@
+{
+  "skill": "entity-continuity-system",
+  "version": "0.1.0",
+  "source_book": "《AI 创作体系：视觉 Bible、工作流与 Agent Skill》（三期课程）— MokeLMa",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "同一个女主会出现在 24 个镜头和下一集里，但每次脸型、发型和外套细节都会漂。请给她建立能跨模型调用的身份资料，并记录每场戏允许变化的服装和伤痕。",
+      "expected_behavior": "应激活 entity-continuity-system，为角色分配稳定实体 ID，分离身份不变量与剧情状态，建立批准视图、状态/镜头引用、版本和回写规则；不得把名字或单张参考图当成一致性保证。",
+      "notes": "正面场景：跨镜头、跨集的角色身份与状态事实源。"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "饮料广告里同一瓶产品会反复出现，瓶身标签方向、液面高度、瓶盖开合和冷凝水状态必须接得上。帮我做一套团队可用的连续性表和批准资产包。",
+      "expected_behavior": "应激活 entity-continuity-system，建立商品实体 ID、可观察身份不变量、状态 ID、批准细节视图、前序镜头关系与版本审批记录。",
+      "notes": "正面场景：高风险商品实体及其随镜头变化的状态治理。"
+    },
+    {
+      "id": "should-trigger-03",
+      "type": "should_trigger",
+      "prompt": "团队已经攒了几千张角色、车辆和场景图，文件名全是‘最终版2’和‘图1’，没人知道哪张获批、来自哪个模型、在哪个镜头用过。请把它们整理成可检索、可追溯的主体库。",
+      "expected_behavior": "应激活 entity-continuity-system，盘点重复实体，建立唯一 ID、来源/授权、批准/弃用状态、版本、镜头使用关系和生成回写规则，并在治理带宽不足时暂停继续扩量。",
+      "notes": "正面场景：资产身份、版本与镜头引用失去事实源。"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "角色身份和道具状态都已经锁定，12 个入选镜头也排进时间线了；现在的问题是镜头间主光方向、肤色、空气层和接触阴影跳变。请给我差异矩阵、严重度和修复顺序。",
+      "expected_behavior": "不应激活 entity-continuity-system；应激活 cross-shot-consistency-audit，依据现有实体基准审计已入选镜头的色光、空间和合成漂移。",
+      "notes": "跨 skill 混淆诱饵：事实源已经存在，任务是对成组镜头做一致性审计。诱饵零容错。"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "项目还没开始生成，我要先确定全片共同的色彩范围、材质倾向、写实程度、光线规则和画幅，请做一份最小视觉规范。",
+      "expected_behavior": "不应激活 entity-continuity-system；应激活 minimum-visual-bible，定义项目级共同视觉契约，而不是建立具体实体的身份与状态数据库。",
+      "notes": "跨 skill 混淆诱饵：全局视觉规则不等于实体事实源。诱饵零容错。"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "一个一次性朋友圈海报里有只只出现一次的纸杯，不会复用，改错也只需几分钟。要不要给它做完整的实体 ID、六视图、状态表和版本库？",
+      "expected_behavior": "不应为该低风险一次性对象完整激活 entity-continuity-system；应说明治理成本高于返工成本，只做轻量来源和文件记录即可。",
+      "notes": "边界：对象存在并不代表值得建立完整实体系统，应按复用次数和失败代价裁剪。"
+    }
+  ],
+  "minimum_pass_rate": 0.8,
+  "notes": "3 条 should_trigger + 2 条 should_not_trigger + 1 条 edge_case。全部 should_not_trigger 必须通过，诱饵容错为 0。"
+}

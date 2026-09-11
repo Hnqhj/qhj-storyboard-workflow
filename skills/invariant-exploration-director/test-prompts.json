@@ -1,0 +1,52 @@
+{
+  "skill": "invariant-exploration-director",
+  "version": "0.1.0",
+  "source_book": "《AI 创作体系：视觉 Bible、工作流与 Agent Skill》— MokeLMa",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "我要做一组梦境广告。商品瓶型、Logo 和主角身份绝对不能变，但环境纹理、天气和局部运动可以让 AI 给我惊喜。先帮我明确哪些锁死、哪些能在范围内变化、哪些开放探索。",
+      "expected_behavior": "应激活 invariant-exploration-director，按失败代价把变量划为 I/C/E，指定证据、容差与批准人，并输出 MUST KEEP / MAY VARY WITHIN / EXPLORE 生成契约；先验收不变量，再评价惊喜。",
+      "notes": "正面场景：同一任务同时存在高风险稳定性与低风险涌现空间。"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "我们的角色图每张都很统一，但统一得像复制粘贴，画面完全没有生命力。请检查是不是把太多低风险变量锁死了，并告诉我这一轮只该放开什么。",
+      "expected_behavior": "应激活 invariant-exploration-director，重审变量主权，把误列为不变量的低风险项降为条件变量或探索变量；一轮只释放 1–2 项，并保留具名人类批准和版本记录。",
+      "notes": "正面场景：约束过度导致正确但僵，需要 RELEASE ONE VARIABLE，而不是全面放开。"
+    },
+    {
+      "id": "should-trigger-03",
+      "type": "should_trigger",
+      "prompt": "AI 给了一个特别惊艳的镜头，可它把角色伤口位置和关键道具状态改了。团队想因为画面好看就直接采用。请给这批候选建立导演门检。",
+      "expected_behavior": "应激活 invariant-exploration-director，将伤口与道具状态列为叙事/连续性不变量；硬不变量失败的候选不得进入惊艳度排名，任何越界提案必须单列并由人类批准，不能静默写回 Bible。",
+      "notes": "正面场景：测试是否坚持 I → C → E 的验收顺序。"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "我已经有 48 张全部通过角色和叙事硬门槛的候选图，现在需要按构图、情绪、可读性评分，淘汰、回灌并决定何时停止继续生成。",
+      "expected_behavior": "不得激活 invariant-exploration-director；应激活同书兄弟 Skill bounded-explore-select，因为变量边界已经验收完毕，当前任务是候选预算、评分、淘汰、回灌和停止。",
+      "notes": "跨 Skill 混淆诱饵，零容错：不能重新做 I/C/E 分类或借机扩大候选。"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "剪辑已锁定，我发现第 3、7、12 镜角色服装、主光方向和墙面材质互相漂移。请按严重度定位差异并给出修复路由。",
+      "expected_behavior": "不得激活 invariant-exploration-director；应激活同书兄弟 Skill cross-shot-consistency-audit，对已入选序列做锚点化差异审计与修复路由。",
+      "notes": "跨 Skill 混淆诱饵，零容错：这是成片序列审计，不是生成前变量主权分配。"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "这批镜头要与实拍 plate 做精密 VFX 合成，相机内参、畸变、比例和接触位置必须物理准确。能否按‘控制 50%、自由 50%’留一半给 AI 猜？",
+      "expected_behavior": "不应把 50/50 当配方，也不应让 invariant-exploration-director 声称可提供物理精度。应明确所有影响匹配的变量均为硬约束，转由 constraint-input-router 选择实测元数据、layout/3D、跟踪与专业验证；仅在不影响合成的低风险表面细节上，才可选用本 Skill 的精简探索表。",
+      "notes": "边界：本 Skill 能分配风险，不能把提示词摄影参数或任意控制比例变成物理证据。"
+    }
+  ],
+  "minimum_pass_rate": 0.8,
+  "notes": "至少 3 条 should_trigger、2 条 should_not_trigger、1 条 edge_case。全部 should_not_trigger 必须通过，诱饵容错为 0；其中两条分别要求触发同书兄弟 Skill。"
+}

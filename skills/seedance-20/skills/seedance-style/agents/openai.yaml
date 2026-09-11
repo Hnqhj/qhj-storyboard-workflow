@@ -1,0 +1,7 @@
+interface:
+  display_name: "Seedance视觉风格"
+  short_description: "Seedance视觉风格：提供Seedance相关的专项工作流支持"
+  default_prompt: "使用 $seedance-style 完成当前专项任务。"
+
+policy:
+  allow_implicit_invocation: true

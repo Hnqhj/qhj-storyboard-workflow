@@ -1,0 +1,52 @@
+{
+  "skill": "visual-calibration-loop",
+  "version": "0.1.0",
+  "source_book": "AI 创作体系：视觉 Bible、工作流与 Agent Skill — MokeLMa",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "30 个镜头的剧本已经锁定：开场清晨温暖，中段事故后转为冷硬低饱和，结尾重新出现暖色但不能回到最初的轻松。请把这条情绪变化做成色彩脚本、关键帧批准计划和镜头跑偏后的复位规则。",
+      "expected_behavior": "应激活 visual-calibration-loop；拆分叙事情绪节点，将变化翻译为可观察色光变量，批准关键帧并建立时间轴、容许偏差和漂移复位规则。",
+      "notes": "正面场景：核心任务是把叙事弧线映射为随时间变化的视觉控制系统。"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "这些生成镜头单张都很漂亮，但按剪辑顺序看，亮度、色温和空气感忽冷忽热，高潮也没有比前段更强。下一批开工前，请选少量获批锚点，规定怎么并排审看、只修失败维度，并把偏移拉回最近锚点。",
+      "expected_behavior": "应激活 visual-calibration-loop；用序列而非单帧评价，建立标定帧、情绪曲线、接触表审看、偏差分类和最近锚点复位闭环。",
+      "notes": "正面场景：既要求前置标定，也要求生产中的时间序列漂移校正。"
+    },
+    {
+      "id": "should-trigger-03",
+      "type": "should_trigger",
+      "prompt": "品牌新品会经历预热、发布、售后三个阶段，海报、短视频和直播包装都要保留同一身份，但色彩和反差需要随阶段逐步推进。请设计每阶段的视觉节点、转折、批准 keyframe 和允许变化范围。",
+      "expected_behavior": "应激活 visual-calibration-loop；为跨媒介内容序列定义有叙事理由的视觉曲线、阶段锚点、渐变/突变关系、允许探索项和校正规则。",
+      "notes": "正面场景：不是影视剧本也可触发，只要存在需要治理的品牌时间序列。"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "创作方向已经定了，但项目还没有任何全局视觉规范。请先建立角色、场景、道具、材质、构图、交付格式、资产命名、正反例、批准人和版本变更的最小项目契约，不需要展开时间轴情绪变化。",
+      "expected_behavior": "不应激活 visual-calibration-loop；应激活同书兄弟 Skill minimum-visual-bible，先建立全项目稳定规则和资产/审批控制面。",
+      "notes": "跨 Skill 混淆诱饵，零容错：用户明确排除时间轴标定，任务属于 Visual Bible。"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "70 个成片镜头已经全部交付，现在要系统定位角色脸、服装、道具状态、空间方向、动作接续、色彩、灯光和技术规格分别哪里漂了，并输出返修优先级。",
+      "expected_behavior": "不应激活 visual-calibration-loop；应激活同书兄弟 Skill cross-shot-consistency-audit，对既有素材做综合跨镜头故障审计，再按结果决定是否回到标定闭环。",
+      "notes": "跨 Skill 混淆诱饵，零容错：这是成片后的多维诊断，不是建立或运行色彩标定系统。"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "三镜头片段故意从温暖家庭聚餐硬切到冷蓝事故现场，再切回暖色回忆。有人说色温不统一，想全部套成一个色调。请判断这是不是漂移，并给出该怎样控制。",
+      "expected_behavior": "应激活 visual-calibration-loop；先检查每次突变是否有明确叙事原因。若成立，应把暖—冷—暖写成获批的有意转折并分别设锚点与容许范围，而不是把差异抹平；只有无意偏离锚点的部分才复位。",
+      "notes": "边界：视觉一致性不等于全程同色，标定闭环应保护有叙事理由的变化，同时纠正无意漂移。"
+    }
+  ],
+  "minimum_pass_rate": 0.8,
+  "notes": "至少 3 条 should_trigger + 2 条 should_not_trigger + 1 条 edge_case。全部 should_not_trigger 必须通过（诱饵容错为 0）；两条诱饵分别指向 minimum-visual-bible 与 cross-shot-consistency-audit。"
+}

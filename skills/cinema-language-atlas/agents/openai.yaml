@@ -1,0 +1,6 @@
+interface:
+  display_name: "电影语言图谱"
+  short_description: "Film-language atlas for analysis and AI video prompts."
+  default_prompt: "Use $cinema-language-atlas to break down a scene into reusable film-language and prompt-writing controls."
+policy:
+  allow_implicit_invocation: true

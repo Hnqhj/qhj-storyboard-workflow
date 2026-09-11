@@ -1,0 +1,4 @@
+interface:
+  display_name: "动作展示导演"
+  short_description: "为纯武器、技能与变形短片设计分镜、动作、特效转场和收尾"
+  default_prompt: "Use $action-showcase-direction to design a readable, high-tension pure action showcase with purposeful shots, physical weapon handling, sourced effects, and a strong finish."

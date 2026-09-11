@@ -1,0 +1,7 @@
+interface:
+  display_name: "叙事镜头组封装"
+  short_description: "Build timed shot tables and complete twenty-second group prompts."
+  default_prompt: "Use $narrative-camera-groups to turn this script into timed AI-video camera groups."
+
+policy:
+  allow_implicit_invocation: false

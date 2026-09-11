@@ -1,0 +1,4 @@
+interface:
+  display_name: "大羽巨物恐惧概念设计"
+  short_description: "生成巨构、巨兽与宇宙实体的专业英文生图提示词，并推荐模型与参数"
+  default_prompt: "Use $dayu-megalophobia-concept-designer to turn my colossal-scale idea or visual reference into a professional English image-generation prompt and recommend suitable models and settings."

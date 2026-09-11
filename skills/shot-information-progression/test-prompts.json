@@ -1,0 +1,42 @@
+[
+  {
+    "id": "trigger-no-information",
+    "prompt": "这组分镜看起来挺电影，但每张都像氛围图，没有信息点，也不知道下一镜为什么接。",
+    "expected": "shot-information-progression owns the information-delta diagnosis before storyboard/camera polish"
+  },
+  {
+    "id": "trigger-repeated-face",
+    "prompt": "第一镜推近愤怒的父亲，第二镜又切父亲中景，怎么改才不重复？",
+    "expected": "shot-information-progression identifies repeated viewer knowledge and proposes cause/target/consequence alternatives"
+  },
+  {
+    "id": "trigger-tool-collage",
+    "prompt": "我会轨道、环绕、升降、微距和速度渐变，但剪出来像缝合怪，不知道为什么用。",
+    "expected": "shot-information-progression rebuilds meaning and information carriers before camera selection"
+  },
+  {
+    "id": "trigger-empty-atmosphere",
+    "prompt": "没有人物，只用百叶窗透光，怎么让画面真正表达孤独而不是只剩光线？",
+    "expected": "shot-information-progression adds environmental emotion carriers and temporal evidence"
+  },
+  {
+    "id": "lure-complete-storyboard",
+    "prompt": "把这段剧本画成完整 12 镜分镜表，给景别、机位、焦段、轴线和时长。",
+    "expected": "professional-storyboard-director owns; shot-information-progression may provide an internal information skeleton only"
+  },
+  {
+    "id": "lure-macro-structure",
+    "prompt": "给我设计一个 30 秒预告片的 hook、转折、高潮和结尾。",
+    "expected": "video-structure-design owns"
+  },
+  {
+    "id": "lure-lighting",
+    "prompt": "这个办公室场景怎么布主光、辅光、轮廓光和色温？",
+    "expected": "lighting/material visual skills own; no information-flow diagnosis unless narrative meaning is missing"
+  },
+  {
+    "id": "combo-script-to-board",
+    "prompt": "先检查这段戏每一镜新增什么信息，删掉重复镜头，再给我完整分镜。",
+    "expected": "shot-information-progression first, then professional-storyboard-director and cinematic-audiovisual-language"
+  }
+]

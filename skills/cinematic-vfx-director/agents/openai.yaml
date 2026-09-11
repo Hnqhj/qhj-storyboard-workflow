@@ -1,0 +1,4 @@
+interface:
+  display_name: "电影级特效导演"
+  short_description: "Design readable, physical and medium-aware cinematic VFX"
+  default_prompt: "Design or audit the cinematic VFX layer for this shot, preserving action causality, material response, visual hierarchy and medium-specific stylization."

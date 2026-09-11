@@ -1,0 +1,4 @@
+interface:
+  display_name: "动作编舞与物理基底"
+  short_description: "选择动作基底、锁定物理，并把动势提炼成提示词"
+  default_prompt: "Use $action-choreography-reference to extract motion grammar from action references and turn it into physically credible choreography prompts."

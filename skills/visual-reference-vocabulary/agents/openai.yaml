@@ -1,0 +1,4 @@
+interface:
+  display_name: "视觉参考词汇"
+  short_description: "主动补齐导演、摄影、动画、构图、光线与剪辑名称锚点"
+  default_prompt: "Use $visual-reference-vocabulary to preserve my known visual references and supplement the strongest compatible camera, composition, lighting, animation, and editing anchors."

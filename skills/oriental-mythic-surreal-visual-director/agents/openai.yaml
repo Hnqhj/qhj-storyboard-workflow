@@ -1,0 +1,6 @@
+interface:
+  display_name: "东方异境视觉导演"
+  short_description: "东方神话超现实视觉与 MJ 8.2 风格锁定"
+  default_prompt: "Use $oriental-mythic-surreal-visual-director to develop a Chinese mythic surreal image direction and a concise MJ 8.2 bilingual prompt."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,7 @@
+interface:
+  display_name: "AI真人短剧分镜"
+  short_description: "把剧本拆成连续分镜、真人视频提示词和Seedance分组"
+  default_prompt: "使用 $ai-short-drama-storyboard，先根据下面的剧本给我2到3套镜头结构、运镜和特效方案供选择；确认后锁定人物关系、站位、道具与环境状态，再拆成可生成的动作过程、台词微表演、首末帧承接和视频提示词。若我说直接生成或按推荐执行，则跳过选择并输出；Seedance 2.5 使用曼波 V1.6 时间轴格式。"
+
+policy:
+  allow_implicit_invocation: false

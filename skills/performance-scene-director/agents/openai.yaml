@@ -1,0 +1,4 @@
+interface:
+  display_name: "表演情绪导演"
+  short_description: "统一设计怒哭哀喜乐等情绪表演场景的导演流程"
+  default_prompt: "Use $performance-scene-director to design an emotion-led performance scene with acting arc, camera, sound, and AI video prompt wording."

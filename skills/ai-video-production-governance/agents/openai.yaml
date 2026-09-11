@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI视频制作治理"
+  short_description: "Govern script, state, assets, timing, and handoffs"
+  default_prompt: "Use $ai-video-production-governance to lock authority, project state, assets, timing, continuity, and specialist handoffs for this substantial AI-video task."

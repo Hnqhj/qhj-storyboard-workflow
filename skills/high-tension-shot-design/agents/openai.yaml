@@ -1,0 +1,7 @@
+interface:
+  display_name: "高张力镜头设计"
+  short_description: "高张力构图、分镜、运镜、效果与AI生图视频提示词库"
+  default_prompt: "Use $high-tension-shot-design to add cinematic tension, composition, storyboard beats, and camera motion to an image or video prompt."
+
+policy:
+  allow_implicit_invocation: true

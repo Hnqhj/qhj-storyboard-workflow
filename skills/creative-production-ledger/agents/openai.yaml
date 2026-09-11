@@ -1,0 +1,4 @@
+interface:
+  display_name: "创作生产账本"
+  short_description: "绑定提示词、参考素材、生成参数、验片证据与重试差异"
+  default_prompt: "Use $creative-production-ledger to create or update a traceable production ledger for this creative project."

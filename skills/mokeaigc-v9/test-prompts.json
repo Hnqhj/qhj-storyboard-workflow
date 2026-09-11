@@ -1,0 +1,45 @@
+[
+  {
+    "id": "world-seed-nine",
+    "prompt": "把‘永不停雨的盐沼文明’展开成九张像同一部未拍电影的世界观剧照。",
+    "expected_owner": "mokeaigc-v9",
+    "checks": ["世界承诺", "连续性 Bible", "九个不同世界功能", "共同锚点", "compact 默认"]
+  },
+  {
+    "id": "reference-world-extension",
+    "prompt": "从这张参考图想象它背后的完整世界，但不要照抄原构图。",
+    "expected_owner": "mokeaigc-v9",
+    "checks": ["观察与创作延展分离", "不伪称文化事实", "多方面世界发现"]
+  },
+  {
+    "id": "planning-subset",
+    "prompt": "先别写最终提示词，只规划居民、建筑、日常和交通四张的世界 Bible 与矩阵。",
+    "expected_owner": "mokeaigc-v9",
+    "checks": ["planning-only", "只做四项", "不补回九张", "无平台参数"]
+  },
+  {
+    "id": "negative-single-still",
+    "prompt": "写一张雨夜武士站在巷口的电影剧照提示词。",
+    "expected_owner": "cinematic-ai-image-prompt-library",
+    "checks": ["普通单帧不触发世界板"]
+  },
+  {
+    "id": "negative-same-scene-nine",
+    "prompt": "同一个武士巷口场景，给我九种不同机位和构图，人物和事件不变。",
+    "expected_owner": "cinematic-ai-image-prompt-library",
+    "checks": ["同场景九种拍法不由世界观 Skill 接管"]
+  },
+  {
+    "id": "negative-video",
+    "prompt": "把刚才那张世界观图做成十五秒运镜视频提示词。",
+    "expected_owner": "ai-video-prompt-director",
+    "checks": ["只交稳定世界法则", "不把静帧全文塞进视频"]
+  },
+  {
+    "id": "negative-grid-split",
+    "prompt": "九宫格已经生成了，帮我确定性拆成九张单图。",
+    "expected_owner": "curate-image-grid",
+    "checks": ["拆格需要用户明确请求", "不由世界构建 Skill 重绘"]
+  }
+]
+

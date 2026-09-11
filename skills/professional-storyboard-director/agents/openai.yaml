@@ -1,0 +1,7 @@
+interface:
+  display_name: "专业分镜导演"
+  short_description: "剧本转分镜、打戏动作、千川广告、悬疑镜头与 Seedance 分镜提示词。"
+  default_prompt: "Use $professional-storyboard-director to turn this script, fight/action beat, ad, suspense scene, or shot list into a 15S beat / AI-video-ready storyboard or Seedance prompt handoff."
+
+policy:
+  allow_implicit_invocation: false

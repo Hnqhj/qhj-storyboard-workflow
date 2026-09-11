@@ -1,0 +1,4 @@
+interface:
+  display_name: "CG仙侠特效设计"
+  short_description: "构建电影级CG玄幻能量、法阵、兵器和环境特效的形态、材质、运动与镜头语言"
+  default_prompt: "使用 $cg-xianxia-vfx-design，设计高品质CG/仙侠特效系统，避免廉价发光粒子堆叠。"

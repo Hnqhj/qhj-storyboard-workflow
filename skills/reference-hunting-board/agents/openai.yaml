@@ -1,0 +1,7 @@
+interface:
+  display_name: "参考搜集板"
+  short_description: "抓取并拆解视觉、动作、网页和视频参考"
+  default_prompt: "Use $reference-hunting-board to capture links, build a reference board, and translate useful mechanisms into prompt language."
+
+policy:
+  allow_implicit_invocation: true

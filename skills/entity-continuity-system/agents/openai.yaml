@@ -1,0 +1,4 @@
+interface:
+  display_name: "实体连续性系统"
+  short_description: "管理角色、商品、道具与场景的身份、状态、批准视图和版本"
+  default_prompt: "Use $entity-continuity-system to build a source of truth for recurring characters, props, scenes, states, and versions."

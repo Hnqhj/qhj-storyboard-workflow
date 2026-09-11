@@ -1,0 +1,4 @@
+﻿interface:
+  display_name: "特效构造引擎"
+  short_description: "把特效意图编成有源头、路径、交互与余韵的可生成系统"
+  default_prompt: "使用 $vfx-effect-construction-engine 为当前镜头构造因果清晰、介质匹配、可直接编入生成提示词的特效。"

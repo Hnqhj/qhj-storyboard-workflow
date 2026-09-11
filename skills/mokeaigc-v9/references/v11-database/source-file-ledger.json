@@ -1,0 +1,113 @@
+{
+  "source_archive": "mokeaigc-worldbuilder- V11(1).zip",
+  "archive_sha256": "F76FA2A2768EF9417A547A4053077E0A0C813B13EE3515B9943146F05B342236",
+  "zip_entries": 20,
+  "extracted_files": 17,
+  "meaningful_text_files": 7,
+  "macos_metadata_files": 10,
+  "meaningful_text_characters": 20266,
+  "files": [
+    {
+      "path": "mokeaigc-worldbuilder/SKILL.md",
+      "bytes": 6821,
+      "sha256": "95EE7869350E2F336E2D4827EEC9C3A86409E8C0DD0ECBAFD142E0F4AEE5A3FA",
+      "status": "full_text_audit"
+    },
+    {
+      "path": "mokeaigc-worldbuilder/agents/openai.yaml",
+      "bytes": 264,
+      "sha256": "00CBF2213C91984A7DA454272BEB2FBA084E1BDD3088E8B02F08D1AC623DFD00",
+      "status": "full_text_audit"
+    },
+    {
+      "path": "mokeaigc-worldbuilder/references/camera-and-style-adaptation.md",
+      "bytes": 2960,
+      "sha256": "16F110849082E60283BAB1C3A43374508E240E101391EC45B5BE8C75640F9E84",
+      "status": "full_text_audit"
+    },
+    {
+      "path": "mokeaigc-worldbuilder/references/continuity-and-shot-planning.md",
+      "bytes": 2839,
+      "sha256": "74E43F1A957E4FD77541AA8EFA7831A1A0D2344FFC59324E9E068B73B6083C1D",
+      "status": "full_text_audit"
+    },
+    {
+      "path": "mokeaigc-worldbuilder/references/output-formats.md",
+      "bytes": 2024,
+      "sha256": "5D248C114473D8AD474031C03B6ADE9434BF3023352C32D2B593AE9A821AE00E",
+      "status": "full_text_audit"
+    },
+    {
+      "path": "mokeaigc-worldbuilder/references/platform-renderers.md",
+      "bytes": 2502,
+      "sha256": "D95BAABFBE78B677CDD2AF9C57ABD78C40A351333E38F9F005D89CDD2280552C",
+      "status": "full_text_audit"
+    },
+    {
+      "path": "mokeaigc-worldbuilder/references/world-aspects.md",
+      "bytes": 3044,
+      "sha256": "7F2BD0F96B30B13170C15D7D92EF65165F8648C6E86A0CAD3092DBB8982B2EA7",
+      "status": "full_text_audit"
+    },
+    {
+      "path": "__MACOSX/._mokeaigc-worldbuilder",
+      "bytes": 163,
+      "sha256": "36357F5B8CF855CD5CD6FA820507058A56319DDD778BBB43791B242A8D8AA0E4",
+      "status": "macos_metadata"
+    },
+    {
+      "path": "__MACOSX/mokeaigc-worldbuilder/._agents",
+      "bytes": 163,
+      "sha256": "36357F5B8CF855CD5CD6FA820507058A56319DDD778BBB43791B242A8D8AA0E4",
+      "status": "macos_metadata"
+    },
+    {
+      "path": "__MACOSX/mokeaigc-worldbuilder/._references",
+      "bytes": 163,
+      "sha256": "36357F5B8CF855CD5CD6FA820507058A56319DDD778BBB43791B242A8D8AA0E4",
+      "status": "macos_metadata"
+    },
+    {
+      "path": "__MACOSX/mokeaigc-worldbuilder/._SKILL.md",
+      "bytes": 163,
+      "sha256": "36357F5B8CF855CD5CD6FA820507058A56319DDD778BBB43791B242A8D8AA0E4",
+      "status": "macos_metadata"
+    },
+    {
+      "path": "__MACOSX/mokeaigc-worldbuilder/agents/._openai.yaml",
+      "bytes": 163,
+      "sha256": "36357F5B8CF855CD5CD6FA820507058A56319DDD778BBB43791B242A8D8AA0E4",
+      "status": "macos_metadata"
+    },
+    {
+      "path": "__MACOSX/mokeaigc-worldbuilder/references/._camera-and-style-adaptation.md",
+      "bytes": 163,
+      "sha256": "36357F5B8CF855CD5CD6FA820507058A56319DDD778BBB43791B242A8D8AA0E4",
+      "status": "macos_metadata"
+    },
+    {
+      "path": "__MACOSX/mokeaigc-worldbuilder/references/._continuity-and-shot-planning.md",
+      "bytes": 163,
+      "sha256": "36357F5B8CF855CD5CD6FA820507058A56319DDD778BBB43791B242A8D8AA0E4",
+      "status": "macos_metadata"
+    },
+    {
+      "path": "__MACOSX/mokeaigc-worldbuilder/references/._output-formats.md",
+      "bytes": 163,
+      "sha256": "36357F5B8CF855CD5CD6FA820507058A56319DDD778BBB43791B242A8D8AA0E4",
+      "status": "macos_metadata"
+    },
+    {
+      "path": "__MACOSX/mokeaigc-worldbuilder/references/._platform-renderers.md",
+      "bytes": 163,
+      "sha256": "36357F5B8CF855CD5CD6FA820507058A56319DDD778BBB43791B242A8D8AA0E4",
+      "status": "macos_metadata"
+    },
+    {
+      "path": "__MACOSX/mokeaigc-worldbuilder/references/._world-aspects.md",
+      "bytes": 163,
+      "sha256": "36357F5B8CF855CD5CD6FA820507058A56319DDD778BBB43791B242A8D8AA0E4",
+      "status": "macos_metadata"
+    }
+  ]
+}

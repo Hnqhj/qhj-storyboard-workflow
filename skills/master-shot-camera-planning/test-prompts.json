@@ -1,0 +1,47 @@
+[
+  {
+    "id": "trigger-coverage-driven-dialogue",
+    "prompt": "这场三人谈判我现在只有全景、正反打和每人一个特写，拍得很平均，帮我先找主镜再反推机位。",
+    "expected": "master-shot-camera-planning owns key-image selection, primary relationship geometry, camera zones, and connector blueprint"
+  },
+  {
+    "id": "trigger-image-to-camera",
+    "prompt": "我脑子里有一张女主隔着半开的门看见尸体的关键画面，但不知道人物、门、尸体怎么站，前后镜头也接不上。",
+    "expected": "master-shot-camera-planning reverse-derives blocking, prop relation, axis, focus path, and entry/exit conditions from the imagined frame"
+  },
+  {
+    "id": "trigger-multi-person-axis",
+    "prompt": "四个人围桌审讯，镜头一切就像嫌疑人和警察变成一伙了，怎么规划机位区？",
+    "expected": "master-shot-camera-planning selects the active relationship axis and identifies camera zones that would create false grouping"
+  },
+  {
+    "id": "trigger-shot-size-height",
+    "prompt": "这个人物抬头看楼上的场景，景别和机位高度别只按高低权力公式，帮我从观众任务倒推。",
+    "expected": "master-shot-camera-planning chooses shot size and view height from gaze, viewer position, composition, continuity, and rhythm"
+  },
+  {
+    "id": "lure-information-delta",
+    "prompt": "这组图每张都好看，但每一镜新增什么信息我完全说不出来，先帮我删重复镜头。",
+    "expected": "shot-information-progression owns the information-delta diagnosis before master-shot planning"
+  },
+  {
+    "id": "lure-complete-storyboard",
+    "prompt": "把这段剧本直接做成完整 18 镜分镜表，含时长、焦段、声音和生成段落拆分。",
+    "expected": "professional-storyboard-director owns the visible complete storyboard; master-shot-camera-planning may provide an internal blueprint only"
+  },
+  {
+    "id": "lure-macro-structure",
+    "prompt": "给我的 60 秒短片设计开头钩子、中段转折、高潮和结尾回扣。",
+    "expected": "video-structure-design owns macro structure"
+  },
+  {
+    "id": "combo-full-board",
+    "prompt": "先找出这场戏最该被记住的三张主镜，反推调度和机位，再做成完整分镜表。",
+    "expected": "master-shot-camera-planning first, then professional-storyboard-director, validated by cinematic-audiovisual-language"
+  },
+  {
+    "id": "boundary-intentional-axis-break",
+    "prompt": "我想在夫妻关系突然破裂时跳轴，但不确定是不是只为炫技。",
+    "expected": "master-shot-camera-planning applies the story/viewpoint/composition/rhythm/psychology benefit test, then cinematic-audiovisual-language validates continuity mechanics"
+  }
+]

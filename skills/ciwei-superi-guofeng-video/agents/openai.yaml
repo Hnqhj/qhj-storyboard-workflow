@@ -1,0 +1,7 @@
+interface:
+  display_name: "刺猬Superi国风视频"
+  short_description: "国风电影感生图与可灵O3图生视频提示词工作流"
+  default_prompt: "Use $ciwei-superi-guofeng-video to turn a Chinese historical character idea or image into a cinematic prompt workflow."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Seedance工作流管线"
+  short_description: "Seedance工作流管线：提供Seedance相关的专项工作流支持"
+  default_prompt: "使用 $seedance-pipeline 完成当前专项任务。"
+
+policy:
+  allow_implicit_invocation: true

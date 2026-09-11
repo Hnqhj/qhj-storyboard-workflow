@@ -1,0 +1,52 @@
+{
+  "skill": "minimum-visual-bible",
+  "version": "0.1.0",
+  "source_book": "AI 创作体系：视觉 Bible、工作流与 Agent Skill — MokeLMa",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "短片的故事和视觉方向已经获批，接下来 80 个镜头由三名设计师和两个生成 Agent 并行制作。请根据角色复现、场景复杂度和多人交接的风险，定一份够用但不臃肿的项目视觉规范，并说明锚点、命名、验收和改版怎么管。",
+      "expected_behavior": "应激活 minimum-visual-bible；先做风险画像，再裁剪字段，建立可观察规范、获批锚点、资产索引、代表性镜头试跑和版本变更控制。",
+      "notes": "正面场景：方向已确认，即将多人批量生产，需要最小项目级视觉契约。"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "只是 15 秒护肤品广告，但要把真人手部、固定瓶身标签和 AI 延展背景合在一起，客户一旦发现产品形状或高光不一致就会整批退回。项目很小，我该保留哪些视觉 Bible 字段，哪些可以删？",
+      "expected_behavior": "应激活 minimum-visual-bible；按混合实拍、产品身份、材质光照和高返工成本保留高风险字段，而不是按片长机械缩减，并安排代表性合成镜头试跑。",
+      "notes": "正面场景：测试‘最小’由风险而非项目时长决定。"
+    },
+    {
+      "id": "should-trigger-03",
+      "type": "should_trigger",
+      "prompt": "我们已有一板参考图，但五个章节里的角色服装、关键道具、室内材质和夜景灯光被每个制作人解释得不一样。请把参考转成能判定通过或返工的标准，并建立批准人、正反例和资产版本。",
+      "expected_behavior": "应激活 minimum-visual-bible；把参考图转译为可观察契约，补批准锚点、稳定实体名称、责任人、验收方式和版本机制，而不是继续堆 moodboard。",
+      "notes": "正面场景：现有参考缺少执行、批准和版本语义，导致全项目解释漂移。"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "我们还没确定这部片是给谁看的，也不知道核心表达是否要保留作者的亲身经历。先帮我回答作品为何存在、哪些决定绝不能外包给 AI，以及候选方向应按什么证据淘汰。",
+      "expected_behavior": "不应激活 minimum-visual-bible；应激活同书兄弟 Skill creative-north-star，先冻结创作目标、主权和评价标准。",
+      "notes": "跨 Skill 混淆诱饵，零容错：上游创作方向未定，视觉规范不能代替北极星。"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "项目视觉规范、资产锚点和审批版本都已经齐了。我只想把‘高级电影感’拆成一套跨镜头复用的风格、材质、灯光和成像意图字段，再留出每个镜头的动作与构图变量。",
+      "expected_behavior": "不应激活 minimum-visual-bible；应激活同书兄弟 Skill modular-text-bible，设计稳定模块与镜头变量的文字接口。",
+      "notes": "跨 Skill 混淆诱饵，零容错：项目级契约已存在，当前只缺模块化语言接口。"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "这是我一个人做的 6 镜头微短片，团队规模很小，但主角会反复出现，只有一次客户审片机会，返工会错过投放窗口。还值得做 Visual Bible 吗？",
+      "expected_behavior": "应激活 minimum-visual-bible，但只保留能降低高代价歧义的轻量字段：角色与服装锚点、关键场景/色光规则、交付规格、禁止项、批准和版本；不得照搬完整工业模板。",
+      "notes": "边界：小团队和短片不自动排除 Bible；重复主体与高返工代价使轻量视觉契约成立。"
+    }
+  ],
+  "minimum_pass_rate": 0.8,
+  "notes": "至少 3 条 should_trigger + 2 条 should_not_trigger + 1 条 edge_case。全部 should_not_trigger 必须通过（诱饵容错为 0）；两条诱饵分别明确指向 creative-north-star 与 modular-text-bible。"
+}

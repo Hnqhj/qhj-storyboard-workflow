@@ -1,0 +1,218 @@
+{
+    "schemaVersion":  1,
+    "product":  "codex-asset-console",
+    "version":  "1.0.1",
+    "consoleZipSha256":  "8c8afb036b32f4eb0cdc8ec927d2fb4945a8084d41bb328936b98376458f7163",
+    "files":  [
+                  {
+                      "path":  "console/asset-console/public/app.js",
+                      "sha256":  "6d0a9739f511cdeeab418fe0b543d59972e05d0d0a8b3d6c01ba0667a7b0b06f",
+                      "size":  235810
+                  },
+                  {
+                      "path":  "console/asset-console/public/index.html",
+                      "sha256":  "50137d081ae6595000cffe12f35e4c50b7a0b5c87ff6c5bb913b91657e9e5308",
+                      "size":  50347
+                  },
+                  {
+                      "path":  "console/asset-console/public/ui-v3.css",
+                      "sha256":  "7f4af7c01992a37f12b811ce8e4181c0d77d9c173dd81707c14552e0767f33a5",
+                      "size":  79867
+                  },
+                  {
+                      "path":  "console/docs/codex-asset-console-onepage.png",
+                      "sha256":  "51655630bf72fad8939ec411040f6eeb0c7ba9f134a613c4c84374d62549006c",
+                      "size":  1711648
+                  },
+                  {
+                      "path":  "console/inject/conversation-preview.user.js",
+                      "sha256":  "dc9ff5571625236f60f46fa80100de8ad1a9100dcb7ee62a56c5272a19e2e2af",
+                      "size":  172191
+                  },
+                  {
+                      "path":  "console/install-windows.ps1",
+                      "sha256":  "d36f9370d5f299c7077a3e942d00647e289bd9daf6cd4b066f11ed651297250d",
+                      "size":  12977
+                  },
+                  {
+                      "path":  "console/lib/asset-console-embed.mjs",
+                      "sha256":  "78a282ae8610709796991379ede5480b07e3e22c0862553604331ca22bce9753",
+                      "size":  3279
+                  },
+                  {
+                      "path":  "console/lib/card-view.mjs",
+                      "sha256":  "f9460c69c69c5218795e6cca066073701ea929a89e28a574498548057e490be4",
+                      "size":  9979
+                  },
+                  {
+                      "path":  "console/lib/home-projects.mjs",
+                      "sha256":  "e46ec9c46d3404c5efe14e9718a8804e02894f5232298f5a9a42af201a5a4e06",
+                      "size":  8660
+                  },
+                  {
+                      "path":  "console/lib/injector-state.mjs",
+                      "sha256":  "486538c7dd84881e4d64031fe9ea5e0623dcfbc0e0bd408886a46f0715d44d66",
+                      "size":  337
+                  },
+                  {
+                      "path":  "console/lib/preview-data.mjs",
+                      "sha256":  "88427ffd24b9038b785e27685af357209d40f13e48864531c8ed62ae796cbf2e",
+                      "size":  14488
+                  },
+                  {
+                      "path":  "console/lib/usage-data.mjs",
+                      "sha256":  "8b5beb1195e89ed0a85977cb0805b7d6d76cb8054c6d26f5558a98b9e404d22a",
+                      "size":  3954
+                  },
+                  {
+                      "path":  "console/LICENSE",
+                      "sha256":  "729ad8a6d95c4da2703198e1114fa07fcd05433f6a524117f63c6c6bf8e2feb0",
+                      "size":  1110
+                  },
+                  {
+                      "path":  "console/package.json",
+                      "sha256":  "5b03d55998f27b6f22e077099dd9ab27e40fc52f82cace653bb3581378e89dff",
+                      "size":  579
+                  },
+                  {
+                      "path":  "console/README.md",
+                      "sha256":  "26f131eed2cd1fe72c2f7838ff71d6d66b2fa1ac794b9109be414813ca7de180",
+                      "size":  2304
+                  },
+                  {
+                      "path":  "console/README-Windows.txt",
+                      "sha256":  "d635eacbbe7b61307b92e81bb5b851811337b3a224e002eb1788f99b45921c28",
+                      "size":  729
+                  },
+                  {
+                      "path":  "console/scripts/cdp-client.mjs",
+                      "sha256":  "45dba200381d7d2696f5b099f4e7f41628062e8ecc826a7233fc03bd81c12192",
+                      "size":  5747
+                  },
+                  {
+                      "path":  "console/scripts/injector.mjs",
+                      "sha256":  "668e5dc686eee488a4711c3c30d54a6bd7ee702cb9b7f3b395174dad1879ee7a",
+                      "size":  23499
+                  },
+                  {
+                      "path":  "console/scripts/remove-injection.mjs",
+                      "sha256":  "78f3958bb3e69d2c34c3048edeccff6b8ece34e9522b3e6552ffdccec4585b66",
+                      "size":  1358
+                  },
+                  {
+                      "path":  "console/SECURITY.md",
+                      "sha256":  "73308d18a2752642e634314e9373c3f56ced62cee27d2f8bb58885d2f0f725ad",
+                      "size":  562
+                  },
+                  {
+                      "path":  "console/VERIFICATION.txt",
+                      "sha256":  "a5b1cf92794395f8d06b3251d76c70a3fafe98a928b762cbd99a3baf080ade5f",
+                      "size":  752
+                  },
+                  {
+                      "path":  "console/windows/launch.ps1",
+                      "sha256":  "927cf1cc48bd50571cacb531527d5735ceca847f8d7f011627cc6bd8d938c5a8",
+                      "size":  4867
+                  },
+                  {
+                      "path":  "console/windows/start-injector.ps1",
+                      "sha256":  "edb89d675a26f856dee483557a7695c52837b12313bed5ccfc5da3e982e690e5",
+                      "size":  1946
+                  },
+                  {
+                      "path":  "console/windows/stop-injector.ps1",
+                      "sha256":  "879f13ccde367d8965ad301bd3a080e0d200399bda4ca5f79a63249820b84f25",
+                      "size":  774
+                  },
+                  {
+                      "path":  "console/windows/uninstall.ps1",
+                      "sha256":  "2904db79cc2dc8883f6a9381a95d4a3a90fc3755623e8dd403df7ec6a253c2c6",
+                      "size":  3727
+                  },
+                  {
+                      "path":  "service/asset-browser.config.example.json",
+                      "sha256":  "f8a5038e81adc66ac54709efa83ed747bf47aeeebafb330b28185a785a440fff",
+                      "size":  168
+                  },
+                  {
+                      "path":  "service/asset-classification.js",
+                      "sha256":  "a55efc6c2760411ff192d4d279c675bf98266aef29d2c39f02b850410118ab5a",
+                      "size":  4828
+                  },
+                  {
+                      "path":  "service/download-automation.js",
+                      "sha256":  "c8ccf51f4563ff9fd1275bd8543a614da224b5301cbfe4ef9c2b10818b254b76",
+                      "size":  28635
+                  },
+                  {
+                      "path":  "service/duplicate-cleaner.js",
+                      "sha256":  "f292038491c98395664214552a96ab1db49d9593980708dc369a7ab62f147045",
+                      "size":  12936
+                  },
+                  {
+                      "path":  "service/folder-operations.js",
+                      "sha256":  "4f87de5b3602fb2290de4616cc51a97dc0d90facc604faa02fa7841060aaa3c5",
+                      "size":  5876
+                  },
+                  {
+                      "path":  "service/generation-cli.js",
+                      "sha256":  "a5d3a1120385a5c5eace28d83f61ff68ede1aee1a3b48c209ae365a1472ea9e9",
+                      "size":  4781
+                  },
+                  {
+                      "path":  "service/generation-pipeline.js",
+                      "sha256":  "bada427cba78ecf413a7ecf68d64eedffb2bb7c2f62ac24fdeba806110629d0b",
+                      "size":  36427
+                  },
+                  {
+                      "path":  "service/midjourney-workspace.js",
+                      "sha256":  "0cb4e51806710968b6c43ced4fb8a01eceb38ce8f5a6c0a8d50db6eb1ba08a87",
+                      "size":  13354
+                  },
+                  {
+                      "path":  "service/package.json",
+                      "sha256":  "387e308b2b880b2f0ab10046d44e89a92a350907f80f859904db9fb2c66250bc",
+                      "size":  164
+                  },
+                  {
+                      "path":  "service/prompt-library.js",
+                      "sha256":  "612189c6540cf538551ee575b263075872f134ebad412e07ba16dd8e6a60d703",
+                      "size":  9364
+                  },
+                  {
+                      "path":  "service/public/app.js",
+                      "sha256":  "6d0a9739f511cdeeab418fe0b543d59972e05d0d0a8b3d6c01ba0667a7b0b06f",
+                      "size":  235810
+                  },
+                  {
+                      "path":  "service/public/index.html",
+                      "sha256":  "50137d081ae6595000cffe12f35e4c50b7a0b5c87ff6c5bb913b91657e9e5308",
+                      "size":  50347
+                  },
+                  {
+                      "path":  "service/public/ui-v3.css",
+                      "sha256":  "7f4af7c01992a37f12b811ce8e4181c0d77d9c173dd81707c14552e0767f33a5",
+                      "size":  79867
+                  },
+                  {
+                      "path":  "service/rhythm-control-track.py",
+                      "sha256":  "6a9b2f82a9f87083bac5729e1f4f88cad700617aea39be82ad546687ff5531a4",
+                      "size":  16359
+                  },
+                  {
+                      "path":  "service/server.js",
+                      "sha256":  "43194959a3835c9b6465e70271b8d10c7f45776d1fa0a0c5902942dd408dfd64",
+                      "size":  101512
+                  },
+                  {
+                      "path":  "service/three-d-workbench.js",
+                      "sha256":  "dd9b323f87452b574ed47b078c7dbc19095b0d10875081e65fa2e8a09fc52454",
+                      "size":  10411
+                  },
+                  {
+                      "path":  "service/workspace-governance.js",
+                      "sha256":  "3678afb7a76b1ea9a8b319075e2326fda830b4288bafcd80c3f0e5ac8574826d",
+                      "size":  25622
+                  }
+              ]
+}

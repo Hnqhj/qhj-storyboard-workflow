@@ -1,0 +1,4 @@
+interface:
+  display_name: "情绪表演指导"
+  short_description: "设计真人短剧的情绪弧线、强度递进、微表情与身体反应"
+  default_prompt: "使用 $emotional-performance-direction，为真人短剧设计可见、可控、不僵硬的情绪表演和镜头承接。"

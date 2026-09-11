@@ -1,0 +1,4 @@
+interface:
+  display_name: "仙侠电影提示词"
+  short_description: "生成唯美东方仙侠电影剧照风格的 Midjourney V8.1 提示词。"
+  default_prompt: "Use $midjourney-v8-1-xianxia-cinematic to turn my idea into a dreamy photorealistic Chinese xianxia cinematic prompt."

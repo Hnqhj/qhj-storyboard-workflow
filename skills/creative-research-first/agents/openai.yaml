@@ -1,0 +1,4 @@
+interface:
+  display_name: "创意研究优先"
+  short_description: "Research references and aesthetics before major creative prompts"
+  default_prompt: "Use $creative-research-first to research current references, baseline aesthetics, domain mechanics, and model guidance before writing this creative prompt."

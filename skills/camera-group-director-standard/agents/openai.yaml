@@ -1,0 +1,7 @@
+interface:
+  display_name: "镜头组标准轻量导演"
+  short_description: "普通完整剧本的一次式故事连续性空间与详细镜头规划协调器"
+  default_prompt: "Use $camera-group-director-standard to build one approved standard-depth shot plan without loading the full director stack."
+
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,7 @@
+interface:
+  display_name: "AI材质真实感"
+  short_description: "Turn AI prompts into physically believable materials."
+  default_prompt: "Use $ai-material-realism to rewrite this image or video prompt with physically convincing material realism."
+
+policy:
+  allow_implicit_invocation: true

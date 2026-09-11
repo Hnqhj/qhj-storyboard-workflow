@@ -1,0 +1,59 @@
+{
+  "skill": "cross-shot-consistency-audit",
+  "version": "0.1.0",
+  "source_book": "《AI 创作体系：视觉 Bible、工作流与 Agent Skill》（三期课程）— MokeLMa",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "14 个镜头单看都合格，按时间线剪起来却像来自三部不同的片：同一角色忽写实忽三渲二，肤色、颗粒和主光也跳。请按批准关键帧做跨镜头检查并排修复优先级。",
+      "expected_behavior": "应激活 cross-shot-consistency-audit，统一观看条件，指定批准锚点和允许变化，建立镜头×身份/色光/材质/成像矩阵，给出 0–3 严重度、L1–L4 修复路线并要求同矩阵回归复审。",
+      "notes": "正面场景：已有入选序列相对锚点发生多维漂移。"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "AI 角色已经合进实拍镜头，统一 LUT 后颜色差不多，但角色仍像贴在背景上：光向、遮挡、反弹光和脚下接触阴影接不上。请做 sequence QC。",
+      "expected_behavior": "应激活 cross-shot-consistency-audit，对真人/AI 混合镜头执行强制光照与合成检查；不能把统一 LUT 当通过依据，应记录可见证据、严重度、修复负责人和复审条件。",
+      "notes": "正面场景：混合制片中的色调相近不等于光照和接触关系一致。"
+    },
+    {
+      "id": "should-trigger-03",
+      "type": "should_trigger",
+      "prompt": "角色和道具都有获批实体卡，镜头也已选定，但实际成片里 S08 的伤口位置、S09 的持杯手、轴线和动作方向与前后镜头冲突。请给出证据矩阵和返修路由。",
+      "expected_behavior": "应激活 cross-shot-consistency-audit，以已有实体/状态事实源和空间承接为基准，定位实际镜头偏差，区分局部修复、约束重建和叙事裁决，并在修复后回归审计。",
+      "notes": "正面场景：基准已存在，任务是检查入选镜头是否遵从，而不是重新建库。"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "项目还在前期，没有生成任何镜头。我需要先确定各段落的情绪、色彩曲线、关键灯光状态和获批关键帧，让后续团队有视觉标定基准。",
+      "expected_behavior": "不应激活 cross-shot-consistency-audit；应激活 visual-calibration-loop，先建立情绪/色光锚点和批准基准。没有现成序列时不能伪造跨镜头审计。",
+      "notes": "跨 skill 混淆诱饵：视觉标定负责建立锚点，审计负责对已有素材检测偏差。诱饵零容错。"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "我们要在开拍前给反复出现的机器人、武器和车辆分配实体 ID，定义不可变外形、允许损伤状态、批准视图、版本和镜头引用规则。",
+      "expected_behavior": "不应激活 cross-shot-consistency-audit；应激活 entity-continuity-system，建立实体身份与状态事实源，而不是审计尚未生成的镜头。",
+      "notes": "跨 skill 混淆诱饵：资产建库与版本治理不等于对成片做一致性检查。诱饵零容错。"
+    },
+    {
+      "id": "should-not-trigger-03",
+      "type": "should_not_trigger",
+      "prompt": "我有 80 张尚未入选的海报候选，视觉上并不存在时间线关系。请按预算、硬门槛、评分和淘汰理由选出一个主选与两个备选。",
+      "expected_behavior": "不应激活 cross-shot-consistency-audit；应激活 bounded-explore-select，管理候选集的发散、评分与收敛。",
+      "notes": "跨 skill 混淆诱饵：候选选择不是跨镜头一致性审计。诱饵零容错。"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "三个已入选镜头从黄昏逐步进入冷蓝夜景，颜色和曝光明显不同。客户说‘不一致，全部调成同一个色’，但 Bible 把这个昼夜变化标成获批的情绪过渡。请判断要不要统一。",
+      "expected_behavior": "应激活 cross-shot-consistency-audit，但必须把获批的昼夜/情绪变化标为有意差异或可容忍等级，检查过渡是否连贯而不是把所有镜头同质化；只有违反锚点或过渡逻辑的差异才路由修复。",
+      "notes": "边界：一致性不等于完全相同，审计必须区分有意变化与非预期漂移。"
+    }
+  ],
+  "minimum_pass_rate": 0.8,
+  "notes": "3 条 should_trigger + 3 条 should_not_trigger + 1 条 edge_case。全部 should_not_trigger 必须通过，诱饵容错为 0。"
+}

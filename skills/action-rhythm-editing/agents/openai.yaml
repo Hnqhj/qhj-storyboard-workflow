@@ -1,0 +1,7 @@
+interface:
+  display_name: "动作节奏与剪辑"
+  short_description: "Time action by mass, inertia, impact, and recovery."
+  default_prompt: "Use $action-rhythm-editing to turn this action into mass-aware timed beats with support, acceleration, contact response, braking, camera rhythm, and sound cues."
+
+policy:
+  allow_implicit_invocation: true

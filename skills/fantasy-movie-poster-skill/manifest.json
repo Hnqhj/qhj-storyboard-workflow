@@ -1,0 +1,11 @@
+{
+  "name": "fantasy-movie-poster",
+  "display_name": "梵想电影海报设计系统",
+  "version": "1.0.0",
+  "author": "梵想美学",
+  "default_aspect_ratio": "9:16",
+  "language": "zh-CN",
+  "entry": "SKILL.md",
+  "credits_policy": "all production roles use 梵想美学",
+  "festival_marks_allowed": false
+}

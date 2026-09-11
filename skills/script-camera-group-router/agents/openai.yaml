@@ -1,0 +1,8 @@
+interface:
+  display_name: "剧本拆镜头组路由"
+  short_description: "在加载重型技能前判定深度并选择最小镜头组工作流"
+  default_prompt: "Use $script-camera-group-router to route this script or fragment into the smallest camera-group workflow."
+
+policy:
+  allow_implicit_invocation: true
+

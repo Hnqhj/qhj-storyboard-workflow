@@ -1,0 +1,8 @@
+interface:
+  display_name: "镜头组快速预检"
+  short_description: "低风险镜头组的六段式、镜头块、时间与T节拍机械检查"
+  default_prompt: "Use $camera-group-preflight-fast to validate this low-risk camera-group prompt without reopening creative design."
+
+policy:
+  allow_implicit_invocation: false
+

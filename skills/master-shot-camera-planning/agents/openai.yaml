@@ -1,0 +1,4 @@
+interface:
+  display_name: "主镜反推机位"
+  short_description: "先找场景主镜，再完整反推调度、轴线、机位区与连接镜头"
+  default_prompt: "先找出场景必须被观众记住的主镜，再反推人物调度、轴线、机位区、景别、视高、焦点路径和连接镜头。"

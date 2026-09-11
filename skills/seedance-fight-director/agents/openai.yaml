@@ -1,0 +1,4 @@
+interface:
+  display_name: "Seedance打斗总导演"
+  short_description: "起始态/终止态、打点节奏与动作物理。"
+  default_prompt: "Use $seedance-fight-director to design a Seedance/Higgsfield fight prompt with A/B/C/D action anchors, hit-marking rhythm, camera, and iteration notes."
