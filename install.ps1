@@ -1,6 +1,6 @@
 ﻿<#
 .SYNOPSIS
-  安装 QHJ-SKILL 技能包到本机 Codex / WorkBuddy 技能目录。
+  安装 qhj-storyboard-workflow 技能包到本机 Codex / WorkBuddy 技能目录。
 
 .DESCRIPTION
   把本仓库 skills\ 下的技能平铺复制到目标宿主的 skills 目录。

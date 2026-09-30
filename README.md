@@ -1,8 +1,10 @@
-# QHJ-SKILL
+# qhj-storyboard-workflow
 
 可迁移的剧本拆分镜工作流技能包：覆盖路由、镜头组、动作、VFX、表演、连续性、Seedance、平台编译、预检和输出复盘。
 
-当前版本见 `manifest.json`，共 97 个技能。
+> 旧仓库名 `QHJ-SKILL` 会由 GitHub 自动重定向到本地址，已安装的用户无需改动。
+
+当前版本见 `manifest.json`，共 98 个技能。
 
 ## 安装
 

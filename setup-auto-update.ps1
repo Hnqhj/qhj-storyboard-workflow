@@ -1,6 +1,6 @@
 ﻿<#
 .SYNOPSIS
-  注册 Windows 计划任务，定时从 GitHub 拉取并安装 QHJ-SKILL 更新。
+  注册 Windows 计划任务，定时从 GitHub 拉取并安装 qhj-storyboard-workflow 更新。
 
 .DESCRIPTION
   任务名 QHJ-SKILL-AutoUpdate，默认每天 03:00 运行 update.ps1。
@@ -40,6 +40,6 @@ $argLine = "-NoProfile -ExecutionPolicy Bypass -File `"$scriptPath`" -Target $Ta
 $action = New-ScheduledTaskAction -Execute 'powershell.exe' -Argument $argLine
 $trigger = New-ScheduledTaskTrigger -Daily -DaysInterval $Days -At 3:00AM
 $principal = New-ScheduledTaskPrincipal -UserId "$env:USERDOMAIN\$env:USERNAME" -LogonType Interactive -RunLevel LeastPrivilege
-Register-ScheduledTask -TaskName $taskName -Action $action -Trigger $trigger -Principal $principal -Description 'Pull and install QHJ-SKILL updates from GitHub' -Force | Out-Null
+Register-ScheduledTask -TaskName $taskName -Action $action -Trigger $trigger -Principal $principal -Description 'Pull and install qhj-storyboard-workflow updates from GitHub' -Force | Out-Null
 Write-Host "Scheduled task '$taskName' installed. Target=$Target, every $Days day(s) at 03:00."
 Write-Host "Update script: $scriptPath"

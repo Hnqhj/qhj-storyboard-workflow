@@ -1,7 +1,6 @@
 # 分发包统一行尾为 LF。
 #
-# 开发仓库（G:\工作\skills）在 Windows 上编辑，行尾混杂 CRLF / LF；
-# 分发包统一成 LF 有两个好处：
+# 开发仓库在 Windows 上编辑，行尾混杂 CRLF / LF；分发包统一成 LF 有两个好处：
 #   1) 每次发布都字节稳定 —— 否则 copy 进来的 CRLF 会把「只改 1 行」
 #      显示成「整个文件重写」的假 diff（本仓库实测踩过：303 个纯行尾噪音文件）；
 #   2) Linux / macOS 用户 clone 下来的 .ps1 / .py / .sh 不会因 CRLF 出问题。

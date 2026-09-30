@@ -1,6 +1,6 @@
 ﻿<#
 .SYNOPSIS
-  从 GitHub 拉取 QHJ-SKILL 最新版本并安装到本机技能目录。
+  从 GitHub 拉取 qhj-storyboard-workflow 最新版本并安装到本机技能目录。
 
 .DESCRIPTION
   git clone --depth 1 公开仓库 -> 把 skills\ 平铺复制到目标宿主 -> 写入 manifest。
@@ -17,7 +17,7 @@ param(
   [string]$Target = 'all',
   [string]$CodexHome = $env:CODEX_HOME,
   [string]$WorkBuddyHome = $env:WORKBUDDY_HOME,
-  [string]$Repo = 'https://github.com/Hnqhj/QHJ-SKILL.git'
+  [string]$Repo = 'https://github.com/Hnqhj/qhj-storyboard-workflow.git'
 )
 $ErrorActionPreference = 'Stop'
 
