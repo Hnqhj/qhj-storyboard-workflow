@@ -1,7 +1,7 @@
 {
     "name": "qhj-skill-bundle",
-    "version": "2.0.0",
-    "created": "2026-09-30T14:46:14.695Z",
+    "version": "2.1.0",
+    "created": "2026-09-30T15:13:13.691Z",
     "skills": [
         "action-choreography-reference",
         "action-rhythm-editing",
@@ -82,6 +82,7 @@
         "seedance-fight-director",
         "semantic-concept-poster",
         "shot-information-progression",
+        "skill-bundle-release",
         "sophia-mode",
         "think-one-step-further",
         "token-smart",

@@ -1,4 +1,21 @@
-# 仓库内所有文件按「不做行尾转换」处理（与开发仓库一致）。
-# 技能文件是从开发仓库原样拷入的，必须保证字节一致；
-# 否则 Windows 上 core.autocrlf=true 会产出「只改了 1 行、diff 显示整个文件重写」的假 diff。
-* -text
+# 分发包统一行尾为 LF。
+#
+# 开发仓库（G:\工作\skills）在 Windows 上编辑，行尾混杂 CRLF / LF；
+# 分发包统一成 LF 有两个好处：
+#   1) 每次发布都字节稳定 —— 否则 copy 进来的 CRLF 会把「只改 1 行」
+#      显示成「整个文件重写」的假 diff（本仓库实测踩过：303 个纯行尾噪音文件）；
+#   2) Linux / macOS 用户 clone 下来的 .ps1 / .py / .sh 不会因 CRLF 出问题。
+* text=auto eol=lf
+
+# 明确按二进制处理，禁止任何行尾 / 编码转换。
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.webp binary
+*.ico  binary
+*.ttf  binary
+*.otf  binary
+*.woff binary
+*.woff2 binary
+*.zip  binary
