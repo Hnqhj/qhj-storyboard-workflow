@@ -1,6 +1,6 @@
 ---
 name: concise-user-facing-output
-description: Always-on global response-style layer. Use by default for every Codex user-facing message, progress update, status report, clarification, and final response across all tasks to keep communication brief, execution-focused, and free of optional commentary.
+description: 全局响应风格层，默认常开：所有面向用户的回复、进度更新、状态报告、澄清与最终答复都保持简短、聚焦执行、不含可选评论。 Always-on global response-style layer. Use by default for every Codex user-facing message, progress update, status report, clarification, and final response across all tasks to keep communication brief, execution-focused, and free of optional commentary.
 ---
 
 # Concise User-Facing Output

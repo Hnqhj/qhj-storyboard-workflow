@@ -1,6 +1,6 @@
 ---
 name: production-design-worldbuilding
-description: "Create coherent production design and worldbuilding for AI images/videos: visual world rules, art direction, locations, architecture, props, costume logic, vehicle/weapon design language, color ownership, material systems, environmental storytelling, culture/technology rules, and visual bible handoff. Use when the user asks for 世界观, 美术设定, 场景设定, 视觉系统, 美术风格, 生产设计, 道具设计, 城市设计, 场景统一, 颜色体系, 反差背景, production design, art direction, world bible, environment design, concept art bible, or complains that a scene feels random, pasted together, inconsistent, generic, or not like a real world."
+description: "一致的生产设计与世界观构建：视觉世界规则、美术方向、地点、建筑、道具、服装逻辑、载具与武器设计语言、色彩归属、材质系统、环境叙事、文化技术规则与视觉圣经交接。触发：世界观、美术设定、场景设定、视觉系统、道具设计、场景统一、颜色体系。 Create coherent production design and worldbuilding for AI images/videos: visual world rules, art direction, locations, architecture, props, costume logic, vehicle/weapon design language, color ownership, material systems, environmental storytelling, culture/technology rules, and visual bible handoff. Use when the user asks for 世界观, 美术设定, 场景设定, 视觉系统, 美术风格, 生产设计, 道具设计, 城市设计, 场景统一, 颜色体系, 反差背景, production design, art direction, world bible, environment design, concept art bible, or complains that a scene feels random, pasted together, inconsistent, generic, or not like a real world."
 ---
 
 # Production Design Worldbuilding

@@ -2,3 +2,6 @@ interface:
   display_name: "高能动作视觉母版"
   short_description: "为高速战斗、追逐、巨兽与机甲动作建立整片高张力视觉生成母版"
   default_prompt: "Use $kinetic-action-visual-master to establish a coherent high-energy visual master before detailed action beats and shot design."
+
+policy:
+  allow_implicit_invocation: false

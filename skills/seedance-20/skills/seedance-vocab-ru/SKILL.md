@@ -1,5 +1,6 @@
 ---
 name: seedance-vocab-ru
+disable-model-invocation: true
 description: "This skill should be used when the user asks for Russian Seedance 2.0 prompt wording, Russian cinematic vocabulary, or translation of camera, lighting, action, VFX, audio, and production terms into Russian."
 license: MIT
 metadata:

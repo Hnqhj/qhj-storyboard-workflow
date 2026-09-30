@@ -1,6 +1,7 @@
 ---
 name: cinematic-fantasy-vfx-director
-description: "Direct film/TV-grade fantasy VFX for live-action short dramas: xianxia, ancient Chinese fantasy, cultivation, talismans, formations, energy attacks, weapon auras, teleportation, destruction, weather and supernatural environments. Use when VFX must feel premium, cinematic, physically integrated, high-end CG/composite rather than cheap glow, random particles, flat overlays, or generic AI effects."
+description: "影视级奇幻 VFX 导演，真人短剧：仙侠、古装玄幻、修真、符箓、法阵、能量攻击、武器灵光、瞬移、破坏、天象与超自然环境。触发：VFX 需要高级、电影感、物理整合、高端 CG 与合成，而不是廉价发光、随机粒子、扁平叠加或通用 AI 特效。 Direct film/TV-grade fantasy VFX for live-action short dramas: xianxia, ancient Chinese fantasy, cultivation, talismans, formations, energy attacks, weapon auras, teleportation, destruction, weather and supernatural environments. Use when VFX must feel premium, cinematic, physically integrated, high-end CG/composite rather than cheap glow, random particles, flat overlays, or generic AI effects."
+disable-model-invocation: true
 ---
 
 # 影视级玄幻特效导演
@@ -24,6 +25,28 @@ description: "Direct film/TV-grade fantasy VFX for live-action short dramas: xia
 - 镜头冲击、光闪、运动模糊、景深变化和速度变化只在接触峰值短暂出现，并立即恢复可读性。
 - 特效峰值后必须有衰减和稳定残留：裂纹、余光、落尘、残火、符文暗灭、能量回流或空间闭合。
 - 禁止“金光一闪”“高级粒子”“大片感”等无法执行的空泛词作为主要设计。
+
+## 火焰与冰的材质真实性硬门
+
+颜色不是材质。火焰或冰效必须同时指定形态、运动、光学、接触反馈和衰减，避免生成彩色发光带。
+
+### 火焰特效
+
+- 由暗部核心、橙红燃烧层、明亮边缘和白热接触点组成，亮度沿火舌和运动方向递减。
+- 火舌具有卷吸、分叉、跳动、拉伸、回卷和湍流；经过空气产生热扰动、折射波纹和少量炭屑/火星。
+- 沿武器运动形成有速度差的体积拖尾，照亮邻近皮肤、布料、金属、湿地和烟雾；接触点出现灼痕、热爆和火星喷射，离开后衰减为余烬与烟丝。
+
+### 冰与冰霜特效
+
+- 由透明/半透明晶体、棱角折射、内部冰纹、霜雾和冷色体积光组成，不能只是蓝色光线。
+- 成形出现凝结、晶体生长、棱面闪光、霜线扩散和冷凝雾；运动中保留冰屑和薄霜。
+- 接触产生晶体崩裂、冰片飞散、霜纹扩张、冻结表面裂解和延迟碎冰坠落；离开后保留霜痕、冷雾和蓝白余光。
+
+### 游戏 CG / 影视合成分层
+
+- 强风格化特效至少分为：能量核心、主形体、运动拖尾、接触爆发、环境反馈、余波残留六层。
+- 允许游戏 CG 式清晰轮廓、夸张能量形态和高对比边缘光，但必须保留遮挡、反射、投影、景深、运动模糊和材质差异。
+- 特效峰值必须与武器接触、身体受力或环境破坏同步；闪光只能短暂强调峰值，不能遮住动作因果。
 
 ## 玄幻类型语法
 

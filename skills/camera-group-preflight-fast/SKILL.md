@@ -1,6 +1,6 @@
 ---
 name: camera-group-preflight-fast
-description: Lightweight validator used only after script-camera-group-router selects fast processing for a low-risk script or fragment. Check camera-group timing, six-part order, explicit shot blocks, profile-aware micro-beats, authoritative dialogue, exact reference handles, audio policy, standalone completeness, and forbidden shortcuts. Do not use for fights, VFX, transformation, complex continuity, research, retries, or standard/full production review.
+description: 快速档轻量校验，仅在调用方给定 fast 档后使用。检查镜头组时长、六段顺序、显式镜头块、微节拍、对白权威性、参考句柄、音频策略、独立完整性与禁止的捷径。不用于打斗、VFX、变身、复杂连续性、重试。 Lightweight validator used only after the received processing depth is fast, for a low-risk script or fragment. Check camera-group timing, six-part order, explicit shot blocks, profile-aware micro-beats, authoritative dialogue, exact reference handles, audio policy, standalone completeness, and forbidden shortcuts. Do not use for fights, VFX, transformation, complex continuity, research, retries, or standard/full production review.
 ---
 
 # Camera Group Preflight Fast

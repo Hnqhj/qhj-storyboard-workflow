@@ -1,5 +1,6 @@
 ---
 name: seedance-vocab-ja
+disable-model-invocation: true
 description: "This skill should be used when the user asks for Japanese Seedance 2.0 prompt wording, Japanese cinematic vocabulary, or translation of camera, lighting, action, VFX, audio, and production terms into Japanese."
 license: MIT
 metadata:

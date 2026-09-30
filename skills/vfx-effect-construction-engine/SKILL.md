@@ -1,6 +1,7 @@
 ---
 name: vfx-effect-construction-engine
 description: >-
+  生成式 VFX 系统的构建与审计：从效果意图或参考出发，选定主导族、可见来源、材质形态、运动路径、空间纵深、接触或操作、接收者与环境响应、峰值、衰减与终点。触发：特效、VFX、粒子、能量、法阵、修仙、魔法、爆炸、冲击波、空间裂缝、武器轨迹、拖影、变身特效。
   Construct and audit generative VFX systems from an effect intent or reference by choosing a dominant family, a visible source, material/shape, motion path, spatial depth, contact or operation, receiver/environment response, peak, decay, and endpoint. Use for 特效、VFX、粒子、能量、法阵、阴阳术、修仙、魔法、爆炸、冲击波、空间裂缝、武器轨迹、拖影、变身特效、环境破坏、光效，或特效廉价、乱飘、无起点终点、遮挡动作、与场景脱节的诊断与重写。This is the effect-construction and vocabulary specialist; cinematic-vfx-director remains the general VFX owner, action skills own body/contact, and seedance-vfx owns final Seedance compression.
 ---
 

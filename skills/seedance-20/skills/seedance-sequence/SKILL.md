@@ -1,5 +1,6 @@
 ---
 name: seedance-sequence
+disable-model-invocation: true
 description: "This skill should be used when a Seedance 2.0 request is a long story, connected set of clips, multi-generation scene, campaign sequence, dense storyboard, continuation-ready plan, or any idea that must be divided into stateful clips."
 license: MIT
 metadata:

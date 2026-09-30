@@ -1,6 +1,6 @@
 ---
 name: narrative-camera-groups
-description: Downstream sole packaging owner selected by script-camera-group-router for every script-to-camera-group prompt. Convert an approved or fast-path fused shot plan into timed camera groups, a human-readable shot table, and one detailed six-part standalone prompt per group with explicit shot blocks. Preserve micro-beats in the structured plan; render them in the prompt only when the active profile is high. Do not perform a second director route, research pass, or platform rewrite.
+description: 镜头组提示词结构的唯一 Owner。把已批准镜头方案转成带时长的镜头组、人类可读镜头表、每组一份六段式完整提示词。不做第二次导演路由、二次研究或平台重写。 Downstream sole packaging owner selected by script-camera-group-router for every script-to-camera-group prompt. Convert an approved or fast-path fused shot plan into timed camera groups, a human-readable shot table, and one detailed six-part standalone prompt per group with explicit shot blocks. Preserve micro-beats in the structured plan; render them in the prompt only when the active profile is high. Do not perform a second director route, research pass, or platform rewrite.
 ---
 
 # Narrative Camera Groups
@@ -39,20 +39,28 @@ grammar, platform syntax, or specialist physics.
 
 ## Runtime Prompt Profile
 
-Immediately before packaging the first generation prompt, call
-`skill_console_prompt_compilation_context` with the current `threadId` and the
-approved state slice. Re-read it before each later generation call. The
-returned `prompt_compilation_profile` is authoritative for this task. Apply it
-while writing every group's six-part block: `low` keeps the six sections and
-exact dialogue but uses simple shot wording without duration limits or `T=`
-micro-beats; `medium` keeps duration limits with simple shot wording and no
-`T=` lines; `high` keeps duration limits, `T=` lines, and complex shot wording.
+**Console access (MCP removed 2026-09-23).** The `skill_console_*` MCP tools are
+gone; use the console CLI instead. Console root =
+`G:\工作\vibecoding\director-skill-console` (or `$SKILL_CONSOLE_ROOT` if set);
+invoke as `node "$CONSOLE/src/cli.js" <subcommand> ...`. Use
+`prompt-context --thread <threadId> --input '<routing-json>'` in place of
+`skill_console_prompt_compilation_context`. It prints the same JSON and exits
+non-zero on failure.
+
+Immediately before packaging the first generation prompt, run `prompt-context`
+with the current `threadId` and the approved state slice. Re-read it before each
+later generation call. The returned `prompt_compilation_profile` is
+authoritative for this task. Apply it while writing every group's six-part
+block: `low` keeps the six sections and exact dialogue but uses simple shot
+wording without duration limits or `T=` micro-beats; `medium` keeps duration
+limits with simple shot wording and no `T=` lines; `high` keeps duration limits,
+`T=` lines, and complex shot wording.
 
 This skill authors the canonical group package and hands the draft to the
-selected platform compiler. It must not call `skill_console_compile_prompt`.
+selected platform compiler. It must not run `prompt-compile` itself.
 The selected platform compiler is the only owner of the single final compile
 call and its `compilationReceipt`; a draft is not generation-ready until that
-owner returns the compiled `promptText`. Keep `processing_depth` as backstage
+owner returns the compiled `promptText`. Keep the received `processing_depth` as backstage
 routing metadata and keep `prompt_description_complexity` with the group's
 generation settings.
 
@@ -63,7 +71,7 @@ emit one `PlatformPromptSet` unit per explicit `variant_id` (`A`, `B`, or `C`).
 Each variant goes through one compile call and stores its own receipt; never
 silently merge variants or label an unrequested duplicate as a second version.
 
-Execution-depth boundary:
+Execution-depth boundary (the depth is judged by the decision layer / 镜语, never chosen here):
 
 - On `fast`, perform the compact fused planning pass described below, then
   package the resulting group.
@@ -218,6 +226,12 @@ Use shot-count guidance as a review signal, not a rigid template. For a 14-28 se
 Overload warning signs: more than one major event in a single shot, several simultaneous camera moves, more than two effect families at one peak, or a sequence that cannot give each dialogue/action beat its natural breath, reaction, and recovery. Split at a completed turn or simplify the coverage before compressing performance.
 
 ## Delivery Format
+
+The six-part prompt is the delivery format, not a replacement for the
+planning or submission units. Keep one complete six-part block per approved
+`GenerationSegment`. When one `CameraGroup` is split, record the split basis
+and opening/ending state IDs for every segment, and repeat only the controls
+needed to generate that segment independently.
 
 For each camera group, use this exact order. Repeat the entire order for every group:
 

@@ -1,6 +1,6 @@
 ---
 name: ai-video-production-governance
-description: "Govern substantial AI-video and film projects through authority, project state, production phases, asset readiness, capacity, continuity handoffs, and evidence-based revision. In the script-camera-group workflow, use only when script-camera-group-router selects full depth; fast and standard use their fused lightweight planners. Use directly for formal project tracking, cross-session production, or non-camera-group governance."
+description: "正式 AI 视频与影视项目的治理：权限、项目状态、制作阶段、资产就绪度、容量、连续性交接与基于证据的修订。在剧本转镜头组工作流中仅完整档使用。用于正式项目跟踪、跨会话生产或非镜头组的治理。 Govern substantial AI-video and film projects through authority, project state, production phases, asset readiness, capacity, continuity handoffs, and evidence-based revision. In the script-camera-group workflow, use only when the received processing depth is full; fast and standard use their fused lightweight planners. Use directly for formal project tracking, cross-session production, or non-camera-group governance."
 ---
 
 # AI Video Production Governance
@@ -94,6 +94,11 @@ current_scope:
 completed_endpoint:
 next_start:
 confirmed_decisions:
+stage_outputs:
+authorized_scope:
+pending_decisions:
+next_action:
+duration_scope: project_default | scene_default | segment_override
 continuity_locks:
 asset_status:
 open_questions:
@@ -104,6 +109,13 @@ update only changed fields. Remove expired working details while preserving the
 authoritative source and accepted outputs.
 
 ## Seven Production Phases
+
+Local asset organization is optional and on demand. Keep adopted master assets
+in the shared library, copy only required versions into scene or episode
+delivery folders, and keep work-in-progress, temporary renders, process logs,
+and restore history outside the delivery layer. After an agreed asset batch is
+adopted and visually checked, ask once whether the user wants a local project
+folder organized; do not trigger this for skipped or unfinished asset work.
 
 Use the smallest phase set that solves the request. Show the phase map only for a
 new or ambiguous project; do not force a clear direct request through a tutorial.
@@ -180,15 +192,25 @@ camera-group prompt to an unstructured format. A local fragment may still need
 continuity, action, performance, or platform specialists; the route is shorter,
 not exempt from feasibility checks.
 
-## Adaptive Processing Depth
+## Received Processing Depth
 
 Read `../director-workflow-70/references/adaptive-depth-routing.md` before
-dispatching optional specialists. Select and record `processing_depth` plus
-`depth_reasons` automatically. Default to `standard`; use `fast` only when all
-low-risk conditions pass, and use `full` when any high-risk trigger appears.
+dispatching optional specialists. `processing_depth` and `depth_reasons` are
+**judged by the decision layer (镜语) and supplied by the caller** through the
+console task-context, or overridden by an explicit user instruction: record them
+verbatim and never derive them. If no depth is
+supplied, default to `standard` and label it an assumption. Check the received
+depth against that document's low-risk/high-risk lists — a mismatch is a routing
+blocker to report back, not a licence to change the tier.
 Depth changes backstage work only. Preserve the same camera groups, six-part
 prompt, explicit shot blocks, T micro-beats, dialogue authority, and standalone
 copyability at every depth.
+
+There is no genre field to record. Which conditional specialists are eligible
+follows the explicit signals on record (`fight`, `dialogue_intensive`,
+`emotion_required`, `performance_required`, ...), and they never select or lower
+the depth. Verify every recorded signal against the evidence — a signal with no
+support in the script is a routing defect, not a licence to load specialists.
 
 ## Capacity Gate
 

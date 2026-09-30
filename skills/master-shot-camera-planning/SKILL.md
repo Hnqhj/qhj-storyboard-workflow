@@ -1,6 +1,6 @@
 ---
 name: master-shot-camera-planning
-description: Build or repair a scene's camera plan by selecting indispensable 主镜/key images first, then reverse-deriving blocking, relationship axes, camera zones, shot size, view height, attention path, depth, motion direction, and connector shots. Use when a script or storyboard feels like average coverage, lacks a memorable master image, starts from a strong imagined frame but has no coherent camera geography, or the user asks 主镜、从画面推机位、机位怎么反推、正反打/多人轴线怎么布、景别和视高怎么定. This Skill owns master-shot-led camera blueprinting, not macro structure, shot-level information delta, the complete storyboard table, cinematography polish, or final AI-video prompt packaging.
+description: 以主镜驱动的机位蓝图：先定不可或缺的主镜或关键画面，再反推走位、关系轴、机位分区、景别、视高、注意力路径、景深与连接镜头。触发：主镜、从画面推机位、机位怎么反推、正反打与多人轴线怎么布。 Build or repair a scene's camera plan by selecting indispensable 主镜/key images first, then reverse-deriving blocking, relationship axes, camera zones, shot size, view height, attention path, depth, motion direction, and connector shots. Use when a script or storyboard feels like average coverage, lacks a memorable master image, starts from a strong imagined frame but has no coherent camera geography, or the user asks 主镜、从画面推机位、机位怎么反推、正反打/多人轴线怎么布、景别和视高怎么定. This Skill owns master-shot-led camera blueprinting, not macro structure, shot-level information delta, the complete storyboard table, cinematography polish, or final AI-video prompt packaging.
 ---
 
 # 主镜反推机位
@@ -32,6 +32,20 @@ description: Build or repair a scene's camera plan by selecting indispensable �
 ## 方法解释
 
 “主镜”不是大全景，而是一个段落中承载最多必要信息、关系或情绪转折的关键画面。主镜先决定观众要看到什么，再约束人物位置、道具关系、轴线、机位区和连接镜头。这样得到的是由意义驱动的镜头系统，而不是机位词汇的堆砌。
+
+### 连续长镜头负荷门
+
+一镜到底必须先通过空间与运镜可行性检查，再安排动作。对30秒以内的短片，默认只保留一个连续前进路线、一个主要冲突和一个结尾揭示；环绕、跟拍、低机位、穿越遮挡等都算运镜模式变化，最多保留两次。每次模式交接必须由可见事件触发：人物转身、冲撞、跌倒、穿门或目标改变方向。禁止镜头无动机地从环绕突然切入跟拍。
+
+场景切换必须有完整的物理遮挡或连续空间通道，并保持遮挡前后的运动方向、光色和主体朝向一致。若空间没有纵深、回旋半径或可供遮挡的前景物，先改舞台，不要继续堆叠运镜术语。
+
+### 场景替换与实拍基底
+
+当原场景过于封闭、像游戏关卡或限制跟拍时，优先替换为具有长轴、层次和自然遮挡的真实场所，例如暴雨中的高架桥下层、废弃火车站站台、滨河防洪隧道、山地公路服务区或大型温室。场景选择必须提供：连续行进路线、至少一个前景遮挡物、一个可改变高度或方向的地形节点、以及结尾揭示所需的远景深度。不要用“更多霓虹、更多粒子、更多UI”弥补空间贫乏。
+
+若用户要求游戏风格，只把它登记为击杀瞬间的局部效果属性；主镜、人物表演、镜头运动和环境材质仍按电影实拍逻辑设计。
+
+参考《动物世界》式的视觉冲击时，优先把“帅气”落实为可见空间关系：拉开摄影机、子弹、目标和背景的距离，利用前中后景视差、斜向构图、穿越障碍物和远距离反应镜头制造冲击。击杀后的彩色血浆必须成为接触点的结果，并在镜头中经历喷出、飞散、落地三个阶段；结尾主镜应留下一个新的威胁信息，而不是只停在角色脸部特写。
 
 ## 执行流程
 

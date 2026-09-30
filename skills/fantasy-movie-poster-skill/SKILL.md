@@ -1,6 +1,6 @@
 ---
 name: fantasy-movie-poster
-description: Design original 9:16 Chinese-language cinematic movie posters from story briefs, genre keywords, or visual references, including layered cover workflows with separate image-designed background and typography layers. Use for romance, sports, historical/legal drama, road films, crime thrillers, war, Eastern ink, sci-fi isolation, ensemble casts, and playful concept films. Do not use to copy an existing poster, make generic social-media graphics, or preserve a reference composition unchanged.
+description: 原创 9:16 中文电影海报设计：从故事简报、类型关键词或视觉参考出发，含背景与文字分层的封面工作流。覆盖爱情、运动、历史律政、公路、犯罪惊悚、战争、东方水墨、科幻孤寂、群像与趣味概念片。不要用于复制已有海报或通用社媒图。 Design original 9:16 Chinese-language cinematic movie posters from story briefs, genre keywords, or visual references, including layered cover workflows with separate image-designed background and typography layers. Use for romance, sports, historical/legal drama, road films, crime thrillers, war, Eastern ink, sci-fi isolation, ensemble casts, and playful concept films. Do not use to copy an existing poster, make generic social-media graphics, or preserve a reference composition unchanged.
 ---
 
 # 梵想电影海报设计系统

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Windows磁盘扫描分级"
+  short_description: "Read-only disk scan producing A/B/C graded deletion candidates for review."
+  default_prompt: "Use $windows-disk-cleanup-scan to scan the target drive read-only and return a graded list of deletion candidates for my review; do not delete anything."

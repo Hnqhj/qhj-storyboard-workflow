@@ -1,6 +1,6 @@
 ---
 name: cinematic-vfx-director
-description: "Design, route, compile, and audit cinematic visual effects for AI video and film prompts. Use when a shot involves impact flashes, shockwaves, weapon trails, speed smears, magic or energy, smoke, fire, water, weather, transformation growth, destruction, debris, sparks, environmental response, emissive light, compositing integration, or when effects look cheap, detached, unreadable, overbright, or hide the action. Own the general VFX mechanism and medium-aware art direction; hand Seedance wording to seedance-vfx and physical body/weapon causality to action-choreography-reference."
+description: "电影级 VFX 设计、路由、编译与审计：冲击闪光、冲击波、武器轨迹、速度拖影、魔法能量、烟火水、天气、变身生长、破坏、碎屑、火花、环境响应、自发光与合成整合。触发：特效廉价、脱节、不可读、过曝或遮挡动作。 Design, route, compile, and audit cinematic visual effects for AI video and film prompts. Use when a shot involves impact flashes, shockwaves, weapon trails, speed smears, magic or energy, smoke, fire, water, weather, transformation growth, destruction, debris, sparks, environmental response, emissive light, compositing integration, or when effects look cheap, detached, unreadable, overbright, or hide the action. Own the general VFX mechanism and medium-aware art direction; hand Seedance wording to seedance-vfx and physical body/weapon causality to action-choreography-reference."
 ---
 
 # Cinematic VFX Director

@@ -1,6 +1,6 @@
 ---
 name: capsule-engine
-description: Convert real evidence, user feedback, case cards, repeated failures, verified fixes, and architecture decisions into scoped reusable knowledge capsules with lifecycle states, separate quality metrics, application events, conflict links, skill propagation, and deprecation. Proactively use when the user says 胶囊, 孢子, 内化, 能力沉淀, 合成智慧, 经验变能力, 置信度, 知识进化, 规则升级, 这条要进入系统, or when a validated lesson should move from creative-casebook into durable Sophia memory or update one or more skills.
+description: 知识胶囊引擎：把真实证据、用户反馈、案例卡、重复失败、已验证修复与架构决策转成带生命周期的可复用知识胶囊，含质量指标、应用事件、冲突链接、技能传播与弃用。触发：胶囊、孢子、内化、能力沉淀、经验变能力、知识进化、规则升级。 Convert real evidence, user feedback, case cards, repeated failures, verified fixes, and architecture decisions into scoped reusable knowledge capsules with lifecycle states, separate quality metrics, application events, conflict links, skill propagation, and deprecation. Proactively use when the user says 胶囊, 孢子, 内化, 能力沉淀, 合成智慧, 经验变能力, 置信度, 知识进化, 规则升级, 这条要进入系统, or when a validated lesson should move from creative-casebook into durable Sophia memory or update one or more skills.
 ---
 
 # Capsule Engine

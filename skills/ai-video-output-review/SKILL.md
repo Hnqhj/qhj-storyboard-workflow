@@ -1,6 +1,6 @@
 ---
 name: ai-video-output-review
-description: Inspect and diagnose generated AI video outputs after rendering by probing metadata, extracting timestamped frames, building contact sheets, comparing the result with the prompt and references, and reviewing prompt adherence, identity/count continuity, blocking, camera, motion, physics, aesthetics, material/light, story, audio, and delivery integrity. Proactively use when the user uploads or points to a video and says 看看, 检查一下, 验片, 成片质检, 逐帧分析, 抽帧, 穿帮, 两个主角, 人脸变了, 站位漂移, 红线落地, 动作不对, 画风不一致, 音画不同步, or asks what failed and how to retry.
+description: 成片质检与诊断：探查元数据、抽取时间戳帧、生成接触表、与提示词和参考比对，审查提示词遵循度、身份与人数连续性、走位、运镜、运动、物理、审美、材质光、故事、音频与交付完整性。触发：验片、成片质检、逐帧分析、抽帧、穿帮、人脸变了、站位漂移、音画不同步。 Inspect and diagnose generated AI video outputs after rendering by probing metadata, extracting timestamped frames, building contact sheets, comparing the result with the prompt and references, and reviewing prompt adherence, identity/count continuity, blocking, camera, motion, physics, aesthetics, material/light, story, audio, and delivery integrity. Proactively use when the user uploads or points to a video and says 看看, 检查一下, 验片, 成片质检, 逐帧分析, 抽帧, 穿帮, 两个主角, 人脸变了, 站位漂移, 红线落地, 动作不对, 画风不一致, 音画不同步, or asks what failed and how to retry.
 ---
 
 # AI Video Output Review

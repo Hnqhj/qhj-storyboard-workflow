@@ -1,6 +1,6 @@
 ---
 name: visual-style-aesthetic-direction
-description: "Direct universal advanced visual style and aesthetic systems for AI image/video/design prompts across photography, cinema, illustration, animation, 3D, graphic design, product, fashion, architecture, UI, and experimental media. Use when the user asks for 风格化, 审美, 画风, 美术风格, 高级感, 视觉风格, 风格参考, 审美例子, 通用审美, style bible, art direction, aesthetic direction, non-generic looks, premium stylization, or complains that a result is cheap, cartoonish, generic, aesthetically weak, inconsistent, or not高级."
+description: "通用高级视觉风格与审美系统：覆盖摄影、电影、插画、动画、3D、平面、产品、时尚、建筑、UI 与实验媒介。触发：风格化、审美、画风、美术风格、高级感、视觉风格、风格参考、style bible、art direction，或结果廉价、卡通、通用、审美弱。 Direct universal advanced visual style and aesthetic systems for AI image/video/design prompts across photography, cinema, illustration, animation, 3D, graphic design, product, fashion, architecture, UI, and experimental media. Use when the user asks for 风格化, 审美, 画风, 美术风格, 高级感, 视觉风格, 风格参考, 审美例子, 通用审美, style bible, art direction, aesthetic direction, non-generic looks, premium stylization, or complains that a result is cheap, cartoonish, generic, aesthetically weak, inconsistent, or not高级."
 ---
 
 # Visual Style Aesthetic Direction
@@ -42,6 +42,12 @@ Treat advanced stylization as **reduction + rule + consequence**:
 - consequence: every visual choice changes hierarchy, emotion, readability, or world logic
 
 ## Model-Executable Style Layer
+
+### Live-Action Base, Game-Effect Boundary
+
+For action videos, keep the base medium physically photographed and performance-led: natural human acceleration, foot support, recoil, cloth drag, rain exposure, practical light, and restrained lens behavior. If the user asks for game-like effects, scope that request to the **kill-impact layer only**. The effect may use brief graphic hit sparks, stylized bloodless energy fragments, HUD-like impact geometry, or a single-frame emphasis, but it must not control character anatomy, environment rendering, camera movement, color palette, or the whole scene. Explicitly forbid game-CG skin, rigid animation cycles, floating bodies, neon outlines, persistent UI, damage bars, collectible particles, and full-frame toon shading.
+
+For a user-specified reference such as the Chinese film *Animal World* (2018), treat it as a scoped effects anchor: keep live-action bodies and locations dominant; borrow only high-contrast practical lighting, aggressive perspective, graphic color accents, and stylized kill-impact punctuation. Do not copy named characters, logos, or franchise assets.
 
 Do not leave style direction as taste words. Every aesthetic label must become generation-facing controls.
 

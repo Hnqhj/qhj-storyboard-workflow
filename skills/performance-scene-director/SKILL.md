@@ -1,13 +1,23 @@
 ---
 name: performance-scene-director
-description: 统一设计影视情绪表演场景，包括怒戏、哭戏、哀戏、喜戏、乐戏、混合情绪，以及 5–15 秒单角色氛围/美型/时尚/古风人物短片。用于 AI 视频/图像提示词、Seedance/即梦/Pika/Runway 情绪片段、表演微动作、身体动作与发丝布料饰品的次级滞后、稳定结尾、参考图角色表演迁移和五类情绪导演 skill 的共享底座。
+description: 统一设计影视情绪表演场景，包括怒戏、哭戏、哀戏、喜戏、乐戏、混合情绪，以及 5–15 秒单角色氛围/美型/时尚/古风人物短片。用于 AI 视频/图像提示词、Seedance/即梦/Pika/Runway 情绪片段、表演微动作、身体动作与发丝布料饰品的次级滞后、稳定结尾、参考图角色表演迁移；持有五类情绪画像库，是情绪画像与单角色短片的编排底座。
 ---
 
 # Performance Scene Director
 
 ## 核心定位
 
-这是 Liu 的**统一情绪表演导演底座**。它合并怒戏、哭戏、哀戏、喜戏、乐戏的共同流程：先判断情绪类型和强度，再设计表演弧线、微动作、镜头距离、光色、声音和 AI 视频提示词。
+这是 Liu 的**情绪画像索引与单角色短片编排底座**。它持有五类情绪画像库（怒/哭/哀/喜/乐）与 5–15 秒单角色氛围/美型短片的完整流程：判断情绪类型、选择画像、搭配镜头距离、光色与声音。
+
+**职责边界（表演三技能）** —— 三者各有唯一职责，本技能不复制另两个的方法论：
+
+| 技能 | 唯一职责 |
+|---|---|
+| `$live-action-performance-direction` | 行为与物理：给定情境、可演目标、行动动词、聆听、身体连续性、末帧状态 |
+| `$emotional-performance-direction` | 情绪弧线与强度：触发 → 压制 → 泄露 → 升级 → 释放 → 余波，以及可观察变量清单 |
+| **本技能** | 情绪画像库、5 层强度刻度、镜头距离与光色编排、5–15 秒单角色短片 |
+
+需要行动动词与聆听设计时转 `$live-action-performance-direction`；需要强度递进的变量清单时转 `$emotional-performance-direction`。本技能保留画像库与编排，不重写这两者的输出。
 
 For two-person romance, argument, confession, reconciliation, breakup, farewell, or shot-reverse-shot scenes, use `$relationship-dialogue-direction` after identifying the primary emotion. This Skill still owns the primary emotion arc; the relationship skill maps it into asymmetric performer exchange and coverage.
 
@@ -150,6 +160,8 @@ Camera begins in a still medium close-up, holding enough space for the actor to 
 no melodramatic overacting, no instant full-intensity emotion, no forced crying, no fake smile, no generic rage shouting, no random tears without buildup, no exaggerated facial distortion, no identity drift, no camera move that hides the actor's face at the emotional turn, no music overpowering the performance
 ```
 
-## 与五个旧情绪 skill 的关系
+## 五类情绪画像
 
-`anger-scene-director`、`crying-scene-director`、`sorrow-scene-director`、`joy-scene-director`、`delight-scene-director` 是轻量触发入口。它们保留各自情绪词和专属画像，但创作流程以本 skill 为共享底座。
+怒、哭、哀、喜、乐五类画像由本技能持有，见 `references/emotion-profiles.md`。旧的五个轻量情绪入口技能（`anger-scene-director`、`crying-scene-director`、`sorrow-scene-director`、`joy-scene-director`、`delight-scene-director`）已并入本技能的画像库，**不再单独存在**，不要引用它们。
+
+表演的方法论细节不在此：可见行为与物理执行见 `$live-action-performance-direction`，情绪弧线与强度见 `$emotional-performance-direction`。

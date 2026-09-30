@@ -1,5 +1,6 @@
 ---
 name: seedance-characters
+disable-model-invocation: true
 description: "This skill should be used when the user asks for character consistency, character tags, identity lock, multi-character blocking, wardrobe continuity, hand safety, expression control, or likeness-sensitive character guidance."
 license: MIT
 metadata:

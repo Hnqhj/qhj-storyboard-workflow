@@ -1,6 +1,6 @@
 ---
 name: cinematic-audiovisual-language
-description: "Design formal audiovisual language for substantial film, AI-video, storyboard, shot-list, image-to-video, prompt-to-video, and generated-video diagnosis: shot function, framing, camera angle, axis, blocking, continuity, montage, rhythm, and sound-image relations. In the script-camera-group workflow, use as a separate Skill only on full depth; fast and standard use fused camera rules."
+description: "正式视听语言设计：镜头功能、取景、机位角度、轴线、走位、连续性、蒙太奇、节奏与音画关系。在剧本转镜头组工作流中，仅完整档作为独立技能加载；快速与标准档使用融合式镜头规则。 Design formal audiovisual language for substantial film, AI-video, storyboard, shot-list, image-to-video, prompt-to-video, and generated-video diagnosis: shot function, framing, camera angle, axis, blocking, continuity, montage, rhythm, and sound-image relations. In the script-camera-group workflow, use as a separate Skill only on full depth; fast and standard use fused camera rules."
 ---
 
 # Cinematic Audiovisual Language

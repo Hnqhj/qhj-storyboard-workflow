@@ -1,6 +1,6 @@
 ---
 name: evidence-driven-self-iteration
-description: Run periodic evidence-driven self-audits over recent work, user corrections, case cards, capsule events, Sophia memory, custom skills, source freshness, workflow gaps, and relevant new external developments; then make only low-risk validated improvements and report higher-risk recommendations. Use when the user asks for 自我迭代, 自检, 定期复盘, 每天检查, 每几天优化, 看过往处理, 找问题, 学新东西, 优化Skill, 系统进化, or when a recurring automation should improve Sophia's workflows without random busywork.
+description: 证据驱动的定期自审：审视近期工作、用户纠正、案例卡、胶囊事件、记忆、自定义技能、来源新鲜度、工作流缺口与新外部进展，只做低风险已验证改进，高风险只出建议。触发：自我迭代、自检、定期复盘、每天检查、优化 Skill、系统进化。 Run periodic evidence-driven self-audits over recent work, user corrections, case cards, capsule events, Sophia memory, custom skills, source freshness, workflow gaps, and relevant new external developments; then make only low-risk validated improvements and report higher-risk recommendations. Use when the user asks for 自我迭代, 自检, 定期复盘, 每天检查, 每几天优化, 看过往处理, 找问题, 学新东西, 优化Skill, 系统进化, or when a recurring automation should improve Sophia's workflows without random busywork.
 ---
 
 # Evidence-Driven Self Iteration

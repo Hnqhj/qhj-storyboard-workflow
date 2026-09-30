@@ -1,5 +1,6 @@
 ---
 name: seedance-vfx
+disable-model-invocation: true
 description: "Compile an approved cinematic VFX design into concise Seedance 2.0 wording. Use for Seedance effects involving impact, particles, energy, magic, destruction, transformation, weather, explosions, smoke, fire, water, weapon trails, motion smears, debris, or environmental force response. General VFX concept, hierarchy, medium routing, and grading come from cinematic-vfx-director; this skill owns Seedance-ready compression and stability."
 license: MIT
 metadata:

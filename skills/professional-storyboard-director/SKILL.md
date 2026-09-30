@@ -1,6 +1,6 @@
 ---
 name: professional-storyboard-director
-description: "Shot-design owner for storyboard-only delivery and full-depth ExecutionPlans selected by script-camera-group-router. Design shot function, coverage, timing, axis, camera placement, cut logic, and handoffs for complex film/video work. Do not invoke on fast or standard camera-group routes; those use fused lightweight planners."
+description: "分镜表交付与完整档的镜头设计 Owner，档位由调用方给定。设计镜头功能、覆盖、时长、轴线、机位、剪辑逻辑与交接。不要在快速或标准档调用，那两档用融合式轻量规划器。 Shot-design owner for storyboard-only delivery and full-depth ExecutionPlans selected by the caller's processing depth. Design shot function, coverage, timing, axis, camera placement, cut logic, and handoffs for complex film/video work. Do not invoke on fast or standard camera-group routes; those use fused lightweight planners."
 ---
 
 # Professional Storyboard Director

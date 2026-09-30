@@ -1,5 +1,6 @@
 ---
 name: seedance-examples-zh
+disable-model-invocation: true
 description: "This skill should be used when the user asks for Chinese Seedance 2.0 examples, Chinese prompt patterns, example rewrites, or safe versions of working Chinese video-generation prompts."
 license: MIT
 metadata:

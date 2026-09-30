@@ -1,0 +1,3 @@
+# Isolated validation only; not needed to read/use the creative rules.
+Pillow>=10,<13
+PyYAML>=6,<7

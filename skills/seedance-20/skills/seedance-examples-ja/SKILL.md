@@ -1,5 +1,6 @@
 ---
 name: seedance-examples-ja
+disable-model-invocation: true
 description: "This skill should be used when the user asks for Japanese Seedance 2.0 examples, Japanese prompt patterns, example rewrites, or safe versions of working Japanese video-generation prompts."
 license: MIT
 metadata:

@@ -4,8 +4,14 @@
 
 ## 唯一入口与执行深度
 
-- 所有“剧本/片段转镜头组提示词”先由 `script-camera-group-router` 判定
-  `fast / standard / full`，不得在判定前加载完整导演栈。
+- **档位是输入，不是执行层的判断。** `fast / standard / full` 与题材
+  （`dialogue / mixed / action`）**主要由决策层——镜语**（`G:\工作\分镜` 的镜头组
+  架构师专家包）判定，判定结果经控制台 task-context 传到执行层；用户显式指令
+  可覆盖。`script-camera-group-router`
+  只**读取**并据此选择链路，不得自行判定、推断或改档。
+- 未收到档位时按 `standard` 执行并显式标注为假设（不回头从剧本反推档位）；
+  档位装不下素材（时长压不下、P0/P1 阻塞）时，停下把命名阻塞报回调用方，
+  由调用方重新定档。
 - 深度只控制后台分析层数，不改变最终交付规格。
 - 路由器必须先写 `ExecutionPlan`：精确列出允许/禁止加载的 Skill、唯一
   平台编译器、匹配的 preflight、`prompt_owner=narrative-camera-groups`

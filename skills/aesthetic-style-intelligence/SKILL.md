@@ -1,6 +1,6 @@
 ---
 name: aesthetic-style-intelligence
-description: Track, evaluate, and distill current and historical aesthetic style signals into reusable art-direction intelligence. Use when Codex needs up-to-date visual style research, cross-medium aesthetic trend scouting, style-anchor selection, premium/non-generic visual direction, or a companion layer for skills such as visual-style-aesthetic-direction, creative-anchor-director, visual-reference-vocabulary, production-design-worldbuilding, ai-material-realism, cinematic-audiovisual-language, and AI image/video prompt workflows.
+description: 审美风格情报：追踪、评估并蒸馏当前与历史上的审美风格信号，转成可复用的美术指导情报。触发：需要最新的视觉风格研究、跨媒介审美趋势侦察、风格锚点选择、高级而非通用的视觉方向。 Track, evaluate, and distill current and historical aesthetic style signals into reusable art-direction intelligence. Use when Codex needs up-to-date visual style research, cross-medium aesthetic trend scouting, style-anchor selection, premium/non-generic visual direction, or a companion layer for skills such as visual-style-aesthetic-direction, creative-anchor-director, visual-reference-vocabulary, production-design-worldbuilding, ai-material-realism, cinematic-audiovisual-language, and AI image/video prompt workflows.
 ---
 
 # Aesthetic Style Intelligence

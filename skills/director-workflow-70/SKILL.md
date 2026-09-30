@@ -1,6 +1,7 @@
 ---
 name: director-workflow-70
-description: Portable fallback orchestrator for explicitly requested director-workflow-70 use or installations that do not have script-camera-group-router. Coordinate film and AI-video specialists without private workspace systems. Do not implicitly invoke in the installed Liu script-to-camera-group workflow; its lightweight router and ExecutionPlan replace this duplicate dispatcher.
+disable-model-invocation: true
+description: 兜底编排器：仅在用户明确点名 director-workflow-70，或环境没有 script-camera-group-router 时使用；已装 router 的剧本转镜头组工作流中不要隐式调用本技能。 Portable fallback orchestrator for explicitly requested director-workflow-70 use or installations that do not have script-camera-group-router. Coordinate film and AI-video specialists without private workspace systems. Do not implicitly invoke in the installed Liu script-to-camera-group workflow; its lightweight router and ExecutionPlan replace this duplicate dispatcher.
 ---
 
 # Director Workflow 70
@@ -8,10 +9,13 @@ description: Portable fallback orchestrator for explicitly requested director-wo
 For Liu's recurring真人短剧 + Seedance workflow, read `references/liu-short-drama-contract.md` first, then `references/short-drama-director-stack.md`. The contract is the single source of truth for duration, audio, dialogue speed, framing, @handles, complete-prompt delivery, and preflight; the stack adds asset sufficiency, three-concept gating, leadership delegation, and specialist ownership.
 
 Before loading conditional specialists, read
-`references/adaptive-depth-routing.md` and automatically select `fast`,
-`standard`, or `full`. This selection changes backstage depth only; it must not
-change the required six-part camera-group delivery or ask the user to choose a
-mode.
+`references/adaptive-depth-routing.md`. `fast` / `standard` / `full` is
+**judged by the decision layer (镜语) and supplied as an input**, not a decision
+taken here:
+read it, load the matching chain, and never infer or re-tier it. Depth changes
+backstage depth only; it must not change the required six-part
+camera-group delivery or ask the user to choose a mode. If the received depth
+cannot hold the material, return a named blocker to the caller.
 
 ## Operating Contract
 
@@ -141,7 +145,7 @@ Add `$character-continuity-bible` when references, recurring characters, transfo
 | Vague idea, story function, clip architecture | `$creative-anchor-director` -> `$video-structure-design` |
 | Cultural grounding or unfamiliar reference | `$creative-research-first` -> `$reference-hunting-board` |
 | Analyze a successful or failed reference clip | `$film-breakdown-distiller` |
-| Story scene, dialogue, dramatic beat | `$screenwriting-story-craft` -> `$performance-scene-director` |
+| Story scene, dialogue, dramatic beat | `$screenwriting-story-craft` -> `$live-action-performance-direction` -> `$emotional-performance-direction` (profile library: `$performance-scene-director`) |
 | Shot list, storyboard, camera coverage | `$shot-information-progression` -> `$master-shot-camera-planning` -> `$professional-storyboard-director` |
 | Unconventional camera tension | `$cinema-language-atlas` -> `$high-tension-shot-design` |
 | World, location, production design | `$production-design-worldbuilding` -> `$world-visual-development-director` -> `$mokeaigc-v9` when a world-image exploration layer is useful |

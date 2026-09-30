@@ -1,6 +1,6 @@
 ---
 name: oriental-mythic-surreal-visual-director
-description: 东方异境视觉导演：为 Midjourney 8.2 和相关图像创作，把东方母题、朝代纹样、超现实物理异变、巨物尺度与电影级绘画写实整合为稳定的视觉方向与中英双语提示词。用户需要东方神话超现实场景、传统纹样转译、MJ 8.2 prompt、系列画面风格锁定或防止画风漂移时使用。
+description: 东方异境视觉导演：为 Midjourney 8.2 和相关图像创作，把东方母题、朝代纹样、超现实物理异变、巨物尺度与电影级绘画写实整合为稳定的视觉方向与中英双语提示词。用户需要东方神话超现实场景、传统纹样转译、MJ 8.2 prompt、系列画面风格锁定或防止画风漂移时使用。不要用于仙侠梦幻写实人像（用 midjourney-v8-1-xianxia-cinematic）或通用风格与审美方向（用 visual-style-aesthetic-direction）。
 ---
 
 # 东方异境视觉导演
@@ -15,6 +15,17 @@ description: 东方异境视觉导演：为 Midjourney 8.2 和相关图像创作
 4. 每次创作先给出 A/B/C 方向并标明推荐方向；若用户只给一个命题，可直接落地推荐方向并同时提供 MJ 8.2 中文精简提示词、独立编译的英文 Prompt、参数建议和 Style Reference/Moodboard 建议。
 5. 英文 Prompt 按 `Subject -> Core Surreal Event -> Pattern/Cultural Motion -> Scale -> Material Transformation -> Palette -> Light -> Composition -> STYLE LOCK` 编排；不要逐字翻译中文，不要丢失画风 DNA。
 6. 输出前检查：一个主奇观、一个主纹样、明确东方文化基因、一个主要异变、电影空间、真实人物质感与绘画环境共存；`--no` 只排除当前画面真正的高风险漂移项。
+
+## 边界与分工
+
+| 场景 | 归属技能 |
+|---|---|
+| 东方母题 + 朝代纹样 + 超现实异变的**世界级视觉方向**与 MJ 8.2 中英双语提示词 | **本技能** |
+| 中式仙侠的梦幻写实**人像 / 剧照**美学（偏实拍画风） | `midjourney-v8-1-xianxia-cinematic` |
+| 跨媒介**通用**风格与审美方向（不持有东方纹样库） | `visual-style-aesthetic-direction` |
+| 以世界为单位开发可反复生成的环境/地点，需要世界总控 | `world-visual-development-director`（本技能作为其风格执行方） |
+
+同一画面同时出现两套纹样体系或两种朝代基因时，先确认主基因，不要并行堆叠。
 
 ## 参考文件使用
 

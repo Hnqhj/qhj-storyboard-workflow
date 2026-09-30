@@ -1,6 +1,7 @@
 ---
 name: action-showcase-direction
-description: Direct pure-action AI videos built around weapons, armor functions, mechanical abilities, movement systems, or character combat language, especially 10-60 second showcases with no opponent. Use for 纯动作展示, 武器动作展示, 技能展示, 角色能力展示, 无敌方动作短片, action reel, weapon showcase, transformation showcase, or when a result has repetitive moves, weak shot-size design, disconnected effects, idle pacing, unclear weapon identity, or an unconvincing finish.
+description: 纯动作展示导演：围绕武器、装甲功能、机械能力、位移系统或角色战斗语言，尤指无对手的 10-60 秒展示片。触发：纯动作展示、武器动作展示、技能展示、角色能力展示、无敌方动作短片、action reel、transformation showcase。 Direct pure-action AI videos built around weapons, armor functions, mechanical abilities, movement systems, or character combat language, especially 10-60 second showcases with no opponent. Use for 纯动作展示, 武器动作展示, 技能展示, 角色能力展示, 无敌方动作短片, action reel, weapon showcase, transformation showcase, or when a result has repetitive moves, weak shot-size design, disconnected effects, idle pacing, unclear weapon identity, or an unconvincing finish.
+disable-model-invocation: true
 ---
 
 # Action Showcase Direction

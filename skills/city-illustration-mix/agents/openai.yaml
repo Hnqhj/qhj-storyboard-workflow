@@ -1,0 +1,4 @@
+interface:
+  display_name: "实景插画风"
+  short_description: "保留城市建筑照片，加入与真实空间互动的二维人物、花草和趣味角色"
+  default_prompt: "用 $city-illustration-mix 将这张城市或建筑照片做成实景插画风，自动选择角色与构图。"

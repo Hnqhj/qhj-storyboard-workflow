@@ -1,6 +1,6 @@
 ---
 name: cinematic-music-sound-design
-description: "Design cinematic dialogue, foley, ambience, impact, silence, music, mix hierarchy, rhythm, and sound-image relationships for film and AI video. In Liu's script-camera-group workflow, use as a separate Skill only on full depth; fast and standard planners already enforce dialogue/voice-over plus source-coupled dry foley, with music or mood layers only under explicit authority."
+description: "影视声音设计：对白、拟音、环境声、冲击、静默、音乐、混音层级、节奏与音画关系。在剧本转镜头组工作流中，仅完整档作为独立技能加载；快速与标准档已强制对白或画外音加源耦合干拟音。 Design cinematic dialogue, foley, ambience, impact, silence, music, mix hierarchy, rhythm, and sound-image relationships for film and AI video. In Liu's script-camera-group workflow, use as a separate Skill only on full depth; fast and standard planners already enforce dialogue/voice-over plus source-coupled dry foley, with music or mood layers only under explicit authority."
 ---
 
 # Cinematic Music And Sound Design

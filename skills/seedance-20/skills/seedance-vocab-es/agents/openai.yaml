@@ -4,4 +4,4 @@ interface:
   default_prompt: "使用 $seedance-vocab-es 完成当前专项任务。"
 
 policy:
-  allow_implicit_invocation: true
+  allow_implicit_invocation: false

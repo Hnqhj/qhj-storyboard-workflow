@@ -1,6 +1,6 @@
 ---
 name: ai-video-prompt-director
-description: "Full director brain used only when script-camera-group-router selects full depth for fights, chases, VFX, transformation, difficult continuity/reference problems, research-dependent design, commercial delivery, or generated-output retries. Ordinary complete scripts use camera-group-director-standard; proven low-risk material uses the fast route. Do not implicitly invoke for script-to-camera-group work."
+description: "完整档导演大脑，仅在调用方给定 full 档时加载：打斗、追逐、VFX、变身、复杂连续性或参考、依赖研究的正式交付、成片重试。普通剧本走 standard，已验证低风险走 fast。不要被隐式调用。 Full director brain used only when the caller supplies full depth, for fights, chases, VFX, transformation, difficult continuity/reference problems, research-dependent design, commercial delivery, or generated-output retries. Ordinary complete scripts use camera-group-director-standard; proven low-risk material uses the fast route. Do not implicitly invoke for script-to-camera-group work."
 ---
 # Portable Profile Note
 
@@ -44,10 +44,12 @@ Default task-card orchestration policy: for Liu's AI-video and creative producti
 
 For script-to-camera-group work, read
 `../director-workflow-70/references/adaptive-depth-routing.md` before specialist
-dispatch. Choose processing depth automatically, state it backstage in
-`TaskEnvelope`, and never ask Liu to select fast/standard/full. A fast route
+dispatch. Read the caller-supplied processing depth, state it backstage in
+`TaskEnvelope`, and never ask Liu to select fast/standard/full. Never infer or
+re-tier it. A fast route
 uses one fused planning pass and skips untriggered research/specialist layers;
-standard is the default; any full-depth trigger upgrades immediately. All
+an absent depth defaults to standard; a full-depth trigger under a lower
+received depth is a blocker to report, not a promotion. All
 depths preserve the identical visible delivery contract.
 
 ### Skill Console Telemetry (Optional, Non-Blocking)
@@ -86,7 +88,7 @@ The director brain owns intent, routing, arbitration, group boundaries, concept 
 - world/aesthetic/material leader: `$production-design-worldbuilding`, one style owner, `$ai-material-realism`;
 - camera/storyboard leader: `$cinematic-audiovisual-language`, `$professional-storyboard-director`, `$narrative-camera-groups`;
 - action/VFX leader: `$action-choreography-reference`, `$action-rhythm-editing`, `$seedance-fight-director`, `$cinematic-vfx-director` and its compilers when triggered;
-- performance/sound leader: `$performance-scene-director`, `$relationship-dialogue-direction`, `$cinematic-music-sound-design` in foley-only mode; `$seedance-audio` only for an explicitly approved dry foley timing test;
+- performance/sound leader: `$live-action-performance-direction` for visible behavior, `$emotional-performance-direction` for the emotion arc, `$performance-scene-director` for the emotion-profile library, `$relationship-dialogue-direction` for two-person exchange, `$cinematic-music-sound-design` in foley-only mode; `$seedance-audio` only for an explicitly approved dry foley timing test;
 - platform/QC leader: exactly one platform compiler and the matching preflight
   profile already named by `ExecutionPlan`.
 
@@ -201,10 +203,10 @@ Do not ask for tiny details that can be safely assumed. If uncertainty is low-ri
 New Liu workflow extensions:
 
 - Use `$mokeaigc-v9` as an upstream 9-still visual-world board when the user wants to展开世界, infer the world behind a reference image, or establish a coherent visual culture before story/video packaging.
-- Use `$performance-scene-director` as the shared acting-performance base when actor emotion, micro-expression, and performance rhythm are the main value of the clip. Select one primary profile inside that skill: anger, crying/release, restrained sorrow, inner joy/surprise, or playful delight.
+- Use `$performance-scene-director` as the emotion-profile index when actor emotion, micro-expression, and performance rhythm are the main value of the clip. It holds the profile library plus the shot/light/color pairing; visible behavior comes from `$live-action-performance-direction`, the emotion arc from `$emotional-performance-direction`. Select one primary profile inside that skill: anger, crying/release, restrained sorrow, inner joy/surprise, or playful delight.
 - Use `$relationship-dialogue-direction` when the value is a two-person relationship turn: romance, intimacy, confession, reconciliation, breakup, farewell, argument, confrontation, delicate performance, or 正反打. It owns the relationship contract, asymmetric performance relay, and reverse-shot handoff.
 - Use `$live-action-performance-direction` as the acting-foundation layer whenever a live-action character must feel human rather than posed: assign given circumstances, playable objective, action verb, listening behavior, subtext, weight, breath, gaze, and continuous body mechanics before writing dialogue or action prompts.
-- Use `$emotional-performance-direction` when the scene depends on an emotion arc, suppression/release, micro-expression, reaction timing, or genre-specific emotional modulation. It owns visible intensity progression and emotional evidence; `$performance-scene-director` remains the shared emotion profile base, while `$relationship-dialogue-direction` maps two-person exchange and `$narrative-camera-groups` packages shots.
+- Use `$emotional-performance-direction` when the scene depends on an emotion arc, suppression/release, micro-expression, reaction timing, or genre-specific emotional modulation. It owns visible intensity progression and emotional evidence; `$performance-scene-director` holds the emotion-profile library, while `$relationship-dialogue-direction` maps two-person exchange and `$narrative-camera-groups` packages shots.
 
 ## Organic Skill Linkage Protocol
 
@@ -242,7 +244,7 @@ For recurring projects or high-risk production decisions, read `$director-workfl
 Use only the minimum useful stack:
 
 - **Simple final prompt**: director + mandatory film baseline (audiovisual grammar, internal beat/shot plan, material, positive video stability locks) + platform packaging + preflight.
-- **Emotion-led clip**: structure + `performance-scene-director` + audiovisual + platform. Add `relationship-dialogue-direction` only when two performers and their relationship turn are the main value.
+- **Emotion-led clip**: structure + `emotional-performance-direction` + `performance-scene-director` + audiovisual + platform. Add `relationship-dialogue-direction` only when two performers and their relationship turn are the main value.
 - **Fight/action clip**: structure + choreography basis + `cinematic-vfx-director` only when effects carry force/state/destruction + `vfx-effect-construction-engine` only when lifecycle or vocabulary construction is unresolved + `seedance-fight-director` when final target is Seedance/Higgsfield + material + platform.
 - **World/style-heavy clip**: worldbuilding/reference + audiovisual + one style owner + material + platform.
 - **After failed generation**: output review + one diagnosis layer + iteration doctor + platform retry. Do not change action, style, camera, character, and material all at once.
@@ -293,7 +295,7 @@ For a structured Liu shot plan, run the `narrative-camera-groups/scripts/shot_gr
 - When the target is specifically Seedance 2.0, route the final packaging, continuation/extend logic, reference-role transfer, platform/API facts, safety rewrites, and failed-output repair through `$seedance-20` after the director-mode creative stack has set structure, world, camera, action, sound, and material controls.
 - When Liu gives a world seed, place, culture, creature ecology, or reference image and wants a coherent visual world, route through `$mokeaigc-v9` before production design; distill its nine stills into stable visual laws instead of pasting all prompts into a video prompt.
 - For a recurring multi-shot project, or when Liu provides a public production package with project-wide style/constraint blocks and per-shot prompts, use `references/project-prompt-inheritance.md`: retain approved project invariants, bind the current shot's entities/references, add only the shot delta, then compile into Liu's six-part positive-only format.
-- When the prompt is emotion-led, route through `$performance-scene-director` and select one primary profile inside it: anger, crying/release, restrained sorrow, inner joy/surprise, or playful delight. For a two-person relationship turn, use `$relationship-dialogue-direction` after the emotion arc and before shot packaging.
+- When the prompt is emotion-led, route through `$emotional-performance-direction` for the arc and `$performance-scene-director` for the profile, and select one primary profile inside it: anger, crying/release, restrained sorrow, inner joy/surprise, or playful delight. For a two-person relationship turn, use `$relationship-dialogue-direction` after the emotion arc and before shot packaging.
 - Separate planning order from final prompt order. Plan structure and causality first, but place the global visual master block near the beginning of the final generation prompt, before detailed shots. Treat medium, aesthetic family, palette ownership, shape/line language, material-light system, rendering hierarchy, and forbidden drift as upstream controls that every later shot must inherit.
 - For high-speed combat, chases, giant/mecha action, aggressive POV, extreme shot-scale contrast, or unconventional camera requests, use `$kinetic-action-visual-master` to turn the aesthetic direction into a bounded whole-film kinetic envelope. Break framing conventions without breaking axis, geography, target relation, or action causality.
 - Separate segment timing from individual shot timing for ordinary prompts. For user-calibrated narrative camera groups, exact per-shot durations are required in both the human shot table and the prose event beats; estimate them from dialogue, performance, action physics, and edit rhythm, and verify that they sum to the group duration.
@@ -618,7 +620,7 @@ For short answers, output only the final prompt plus the most important referenc
 - Define the macro video structure before writing shots; shots should serve hook, orientation, build, turn, payoff, or loop.
 - For story-driven clips, define want, obstacle, choice, and consequence before shot language.
 - For emotion-driven clips, define the temporal hinge before shot language: past residue -> present action -> incoming pressure -> final consequence.
-- For emotion-driven clips where acting is the main value, let `$performance-scene-director` own the shared acting arc, and let exactly one emotion profile wrapper own the intensity ceiling and micro-action flavor; camera and sound should support that playable arc.
+- For emotion-driven clips where acting is the main value, let `$live-action-performance-direction` own the playable behavior and `$emotional-performance-direction` own the intensity arc; select exactly one profile from `$performance-scene-director` for the intensity ceiling and micro-action flavor; camera and sound should support that playable arc.
 - For world-driven clips, define color ownership, material rules, location function, and forbidden drift before shot language.
 - For world-first development, use `$mokeaigc-v9` to create/inspect the 9-still world board, then carry forward only stable visual laws into video packaging.
 - For multi-shot clips, run audiovisual continuity before adding tension effects.

@@ -1,5 +1,6 @@
 ---
 name: seedance-vocab-ko
+disable-model-invocation: true
 description: "This skill should be used when the user asks for Korean Seedance 2.0 prompt wording, Korean cinematic vocabulary, or translation of camera, lighting, action, VFX, audio, and production terms into Korean."
 license: MIT
 metadata:

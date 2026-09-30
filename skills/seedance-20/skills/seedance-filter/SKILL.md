@@ -1,5 +1,6 @@
 ---
 name: seedance-filter
+disable-model-invocation: true
 description: "This skill should be used when a Seedance 2.0 prompt is blocked, rejected, silently degraded, or likely to trigger a content filter; or when the user asks for a safer rewrite without losing the creative intent."
 license: MIT
 metadata:

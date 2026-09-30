@@ -1,6 +1,6 @@
 ---
 name: character-continuity-bible
-description: "Build and maintain continuity locks for recurring characters, costumes, weapons, props, locations, multi-shot sequences, and reference-driven AI image/video generation. Use when identity or state continuity is fragile, cross-scene or cross-episode, reference roles conflict, or a full-depth ExecutionPlan selects it. Do not invoke separately on script-camera-group fast or standard routes; their fused planners handle straightforward local continuity."
+description: "为反复出现的角色、服装、武器、道具、场景建立连续性锁。身份或状态连续性脆弱、跨场跨集、参考职责冲突、或完整档 ExecutionPlan 选中时使用。快速与标准档不要单独调用。 Build and maintain continuity locks for recurring characters, costumes, weapons, props, locations, multi-shot sequences, and reference-driven AI image/video generation. Use when identity or state continuity is fragile, cross-scene or cross-episode, reference roles conflict, or a full-depth ExecutionPlan selects it. Do not invoke separately on script-camera-group fast or standard routes; their fused planners handle straightforward local continuity."
 ---
 
 # Character Continuity Bible

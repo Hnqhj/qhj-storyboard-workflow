@@ -1,6 +1,6 @@
 ---
 name: action-choreography-reference
-description: "Mandatory action-physics baseline for substantial film/AI-video action, fight, chase, weapon, martial-arts, action storyboard, and kinetic character-PV tasks. Select and preserve martial-art, dance, sport, stunt, partner-movement, and weapon-system anchors, then design choreography using body mechanics, weapon weight, center of mass, balance, leverage, momentum, inertia, traction, recoil, braking, and recovery. Also use for audience-facing fight dramaturgy: 打戏伏笔, 战术道具, 主动权, 翻盘, 可见承诺与兑现. Use for 动作, 打斗, 武戏, 追逐, 武器, 剑斗, 身体运动, fight/chase/choreography, impact plausibility, blocking continuity, or anti-fake-fight diagnosis."
+description: "动作物理基线，强制：打斗、追逐、武器、武术、动作分镜与高动能角色 PV。用身体力学、武器重量、重心、平衡、杠杆、动量、惯性、摩擦、后坐、制动与收势设计编舞。触发：动作、打斗、武戏、追逐、武器、剑斗、身体运动。 Mandatory action-physics baseline for substantial film/AI-video action, fight, chase, weapon, martial-arts, action storyboard, and kinetic character-PV tasks. Select and preserve martial-art, dance, sport, stunt, partner-movement, and weapon-system anchors, then design choreography using body mechanics, weapon weight, center of mass, balance, leverage, momentum, inertia, traction, recoil, braking, and recovery. Also use for audience-facing fight dramaturgy: 打戏伏笔, 战术道具, 主动权, 翻盘, 可见承诺与兑现. Use for 动作, 打斗, 武戏, 追逐, 武器, 剑斗, 身体运动, fight/chase/choreography, impact plausibility, blocking continuity, or anti-fake-fight diagnosis."
 ---
 
 # Action Choreography Reference
@@ -113,6 +113,20 @@ She commits to cutting off his right-side escape; her stance drops, shoulder and
 Use one or two strong intent cues per beat. Do not overload every limb. For AI video, the model should understand why the action happens and what it forces, while keeping freedom for secondary motion.
 
 ## Control Boundaries For AI Video
+
+### Single-Take Load Gate
+
+For a continuous-take request, audit the shot before writing prompt prose. A short take should normally contain one route, one primary confrontation, and one payoff. Count camera mode changes, spatial transitions, weapon changes, enemies, and timing effects as load items. For takes under 30 seconds, default to no more than two camera-mode changes, two action contacts, one spatial transition, and one time effect. If the brief exceeds this, split into linked clips or designate a single hero beat and demote the rest to atmosphere.
+
+Keep dual-wield characters asymmetric: one weapon performs the current action while the other remains in a stable guard or support role. Do not prescribe simultaneous independent attacks.
+
+### Effect Scope Gate
+
+When a user wants a game-style kill effect, separate it from the movement grammar. Body motion remains live-action and continuous before, during, and after contact; only the confirmed kill moment receives a brief stylized effect accent. The effect must have a clear source, contact point, duration, and decay, and must not replace recoil, weight transfer, facial reaction, footwork, or recovery. Do not let the effect turn the performer into a game character or make the entire scene look like gameplay.
+
+When colored plasma or blood-like spray is requested, define it as brief kill confirmation: source at contact, directional droplets plus larger secondary arcs, foreground/midground separation, wet-surface splatter, gravity-driven fall, then fade. Keep saturated color as a restrained accent; forbid continuous fountains or decorative particles without an impact source.
+
+For bullet-time, require distance and parallax: establish a readable gap between camera, projectile, target, and background; let the projectile cross foreground to midground or background with visible travel time and occlusion. A close muzzle insert is insufficient. Trigger slow motion as the projectile passes a spatial marker and return to real time on impact.
 
 Do not over-choreograph every limb, hit, cut, and micro-second by default. For AI video, the most reliable action prompts usually lock the boundaries and let the model improvise secondary motion:
 

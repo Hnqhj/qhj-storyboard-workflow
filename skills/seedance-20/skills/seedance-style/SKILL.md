@@ -1,5 +1,6 @@
 ---
 name: seedance-style
+disable-model-invocation: true
 description: "This skill should be used when the user asks for visual style, art direction, render feel, period aesthetic, texture, animation style, realism level, or style-safe alternatives to studio or franchise references."
 license: MIT
 metadata:

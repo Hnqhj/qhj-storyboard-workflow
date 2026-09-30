@@ -1,5 +1,6 @@
 ---
 name: seedance-interview
+disable-model-invocation: true
 description: "This skill should be used when the user has a vague Seedance 2.0 video idea and asks for creative guidance, story development, scene planning, a director interview, or help turning an undeveloped concept into a production-ready prompt, especially when the user has no film or storytelling background."
 license: MIT
 metadata:

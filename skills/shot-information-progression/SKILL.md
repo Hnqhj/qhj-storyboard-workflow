@@ -1,6 +1,6 @@
 ---
 name: shot-information-progression
-description: Design and audit shot-to-shot information progression before camera, lighting, style, and effects polish. Use when a storyboard, AI-video prompt, short film, ad, or generated sequence looks cinematic but says little; has 没信息点, 主体不突出, 氛围大于叙事, 镜头重复, 同一情绪反复推近/换景别, 不知道下一个镜头拍什么, 运镜没有理由, 工具很多却拼成缝合怪, or needs to explain why each shot exists and what new knowledge, emotion, question, proof, or consequence it hands to the next. Separate visible behavior from implied emotional purpose, require an information delta for every cut, and build the narrative skeleton that hands off to storyboard and audiovisual-language Skills. Do not use as the owner for complete storyboard drawing, camera/axis design, lighting, performance direction, or macro video structure.
+description: 镜头间信息推进设计与审计：每个镜头必须交出新的知识、情绪、疑问、证据或后果。触发：没信息点、主体不突出、氛围大于叙事、镜头重复、运镜没有理由。不负责完整分镜绘制、机位设计、灯光、表演导演或宏观结构。 Design and audit shot-to-shot information progression before camera, lighting, style, and effects polish. Use when a storyboard, AI-video prompt, short film, ad, or generated sequence looks cinematic but says little; has 没信息点, 主体不突出, 氛围大于叙事, 镜头重复, 同一情绪反复推近/换景别, 不知道下一个镜头拍什么, 运镜没有理由, 工具很多却拼成缝合怪, or needs to explain why each shot exists and what new knowledge, emotion, question, proof, or consequence it hands to the next. Separate visible behavior from implied emotional purpose, require an information delta for every cut, and build the narrative skeleton that hands off to storyboard and audiovisual-language Skills. Do not use as the owner for complete storyboard drawing, camera/axis design, lighting, performance direction, or macro video structure.
 ---
 
 # Shot Information Progression
@@ -23,7 +23,7 @@ Do not own:
 - master-shot-led blocking, axis, camera-zone, view-height, and connector blueprint: hand to `$master-shot-camera-planning` when the scene should be constructed outward from key images;
 - full storyboard tables or drawings: hand to `$professional-storyboard-director`;
 - shot size, axis, blocking, lens, movement path, continuity, and cut mechanics: hand to `$cinematic-audiovisual-language`;
-- actor micro-performance: hand to `$performance-scene-director`;
+- actor micro-performance and visible behavior: hand to `$live-action-performance-direction` (intensity arc via `$emotional-performance-direction`);
 - lighting, palette, material, atmosphere, and visual polish: apply only after this gate through the relevant visual Skills.
 
 ## Core Model

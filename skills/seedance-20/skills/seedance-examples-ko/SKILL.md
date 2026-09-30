@@ -1,5 +1,6 @@
 ---
 name: seedance-examples-ko
+disable-model-invocation: true
 description: "This skill should be used when the user asks for Korean Seedance 2.0 examples, Korean prompt patterns, example rewrites, or safe versions of working Korean video-generation prompts."
 license: MIT
 metadata:

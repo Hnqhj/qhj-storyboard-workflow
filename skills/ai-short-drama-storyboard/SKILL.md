@@ -1,6 +1,7 @@
 ---
 name: ai-short-drama-storyboard
-description: Legacy/specialized short-drama development skill for explicit continuity-bible, keyframe-image prompt, Mambo V1.6 engineering format, xianxia period-scene contract, or separate VIDEO_PROMPT/AUDIO_PLAN/NEGATIVE_PROMPT requests. Do not invoke for ordinary script-to-camera-group prompts; script-camera-group-router plus narrative-camera-groups owns that workflow.
+description: 短剧专项旧版：连续性圣经、关键帧图像提示词、Mambo V1.6 工程格式、仙侠年代场景契约，或分别索要 VIDEO_PROMPT、AUDIO_PLAN、NEGATIVE_PROMPT 时使用。普通剧本转镜头组不要调用。 Legacy/specialized short-drama development skill for explicit continuity-bible, keyframe-image prompt, Mambo V1.6 engineering format, xianxia period-scene contract, or separate VIDEO_PROMPT/AUDIO_PLAN/NEGATIVE_PROMPT requests. Do not invoke for ordinary script-to-camera-group prompts; script-camera-group-router plus narrative-camera-groups owns that workflow.
+disable-model-invocation: true
 ---
 
 # AI 真人短剧分镜

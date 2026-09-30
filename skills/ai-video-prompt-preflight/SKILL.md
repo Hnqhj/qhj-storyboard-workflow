@@ -1,6 +1,6 @@
 ---
 name: ai-video-prompt-preflight
-description: "Full-depth final validator for fights, VFX, transformations, difficult continuity/reference work, research-dependent production, commercial delivery, or generated-output retries. Use when script-camera-group-router selects full, or when the user explicitly requests exhaustive prompt QA. Do not invoke on fast or standard camera-group routes; use their lightweight preflight owners instead. Validate and return field patches, never author a second full prompt."
+description: "完整档终检：打斗、VFX、变身、困难连续性与参考、依赖研究的制作、商业交付、成片重试。仅在调用方给定 full 档或用户明确要求穷尽式提示词质检时使用。只返回字段补丁，绝不写第二份完整提示词。 Full-depth final validator for fights, VFX, transformations, difficult continuity/reference work, research-dependent production, commercial delivery, or generated-output retries. Use when the received processing depth is full, or when the user explicitly requests exhaustive prompt QA. Do not invoke on fast or standard camera-group routes; use their lightweight preflight owners instead. Validate and return field patches, never author a second full prompt."
 ---
 # Portable Profile Note
 

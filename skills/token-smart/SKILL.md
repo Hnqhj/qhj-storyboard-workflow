@@ -1,6 +1,6 @@
 ---
 name: token-smart
-description: Reduce avoidable context, tool calls, repeated checks, and narration while completing the requested work. Use when asked to save tokens, work lean, or apply an installed token-smart preference; preserve task scope and necessary validation.
+description: 精简上下文、工具调用、重复检查与叙述，同时保留任务范围与必要验证。触发：省 token、精简执行、按需应用 token-smart 偏好。 Reduce avoidable context, tool calls, repeated checks, and narration while completing the requested work. Use when asked to save tokens, work lean, or apply an installed token-smart preference; preserve task scope and necessary validation.
 ---
 
 # Token Smart

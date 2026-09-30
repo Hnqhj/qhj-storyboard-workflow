@@ -1,6 +1,6 @@
 ---
 name: camera-group-director-standard
-description: Lightweight one-pass director and shot planner used only when script-camera-group-router selects standard depth for an ordinary complete script, multi-scene dialogue or emotion sequence, or a local scene that is not proven fast. Produce the approved story, continuity, information, space, shot, and scene-first camera-group state without loading the full director, governance, cinematography, material, sound, or professional-storyboard Skills. Escalate fights, VFX, transformations, difficult continuity/reference conflicts, research, commercial exhaustive work, and generated-output retries to full.
+description: 标准档一次性融合导演与镜头规划，仅由调用方给定 standard 档时加载。产出已批准的故事、连续性、信息、空间、镜头与场景优先的镜头组状态。打斗、VFX、变身、复杂参考、正式交付、重试由调用方改判为 full。 Lightweight one-pass director and shot planner used only when the received processing depth is standard, for an ordinary complete script, multi-scene dialogue or emotion sequence, or a local scene that is not proven fast. Produce the approved story, continuity, information, space, shot, and scene-first camera-group state without loading the full director, governance, cinematography, material, sound, or professional-storyboard Skills. Fights, VFX, transformations, difficult continuity/reference conflicts, research, commercial exhaustive work, and generated-output retries require the caller to re-tier to full.
 ---
 
 # Camera Group Director Standard

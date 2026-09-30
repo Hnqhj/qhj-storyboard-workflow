@@ -1,6 +1,7 @@
 ---
 name: cg-xianxia-vfx-design
-description: "Design premium CG and xianxia fantasy effect systems for film, TV, games, and AI video: energy materials, sword qi, talismans, formations, elemental forces, spatial distortions, summoned constructs, environmental destruction, camera scale, lighting integration, and cinematic rendering. Use when the user wants炫酷但高级的CG玄幻特效，拒绝廉价粒子、单一发光、扁平贴图和无物理反馈。"
+description: "高级 CG 与仙侠玄幻特效系统设计：能量材质、剑气、符箓、法阵、元素之力、空间扭曲、召唤构造、环境破坏、镜头尺度、光照整合与电影级渲染。触发：炫酷但高级的 CG 玄幻特效，拒绝廉价粒子、单一发光、扁平贴图与无物理反馈。 Design premium CG and xianxia fantasy effect systems for film, TV, games, and AI video: energy materials, sword qi, talismans, formations, elemental forces, spatial distortions, summoned constructs, environmental destruction, camera scale, lighting integration, and cinematic rendering. Use when the user wants炫酷但高级的CG玄幻特效，拒绝廉价粒子、单一发光、扁平贴图和无物理反馈。"
+disable-model-invocation: true
 ---
 
 # CG仙侠特效设计

@@ -1,6 +1,7 @@
 ---
 name: kinetic-action-visual-master
-description: Establish a reusable whole-film visual master for high-energy AI action videos by combining cinematic realism, stylized animation dynamics, special multi-shot storyboard expression, large shot-scale and angle variation, action-camera coupling, causal cuts and transitions, and physics-preserving exaggeration. Use for 高速战斗, 高能动作视觉母版, 特殊分镜表现手法, 多分镜, 多景别, 多特殊角度, 人物动作与镜头配合, 激烈运镜, 动作转场, 非常规构图, POV动作, giant combat, mecha action, weapon showcases, chases, vehicle action, or when a prompt needs an authoritative opening style block before detailed choreography and shots.
+description: 高能动作片整片视觉母版：融合电影写实、风格化动画动势、特殊多分镜表达、大景别与角度变化、动作与镜头耦合、因果剪辑与保物理夸张。触发：高速战斗、高能动作视觉母版、多分镜、多景别、多特殊角度、激烈运镜、动作转场、POV 动作、机甲动作。 Establish a reusable whole-film visual master for high-energy AI action videos by combining cinematic realism, stylized animation dynamics, special multi-shot storyboard expression, large shot-scale and angle variation, action-camera coupling, causal cuts and transitions, and physics-preserving exaggeration. Use for 高速战斗, 高能动作视觉母版, 特殊分镜表现手法, 多分镜, 多景别, 多特殊角度, 人物动作与镜头配合, 激烈运镜, 动作转场, 非常规构图, POV动作, giant combat, mecha action, weapon showcases, chases, vehicle action, or when a prompt needs an authoritative opening style block before detailed choreography and shots.
+disable-model-invocation: true
 ---
 
 # Kinetic Action Visual Master

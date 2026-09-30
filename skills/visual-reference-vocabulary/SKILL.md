@@ -1,6 +1,6 @@
 ---
 name: visual-reference-vocabulary
-description: "Proactively discover, suggest, preserve, and minimally clarify high-density visual reference anchors for AI image/video prompting, including directors, films, studios, cinematographers, photographers, animators, composition, camera, lighting, and editing terms. Use when the user knows only part of the relevant visual vocabulary or wants better camera movement, tension, anime impact, cinematic feeling, commercial polish, or visual name anchors. Trigger on 运镜, 构图, 镜头感, 张力, 压迫感, 史诗感, 高级感, 电影感, 动画感, 视觉参考词, 导演镜头, 摄影术语, Spielberg shot, Kubrick, Hitchcock, Obari pose, 大张正己, 大张一刀."
+description: "视觉参考词汇：主动发现、建议、保留并最小化澄清高密度视觉参考锚点，含导演、影片、工作室、摄影师、构图、运镜、灯光与剪辑术语。触发：运镜、构图、镜头感、张力、压迫感、史诗感、高级感、电影感、动画感、视觉参考词、导演镜头、摄影术语。 Proactively discover, suggest, preserve, and minimally clarify high-density visual reference anchors for AI image/video prompting, including directors, films, studios, cinematographers, photographers, animators, composition, camera, lighting, and editing terms. Use when the user knows only part of the relevant visual vocabulary or wants better camera movement, tension, anime impact, cinematic feeling, commercial polish, or visual name anchors. Trigger on 运镜, 构图, 镜头感, 张力, 压迫感, 史诗感, 高级感, 电影感, 动画感, 视觉参考词, 导演镜头, 摄影术语, Spielberg shot, Kubrick, Hitchcock, Obari pose, 大张正己, 大张一刀."
 ---
 
 # Visual Reference Vocabulary

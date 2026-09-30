@@ -1,5 +1,6 @@
 ---
 name: seedance-troubleshoot
+disable-model-invocation: true
 description: "This skill should be used when a Seedance 2.0 output is blurry, jittery, off-prompt, morphing, blocked, visually generic, unstable, desynced, inconsistent, or otherwise fails and needs root-cause diagnosis."
 license: MIT
 metadata:

@@ -1,6 +1,6 @@
 ---
 name: im2-clean-image
-description: "Default material, information-density hierarchy, clean-rendering, negative-prompt hygiene, and evidence-preserving photo-repair layer for IM2 / GPT Image 2 / gpt-image-2 / image_gen. Use for clean generation/redraws, artifact cleanup, focal-detail control, atmospheric depth, physically coherent light paths, air scattering, volumetric light, light ratio, material realism, architecture/terrain/hard-surface scene mass and structural grounding, and 企业/公司活动/门店/团队合影/商品/餐饮/证件文档照片修复. Preserve identity, headcount, placement, product facts, text, logo, QR, date, price, and scene evidence; prefer residual blur over invented restoration detail."
+description: "IM2 与 GPT Image 2 的默认材质、信息密度层级、干净渲染、负向提示词卫生与保证据修图层。触发：干净生成与重绘、伪影清理、焦点细节控制、大气纵深、物理一致光路、体积光、材质写实，以及企业活动、门店、团队合影、商品、餐饮、证件照修复。 Default material, information-density hierarchy, clean-rendering, negative-prompt hygiene, and evidence-preserving photo-repair layer for IM2 / GPT Image 2 / gpt-image-2 / image_gen. Use for clean generation/redraws, artifact cleanup, focal-detail control, atmospheric depth, physically coherent light paths, air scattering, volumetric light, light ratio, material realism, architecture/terrain/hard-surface scene mass and structural grounding, and 企业/公司活动/门店/团队合影/商品/餐饮/证件文档照片修复. Preserve identity, headcount, placement, product facts, text, logo, QR, date, price, and scene evidence; prefer residual blur over invented restoration detail."
 ---
 
 # IM2 Clean Image

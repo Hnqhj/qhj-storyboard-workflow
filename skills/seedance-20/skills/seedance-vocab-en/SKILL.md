@@ -1,5 +1,6 @@
 ---
 name: seedance-vocab-en
+disable-model-invocation: true
 description: "This skill should be used when an English Seedance 2.0 prompt is slop-heavy, generic, padded with empty quality words, tripping false-positive filters, or needs precise English production vocabulary for camera, lighting, motion, VFX, audio, and constraints."
 license: MIT
 metadata:

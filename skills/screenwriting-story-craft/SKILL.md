@@ -1,6 +1,6 @@
 ---
 name: screenwriting-story-craft
-description: "Write and refine local or atomic screenplay units: loglines, short-film and AI-video micro-stories, beat sheets, individual scenes, action lines, dialogue, subtext, conflict, stakes, reversals, endings, and temporal hinges such as 刚刚/正在/即将. Use for 一句话故事、短片、小故事、单场戏、分场、对白、潜台词、人物动机、局部改稿、scene purpose, or when an approved project design needs concrete scene writing. For a full screenplay project, full-series spine, multi-episode outline, novel-to-drama adaptation, macro reversal plan, or time/POV continuity system, use develop-screenplay-project first. For diagnosis-only roundtables use script-doctor-roundtable; for retention and hook/payoff timing use video-structure-design."
+description: "局部或原子剧本写作与打磨：一句话故事、短片与 AI 视频微故事、节拍表、单场戏、动作行、对白、潜台词、冲突、赌注、反转、结局与时间铰链。触发：一句话故事、短片、小故事、单场戏、分场、对白、潜台词、局部改稿。 Write and refine local or atomic screenplay units: loglines, short-film and AI-video micro-stories, beat sheets, individual scenes, action lines, dialogue, subtext, conflict, stakes, reversals, endings, and temporal hinges such as 刚刚/正在/即将. Use for 一句话故事、短片、小故事、单场戏、分场、对白、潜台词、人物动机、局部改稿、scene purpose, or when an approved project design needs concrete scene writing. For a full screenplay project, full-series spine, multi-episode outline, novel-to-drama adaptation, macro reversal plan, or time/POV continuity system, use develop-screenplay-project first. For diagnosis-only roundtables use script-doctor-roundtable; for retention and hook/payoff timing use video-structure-design."
 ---
 
 # Screenwriting Story Craft

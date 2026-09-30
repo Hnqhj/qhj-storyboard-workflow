@@ -1,6 +1,6 @@
 ---
 name: windows-safe-cleanup
-description: Audit and safely clean a Windows PC, especially disk pressure on C/D/E drives, user temp files, browser caches, developer package caches, recycle bins, NVIDIA shader caches, and Wallpaper Engine/Steam Workshop storage. Use when the user asks to inspect their computer, find what can be cleaned, free disk space, run a safe cleanup, review Windows storage, delete explicitly approved large files, or check Wallpaper Engine for large or duplicate workshop items.
+description: Windows 电脑安全清理：检查电脑、找出可清理项、释放磁盘空间、安全清理、审查存储。覆盖 C、D、E 盘磁盘压力、用户临时文件、浏览器缓存、开发者包缓存、回收站、NVIDIA 着色器缓存与 Wallpaper Engine 及 Steam 创意工坊。 Audit and safely clean a Windows PC, especially disk pressure on C/D/E drives, user temp files, browser caches, developer package caches, recycle bins, NVIDIA shader caches, and Wallpaper Engine/Steam Workshop storage. Use when the user asks to inspect their computer, find what can be cleaned, free disk space, run a safe cleanup, review Windows storage, delete explicitly approved large files, or check Wallpaper Engine for large or duplicate workshop items. 只读扫描与 A/B/C 分级清理清单请用 windows-disk-cleanup-scan。
 ---
 
 # Windows Safe Cleanup

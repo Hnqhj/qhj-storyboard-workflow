@@ -1,6 +1,6 @@
 ---
 name: camera-group-preflight-standard
-description: Standard-depth validator used only when script-camera-group-router selects standard processing for an ordinary complete script or multi-group dialogue/emotion scene. Check authority, timing, continuity, shot purpose, camera execution, material/light grounding, dialogue and foley, platform handles, six-part packaging, explicit shot blocks, and profile-aware micro-beats without rewriting the prompt. Escalate fights, VFX, complex continuity, research, retries, or commercial exhaustive work to ai-video-prompt-preflight.
+description: 标准档校验，仅在调用方给定 standard 档时使用。检查权威性、时长、连续性、镜头目的、运镜执行、材质与光锚定、对白与拟音、平台句柄、六段打包、显式镜头块。打斗、VFX、复杂连续性、重试由调用方改判为 ai-video-prompt-preflight。 Standard-depth validator used only when the received processing depth is standard, for an ordinary complete script or multi-group dialogue/emotion scene. Check authority, timing, continuity, shot purpose, camera execution, material/light grounding, dialogue and foley, platform handles, six-part packaging, explicit shot blocks, and profile-aware micro-beats without rewriting the prompt. Fights, VFX, complex continuity, research, retries, or commercial exhaustive work require the caller to re-tier to ai-video-prompt-preflight.
 ---
 
 # Camera Group Preflight Standard

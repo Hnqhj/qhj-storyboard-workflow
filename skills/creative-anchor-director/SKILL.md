@@ -1,6 +1,6 @@
 ---
 name: creative-anchor-director
-description: Proactively discover, research, select, and combine high-density semantic reference anchors across creative work, including directors, films, studios, animators, cinematographers, photographers, artists, designers, architecture, fashion, genres, editing schools, martial arts, dance, stunt disciplines, weapon systems, composers, music traditions, and sound aesthetics. Use when the user knows only some names, asks Codex to补足名称锚点/举一反三, explores a new style or action language, or needs different projects to receive distinct compatible reference stacks without doing the reference research themselves.
+description: 创作锚点导演：主动发现、研究、选择并组合高密度语义参考锚点，涵盖导演、影片、工作室、动画师、摄影师、艺术家、设计师、建筑、时尚、类型、剪辑流派、武术、舞蹈、特技、武器体系、作曲与音乐传统。触发：补足名称锚点、举一反三、探索新风格。 Proactively discover, research, select, and combine high-density semantic reference anchors across creative work, including directors, films, studios, animators, cinematographers, photographers, artists, designers, architecture, fashion, genres, editing schools, martial arts, dance, stunt disciplines, weapon systems, composers, music traditions, and sound aesthetics. Use when the user knows only some names, asks Codex to补足名称锚点/举一反三, explores a new style or action language, or needs different projects to receive distinct compatible reference stacks without doing the reference research themselves.
 ---
 
 # Creative Anchor Director

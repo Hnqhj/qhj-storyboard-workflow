@@ -1,11 +1,20 @@
 ---
 name: live-action-performance-direction
-description: "Direct natural live-action screen acting for AI-video prompts: given circumstances, playable objectives, action verbs, listening behavior, subtext, truthful reactions, body weight, breath, gaze, and continuity. Use for真人短剧对白、对峙、关系戏、动作前后表演、参考演员表演迁移、口型与微动作设计，以及任何人物显得僵硬、只会说台词或情绪没有行为依据的任务。"
+description: "真人影视表演导演：规定情境、可演目标、动作动词、倾听行为、潜台词、真实反应、身体重量、呼吸、凝视与连续性。触发：真人短剧对白、对峙、关系戏、动作前后表演、参考演员表演迁移、口型与微动作设计，或人物僵硬、只会念台词。 Direct natural live-action screen acting for AI-video prompts: given circumstances, playable objectives, action verbs, listening behavior, subtext, truthful reactions, body weight, breath, gaze, and continuity. Use for真人短剧对白、对峙、关系戏、动作前后表演、参考演员表演迁移、口型与微动作设计，以及任何人物显得僵硬、只会说台词或情绪没有行为依据的任务。"
 ---
 
 # 真人表演导演
 
 将抽象情绪转成演员可以执行、镜头可以捕捉、模型可以生成的行为。核心不是让角色“表现得很生气/很悲伤”，而是明确此刻发生了什么、角色想从对方得到什么、正在采取什么行动、对方如何接收，以及关系在镜头末发生了什么变化。
+
+## 职责边界（表演三技能）
+
+本技能只管**行为与物理**：给定情境、可演目标、行动动词、聆听与潜台词、身体连续性、末帧状态。
+
+- 情绪弧线与强度刻度 → `$emotional-performance-direction`
+- 情绪画像库（怒/哭/哀/喜/乐）、镜头距离与光色编排 → `$performance-scene-director`
+
+三者可同时在场，但各有唯一职责；本技能不重复输出情绪强度刻度和情绪画像。
 
 ## 表演工作流
 

@@ -1,5 +1,6 @@
 ---
 name: seedance-prompt-short
+disable-model-invocation: true
 description: "This skill should be used when the user asks for a compact Seedance 2.0 prompt, short Chinese prompt, prompt compression, 30-100 word output, or removal of unnecessary prompt language."
 license: MIT
 metadata:

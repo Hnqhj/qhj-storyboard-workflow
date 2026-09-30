@@ -1,6 +1,6 @@
 ---
 name: high-tension-shot-design
-description: Add strong visual tension to AI image and video prompts through cinematic shot size, camera angle, composition, storyboard beats, camera movement, speed sensation, editing rhythm, lens/framing choices, motion effects, and prompt-ready shot language. Use when the user asks for 张力, 压迫感, 高级镜头, 分镜, 景别, 构图, 运镜, 镜头感, 速度感, 节奏, 剪辑节奏, 电影感, 动态镜头, 生图参考, 视频参考, shot design, shot size, camera movement, storyboard, cinematic tension, anime impact, action rhythm, or wants a still/video prompt made more powerful, dramatic, fast, oppressive, epic, lonely, unstable, or memorable.
+description: 为 AI 图像与视频提示词加入强视觉张力：景别、机位角度、构图、分镜节拍、运镜、速度感、剪辑节奏、镜头取景选择与可直接入提示词的镜头语言。触发：张力、压迫感、高级镜头、分镜、景别、构图、运镜、镜头感、速度感、节奏、电影感。 Add strong visual tension to AI image and video prompts through cinematic shot size, camera angle, composition, storyboard beats, camera movement, speed sensation, editing rhythm, lens/framing choices, motion effects, and prompt-ready shot language. Use when the user asks for 张力, 压迫感, 高级镜头, 分镜, 景别, 构图, 运镜, 镜头感, 速度感, 节奏, 剪辑节奏, 电影感, 动态镜头, 生图参考, 视频参考, shot design, shot size, camera movement, storyboard, cinematic tension, anime impact, action rhythm, or wants a still/video prompt made more powerful, dramatic, fast, oppressive, epic, lonely, unstable, or memorable.
 ---
 
 # High Tension Shot Design

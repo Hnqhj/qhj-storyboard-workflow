@@ -2,3 +2,6 @@ interface:
   display_name: "电影级奇幻特效导演"
   short_description: "设计真人短剧、电影和影视剧级玄幻特效的来源、受力、合成、摄影和质量控制"
   default_prompt: "使用 $cinematic-fantasy-vfx-director，为古装玄幻/仙侠真人短剧设计影视级、可合成、可生成的特效方案。"
+
+policy:
+  allow_implicit_invocation: false

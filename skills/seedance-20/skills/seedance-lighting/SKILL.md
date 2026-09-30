@@ -1,5 +1,6 @@
 ---
 name: seedance-lighting
+disable-model-invocation: true
 description: "This skill should be used when the user asks for lighting design, atmosphere, time of day, color temperature, shadow, reflections, weather light, practical lights, or mood transitions in Seedance 2.0."
 license: MIT
 metadata:

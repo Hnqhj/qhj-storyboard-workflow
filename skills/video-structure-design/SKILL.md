@@ -1,6 +1,6 @@
 ---
 name: video-structure-design
-description: "Design the macro structure of videos before scripting or shot design: hook, first frame, retention curve, beat order, information release, escalation, turning point, payoff, loop, CTA, duration maps, temporal hinges using 刚刚/正在/即将, social short-form structures, ads, trailers, teasers, music videos, character reels, product videos, AI video sequences, and series structures. Use when the user asks for 视频结构, 片子结构, 短视频结构, 开头怎么抓人, 留存, 节奏结构, 段落结构, 起承转合, 时间词, 情绪推进, 预告片结构, 广告片结构, MV结构, 角色出场结构, 15秒视频, 30秒视频, 60秒视频, viral structure, retention structure, hook payoff, or says a video feels flat, scattered, repetitive, too slow, too empty, or only has shots but no structure."
+description: "视频宏观结构设计：钩子、首帧、留存曲线、节拍顺序、信息释放、升级、转折、回报、循环、CTA、时长图、时间词与短视频、广告、预告、MV、角色出场、系列结构。触发：视频结构、开头怎么抓人、留存、节奏结构、起承转合、15 秒 30 秒 60 秒视频。 Design the macro structure of videos before scripting or shot design: hook, first frame, retention curve, beat order, information release, escalation, turning point, payoff, loop, CTA, duration maps, temporal hinges using 刚刚/正在/即将, social short-form structures, ads, trailers, teasers, music videos, character reels, product videos, AI video sequences, and series structures. Use when the user asks for 视频结构, 片子结构, 短视频结构, 开头怎么抓人, 留存, 节奏结构, 段落结构, 起承转合, 时间词, 情绪推进, 预告片结构, 广告片结构, MV结构, 角色出场结构, 15秒视频, 30秒视频, 60秒视频, viral structure, retention structure, hook payoff, or says a video feels flat, scattered, repetitive, too slow, too empty, or only has shots but no structure."
 ---
 
 # Video Structure Design

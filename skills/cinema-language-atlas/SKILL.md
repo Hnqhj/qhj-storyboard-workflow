@@ -1,6 +1,6 @@
 ---
 name: cinema-language-atlas
-description: Research, organize, and apply reusable film-language knowledge for shot breakdowns, cinematography, lighting/color, composition, editing, storytelling, VFX, genre/style vocabulary, sound-image rhythm, film-stock intention profiles, and AI image/video prompt controls. Use when Codex needs to explain or select a cinematic term, gate a request as single-frame vs temporal vs multi-shot, translate film/director/equipment/film-stock anchors into observable mechanisms, design cinematic shots, improve prompts, or update cinema references. Do not use it to answer current film-product availability or platform-parameter questions without live primary-source research.
+description: 电影语言知识库：拆解镜头、摄影、灯光色彩、构图、剪辑、叙事、VFX、类型风格词汇、音画节奏、胶片意图档与 AI 图像视频提示词控制。用于解释或选择电影术语、判定单帧与时间性与多镜头、把导演器材胶片锚点翻译成可观察机制。 Research, organize, and apply reusable film-language knowledge for shot breakdowns, cinematography, lighting/color, composition, editing, storytelling, VFX, genre/style vocabulary, sound-image rhythm, film-stock intention profiles, and AI image/video prompt controls. Use when Codex needs to explain or select a cinematic term, gate a request as single-frame vs temporal vs multi-shot, translate film/director/equipment/film-stock anchors into observable mechanisms, design cinematic shots, improve prompts, or update cinema references. Do not use it to answer current film-product availability or platform-parameter questions without live primary-source research.
 ---
 
 # Cinema Language Atlas

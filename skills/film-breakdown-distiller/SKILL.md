@@ -1,6 +1,6 @@
 ---
 name: film-breakdown-distiller
-description: Discover, analyze, and distill films, scenes, clips, reference videos, shot breakdowns, and film-study notes into reusable film-language mechanisms, directing rules, and AI-video prompt controls. Use for 拉片、视频拆解、参考视频复刻/裂变、原创建构、shot craft lessons, mechanism-bank updates, or translating a reference's narrative/emotional/conversion functions into a new project while replacing its protected or signature expression. Evidence boundaries are mandatory.
+description: 拉片与影片拆解：把电影、场景、片段、参考视频、镜头拆解与影评笔记蒸馏成可复用的电影语言机制、导演规则与 AI 视频提示词控制。触发：拉片、视频拆解、参考视频复刻与裂变、原创建构、shot craft。证据边界是强制的。 Discover, analyze, and distill films, scenes, clips, reference videos, shot breakdowns, and film-study notes into reusable film-language mechanisms, directing rules, and AI-video prompt controls. Use for 拉片、视频拆解、参考视频复刻/裂变、原创建构、shot craft lessons, mechanism-bank updates, or translating a reference's narrative/emotional/conversion functions into a new project while replacing its protected or signature expression. Evidence boundaries are mandatory.
 ---
 
 # Film Breakdown Distiller

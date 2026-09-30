@@ -1,6 +1,6 @@
 ---
 name: seedance-20
-description: "Full Seedance platform compiler and capability router for standard/full ExecutionPlans, continuation, FLF2V, V2V/R2V, all-reference work, provider/API/model questions, safety/IP repair, or troubleshooting. For a low-risk script-camera-group fast route, use seedance-camera-group-compiler-fast instead. Not for non-Seedance models or image-only prompting."
+description: "Seedance 平台编译器与能力路由：标准与完整档、续写、FLF2V、V2V/R2V、全参考、模型与 API 问题、安全与 IP 修复、故障排查。低风险快速档改用 seedance-camera-group-compiler-fast。不用于非 Seedance 模型或纯生图。 Full Seedance platform compiler and capability router for standard/full ExecutionPlans, continuation, FLF2V, V2V/R2V, all-reference work, provider/API/model questions, safety/IP repair, or troubleshooting. For a low-risk script-camera-group fast route, use seedance-camera-group-compiler-fast instead. Not for non-Seedance models or image-only prompting."
 license: MIT
 metadata:
   version: "6.1.0"
@@ -29,16 +29,23 @@ prompt once and record `compiled_by=seedance-20` and `compile_count=1`.
 Preflight may return a named field patch to this compiler; it may not request or
 author a second full prompt.
 
+**Console access (MCP removed 2026-09-23).** The `skill_console_*` MCP tools are
+gone; use the console CLI instead. Console root =
+`G:\工作\vibecoding\director-skill-console` (or `$SKILL_CONSOLE_ROOT` if set);
+invoke as `node "$CONSOLE/src/cli.js" <subcommand> ...`. Pass prompts via a file
+or `-` (stdin), never inline — they routinely exceed 10k characters.
+
 For a script-derived camera-group `ExecutionPlan`, before compiling any
-generation prompt, call
-`skill_console_prompt_compilation_context` with the current `threadId` and the
-approved state slice. Read the task file again for every group and retry; the
-returned `processing_depth` and `prompt_description_complexity` override stale
-state or defaults. After writing the platform-facing six-part block, call
-`skill_console_compile_prompt` once with `compiler=seedance-20` and use its
-returned `promptText` as the only generation text. A failed call blocks handoff
-and must produce a named state patch instead of an unprofiled fallback. Persist
-the returned `compilationReceipt` on the matching `PlatformPromptSet` unit.
+generation prompt, run
+`prompt-context --thread <threadId> --input '<routing-json>'` with the approved
+state slice. Read the task file again for every group and retry; the returned
+`processing_depth` and `prompt_description_complexity` override stale state or
+defaults. After writing the platform-facing six-part block, run
+`prompt-compile --thread <threadId> --compiler seedance-20 --prompt-file <path|->
+--input '<routing-json>'` once and use its returned `promptText` as the only
+generation text. A failed call blocks handoff and must produce a named state
+patch instead of an unprofiled fallback. Persist the returned
+`compilationReceipt` on the matching `PlatformPromptSet` unit.
 
 Apply the returned profile exactly: `low` keeps six sections, exact dialogue,
 complete structure, and simple shot wording while removing duration limits and
@@ -72,7 +79,7 @@ Seedance 2.0 operating loop for agent-directed video work. Use this root skill t
 This skill exists so that a person who arrives with a feeling leaves with a film. Three principles govern everything below:
 
 1. **Hear the intent behind the words.** Users describe outcomes ("make it feel like home"), not parameters. Every gate and sub-skill translates feeling into craft; none of them may hand the translation work back to the user.
-2. **Keep the story alive.** Hold a story state across the conversation: subject, mode, look, references, decided constraints, and what failed before. Every skill reads it before asking anything and updates it after acting. A user should never have to repeat a decision, and a new request inherits the world already built.
+2. **Keep the story alive.** Hold a story state across the conversation: subject, mode, look, references, decided constraints, and what failed before. Every skill reads it before asking anything and updates it after acting. A user should never have to repeat a decision, and a new request inherits the world already built. Read duration with an explicit scope: `project_default`, `scene_default`, or `segment_override`. A segment override applies only to that submission; a later continuation with no duration must resolve whether to inherit it or restore the project default before compiling.
 3. **Evolve with the user.** Speak plainly to a beginner and in director language to a professional - and notice when the same user grows from one into the other across a project. The register adapts; the standards never do.
 
 ## Operating Loop

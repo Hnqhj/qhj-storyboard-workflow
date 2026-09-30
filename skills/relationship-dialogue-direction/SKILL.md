@@ -1,6 +1,6 @@
 ---
 name: relationship-dialogue-direction
-description: "Direct two-person emotional scenes for AI image and video: restrained romance, intimacy, confession, reconciliation, breakup, farewell, argument, confrontation, and delicate shot-reverse-shot dialogue. Use when the user asks for 感情戏, 正反打, 对手戏, 吵架戏, 诀别, 和解, 暧昧, 细腻表演, 双人情绪戏, or needs two-character performance, eyeline, blocking, and prompt-ready coverage to remain coherent."
+description: "双人情绪戏导演：克制感情、亲密、告白、和解、分手、诀别、争吵、对峙与细腻正反打对白。触发：感情戏、正反打、对手戏、吵架戏、诀别、和解、暧昧、细腻表演、双人情绪戏。需保证双人表演、视线、走位与可入提示词的覆盖连贯。 Direct two-person emotional scenes for AI image and video: restrained romance, intimacy, confession, reconciliation, breakup, farewell, argument, confrontation, and delicate shot-reverse-shot dialogue. Use when the user asks for 感情戏, 正反打, 对手戏, 吵架戏, 诀别, 和解, 暧昧, 细腻表演, 双人情绪戏, or needs two-character performance, eyeline, blocking, and prompt-ready coverage to remain coherent."
 ---
 
 # Relationship Dialogue Direction
@@ -18,7 +18,7 @@ Read `references/relationship-coverage.md` for any full scene, multi-shot board,
 - This skill owns the relationship contract, performance asymmetry, reverse-shot coverage, and emotional handoff between shots.
 - Let `$professional-storyboard-director` own the complete storyboard and shot count.
 - Let `$ai-short-drama-storyboard` own character/location continuity and final `KEYFRAME_PROMPT`, `VIDEO_PROMPT`, `AUDIO_PLAN`, and `NEGATIVE_PROMPT` packaging.
-- Use `$performance-scene-director` for a deep primary emotion pass. Preserve the resulting emotion arc, but map it to both performers here.
+- Use `$emotional-performance-direction` for a deep primary emotion pass, and `$performance-scene-director` when you need the emotion-profile library. Preserve the resulting emotion arc, but map it to both performers here.
 
 ## Workflow
 

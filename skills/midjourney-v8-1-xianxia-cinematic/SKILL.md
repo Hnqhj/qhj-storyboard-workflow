@@ -1,6 +1,6 @@
 ---
 name: midjourney-v8-1-xianxia-cinematic
-description: Use when the user asks for Midjourney V8.1 prompts in a dreamy photorealistic Chinese xianxia, guofeng fantasy, or live-action oriental cinematic film-still aesthetic.
+description: Midjourney V8.1 提示词：梦幻写实的中式仙侠、国风奇幻或真人东方电影剧照美学。触发：MJ 8.1、仙侠电影感、国风奇幻、东方电影剧照。 Use when the user asks for Midjourney V8.1 prompts in a dreamy photorealistic Chinese xianxia, guofeng fantasy, or live-action oriental cinematic film-still aesthetic.
 ---
 
 # Create Xianxia Cinematic Prompts

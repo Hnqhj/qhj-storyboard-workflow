@@ -1,6 +1,6 @@
 # Liu 真人短剧 Seedance 导演栈
 
-This is the canonical user-calibrated overlay for Chinese live-action short-drama script + reference-image requests targeting Seedance 2.5 or 2.0. It supplements the portable workflow and controls routing, gates, timing, and visible delivery. Generic skill advice remains valid when it does not conflict with this file.
+This is the canonical user-calibrated overlay for Chinese live-action short-drama script + reference-image requests targeting Seedance 2.5 or 2.0. It supplements the portable workflow and fixes the gates, timing, and visible delivery. Routing is not decided here: the single entry point is `$script-camera-group-router`, which executes the fixed chain for the depth the decision layer supplied. Generic skill advice remains valid when it does not conflict with this file.
 
 ## Liu Audio And Duration Overrides
 
@@ -11,7 +11,7 @@ These project preferences override subordinate defaults:
 
 ## Director Brain
 
-Use `$ai-video-prompt-director` as the full director brain and `$director-workflow-70` as the portable front door. The brain owns intent, arbitration, delegation, integration, and final feedback. Specialist skills are leaders or executors, not competing authors.
+Use `$ai-video-prompt-director` as the full director brain when the received depth is `full`. It is not an entry point: `$script-camera-group-router` is the only entry, and `$director-workflow-70` is the portable methodology reference behind it, not a second front door. The brain owns intent, arbitration, delegation, integration, and final feedback. Specialist skills are leaders or executors, not competing authors.
 
 Priority when decisions conflict:
 
@@ -26,7 +26,7 @@ user's explicit instruction
 -> decorative detail
 ```
 
-Only the brain may resolve conflicts, choose the recommended concept, set group boundaries, and approve the final prompt. A specialist may propose a change but cannot silently overwrite another layer.
+Only the brain may resolve conflicts, choose the recommended concept, and approve the final prompt. Group boundaries, the human-only shot table, and the one-prompt-per-group packaging are owned by `$narrative-camera-groups`; the brain approves that packaging rather than re-deciding it. A specialist may propose a change but cannot silently overwrite another layer.
 
 ## Intake And Reference Sufficiency Gate
 
@@ -36,7 +36,7 @@ First classify:
 
 - target: Seedance 2.5, Seedance 2.0, or conservative Seedance-compatible output when unspecified;
 - mode: T2V, I2V, R2V, FLF2V, continuation, or unknown;
-- scene type: dialogue/story, fight/action, VFX/magic, emotion, chase, transformation, or hybrid;
+- scene signals actually present in the script: dialogue/story, fight/action, VFX/magic, emotion/performance, chase, transformation, or hybrid. Record only signals you can point to in the text; there is no genre axis and no genre label is assigned;
 - requested deliverable: shot table, camera groups, complete copy-ready prompts, or diagnosis;
 - expected number of groups from dialogue, action, locations, and stable handoffs.
 
@@ -129,7 +129,7 @@ Must return: stance/support, center-of-mass path, weapon load and grip, force/co
 
 ### Performance and Sound Leader
 
-Owner when conditional: `$performance-scene-director`, `$relationship-dialogue-direction`, `$cinematic-music-sound-design` for dialogue/voice-over, physical sound and silence by default, and for explicitly authorized music/ambience when required; `$seedance-audio` only when an explicit timing reference is requested.
+Owner when conditional: `$live-action-performance-direction` for visible behavior and physical execution, `$emotional-performance-direction` for the emotion arc and intensity, `$performance-scene-director` for the emotion-profile library and the single-character short form, `$relationship-dialogue-direction` for asymmetric two-person exchange, and `$cinematic-music-sound-design` for dialogue/voice-over, physical sound and silence by default, and for explicitly authorized music/ambience when required; `$seedance-audio` only when an explicit timing reference is requested.
 
 Must return: visible micro-performance, eye-line/listener relay, dialogue pace, voice priority, dry foley, impact/transient, physical sound bridges, and purposeful silence. Dialogue must remain intelligible; speed comes from image rhythm and escalation, not rushed speech. Music, score, ambience beds, and emotional sound cues appear only when the user or authoritative script explicitly requires them.
 
@@ -139,9 +139,10 @@ Owner: exactly one compiler selected by `ExecutionPlan`:
 `$seedance-camera-group-compiler-fast`, `$seedance-20`, or
 `$jimeng-sd2-prompting`. Load only Seedance subskills named by the plan; action
 and VFX subskills return field patches and do not author another full prompt.
-Use `$camera-group-preflight-fast` for `fast`,
-`$camera-group-preflight-standard` for `standard`, and
-`$ai-video-prompt-preflight` only for `full`. `$creative-production-ledger`
+Run the preflight that matches the received depth:
+`$camera-group-preflight-fast` for `fast`, `$camera-group-preflight-standard` for
+`standard`, and `$ai-video-prompt-preflight` for `full`. The depth is an input from the
+decision layer (镜语) and is never chosen or re-tiered here. `$creative-production-ledger`
 records an actual generation attempt only when generation is performed.
 
 Must return: mode assumptions, platform-compatible prompt wording,

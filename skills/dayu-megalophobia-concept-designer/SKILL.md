@@ -1,6 +1,6 @@
 ---
 name: dayu-megalophobia-concept-designer
-description: Turn a rough idea, scene, story, creature, building, environment, or visual reference into a professional colossal-scale concept and a production-ready English image-generation prompt, then recommend suitable image models and concrete settings. Use for 巨物恐惧、巨构、超级建筑、巨型城市、巨兽、巨怪、怪兽、克苏鲁、宇宙恐怖、纯有机巨物、超尺度场景、体型对比、宏伟压迫感、megalophobia、megastructure、colossal creature、kaiju、cosmic horror、gargantuan entity, or translating a giant-scale reference into a standalone text-to-image prompt. Produce prompts rather than images unless the user explicitly asks to generate images.
+description: 巨物恐惧概念设计：把粗略想法、场景、故事、生物、建筑、环境或视觉参考转成专业的超尺度概念与可直接生产的英文生图提示词，并推荐合适的图像模型与具体参数。触发：巨物恐惧、巨构、超级建筑、巨型城市、巨兽、怪兽、克苏鲁、宇宙恐怖、体型对比、宏伟压迫感。 Turn a rough idea, scene, story, creature, building, environment, or visual reference into a professional colossal-scale concept and a production-ready English image-generation prompt, then recommend suitable image models and concrete settings. Use for 巨物恐惧、巨构、超级建筑、巨型城市、巨兽、巨怪、怪兽、克苏鲁、宇宙恐怖、纯有机巨物、超尺度场景、体型对比、宏伟压迫感、megalophobia、megastructure、colossal creature、kaiju、cosmic horror、gargantuan entity, or translating a giant-scale reference into a standalone text-to-image prompt. Produce prompts rather than images unless the user explicitly asks to generate images.
 ---
 
 # 大羽的【巨物恐惧】概念设计师

@@ -1,5 +1,6 @@
 ---
 name: seedance-pipeline
+disable-model-invocation: true
 description: "This skill should be used when the user asks about Seedance 2.0 workflow operations, API planning, BytePlus ModelArk, Dreamina/Jimeng surfaces, provider/router APIs, China-facing surfaces, ComfyUI, post-production, stitching, batch workflow, or integration planning."
 license: MIT
 metadata:

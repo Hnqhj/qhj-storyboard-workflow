@@ -1,6 +1,6 @@
 ---
 name: full-prompt-delivery
-description: Validate copyability or regenerate generic standalone image/video prompts outside the script-camera-group pipeline. In camera-group work, use only as an explicitly requested completeness validator after narrative-camera-groups; never author, recompile, or rewrite an already compiled group prompt. Not part of fast, standard, or full camera-group ExecutionPlans.
+description: 提示词可复制性校验或独立通用提示词重生成，用于剧本转镜头组流程之外。在镜头组工作中，仅在 narrative-camera-groups 之后被明确要求时作为完整性校验使用；绝不创作、重编译或重写已编译的镜头组提示词。 Validate copyability or regenerate generic standalone image/video prompts outside the script-camera-group pipeline. In camera-group work, use only as an explicitly requested completeness validator after narrative-camera-groups; never author, recompile, or rewrite an already compiled group prompt. Not part of fast, standard, or full camera-group ExecutionPlans.
 ---
 
 # Full Prompt Delivery

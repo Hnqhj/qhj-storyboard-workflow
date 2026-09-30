@@ -1,6 +1,6 @@
 ---
 name: codex-asset-console
-description: Install, verify, repair, or adapt the Windows Codex Asset Console for task-linked local asset review, pending confirmation, audio/video browsing, managed single-copy storage, logical moves, classification, and recovery.
+description: 安装、验证、修复或适配 Windows Codex 资产控制台：任务关联的本地素材审阅、待确认、音视频浏览、受管单副本存储、逻辑移动、分类与恢复。只负责资产控制台这一部件本身；工作区整体增强（侧边栏、任务回溯、用量状态）请用 codex-workspace-enhancer。 Install, verify, repair, or adapt the Windows Codex Asset Console for task-linked local asset review, pending confirmation, audio/video browsing, managed single-copy storage, logical moves, classification, and recovery. This skill owns the Asset Console component only; use codex-workspace-enhancer for whole-workspace enhancement.
 ---
 
 # Codex Asset Console

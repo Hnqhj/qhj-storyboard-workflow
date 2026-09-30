@@ -1,11 +1,20 @@
 ---
 name: emotional-performance-direction
-description: "Design visible emotional performance for live-action short dramas: intensity arcs, suppression-to-release timing, micro-expression, breath, gaze, posture, listener reaction, emotional continuity, and genre-specific modulation. Use for情绪戏、怒戏、哭戏、压抑、震惊、羞耻、恐惧、喜悦、冷漠、装腔/权力时刻、人物情绪从一镜传到下一镜，以及AI人物表演过度、僵硬或没有递进的修正。"
+description: "真人短剧可见情绪表演设计：强度弧线、压抑到释放的时机、微表情、呼吸、凝视、姿态、听者反应、情绪连续性与类型化调制。触发：情绪戏、怒戏、哭戏、压抑、震惊、羞耻、恐惧、喜悦、冷漠、权力时刻，以及 AI 人物表演过度、僵硬或没有递进。 Design visible emotional performance for live-action short dramas: intensity arcs, suppression-to-release timing, micro-expression, breath, gaze, posture, listener reaction, emotional continuity, and genre-specific modulation. Use for情绪戏、怒戏、哭戏、压抑、震惊、羞耻、恐惧、喜悦、冷漠、装腔/权力时刻、人物情绪从一镜传到下一镜，以及AI人物表演过度、僵硬或没有递进的修正。"
 ---
 
 # 情绪表演导演
 
 把情绪设计成可观察的时间过程，而不是单帧表情。每个情绪都必须有触发、身体证据、对方/环境反馈、强度变化和末帧余波；同一场戏允许克制、迟疑、错位和反向行为。
+
+## 职责边界（表演三技能）
+
+本技能只管**情绪弧线与强度**：触发 → 压制 → 泄露 → 升级 → 释放/转向 → 余波，以及强度变化的可观察变量清单（呼吸速度、眨眼频率、下颌力度、指尖压力、重心、距离、语速、动作幅度）。
+
+- 可演目标、行动动词、聆听行为、身体物理连续性 → `$live-action-performance-direction`
+- 情绪画像库（怒/哭/哀/喜/乐）、5 层强度刻度、镜头距离与光色 → `$performance-scene-director`
+
+本技能不做表演方法教学，也不选情绪画像。
 
 ## 情绪弧线
 

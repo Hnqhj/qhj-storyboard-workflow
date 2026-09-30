@@ -1,0 +1,4 @@
+interface:
+  display_name: "日漫手绘色块出图"
+  short_description: "纯文字生成大色块、选择性线条的日漫人设，并以真实新图验证迁移与重复表现"
+  default_prompt: "用 $wild-handdrawn-anime-image 从纯文字生成这个角色，保持安静大色块、少量连贯影形与有轻重的手绘线条。"

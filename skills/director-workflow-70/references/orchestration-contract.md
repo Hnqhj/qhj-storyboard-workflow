@@ -38,9 +38,16 @@ aspect_ratio, target_duration, direct_execution, output_format, references,
 processing_depth, depth_reasons
 ```
 
-`processing_depth` is `fast`, `standard`, or `full` according to
-`adaptive-depth-routing.md`. It controls backstage work only, never output
-completeness. `depth_reasons` records the evidence used for selection.
+`processing_depth` is `fast`, `standard`, or `full`. It is **judged by the
+decision layer (镜语) and received from the caller**, never selected here;
+`depth_reasons` records where it came from
+(`console` / `user` / `caller`), not script signals derived by the execution
+layer. It controls backstage work only, never output completeness.
+
+There is no genre axis and no genre field. A scene's genre arrives only as the
+explicit signals the decision layer weighed (`fight`, `dialogue_intensive`,
+`emotion_required`, `performance_required`, ...); they decide which conditional
+specialists are eligible once depth is fixed, and they never change the depth.
 
 `ExecutionPlan`:
 
@@ -95,6 +102,7 @@ Downstream owners reuse this receipt and do not launch another research pass.
 
 ```text
 authority_source, authority_status, current_phase, current_scope,
+stage_outputs, authorized_scope, pending_decisions, next_action, duration_scope,
 completed_endpoint, next_start, confirmed_decisions, asset_status,
 continuity_locks, open_questions
 ```

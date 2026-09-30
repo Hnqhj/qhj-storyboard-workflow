@@ -1,6 +1,6 @@
 ---
 name: creative-production-ledger
-description: Create and maintain a traceable production ledger that binds prompts, reference assets and roles, model/mode/settings, versions, generated outputs, review evidence, acceptance decisions, and controlled retry deltas. Use for AI image/video projects, prompt iterations, generation tracking, 验片, 重试, 版本对比, 生产记录, 素材溯源, or whenever a creative result and its exact inputs must remain reproducible.
+description: 可追溯的生产台账：绑定提示词、参考资产与职责、模型模式与设置、版本、生成产出、评审证据、验收决策与受控的重试增量。触发：验片、重试、版本对比、生产记录、素材溯源，或任何需要创意结果与输入可复现的场景。 Create and maintain a traceable production ledger that binds prompts, reference assets and roles, model/mode/settings, versions, generated outputs, review evidence, acceptance decisions, and controlled retry deltas. Use for AI image/video projects, prompt iterations, generation tracking, 验片, 重试, 版本对比, 生产记录, 素材溯源, or whenever a creative result and its exact inputs must remain reproducible.
 ---
 
 # Creative Production Ledger

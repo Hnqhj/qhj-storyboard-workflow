@@ -1,6 +1,6 @@
 ---
 name: think-one-step-further
-description: Apply a bottom-layer "think one step further" reasoning pass. Proactively use when the user says 举一反三, 多想一步, 底层逻辑, 整体优化, 整套优化, 这个处理对不对, 还需不需要做什么, 有没有别处也能优化, or when Codex is creating or revising reusable prompts, skills, workflows, plans, code changes, cleanup actions, visual/video directions, or deliverables that should be checked for correctness, next actions, transferability, adjacent optimizations, likely next failure points, and whether a verified lesson should become a durable capsule.
+description: 多想一步的底层推理：检查正确性、下一步动作、可迁移性、邻近优化、可能的下一处失败，以及已验证的经验是否该固化为胶囊。触发：举一反三、多想一步、底层逻辑、整体优化、整套优化、这个处理对不对、还需不需要做什么、有没有别处也能优化。 Apply a bottom-layer "think one step further" reasoning pass. Proactively use when the user says 举一反三, 多想一步, 底层逻辑, 整体优化, 整套优化, 这个处理对不对, 还需不需要做什么, 有没有别处也能优化, or when Codex is creating or revising reusable prompts, skills, workflows, plans, code changes, cleanup actions, visual/video directions, or deliverables that should be checked for correctness, next actions, transferability, adjacent optimizations, likely next failure points, and whether a verified lesson should become a durable capsule.
 ---
 
 # Think One Step Further

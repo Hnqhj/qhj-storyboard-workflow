@@ -1,5 +1,6 @@
 ---
 name: seedance-audio
+disable-model-invocation: true
 description: "This skill should be used when the user asks for Seedance 2.0 audio, dialogue, lip-sync, music, sound effects, ambience, beat-sync, audio-reference mapping, reference audio used as a visual motion/edit control track, desync troubleshooting, or sound-driven visual timing."
 license: MIT
 metadata:

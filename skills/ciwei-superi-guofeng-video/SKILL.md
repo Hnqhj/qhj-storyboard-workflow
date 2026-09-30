@@ -1,6 +1,6 @@
 ---
 name: ciwei-superi-guofeng-video
-description: Create cinematic Chinese historical-drama image prompts and Kling O3 image-to-video prompts in the "刺猬星球superi" style. Use when the user mentions 刺猬星球superi, superi风格, 国风电影感, 古装剧生图, 古风封面, 图生视频, 可灵 O3, 5秒剧情视频, 单图多动作, 视频失败优化, 连续3镜头, or asks to turn a Chinese historical character idea/image into a prompt workflow for ChatGPT, nano banana pro, Kling, Jimeng, DeepSeek, or Gemini.
+description: 刺猬星球 superi 风格的国风影视图像提示词与可灵 O3 图生视频提示词。触发：刺猬星球superi、superi风格、国风电影感、古装剧生图、古风封面、图生视频、可灵 O3、5秒剧情视频、单图多动作、连续3镜头。 Create cinematic Chinese historical-drama image prompts and Kling O3 image-to-video prompts in the "刺猬星球superi" style. Use when the user mentions 刺猬星球superi, superi风格, 国风电影感, 古装剧生图, 古风封面, 图生视频, 可灵 O3, 5秒剧情视频, 单图多动作, 视频失败优化, 连续3镜头, or asks to turn a Chinese historical character idea/image into a prompt workflow for ChatGPT, nano banana pro, Kling, Jimeng, DeepSeek, or Gemini.
 ---
 
 # 刺猬Superi国风视频

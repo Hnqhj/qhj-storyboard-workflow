@@ -1,5 +1,6 @@
 ---
 name: seedance-camera
+disable-model-invocation: true
 description: "This skill should be used when the user asks for camera movement, shot scale, lens feel, framing, one-take direction, dolly, pan, tilt, push-in, handheld, aerial, macro, or camera-transfer guidance for Seedance 2.0."
 license: MIT
 metadata:

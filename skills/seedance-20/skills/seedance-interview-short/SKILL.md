@@ -1,5 +1,6 @@
 ---
 name: seedance-interview-short
+disable-model-invocation: true
 description: "This skill should be used when the user wants a fast Seedance 2.0 creative brief, a short interview, a compressed intake flow, or a quick director-style clarification before prompt writing."
 license: MIT
 metadata:

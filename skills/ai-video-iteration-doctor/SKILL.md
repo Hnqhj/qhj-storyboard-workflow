@@ -1,6 +1,6 @@
 ---
 name: ai-video-iteration-doctor
-description: "Diagnose AI video/image generation failures and prescribe the next precise retry. Proactively use when the user says the result is wrong, needs retry, 崩了, 不对, 太假, 动作软, 运镜乱, 站位变了, 人脸变了, 武器变了, 穿模, 抖动, 闪烁, 背景漂移, 情绪转变生硬, 质感差, 渲染差, AO/PBR没出来, 风格廉价, 审美差, 风格不高级, 节奏不对, 画面糊, 不够电影感, 不够张力, or asks what to change in the next prompt."
+description: "成片失败诊断与下一轮精确重试：定位失败桶，下一轮只改一个主变量。触发：崩了、不对、太假、动作软、运镜乱、站位变了、人脸变了、武器变了、穿模、抖动、闪烁、背景漂移、情绪转变生硬、质感差、风格廉价、节奏不对、画面糊、不够电影感。 Diagnose AI video/image generation failures and prescribe the next precise retry. Proactively use when the user says the result is wrong, needs retry, 崩了, 不对, 太假, 动作软, 运镜乱, 站位变了, 人脸变了, 武器变了, 穿模, 抖动, 闪烁, 背景漂移, 情绪转变生硬, 质感差, 渲染差, AO/PBR没出来, 风格廉价, 审美差, 风格不高级, 节奏不对, 画面糊, 不够电影感, 不够张力, or asks what to change in the next prompt."
 ---
 
 # AI Video Iteration Doctor
@@ -21,6 +21,14 @@ Use this skill after a generated image/video result fails. Diagnose the likely c
 If the user provides an output video, use `$ai-video-output-review` first to extract timestamped evidence and inspect what is visible. For a still image, inspect it directly. If they only describe the failure, diagnose from symptoms and ask only for missing details that block a useful fix.
 
 ## Workflow
+
+### 长镜头失败的首轮分流
+
+当用户反馈“一镜到底效果差、运镜乱、动作僵硬”时，先把主失败桶设为 `镜头/空间负荷` 或 `动作/物理`，不要直接重写整段提示词。记录四项证据：主体是否漂移、镜头交接是否有触发、动作接触是否产生后果、场景是否具备纵深与遮挡。若一项短片同时要求超过两次运镜模式变化、两次以上主要接触、一次以上场景穿越和慢动作效果，判定为提示负荷过高的首要嫌疑。
+
+下一轮只改一个主变量：优先减少事件数量或扩大连续空间；保留人物身份、色彩和核心情绪。预期证据必须可观察，例如“镜头由角色转身自然进入跟拍”“双武器不再同时乱动”“穿门后仍保持同一运动方向”。连续失败两轮后，停止继续加形容词，改做短段落链式生成或重新设计主镜。
+
+如果用户反馈“整体太像游戏，但只想要游戏式击杀特效”，将主失败桶设为 `风格边界`。下一轮把游戏感限制在击杀接触后的短暂局部效果（通常不超过0.3秒），并恢复实拍基底：真实人体惯性、脚底支撑、布料拖曳、自然镜头曝光和环境材质。若用户要求换场景，必须同时检查连续路线、纵深、遮挡物、地形节点和终点揭示空间；仅替换地点名称不算修复。
 
 1. Record `expected / actual / first visible deviation / preserved successes` in plain language. Do not begin from a global verdict such as ‘not cinematic’.
 2. Reconstruct the actual attempt before blaming the model: inspect the generated result, prompt, reference roles, mode, duration, source images, and contradictory constraints when available.

@@ -1,6 +1,6 @@
 ---
 name: reference-hunting-board
-description: "Build reference-search boards for AI video/image creation. Proactively use when the user needs visual references, motion references, film/frame references, martial arts examples, weapon-use examples, moodboards, search keywords, reference directions, source-hunting plans, or says they lack examples to look at. Trigger on 参考, 找参考, 参考板, moodboard, 灵感板, 搜图, 搜视频, 镜头参考, 动作参考, 武器参考, 电影参考, 广告参考, 摄影参考, 美术参考, 分析参考图, 提炼参考, reference hunting, visual research."
+description: "参考搜索板：为 AI 视频与图像创作搭建参考检索板。触发：参考、找参考、参考板、moodboard、灵感板、搜图、搜视频、镜头参考、动作参考、武器参考、电影参考、广告参考、摄影参考、美术参考、分析参考图、提炼参考、reference hunting。 Build reference-search boards for AI video/image creation. Proactively use when the user needs visual references, motion references, film/frame references, martial arts examples, weapon-use examples, moodboards, search keywords, reference directions, source-hunting plans, or says they lack examples to look at. Trigger on 参考, 找参考, 参考板, moodboard, 灵感板, 搜图, 搜视频, 镜头参考, 动作参考, 武器参考, 电影参考, 广告参考, 摄影参考, 美术参考, 分析参考图, 提炼参考, reference hunting, visual research."
 ---
 
 # Reference Hunting Board

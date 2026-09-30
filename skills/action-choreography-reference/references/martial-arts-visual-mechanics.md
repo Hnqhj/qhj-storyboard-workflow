@@ -190,6 +190,8 @@ Visual signature:
 - adaptable stance and quick entry-exit;
 - economy over ornament.
 
+For AI-video action, preserve the force chain: support foot and hip initiate, the shortest hand path intercepts the incoming line, the receiver's balance or angle changes, and the attacker immediately advances, exits, or re-enters from that changed state. Keep contact brief and legible; do not turn interception into stationary chain punching. Use small angle steps, shoulder/hip commitment, delayed hand/weapon follow-through, and a visible catch step or slide to make speed feel powered rather than soft.
+
 Best for:
 
 - intelligent reactive protagonists;

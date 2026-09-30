@@ -1,6 +1,6 @@
 ---
 name: ai-material-realism
-description: "Transform AI image/video prompts into physically believable material, lighting, optical, motion-realism, and render behavior. Use for standalone visual prompts, image critique, realism repair, or full-depth film/AI-video work involving skin, metal, fabric, glass, wet ground, reflections, shadows, PBR, blur, or synthetic-looking output. Do not invoke separately on script-camera-group fast or standard routes; their fused planners carry the compact material baseline."
+description: "把 AI 图像与视频提示词转成物理可信的材质、光照、光学、运动真实感与渲染行为。触发：独立视觉提示词、图像批评、真实感修复，或涉及皮肤、金属、布料、玻璃、湿地面、反射、阴影、PBR、模糊或合成感输出的完整档影视工作。 Transform AI image/video prompts into physically believable material, lighting, optical, motion-realism, and render behavior. Use for standalone visual prompts, image critique, realism repair, or full-depth film/AI-video work involving skin, metal, fabric, glass, wet ground, reflections, shadows, PBR, blur, or synthetic-looking output. Do not invoke separately on script-camera-group fast or standard routes; their fused planners carry the compact material baseline."
 ---
 
 # AI Material Realism

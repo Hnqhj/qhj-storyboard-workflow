@@ -1,6 +1,6 @@
 ---
 name: semantic-concept-poster
-description: Create high-concept cover/poster prompts from a word, phrase, short sentence, letter group, character image, object image, style reference, or layout reference by turning meaning and references into a minimal semantic visual metaphor. Use when the user asks for 封面, 概念海报, 文字海报, 字效海报, 词语海报, 语义隐喻, 高级封面, 小红书封面, 角色封面, 动漫时尚封面, 杂志封面, 参考图封面, 视觉隐喻, poster prompt, typography poster, fashion magazine cover, or wants text plus images transformed into a strong graphic art cover instead of a literal illustration.
+description: 高概念封面与海报提示词：从词、短语、短句、字母组、角色图、物件图、风格参考或版式参考出发，把含义与参考转成极简语义视觉隐喻。触发：封面、概念海报、文字海报、字效海报、词语海报、语义隐喻、高级封面、小红书封面、角色封面、杂志封面。 Create high-concept cover/poster prompts from a word, phrase, short sentence, letter group, character image, object image, style reference, or layout reference by turning meaning and references into a minimal semantic visual metaphor. Use when the user asks for 封面, 概念海报, 文字海报, 字效海报, 词语海报, 语义隐喻, 高级封面, 小红书封面, 角色封面, 动漫时尚封面, 杂志封面, 参考图封面, 视觉隐喻, poster prompt, typography poster, fashion magazine cover, or wants text plus images transformed into a strong graphic art cover instead of a literal illustration.
 ---
 
 # Semantic Concept Poster

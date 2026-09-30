@@ -1,6 +1,6 @@
 ---
 name: creative-research-first
-description: Front-load web research before substantial creative prompt work for AI images, videos, covers, characters, scenes, worlds, action, fashion, products, architecture, music, sound, scripts, ads, and model-specific generation. Proactively use when creating or substantially rewriting creative prompts, especially when quality depends on real references, current platform capabilities, domain vocabulary, historical/cultural accuracy, physical mechanisms, production techniques, or unfamiliar subject matter. Skip only for trivial transformations, fully specified user-provided material, explicit no-browse requests, or unavailable internet.
+description: 创作前置网络研究：在撰写或大幅改写 AI 图像、视频、封面、角色、场景、世界观、动作、时尚、产品、建筑、音乐、声音、剧本、广告与模型专项提示词前，先做真实参考、当前平台能力、领域词汇、历史文化准确性、物理机制与制作工艺研究。 Front-load web research before substantial creative prompt work for AI images, videos, covers, characters, scenes, worlds, action, fashion, products, architecture, music, sound, scripts, ads, and model-specific generation. Proactively use when creating or substantially rewriting creative prompts, especially when quality depends on real references, current platform capabilities, domain vocabulary, historical/cultural accuracy, physical mechanisms, production techniques, or unfamiliar subject matter. Skip only for trivial transformations, fully specified user-provided material, explicit no-browse requests, or unavailable internet.
 ---
 
 # Creative Research First

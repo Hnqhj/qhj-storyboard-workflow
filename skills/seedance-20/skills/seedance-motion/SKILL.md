@@ -1,5 +1,6 @@
 ---
 name: seedance-motion
+disable-model-invocation: true
 description: "This skill should be used when the user asks for body action, choreography, physics, object movement, movement timing, action continuity, stunt direction, or motion-reference mapping in Seedance 2.0."
 license: MIT
 metadata:

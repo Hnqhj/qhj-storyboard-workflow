@@ -1,6 +1,6 @@
 ---
 name: creative-casebook
-description: Turn successful and failed creative generations into reusable case cards, prompt deltas, templates, evaluation rules, and targeted skill updates. Proactively use when the user says 这个效果好, 这次可以, 这个不行, 记住这个, 复盘一下, 沉淀经验, 做成案例, 模板库, 案例库, 为什么这次有效, 下次沿用, or when repeated AI image/video prompting, character design, cover design, shot design, reference workflows, or retry cycles reveal a transferable lesson.
+description: 创意案例库：把成功与失败的生成结果转成可复用的案例卡、提示词增量、模板、评估规则与定向技能更新。触发：这个效果好、这个不行、记住这个、复盘一下、沉淀经验、做成案例、模板库、案例库、为什么这次有效、下次沿用。 Turn successful and failed creative generations into reusable case cards, prompt deltas, templates, evaluation rules, and targeted skill updates. Proactively use when the user says 这个效果好, 这次可以, 这个不行, 记住这个, 复盘一下, 沉淀经验, 做成案例, 模板库, 案例库, 为什么这次有效, 下次沿用, or when repeated AI image/video prompting, character design, cover design, shot design, reference workflows, or retry cycles reveal a transferable lesson.
 ---
 
 # Creative Casebook

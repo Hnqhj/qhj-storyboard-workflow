@@ -1,6 +1,6 @@
 ---
 name: hatch-pet
-description: Create, repair, validate, visually QA, and package Codex-compatible v2 animated pets from character art, generated images, company or prospect brand cues, or visual references. Use for any new Codex pet, custom mascot, non-pixel pet style, brand-inspired pet, existing-pet repair, or 8x11 spritesheet workflow requiring all 9 standard animation rows, 16 look directions, deterministic assembly, QA artifacts, and spriteVersionNumber 2 packaging.
+description: 创建、修复、校验、视觉质检并打包 Codex 兼容的 v2 动态宠物：从角色美术、生成图像、公司或品牌线索、视觉参考出发，含 9 行动画、16 个视线方向、确定性装配、QA 产物与 spriteVersionNumber 2 打包。 Create, repair, validate, visually QA, and package Codex-compatible v2 animated pets from character art, generated images, company or prospect brand cues, or visual references. Use for any new Codex pet, custom mascot, non-pixel pet style, brand-inspired pet, existing-pet repair, or 8x11 spritesheet workflow requiring all 9 standard animation rows, 16 look directions, deterministic assembly, QA artifacts, and spriteVersionNumber 2 packaging.
 ---
 
 # Hatch Pet

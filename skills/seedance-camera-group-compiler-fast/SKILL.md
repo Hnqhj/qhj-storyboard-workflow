@@ -1,6 +1,6 @@
 ---
 name: seedance-camera-group-compiler-fast
-description: Lightweight Seedance-compatible compiler used only when script-camera-group-router selects fast processing for a low-risk T2V or simple I2V camera group. Convert an approved ShotLedger and CameraGroupPlan into one detailed six-part Chinese prompt with explicit shot blocks; render T micro-beats only for the high profile. Do not use for continuation, FLF2V, V2V/R2V, all-reference workflows, API/provider questions, fights, VFX, transformations, retries, or uncertain platform capabilities.
+description: 快速档 Seedance 编译器，仅在调用方给定 fast 档时使用。把已批准的 ShotLedger 与 CameraGroupPlan 转成一份六段式中文提示词，含显式镜头块。不用于续写、FLF2V、V2V/R2V、全参考、打斗、VFX、变身、重试。 Lightweight Seedance-compatible compiler used only when the received processing depth is fast, for a low-risk T2V or simple I2V camera group. Convert an approved ShotLedger and CameraGroupPlan into one detailed six-part Chinese prompt with explicit shot blocks; render T micro-beats only for the high profile. Do not use for continuation, FLF2V, V2V/R2V, all-reference workflows, API/provider questions, fights, VFX, transformations, retries, or uncertain platform capabilities.
 ---
 
 # Seedance Camera Group Compiler Fast
@@ -10,15 +10,21 @@ timing, continuity, performance, or asset roles.
 
 ## Mandatory Runtime Compile
 
-Immediately before writing the final block, call
-`skill_console_prompt_compilation_context` with the current `threadId` and
-approved inputs. Use its current `prompt_compilation_profile` for every shot.
-Then call `skill_console_compile_prompt` exactly once with the completed
-six-part block and `compiler=seedance-camera-group-compiler-fast`. Use the
-returned `promptText` verbatim as the generation prompt and retain its
-`generationSettings` and `compilationReceipt` (persist it on the matching
-`PlatformPromptSet` unit). Do not use a cached profile or emit the draft if either
-runtime call fails.
+**Console access (MCP removed 2026-09-23).** The `skill_console_*` MCP tools are
+gone; use the console CLI instead. Console root =
+`G:\工作\vibecoding\director-skill-console` (or `$SKILL_CONSOLE_ROOT` if set);
+invoke as `node "$CONSOLE/src/cli.js" <subcommand> ...`. Pass prompts via a file
+or `-` (stdin), never inline.
+
+Immediately before writing the final block, run
+`prompt-context --thread <threadId> --input '<routing-json>'` with the approved
+inputs. Use its current `prompt_compilation_profile` for every shot. Then run
+`prompt-compile --thread <threadId> --compiler seedance-camera-group-compiler-fast
+--prompt-file <path|-> --input '<routing-json>'` exactly once with the completed
+six-part block. Use the returned `promptText` verbatim as the generation prompt
+and retain its `generationSettings` and `compilationReceipt` (persist it on the
+matching `PlatformPromptSet` unit). Do not use a cached profile or emit the draft
+if either runtime call fails.
 
 Profile rules are strict: `low` means simple shot descriptions with no duration
 limit and no `T=` lines; `medium` means simple shot descriptions with duration

@@ -1,6 +1,6 @@
 ---
 name: action-rhythm-editing
-description: "Mandatory rhythm/editing baseline for substantial film/AI-video action, fight, chase, weapon, action storyboard, and kinetic character-PV tasks. Design timing, pacing, editing beats, slow motion, hit-stop/impact frames, music sync, and mass-aware action rhythm. Use for 动作, 打斗, action timing, 节奏, 卡点, 打击感, weapon-weight timing, inertia, braking, recoil, HEAVY/RUSH/CHASE-like pacing, 3s/5s/8s/15s action structure, or when action feels soft, weightless, rushed, idle, uniformly paced, or physically disconnected."
+description: "动作节奏与剪辑基线，强制：设计时机、速度、剪辑点、慢动作、定格与冲击帧、音乐同步与质量感知的动作节奏。触发：动作、打斗、节奏、卡点、打击感、武器重量时机、惯性、制动、后坐、HEAVY/RUSH/CHASE 节奏、3s/5s/8s/15s 动作结构。 Mandatory rhythm/editing baseline for substantial film/AI-video action, fight, chase, weapon, action storyboard, and kinetic character-PV tasks. Design timing, pacing, editing beats, slow motion, hit-stop/impact frames, music sync, and mass-aware action rhythm. Use for 动作, 打斗, action timing, 节奏, 卡点, 打击感, weapon-weight timing, inertia, braking, recoil, HEAVY/RUSH/CHASE-like pacing, 3s/5s/8s/15s action structure, or when action feels soft, weightless, rushed, idle, uniformly paced, or physically disconnected."
 ---
 
 # Action Rhythm Editing
@@ -112,7 +112,7 @@ Avoid prompts that say the character "keeps constant high speed" unless the desi
 
 For an explosive opening or decisive attack, slow motion may begin **after** the action has already acquired momentum. Do not misread every slowed passage as preload or charge-up.
 
-Default state: **off**. Activate this device only when at least one condition is true:
+Default state: **off**. Activate this device only when at least one condition is true. For a fluid fight, allow at most one slow-motion window per 8–15 second segment, lasting roughly 0.2–0.5 seconds. It must begin after visible acceleration and exit directly into impact, displacement, or route change; never use it as a long pose hold or recovery pause:
 
 - Liu explicitly asks for slow motion, speed ramp, or temporal magnification;
 - an inspected reference is assigned to transfer this exact rhythm mechanism;
@@ -191,6 +191,18 @@ Paste-ready prompt:
 - Scale preload and braking to mass distribution, not merely total weight.
 - Preserve foot contact, carrier motion, or named support continuously.
 - Keep impact pauses brief; heavy does not mean frozen.
+- Keep individual action shots short: default 0.8–2.5s, maximum 3s only for a complete setup-contact-consequence beat. Use cuts or camera-phase changes when the action state changes; do not hold a character in a display pose.
+- Every shot must hand off motion to the next shot through a step, slide, turn, recoil, chase, fall, landing, or recovery. Preserve the previous end state instead of resetting to neutral.
+- Treat continuity as a state handoff: preserve support foot, body angle, weapon line, distance, force direction, and initiative across every cut. The next action must be sourced by the previous recoil, redirect, slide, landing, or recovery.
+- Reserve one close-up or insert for contact proof and one brief facial/physiological reaction when the decisive hit matters; both must rejoin the moving action immediately.
+- Close-up and slow motion are conditional tools, not defaults. Use them only when a decisive contact, key action turn, preload, or pre-ultimate impact cannot be read in the current coverage; omit them when the medium shot already proves the event. The number of slow-motion windows is judged from the actual shot design and information needs rather than a fixed quota; each window must be brief (roughly 0.2–0.6s), serve a distinct proof task, and return immediately to normal-speed consequence. Repeated slow motion without a new proof task is a rhythm failure.
+- Reject decorative close-ups and slow motion. A close-up is permitted only for one indispensable proof task; its exit frame must inherit the same foot support, body angle, weapon line, distance, and motion direction, then immediately continue the action.
+- Before an ultimate or finishing technique, reserve a visible preparation phase: observation/target lock, support adjustment, breath compression, grip change, energy gathering, weapon-state change, or release-direction alignment. At least two must occur while the character remains in motion or under pressure.
+- Grade force feedback in layers: local contact deformation, force traveling through the body to the support foot, immediate breath/face/guard response, displacement or environmental result, then recovery into the next action. Minor grazes may use only the first two layers; hero hits earn the full chain.
+- Build a visible escalation from ordinary exchange to powered technique to one decisive ultimate peak. The ultimate must have a readable charge/source, travel path, collision, and aftermath state.
+- Effects follow a lifecycle—source, formation, path, contact, receiver/environment response, dissipation—and intensify by force level. Effects cannot replace body mechanics or hide the contact.
+- Audit weapon continuity across cuts: count, type, length, blade direction, sheath position, gripping hand, wrist angle, contact object, and any transformation must remain inherited or visibly caused. Keep the hand-guard-hilt-blade relationship readable and never use effects or blur to hide a weapon intersection error.
+- When opposing characters are equally important, balance coverage by function and initiative: give both readable entry, attack, impact/reaction, skill, reversal, and endpoint evidence. Temporary bias toward the active fighter is allowed during one causal chain, but the next chain must return clear agency and screen time to the other fighter; do not stack repeated hero shots on one side.
 - Do not stretch one move across 15 seconds.
 - Do not use slow motion, camera shake, speed ramps, or particles as substitutes for force preparation and recovery.
 - If action is complex, split it rather than removing response clarity.
@@ -199,3 +211,11 @@ Paste-ready prompt:
 - Precise macro-segment allocation is allowed without an external clock when supported by inspected evidence or a credible action-phase budget.
 - Keep individual cut duration flexible unless synchronization requires otherwise.
 - Concentrate the shortest cuts around escalation or the decisive peak; do not keep the whole clip at one density.
+- Treat wide establishing views, top-down coverage, black-and-white impact frames, and extreme stylized inserts as rare exceptions. Default to medium, medium-close, low-angle tracking, foreground occlusion, and local environment details. Use a wide or top-down view only when spatial route or scale cannot be proved by those normal moving coverages; omit it when it adds only spectacle.
+- Anime impact frames are not a full-screen filter or a repeated strobe. Use a single ultra-brief high-contrast redraw only when it compresses contact, force breakthrough, or direction reversal into clearer graphic information.
+- Establish speed first through a committed burst, smear, foreground pass, or background streak. Preserve the same body pose, weapon intersection, screen direction, and force vector through the impact frame.
+- Keep only the essential graphic read: fighter silhouettes, weapon contact point, force direction, one clothing/debris arc, and one environmental mark. Drop unrelated background detail.
+- Use a single rhythm of dark compression, bright contour, brief rupture, and immediate return to color and motion. A second frame is allowed only for a new proof task, never as repeated color flashing.
+- Keep the impact frame about 0.08–0.12 seconds; the monochrome portion is only a fraction of that. Follow immediately with displacement, debris, effect decay, and normal-speed continuation.
+- Stylized anime tools such as hard contour, cel shadow, speed lines, smear frames, and exaggerated perspective are concentrated at the selected peak rather than spread across the whole clip.
+- If normal color already proves the contact and force direction, omit the monochrome frame. It is not required for every hit, ultimate, or cut.

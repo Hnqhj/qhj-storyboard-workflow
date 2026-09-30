@@ -1,6 +1,6 @@
 ---
 name: codex-workspace-enhancer
-description: Audit, install, adapt, or extend a Codex desktop workspace enhancement that keeps the native sidebar usable while adding searchable task recall, truthful usage status, and an embedded local Asset Console. Use for Codex sidebar UI, task-card workflows, in-app local asset management, Windows packaging, performance repair, safe rollback, or porting this reference implementation to another machine or platform.
+description: 审计、安装、适配或扩展 Codex 桌面工作区增强：保持原生侧边栏可用，同时增加可搜索的任务回溯、真实用量状态与内嵌本地资产控制台。触发：Codex 侧边栏 UI、任务卡工作流、应用内本地素材管理、Windows 打包、性能修复、安全回滚。整体增强用本技能；只修资产控制台部件本身用 codex-asset-console。 Audit, install, adapt, or extend a Codex desktop workspace enhancement that keeps the native sidebar usable while adding searchable task recall, truthful usage status, and an embedded local Asset Console. Use for Codex sidebar UI, task-card workflows, in-app local asset management, Windows packaging, performance repair, safe rollback, or porting this reference implementation to another machine or platform. For whole-workspace enhancement use this skill; for the Asset Console component alone use codex-asset-console.
 ---
 
 # Codex Workspace Enhancer

@@ -1,5 +1,6 @@
 ---
 name: seedance-antislop
+disable-model-invocation: true
 description: "This skill should be used when a Seedance 2.0 prompt contains generic AI filler, hollow superlatives, vague cinematic language, bloated adjectives, weak verbs, or needs sharper production-specific wording."
 license: MIT
 metadata:

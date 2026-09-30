@@ -1,5 +1,6 @@
 ---
 name: seedance-copyright
+disable-model-invocation: true
 description: "This skill should be used when a Seedance 2.0 prompt mentions named characters, franchises, studios, celebrities, public figures, private people, brand logos, copyrighted scenes, songs, voices, or real-person likeness workflows and needs an IP-safe rewrite."
 license: MIT
 metadata:

@@ -1,6 +1,6 @@
 ---
 name: world-visual-development-director
-description: "Fused world-first image-development director for IM2/GPT Image 2, Midjourney, concept art, cinematic world boards, large environments, recurring locations, creature habitats, and culture-rich scene design. Use when Liu asks to build or visualize a world, 世界观图/世界板/场景图/大场景/环境设定/怪物生态/文化沉淀/空间透视/可信空间/氛围感/高审美/诗性巨构, wants a reference image expanded into a coherent world, or needs atmosphere-first composition, research, MOKE-style multi-still exploration, production design, geometry/optics/material-science spatial evidence, clean rendering, and downstream asset/video handoff to work as one system rather than pasted skill blocks."
+description: "世界优先的图像开发总控：IM2 与 GPT Image 2、Midjourney、概念图、电影级世界板、大环境、反复出现的地点、怪物栖息地、文化丰富场景设计。触发：世界观图、世界板、场景图、大场景、环境设定、怪物生态、文化沉淀、空间透视、可信空间、诗性巨构。 Fused world-first image-development director for IM2/GPT Image 2, Midjourney, concept art, cinematic world boards, large environments, recurring locations, creature habitats, and culture-rich scene design. Use when Liu asks to build or visualize a world, 世界观图/世界板/场景图/大场景/环境设定/怪物生态/文化沉淀/空间透视/可信空间/氛围感/高审美/诗性巨构, wants a reference image expanded into a coherent world, or needs atmosphere-first composition, research, MOKE-style multi-still exploration, production design, geometry/optics/material-science spatial evidence, clean rendering, and downstream asset/video handoff to work as one system rather than pasted skill blocks."
 ---
 
 # World Visual Development Director

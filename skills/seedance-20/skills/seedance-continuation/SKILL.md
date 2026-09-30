@@ -1,5 +1,6 @@
 ---
 name: seedance-continuation
+disable-model-invocation: true
 description: "This skill should be used when a Seedance 2.0 user asks to continue, extend, make the next part, repair the tail, bridge between known frames, re-anchor drift, or create a successor prompt from accepted footage."
 license: MIT
 metadata:

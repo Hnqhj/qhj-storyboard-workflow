@@ -1,6 +1,6 @@
 ---
 name: jimeng-sd2-prompting
-description: "Platform-language compiler for an explicitly selected Jimeng/Dreamina/即梦 SD2 target in a standard/full ExecutionPlan, including its UI-specific reference, layout, prompt, and temporal-hinge behavior. Do not trigger merely because a request says Seedance, 分镜, 运镜, or AI视频提示词; Seedance uses seedance-20, and low-risk Seedance camera groups use seedance-camera-group-compiler-fast."
+description: "即梦 Dreamina SD2 平台语言编译器，仅在标准或完整档 ExecutionPlan 明确选定该平台时使用，含其 UI 特有的参考、版式、提示词与时间铰链行为。不要因为请求提到 Seedance、分镜、运镜或 AI 视频提示词就触发。 Platform-language compiler for an explicitly selected Jimeng/Dreamina/即梦 SD2 target in a standard/full ExecutionPlan, including its UI-specific reference, layout, prompt, and temporal-hinge behavior. Do not trigger merely because a request says Seedance, 分镜, 运镜, or AI视频提示词; Seedance uses seedance-20, and low-risk Seedance camera groups use seedance-camera-group-compiler-fast."
 ---
 
 # Jimeng SD2 Prompting
@@ -26,16 +26,22 @@ exact 即梦 handles, and record `compiled_by=jimeng-sd2-prompting` plus
 `compile_count=1`. Preflight returns field patches to this compiler and never a
 second full prompt.
 
-For a script-derived camera-group `ExecutionPlan`, before compiling, call
-`skill_console_prompt_compilation_context` with the
+**Console access (MCP removed 2026-09-23).** The `skill_console_*` MCP tools are
+gone; use the console CLI instead. Console root =
+`G:\工作\vibecoding\director-skill-console` (or `$SKILL_CONSOLE_ROOT` if set);
+invoke as `node "$CONSOLE/src/cli.js" <subcommand> ...`. Pass prompts via a file
+or `-` (stdin), never inline.
+
+For a script-derived camera-group `ExecutionPlan`, before compiling, run
+`prompt-context --thread <threadId> --input '<routing-json>'` with the
 current `threadId` and approved state slice. Re-read the task settings for each
 generation group and retry, and treat the returned `processing_depth`,
 `prompt_description_complexity`, and `prompt_compilation_profile` as
-authoritative. After the 即梦 six-part block is written, call
-`skill_console_compile_prompt` exactly once with
-`compiler=jimeng-sd2-prompting`; use the returned `promptText` verbatim and
-carry its `generationSettings` and `compilationReceipt` into the matching
-`PlatformPromptSet` unit. If the call fails, block handoff
+authoritative. After the 即梦 six-part block is written, run
+`prompt-compile --thread <threadId> --compiler jimeng-sd2-prompting
+--prompt-file <path|-> --input '<routing-json>'` exactly once; use the returned
+`promptText` verbatim and carry its `generationSettings` and `compilationReceipt`
+into the matching `PlatformPromptSet` unit. If the call fails, block handoff
 instead of emitting a stale or unprofiled prompt.
 
 The profile is binding for script-derived camera-group prompts: `low` uses
