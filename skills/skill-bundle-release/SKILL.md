@@ -27,7 +27,7 @@ description: 把技能仓库发布成 GitHub 扁平分发包，并维护用户�
 用仓库自带的生成器，**不要手工 `cp -r`**：
 
 ```bash
-node .workbuddy-ai/tmp/build-bundle.mjs --out .workbuddy-ai/tmp/bundle --version 2.0.0
+node .workbuddy-ai/tmp/build-bundle.mjs --out .workbuddy-ai/tmp/bundle --version <x.y.z>
 ```
 
 - 只取 LAYERS 里的分类目录，平铺成 `skills/<dir-name>/`（目录名即技能名）。
@@ -77,7 +77,31 @@ git clone --depth 1 <repo> <tmp>  ->  平铺覆盖到各宿主 skills\  ->  写 
 - **技能清单在会话启动时固定** → 更新完**必须新开一个会话**才看得到新技能。
 - 版本以 `manifest.json` 为准：发新版就改版本号 + 提交 + 推送。
 
-## 四、踩过的坑（都实测过）
+## 四、改仓库名
+
+改名本身走 REST API —— **`gh` 未登录也能做**，只要 git 凭据管理器里存了 token：
+
+```bash
+TOKEN=$(printf "protocol=https\nhost=github.com\n\n" | GIT_TERMINAL_PROMPT=0 git credential fill 2>/dev/null | sed -n 's/^password=//p')
+curl -s -X PATCH -x http://127.0.0.1:9518 -H "Authorization: Bearer $TOKEN" \
+  -d '{"name":"新名"}' https://api.github.com/repos/<owner>/<旧名>
+```
+
+改完**必须同步这些地方**，否则留下死链接：
+
+| 位置 | 改什么 |
+|---|---|
+| 本地 clone | `git remote set-url origin <新地址>` |
+| `update.ps1` | 默认 `-Repo` |
+| `README.md` | 标题 + 正文里的仓库名 |
+| `manifest.json` | `name`（若希望包名与仓库名一致） |
+
+- GitHub 对旧地址做 **301 重定向**，所以已安装用户不会立刻断；但脚本里的默认地址仍要更新。
+- ⚠️ **不要改计划任务名**（如 `<repo>-AutoUpdate`）：它是机器侧标识符，改名会在已安装的机器上
+  留下一个孤儿任务；URL 变化由重定向覆盖，没有改的必要。
+- **改生成器，别直接改 clone 里的文件** —— 否则下次重新生成会被覆盖回去。
+
+## 五、踩过的坑（都实测过）
 
 1. **PS 5.1 + 原生命令 stderr**：`$ErrorActionPreference = 'Stop'` 配裸 `git clone`，
    上层一旦重定向错误流（`*>&1` / `2>&1`）就被误判成终止错误（`NativeCommandError`）。
@@ -90,7 +114,7 @@ git clone --depth 1 <repo> <tmp>  ->  平铺覆盖到各宿主 skills\  ->  写 
    （`git@github.com:...`）；`api.github.com` 通常仍可读，用来**复核推送结果**。
 5. **临时目录**：`git clone` 的目标目录用 GUID 后缀（`<prefix>-<8位>`），避免残留/并发导致失败。
 
-## 五、验证清单（别只看「命令返回 0」）
+## 六、验证清单（别只看「命令返回 0」）
 
 - [ ] `api.github.com/repos/<o>/<r>/commits/main` → sha 与本次提交一致
 - [ ] `api.github.com/repos/<o>/<r>/contents/skills` → 条目数 == 预期技能数
